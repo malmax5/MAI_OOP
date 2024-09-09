@@ -7,7 +7,102 @@ set(CMLIB_DESCRIPTION "Объектно-ориентированное прог�
 project(test VERSION 0.1.0 LANGUAGES C CXX)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -Wall")
 
+add_subdirectory(
+    "${CMAKE_CURRENT_SOURCE_DIR}/googletest"
+    "googletest"
+)
+
+set(
+    SOURCES
+    main.cpp
+    src/UpdatedString.cpp
+    src/UpdatedString.h
+)
+
+set(
+    TEST_SOURCES
+    test/test_main.cpp
+    test/test_class.cpp
+    test/test_lab.cpp
+    src/UpdatedString.cpp
+    src/UpdatedString.h
+)
+
+add_executable(
+    lab_1
+    ${SOURCES}
+)
+
+add_executable(
+    lab_1_tests
+    ${TEST_SOURCES}
+)
+
+target_include_directories(
+    lab_1 PRIVATE
+    "${CMAKE_CURRENT_SOURCE_DIR}/src"
+)
+
+target_include_directories(
+    lab_1_tests PRIVATE
+    "${CMAKE_CURRENT_SOURCE_DIR}/src"
+    "${CMAKE_CURRENT_SOURCE_DIR}/googletest/googletest/include"
+)
+
+target_link_libraries(
+    lab_1_tests
+    gtest 
+    gtest_main
+)
+
+target_link_libraries(
+    lab_1
+    gtest 
+    gtest_main
+)
+
 enable_testing()
 
-add_subdirectory(src)
-add_subdirectory(test)
+add_test(NAME ProjectTests COMMAND lab_1_tests)
+
+if (MSVC)
+    set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+
+    target_compile_options(
+        lab_1 PRIVATE
+        /W4
+    )
+    target_compile_options(
+        lab_1_tests PRIVATE
+        /W4
+    )
+else ()
+    target_compile_options(
+        lab_1 PRIVATE
+        -Wall
+        -Wextra
+        -Wshadow
+        -Wcast-align
+        -Wconversion
+        -Wsign-conversion
+        -Wfloat-equal
+        -Wpedantic
+        -Werror
+        -pedantic
+        -O2
+    )
+    target_compile_options(
+        lab_1_tests PRIVATE
+        -Wall
+        -Wextra
+        -Wshadow
+        -Wcast-align
+        -Wconversion
+        -Wsign-conversion
+        -Wfloat-equal
+        -Wpedantic
+        -Werror
+        -pedantic
+        -O2
+    )
+endif()

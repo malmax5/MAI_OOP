@@ -1,3 +1,0 @@
-add_library(UpdatedString UpdatedString.cpp)
-
-target_include_directories(UpdatedString PUBLIC include)

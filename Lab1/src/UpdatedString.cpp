@@ -1,64 +1,42 @@
 #include "UpdatedString.h"
 
-class UpdatedString
+UpdatedString::UpdatedString() : str_() {};
+UpdatedString::UpdatedString(std::string str) : str_(str) {}
+UpdatedString::UpdatedString(const char* str) : str_(str) {}
+
+UpdatedString& UpdatedString::operator=(const UpdatedString& uStr)
 {
-public:
-    UpdatedString() : str_() {};
-    explicit UpdatedString(std::string str) : str_(str) {}
-    explicit UpdatedString(const char* str) : str_(str) {}
+    if (this != &uStr)
+        str_ = uStr.get();
+    
+    return *this;
+}
 
-    UpdatedString& operator=(const UpdatedString& uStr)
+UpdatedString::UpdatedString(const UpdatedString& uStr) : str_(uStr.get()) {};
+
+UpdatedString& UpdatedString::operator=(UpdatedString&& uStr) noexcept
+{
+    if (this != &uStr)
     {
-        if (this != &uStr)
-            str_ = uStr.get();
-        
-        return *this;
-    }
-
-    UpdatedString(const UpdatedString& uStr) : str_(uStr.get()) {};
-
-    UpdatedString& operator=(UpdatedString&& uStr) noexcept
-    {
-        if (this != &uStr)
-        {
-            str_ = std::move(uStr.get());
-            uStr.clear();
-        }
-        
-        return *this;
-    }
-
-    UpdatedString(UpdatedString&& uStr) noexcept : str_(std::move(uStr.get()))
-    {
+        str_ = std::move(uStr.get());
         uStr.clear();
     }
+    
+    return *this;
+}
 
-    inline const std::string get() const
+UpdatedString::UpdatedString(UpdatedString&& uStr) noexcept : str_(std::move(uStr.get()))
+{
+    uStr.clear();
+}
+
+bool UpdatedString::isPalindrom() const
+{
+    size_t len = str_.size();
+    for (size_t i = 0; i < len / 2; i++)
     {
-        return str_;
+        if (str_[i] != str_[len - i - 1])
+            return false;
     }
-
-    inline void clear()
-    {
-        str_.clear();
-    }
-
-    inline void print() const
-    {
-        std::cout << str_ << "\n";
-    }
-
-    bool isPalindrom() const
-    {
-        size_t len = str_.size();
-        for (int i = 0; i < len / 2; i++)
-        {
-            if (str_[i] != str_[len - i - 1])
-                return false;
-        }
-        return true;
-    }
-
-private:
-    std::string str_;
-};
+    return true;
+}
