@@ -1,0 +1,3 @@
+C:/Users/CrazyBlackFire/Documents/Code/oop/Lab1/build/CMakeFiles/test.dir
+C:/Users/CrazyBlackFire/Documents/Code/oop/Lab1/build/CMakeFiles/edit_cache.dir
+C:/Users/CrazyBlackFire/Documents/Code/oop/Lab1/build/CMakeFiles/rebuild_cache.dir
