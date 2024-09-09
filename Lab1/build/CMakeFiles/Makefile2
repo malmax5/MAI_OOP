@@ -133,8 +133,8 @@ googletest/googletest/clean: googletest/googletest/CMakeFiles/gtest_main.dir/cle
 # Target rules for target CMakeFiles/lab_1.dir
 
 # All Build rule for target.
-CMakeFiles/lab_1.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/lab_1.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/lab_1.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_1.dir/build.make CMakeFiles/lab_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_1.dir/build.make CMakeFiles/lab_1.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/CrazyBlackFire/Documents/Code/oop/Lab1/build/CMakeFiles --progress-num=9,10,11 "Built target lab_1"
@@ -160,8 +160,8 @@ CMakeFiles/lab_1.dir/clean:
 # Target rules for target CMakeFiles/lab_1_tests.dir
 
 # All Build rule for target.
-CMakeFiles/lab_1_tests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/lab_1_tests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/lab_1_tests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_1_tests.dir/build.make CMakeFiles/lab_1_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_1_tests.dir/build.make CMakeFiles/lab_1_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/CrazyBlackFire/Documents/Code/oop/Lab1/build/CMakeFiles --progress-num=12,13,14,15,16 "Built target lab_1_tests"
