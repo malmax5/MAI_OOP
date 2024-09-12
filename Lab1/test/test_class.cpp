@@ -4,79 +4,93 @@
 TEST(ProjectTests, DefaultConstructor)
 {
     UpdatedString str;
-    EXPECT_EQ(str.get(), "");
+
+    std::string res = str.get();
+
+    EXPECT_EQ(res, "");
 }
 
 TEST(ProjectTests, StdStringConstructor)
 {
     std::string test_str = "Hello";
-
     UpdatedString str(test_str);
 
-    EXPECT_EQ(str.get(), "Hello");
+    std::string ret = str.get();
+
+    EXPECT_EQ(ret, "Hello");
 }
 
 TEST(ProjectTests, CStringConstructor)
 {
     const char* test_str = "Hello";
-
     UpdatedString str(test_str);
 
-    EXPECT_EQ(str.get(), "Hello");
+    std::string res = str.get();
+
+    EXPECT_EQ(res, "Hello");
 }
 
 TEST(ProjectTests, CopyConstructor)
 {
     UpdatedString original("Hello");
-
     UpdatedString copy(original);
 
-    EXPECT_EQ(copy.get(), "Hello");
+    std::string res = copy.get();
+
+    EXPECT_EQ(res, "Hello");
 }
 
 TEST(ProjectTests, CopyAssignmentOperator)
 {
     UpdatedString original("Hello");
     UpdatedString copy;
-
     copy = original;
 
-    EXPECT_EQ(copy.get(), "Hello");
+    std::string res = copy.get();
+
+    EXPECT_EQ(res, "Hello");
 }
 
 TEST(ProjectTests, MoveConstructor)
 {
     UpdatedString original("Hello");
-
     UpdatedString moved(std::move(original));
 
-    EXPECT_EQ(moved.get(), "Hello");
-    EXPECT_EQ(original.get(), "");
+    std::string resOr = original.get();
+    std::string resMo = moved.get();
+
+    EXPECT_EQ(resMo, "Hello");
+    EXPECT_EQ(resOr, "");
 }
 
 TEST(ProjectTests, MoveAssignmentOperator)
 {
     UpdatedString original("Hello");
     UpdatedString moved;
-
     moved = std::move(original);
 
-    EXPECT_EQ(moved.get(), "Hello");
-    EXPECT_EQ(original.get(), "");
+    std::string resOr = original.get();
+    std::string resMo = moved.get();
+
+    EXPECT_EQ(resMo, "Hello");
+    EXPECT_EQ(resOr, "");
 }
 
 TEST(ProjectTests, ClearMethod)
 {
     UpdatedString str("Hello");
-
     str.clear();
 
-    EXPECT_EQ(str.get(), "");
+    std::string res = str.get();
+
+    EXPECT_EQ(res, "");
 }
 
 TEST(ProjectTests, GetMethod)
 {
     UpdatedString str("Hello");
-    
-    EXPECT_EQ(str.get(), "Hello");
+
+    std::string res = str.get();
+
+    EXPECT_EQ(res, "Hello");
 }
