@@ -110,9 +110,6 @@ lab_1_EXTERNAL_OBJECTS =
 lab_1.exe: CMakeFiles/lab_1.dir/main.cpp.obj
 lab_1.exe: CMakeFiles/lab_1.dir/src/UpdatedString.cpp.obj
 lab_1.exe: CMakeFiles/lab_1.dir/build.make
-lab_1.exe: lib/libgtest.a
-lab_1.exe: lib/libgtest_main.a
-lab_1.exe: lib/libgtest.a
 lab_1.exe: CMakeFiles/lab_1.dir/linkLibs.rsp
 lab_1.exe: CMakeFiles/lab_1.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/CrazyBlackFire/Documents/Code/oop/Lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab_1.exe"

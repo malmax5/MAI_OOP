@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 
-set(CMLIB_AUTHOR_NAME "Pogozhev Maxim" CACHE STRING "")
+set(CMLIB_AUTHOR_NAME "Погожев Максим" CACHE STRING "")
 set(CMLIB_AUTHOR_EMAIL "crazyblackfire@mail.ru" CACHE STRING "")
-set(CMLIB_DESCRIPTION "Объектно-ориентированное программирование, lab №1" CACHE STRING "")
+set(CMLIB_DESCRIPTION "ООП, лабороторная работа номер 1, вариант 18" CACHE STRING "")
 
 project(test VERSION 0.1.0 LANGUAGES C CXX)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -Wall")
@@ -51,12 +51,6 @@ target_include_directories(
 
 target_link_libraries(
     lab_1_tests
-    gtest 
-    gtest_main
-)
-
-target_link_libraries(
-    lab_1
     gtest 
     gtest_main
 )
