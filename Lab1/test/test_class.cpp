@@ -4,10 +4,11 @@
 TEST(ProjectTests, DefaultConstructor)
 {
     UpdatedString str;
-
     std::string res = str.get();
 
-    EXPECT_EQ(res, "");
+    std::string expected = "";
+
+    EXPECT_EQ(res, expected);
 }
 
 TEST(ProjectTests, StdStringConstructor)
@@ -17,7 +18,9 @@ TEST(ProjectTests, StdStringConstructor)
 
     std::string ret = str.get();
 
-    EXPECT_EQ(ret, "Hello");
+    std::string expected = "Hello";
+
+    EXPECT_EQ(ret, expected);
 }
 
 TEST(ProjectTests, CStringConstructor)
@@ -27,7 +30,9 @@ TEST(ProjectTests, CStringConstructor)
 
     std::string res = str.get();
 
-    EXPECT_EQ(res, "Hello");
+    std::string expected = "Hello";
+
+    EXPECT_EQ(res, expected);
 }
 
 TEST(ProjectTests, CopyConstructor)
@@ -37,18 +42,23 @@ TEST(ProjectTests, CopyConstructor)
 
     std::string res = copy.get();
 
-    EXPECT_EQ(res, "Hello");
+    std::string expected = "Hello";
+
+    EXPECT_EQ(res, expected);
 }
 
 TEST(ProjectTests, CopyAssignmentOperator)
 {
     UpdatedString original("Hello");
     UpdatedString copy;
-    copy = original;
 
+    copy = original;
+    
     std::string res = copy.get();
 
-    EXPECT_EQ(res, "Hello");
+    std::string expected = "Hello";
+
+    EXPECT_EQ(res, expected);
 }
 
 TEST(ProjectTests, MoveConstructor)
@@ -59,31 +69,41 @@ TEST(ProjectTests, MoveConstructor)
     std::string resOr = original.get();
     std::string resMo = moved.get();
 
-    EXPECT_EQ(resMo, "Hello");
-    EXPECT_EQ(resOr, "");
+    std::string expectedResOr = "";
+    std::string expectedResMo = "Hello";
+
+    EXPECT_EQ(resMo, expectedResMo);
+    EXPECT_EQ(resOr, expectedResOr);
 }
 
 TEST(ProjectTests, MoveAssignmentOperator)
 {
     UpdatedString original("Hello");
     UpdatedString moved;
+
     moved = std::move(original);
 
     std::string resOr = original.get();
     std::string resMo = moved.get();
 
-    EXPECT_EQ(resMo, "Hello");
-    EXPECT_EQ(resOr, "");
+    std::string expectedResOr = "";
+    std::string expectedResMo = "Hello";
+
+    EXPECT_EQ(resMo, expectedResMo);
+    EXPECT_EQ(resOr, expectedResOr);
 }
 
 TEST(ProjectTests, ClearMethod)
 {
     UpdatedString str("Hello");
+
     str.clear();
 
     std::string res = str.get();
 
-    EXPECT_EQ(res, "");
+    std::string expected = "";
+
+    EXPECT_EQ(res, expected);
 }
 
 TEST(ProjectTests, GetMethod)
@@ -92,5 +112,7 @@ TEST(ProjectTests, GetMethod)
 
     std::string res = str.get();
 
-    EXPECT_EQ(res, "Hello");
+    std::string expected = "Hello";
+
+    EXPECT_EQ(res, expected);
 }

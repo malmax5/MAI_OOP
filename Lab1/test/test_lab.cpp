@@ -7,7 +7,9 @@ TEST(ProjectTests, IsPalindrom_1)
 
     bool res = str.isPalindrom();
 
-    ASSERT_TRUE(res == 1);
+    bool expected = true;
+
+    ASSERT_TRUE(res == expected);
 }
 
 TEST(ProjectTests, IsPalindrom_2)
@@ -16,7 +18,9 @@ TEST(ProjectTests, IsPalindrom_2)
 
     bool res = str.isPalindrom();
 
-    ASSERT_TRUE(res == 1);
+    bool expected = true;
+
+    ASSERT_TRUE(res == expected);
 }
 
 TEST(ProjectTests, IsPalindrom_3)
@@ -25,7 +29,9 @@ TEST(ProjectTests, IsPalindrom_3)
 
     bool res = str.isPalindrom();
 
-    ASSERT_TRUE(res == 1);
+    bool expected = true;
+
+    ASSERT_TRUE(res == expected);
 }
 
 TEST(ProjectTests, IsPalindrom_4)
@@ -34,7 +40,9 @@ TEST(ProjectTests, IsPalindrom_4)
 
     bool res = str.isPalindrom();
 
-    ASSERT_TRUE(res == 1);
+    bool expected = true;
+
+    ASSERT_TRUE(res == expected);
 }
 
 TEST(ProjectTests, IsPalindrom_5)
@@ -43,7 +51,9 @@ TEST(ProjectTests, IsPalindrom_5)
 
     bool res = str.isPalindrom();
 
-    ASSERT_TRUE(res == 1);
+    bool expected = true;
+
+    ASSERT_TRUE(res == expected);
 }
 
 TEST(ProjectTests, IsPalindrom_6)
@@ -52,7 +62,9 @@ TEST(ProjectTests, IsPalindrom_6)
 
     bool res = str.isPalindrom();
 
-    ASSERT_TRUE(res == 0);
+    bool expected = false;
+
+    ASSERT_TRUE(res == expected);
 }
 
 TEST(ProjectTests, IsPalindrom_7)
@@ -61,7 +73,9 @@ TEST(ProjectTests, IsPalindrom_7)
 
     bool res = str.isPalindrom();
 
-    ASSERT_TRUE(res == 0);
+    bool expected = false;
+
+    ASSERT_TRUE(res == expected);
 }
 
 TEST(ProjectTests, IsPalindrom_8)
@@ -70,5 +84,7 @@ TEST(ProjectTests, IsPalindrom_8)
 
     bool res = str.isPalindrom();
 
-    ASSERT_TRUE(res == 0);
+    bool expected = false;
+
+    ASSERT_TRUE(res == expected);
 }
