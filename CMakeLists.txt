@@ -12,8 +12,10 @@ include_directories(includes)
 set(
     SOURCES
     main.cpp
+    src/implementations/Vector.cpp
     src/implementations/FourCalc.cpp
     includes/implementations/FourCalc.h
+    includes/implementations/Vector.h
     includes/interfaces/IFour.h
 )
 

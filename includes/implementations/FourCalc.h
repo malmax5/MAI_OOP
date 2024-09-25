@@ -2,7 +2,7 @@
 #define FOURCALC_H
 
 #include "interfaces\IFour.h"
-#include <vector>
+#include "C:\Users\CrazyBlackFire\Documents\Code\oop\Lab2\includes\implementations\Vector.h"
 #include <string>
 
 class Four : public IFour<Four, unsigned char> {
@@ -11,7 +11,7 @@ public:
 
     explicit Four(const size_t& n, unsigned char a)
     {
-        digits = std::vector<unsigned char>(n, a);
+        digits = Vector<unsigned char>(n, a);
         validateDigits();
     }
 
@@ -20,17 +20,17 @@ public:
         validateDigits();
     }
 
-    explicit Four (const std::vector<unsigned char>& a) : digits(a) 
+    explicit Four (const Vector<unsigned char>& a) : digits(a) 
     {
         validateDigits();
     }
 
     explicit Four (const std::string& a)
     {
-        digits.reserve(a.size());
+        digits.Reserve(a.size());
         for (char c : a)
         {
-            digits.push_back((unsigned char)(c - '0'));
+            digits.PushBack((unsigned char)(c - '0'));
         }
         validateDigits();
     }
@@ -72,11 +72,11 @@ public:
 
     bool operator>(const Four& other) const override
     {
-        std::vector<unsigned char> otherDigits = other.getNumber();
+        Vector<unsigned char> otherDigits = other.getNumber();
 
-        if (digits.size() != otherDigits.size())
+        if (digits.Size() != otherDigits.Size())
         {
-            return digits.size() > otherDigits.size();
+            return digits.Size() > otherDigits.Size();
         }
 
         return digits > otherDigits;
@@ -106,16 +106,16 @@ public:
         return *this; 
     }
 
-    void setNumber(const std::vector<unsigned char>& digits) override;
-    std::vector<unsigned char> getNumber() const override;
+    void setNumber(const Vector<unsigned char>& digits) override;
+    Vector<unsigned char> getNumber() const override;
 
 private:
-    std::vector<unsigned char> add(const Four& other) const override;
-    std::vector<unsigned char> subtract(const Four& other) const override;
+    Vector<unsigned char> add(const Four& other) const override;
+    Vector<unsigned char> subtract(const Four& other) const override;
     void validateDigits();
 
 private:
-    std::vector<unsigned char> digits;
+    Vector<unsigned char> digits;
 };
 
 #endif

@@ -12,7 +12,6 @@ int main()
     // four1 += four2;
     Four four3(3, 3);
     four3 -= four1;
-    std::vector<unsigned char> res = four3.getNumber();
     for (size_t i = 0; i < res.size(); i++)
     {
         std::cout << (int)res[i] << " ";
