@@ -1,19 +1,13 @@
 #include<iostream>
 #include<string>
-#include<vector>
 #include "implementations\FourCalc.h"
+#include "C:\Users\CrazyBlackFire\Documents\Code\oop\Lab2\includes\implementations\Vector.h"
 
 int main()
 {
-    std::string ee = "100";
-    std::string eee = "333";
-    Four four1(ee);
-    Four four2(eee);
-    // four1 += four2;
-    Four four3(3, 3);
-    four3 -= four1;
-    for (size_t i = 0; i < res.size(); i++)
-    {
-        std::cout << (int)res[i] << " ";
-    }
+    Four four1({2, 3, 3});
+    Four four2({1, 1, 1});
+
+    Four result = four1 - four2;
+    std::cout << result;
 }

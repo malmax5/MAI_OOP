@@ -1,7 +1,7 @@
 #ifndef IFOUR_H
 #define IFOUR_H
 
-#include "C:\Users\CrazyBlackFire\Documents\Code\oop\Lab2\includes\implementations\Vector.h"
+#include "implementations\Vector.h"
 
 template<class T, class TT>
 class IFour {

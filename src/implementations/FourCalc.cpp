@@ -1,10 +1,12 @@
 #include <iostream>
 #include "implementations/FourCalc.h"
-#include "C:\Users\CrazyBlackFire\Documents\Code\oop\Lab2\includes\implementations\Vector.h"
+#include "implementations\Vector.h"
 
 void Four::setNumber (const Vector<unsigned char>& digitsToSet)
 {
-    digits = digitsToSet;
+    digits.Clear();
+    for (size_t i = digitsToSet.Size(); i > 0; i--)
+        digits.PushBack(digitsToSet[i - 1]);
     validateDigits();
 }
 
@@ -79,4 +81,14 @@ void Four::validateDigits()
             throw std::invalid_argument("Invalid digit in base-4 number");
         }
     }
+}
+
+std::ostream& operator<<(std::ostream& os, const Four& four)
+{
+    Vector<unsigned char> digits = four.getNumber();
+    for (size_t i = digits.Size(); i > 0; --i)
+    {
+        os << static_cast<int>(digits[i - 1]);
+    }
+    return os;
 }

@@ -2,7 +2,7 @@
 #define FOURCALC_H
 
 #include "interfaces\IFour.h"
-#include "C:\Users\CrazyBlackFire\Documents\Code\oop\Lab2\includes\implementations\Vector.h"
+#include "implementations\Vector.h"
 #include <string>
 
 class Four : public IFour<Four, unsigned char> {
@@ -15,23 +15,24 @@ public:
         validateDigits();
     }
 
-    explicit Four (const std::initializer_list<unsigned char>& a) : digits(a) 
+    Four(const std::initializer_list<unsigned char>& a)
     {
+        for (size_t i = a.size(); i > 0; i--)
+            digits.PushBack(*(a.begin() + (i - 1)));
         validateDigits();
     }
 
-    explicit Four (const Vector<unsigned char>& a) : digits(a) 
+    explicit Four (const Vector<unsigned char>& a)
     {
+        for (size_t i = 0; i < a.Size(); i++)
+            digits.PushBack(a[i]);
         validateDigits();
     }
 
-    explicit Four (const std::string& a)
+    explicit Four(const std::string& a)
     {
-        digits.Reserve(a.size());
-        for (char c : a)
-        {
-            digits.PushBack((unsigned char)(c - '0'));
-        }
+        for (size_t i = a.size(); i > 0; i--)
+            digits.PushBack(a[i - 1] - '0');
         validateDigits();
     }
 
@@ -79,7 +80,19 @@ public:
             return digits.Size() > otherDigits.Size();
         }
 
-        return digits > otherDigits;
+        for (size_t i = digits.Size(); i > 0; --i)
+        {
+            if (digits[i - 1] > otherDigits[i - 1])
+            {
+                return true;
+            }
+            else if (digits[i - 1] < otherDigits[i - 1])
+            {
+                return false;
+            }
+        }
+
+        return false;
     }
 
     bool operator<(const Four& other) const override
@@ -105,6 +118,8 @@ public:
 
         return *this; 
     }
+
+    friend std::ostream& operator<<(std::ostream& os, const Four& four);
 
     void setNumber(const Vector<unsigned char>& digits) override;
     Vector<unsigned char> getNumber() const override;
