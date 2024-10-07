@@ -1,0 +1,111 @@
+Start testing: Oct 07 19:51 RTZ 2 (зима)
+----------------------------------------------------------
+4/4 Testing: FigureTest
+4/4 Test: FigureTest
+Command: "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/build/lab_3_tests.exe"
+Directory: C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/build
+"FigureTest" start time: Oct 07 19:51 RTZ 2 (зима)
+Output:
+----------------------------------------------------------
+[==========] Running 38 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from FigureTest
+[ RUN      ] FigureTest.TotalArea
+[       OK ] FigureTest.TotalArea (0 ms)
+[ RUN      ] FigureTest.RemoveFigure
+[       OK ] FigureTest.RemoveFigure (0 ms)
+[----------] 2 tests from FigureTest (0 ms total)
+
+[----------] 12 tests from TrapezoidTest
+[ RUN      ] TrapezoidTest.DefaultConstructor
+[       OK ] TrapezoidTest.DefaultConstructor (0 ms)
+[ RUN      ] TrapezoidTest.ParameterizedConstructor
+[       OK ] TrapezoidTest.ParameterizedConstructor (0 ms)
+[ RUN      ] TrapezoidTest.CopyConstructor
+[       OK ] TrapezoidTest.CopyConstructor (0 ms)
+[ RUN      ] TrapezoidTest.MoveConstructor
+[       OK ] TrapezoidTest.MoveConstructor (0 ms)
+[ RUN      ] TrapezoidTest.CalculateCentroid
+[       OK ] TrapezoidTest.CalculateCentroid (0 ms)
+[ RUN      ] TrapezoidTest.CalculateArea
+[       OK ] TrapezoidTest.CalculateArea (0 ms)
+[ RUN      ] TrapezoidTest.CopyAssignmentOperator
+[       OK ] TrapezoidTest.CopyAssignmentOperator (0 ms)
+[ RUN      ] TrapezoidTest.MoveAssignmentOperator
+[       OK ] TrapezoidTest.MoveAssignmentOperator (0 ms)
+[ RUN      ] TrapezoidTest.EqualityOperator
+[       OK ] TrapezoidTest.EqualityOperator (0 ms)
+[ RUN      ] TrapezoidTest.ConversionOperator
+[       OK ] TrapezoidTest.ConversionOperator (0 ms)
+[ RUN      ] TrapezoidTest.InputOperator
+[       OK ] TrapezoidTest.InputOperator (0 ms)
+[ RUN      ] TrapezoidTest.OutputOperator
+[       OK ] TrapezoidTest.OutputOperator (0 ms)
+[----------] 12 tests from TrapezoidTest (0 ms total)
+
+[----------] 12 tests from SquareTest
+[ RUN      ] SquareTest.DefaultConstructor
+[       OK ] SquareTest.DefaultConstructor (0 ms)
+[ RUN      ] SquareTest.ParameterizedConstructor
+[       OK ] SquareTest.ParameterizedConstructor (0 ms)
+[ RUN      ] SquareTest.CopyConstructor
+[       OK ] SquareTest.CopyConstructor (0 ms)
+[ RUN      ] SquareTest.MoveConstructor
+[       OK ] SquareTest.MoveConstructor (0 ms)
+[ RUN      ] SquareTest.CalculateCentroid
+[       OK ] SquareTest.CalculateCentroid (0 ms)
+[ RUN      ] SquareTest.CalculateArea
+[       OK ] SquareTest.CalculateArea (0 ms)
+[ RUN      ] SquareTest.CopyAssignmentOperator
+[       OK ] SquareTest.CopyAssignmentOperator (0 ms)
+[ RUN      ] SquareTest.MoveAssignmentOperator
+[       OK ] SquareTest.MoveAssignmentOperator (0 ms)
+[ RUN      ] SquareTest.EqualityOperator
+[       OK ] SquareTest.EqualityOperator (0 ms)
+[ RUN      ] SquareTest.ConversionOperator
+[       OK ] SquareTest.ConversionOperator (0 ms)
+[ RUN      ] SquareTest.InputOperator
+[       OK ] SquareTest.InputOperator (0 ms)
+[ RUN      ] SquareTest.OutputOperator
+[       OK ] SquareTest.OutputOperator (0 ms)
+[----------] 12 tests from SquareTest (0 ms total)
+
+[----------] 12 tests from RectangleTest
+[ RUN      ] RectangleTest.DefaultConstructor
+[       OK ] RectangleTest.DefaultConstructor (0 ms)
+[ RUN      ] RectangleTest.ParameterizedConstructor
+[       OK ] RectangleTest.ParameterizedConstructor (0 ms)
+[ RUN      ] RectangleTest.CopyConstructor
+[       OK ] RectangleTest.CopyConstructor (0 ms)
+[ RUN      ] RectangleTest.MoveConstructor
+[       OK ] RectangleTest.MoveConstructor (0 ms)
+[ RUN      ] RectangleTest.CalculateCentroid
+[       OK ] RectangleTest.CalculateCentroid (0 ms)
+[ RUN      ] RectangleTest.CalculateArea
+[       OK ] RectangleTest.CalculateArea (0 ms)
+[ RUN      ] RectangleTest.CopyAssignmentOperator
+[       OK ] RectangleTest.CopyAssignmentOperator (0 ms)
+[ RUN      ] RectangleTest.MoveAssignmentOperator
+[       OK ] RectangleTest.MoveAssignmentOperator (0 ms)
+[ RUN      ] RectangleTest.EqualityOperator
+[       OK ] RectangleTest.EqualityOperator (0 ms)
+[ RUN      ] RectangleTest.ConversionOperator
+[       OK ] RectangleTest.ConversionOperator (0 ms)
+[ RUN      ] RectangleTest.InputOperator
+[       OK ] RectangleTest.InputOperator (0 ms)
+[ RUN      ] RectangleTest.OutputOperator
+[       OK ] RectangleTest.OutputOperator (0 ms)
+[----------] 12 tests from RectangleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 38 tests from 4 test suites ran. (1 ms total)
+[  PASSED  ] 38 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FigureTest" end time: Oct 07 19:51 RTZ 2 (зима)
+"FigureTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 07 19:51 RTZ 2 (зима)

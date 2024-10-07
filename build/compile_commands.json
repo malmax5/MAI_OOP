@@ -1,0 +1,56 @@
+[
+{
+  "directory": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/lab_3_tests.dir/includes_CXX.rsp  -std=c++14 -g -o CMakeFiles/lab_3_tests.dir/test/test_main.cpp.obj -c C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/test/test_main.cpp",
+  "file": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/test/test_main.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/test/test_main.cpp.obj"
+},
+{
+  "directory": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/lab_3_tests.dir/includes_CXX.rsp  -std=c++14 -g -o CMakeFiles/lab_3_tests.dir/test/test_rectangle.cpp.obj -c C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/test/test_rectangle.cpp",
+  "file": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/test/test_rectangle.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/test/test_rectangle.cpp.obj"
+},
+{
+  "directory": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/lab_3_tests.dir/includes_CXX.rsp  -std=c++14 -g -o CMakeFiles/lab_3_tests.dir/test/test_square.cpp.obj -c C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/test/test_square.cpp",
+  "file": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/test/test_square.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/test/test_square.cpp.obj"
+},
+{
+  "directory": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/lab_3_tests.dir/includes_CXX.rsp  -std=c++14 -g -o CMakeFiles/lab_3_tests.dir/test/test_trapezoid.cpp.obj -c C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/test/test_trapezoid.cpp",
+  "file": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/test/test_trapezoid.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/test/test_trapezoid.cpp.obj"
+},
+{
+  "directory": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/lab_3_tests.dir/includes_CXX.rsp  -std=c++14 -g -o CMakeFiles/lab_3_tests.dir/test/test_figure.cpp.obj -c C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/test/test_figure.cpp",
+  "file": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/test/test_figure.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/test/test_figure.cpp.obj"
+},
+{
+  "directory": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/build/googletest/googlemock",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp  -std=c++14 -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.obj -c C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/googletest/googlemock/src/gmock-all.cc",
+  "file": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/googletest/googlemock/src/gmock-all.cc",
+  "output": "googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/build/googletest/googlemock",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp  -std=c++14 -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj -c C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/googletest/googlemock/src/gmock_main.cc",
+  "file": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/googletest/googlemock/src/gmock_main.cc",
+  "output": "googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/build/googletest/googletest",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp  -std=c++14 -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.obj -c C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/googletest/googletest/src/gtest-all.cc",
+  "file": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/googletest/googletest/src/gtest-all.cc",
+  "output": "googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/build/googletest/googletest",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp  -std=c++14 -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj -c C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/googletest/googletest/src/gtest_main.cc",
+  "file": "C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/googletest/googletest/src/gtest_main.cc",
+  "output": "googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]
