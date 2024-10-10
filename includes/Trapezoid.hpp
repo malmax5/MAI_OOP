@@ -35,8 +35,8 @@ public:
     Point<TPoint> GetDownRight() const { return downRight_; }
     Point<TPoint> GetDownLeft() const { return downLeft_; }
 
-    // virtual Trapezoid* Clone() const override { return new Trapezoid(*this); }
-    // virtual Trapezoid* Move() noexcept override { return new Trapezoid(std::move(*this)); }
+    virtual std::unique_ptr<Figure<TPoint>> Clone() const override { return std::make_unique<Trapezoid>(*this); }
+    virtual std::unique_ptr<Figure<TPoint>> Move() noexcept override { return std::make_unique<Trapezoid>(std::move(*this)); }
 
     static bool ComparePoints(const Vector<TPoint>& startPoint, const Point<TPoint>& p1, const Point<TPoint>& p2) {
         TPoint angle2 = Vector<TPoint>::Angle(startPoint, Vector<TPoint>(p2));

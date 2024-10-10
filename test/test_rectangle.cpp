@@ -12,7 +12,6 @@ TEST(RectangleTest, DefaultConstructor) {
     EXPECT_EQ(trap.GetDownLeft(), expected);
 }
 
-// Тест для конструктора с параметрами
 TEST(RectangleTest, ParameterizedConstructor) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -27,7 +26,6 @@ TEST(RectangleTest, ParameterizedConstructor) {
     EXPECT_EQ(trap.GetDownLeft(), downLeft);
 }
 
-// Тест для копирующего конструктора
 TEST(RectangleTest, CopyConstructor) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -58,7 +56,6 @@ TEST(RectangleTest, MoveConstructor) {
     EXPECT_EQ(trap2.GetDownLeft(), downLeft);
 }
 
-// // Тест для метода CheckOnRightFigure
 TEST(RectangleTest, CheckOnRightFigure) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -76,7 +73,6 @@ TEST(RectangleTest, CheckOnRightFigure) {
     EXPECT_THROW(Rectangle<double>(badTopLeft, badTopRight, badDownRight, badDownLeft), BadFigure);
 }
 
-// Тест для метода CalculateCentroid
 TEST(RectangleTest, CalculateCentroid) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -93,7 +89,6 @@ TEST(RectangleTest, CalculateCentroid) {
     EXPECT_NEAR(centroid.GetY(), expectedCordY, 1e-6);
 }
 
-// Тест для метода CalculateArea
 TEST(RectangleTest, CalculateArea) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -108,7 +103,6 @@ TEST(RectangleTest, CalculateArea) {
     EXPECT_NEAR(area, expectedArea, 1e-6);
 }
 
-// Тест для оператора присваивания копированием
 TEST(RectangleTest, CopyAssignmentOperator) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -125,7 +119,6 @@ TEST(RectangleTest, CopyAssignmentOperator) {
     EXPECT_EQ(trap2.GetDownLeft(), downLeft);
 }
 
-// Тест для оператора присваивания перемещением
 TEST(RectangleTest, MoveAssignmentOperator) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -142,7 +135,6 @@ TEST(RectangleTest, MoveAssignmentOperator) {
     EXPECT_EQ(trap2.GetDownLeft(), downLeft);
 }
 
-// Тест для оператора сравнения
 TEST(RectangleTest, EqualityOperator) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -162,7 +154,6 @@ TEST(RectangleTest, EqualityOperator) {
     EXPECT_FALSE(trap1 == trap3);
 }
 
-// Тест для оператора преобразования к double
 TEST(RectangleTest, ConversionOperator) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -177,7 +168,6 @@ TEST(RectangleTest, ConversionOperator) {
     EXPECT_NEAR(area, expectedArea, 1e-6);
 }
 
-// Тест для оператора ввода
 TEST(RectangleTest, InputOperator) {
     std::stringstream ss;
     ss << "0 4 4 4 4 0 0 0";
@@ -196,7 +186,6 @@ TEST(RectangleTest, InputOperator) {
     EXPECT_EQ(trap.GetDownLeft(), downLeft);
 }
 
-// Тест для оператора вывода
 TEST(RectangleTest, OutputOperator) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -211,4 +200,34 @@ TEST(RectangleTest, OutputOperator) {
     std::string expected = "(0, 4) (4, 4) (4, 0) (0, 0)";
 
     EXPECT_EQ(ss.str(), expected);
+}
+
+TEST(RectangleTest, Clone) {
+    Point<double> topLeft(0, 4);
+    Point<double> topRight(4, 4);
+    Point<double> downRight(4, 0);
+    Point<double> downLeft(0, 0);
+
+    Rectangle<double> rect(topLeft, topRight, downRight, downLeft);
+    std::unique_ptr<Figure<double>> clonedRect = rect.Clone();
+
+    EXPECT_EQ(clonedRect->GetTopLeft(), topLeft);
+    EXPECT_EQ(clonedRect->GetTopRight(), topRight);
+    EXPECT_EQ(clonedRect->GetDownRight(), downRight);
+    EXPECT_EQ(clonedRect->GetDownLeft(), downLeft);
+}
+
+TEST(RectangleTest, Move) {
+    Point<double> topLeft(0, 4);
+    Point<double> topRight(4, 4);
+    Point<double> downRight(4, 0);
+    Point<double> downLeft(0, 0);
+
+    Rectangle<double> rect(topLeft, topRight, downRight, downLeft);
+    std::unique_ptr<Figure<double>> movedRect = rect.Move();
+
+    EXPECT_EQ(movedRect->GetTopLeft(), topLeft);
+    EXPECT_EQ(movedRect->GetTopRight(), topRight);
+    EXPECT_EQ(movedRect->GetDownRight(), downRight);
+    EXPECT_EQ(movedRect->GetDownLeft(), downLeft);
 }

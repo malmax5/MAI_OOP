@@ -16,15 +16,15 @@ public:
     Square(const Square& other) : Rectangle<TPoint>(other) {}
     Square(Square&& other) noexcept : Rectangle<TPoint>(std::move(other)) {}
 
-    // virtual Square* Clone() const override { return new Square(*this); }
-    // virtual Square* Move() noexcept override { return new Square(std::move(*this)); }
+    virtual std::unique_ptr<Figure<TPoint>> Clone() const override { return std::make_unique<Square>(*this); }
+    virtual std::unique_ptr<Figure<TPoint>> Move() noexcept override { return std::make_unique<Square>(std::move(*this)); }
 
     void CheckOnRightFigure() final {
         TPoint diag1 = Point<TPoint>::Length(this->GetTopLeft(), this->GetDownRight());
         TPoint diag2 = Point<TPoint>::Length(this->GetTopRight(), this->GetDownLeft());
         TPoint eps = 1e-9;
 
-        if (std::abs(diag1 - diag2) < eps && std::abs(this->GetSize().first - this->GetSize().second) < eps) {
+        if (std::abs(diag1 - diag2) >= eps || std::abs(this->GetSize().first - this->GetSize().second) >= eps) {
             throw BadFigure("It's not a Square");
         }
     }

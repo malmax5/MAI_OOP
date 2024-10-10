@@ -12,7 +12,6 @@ TEST(TrapezoidTest, DefaultConstructor) {
     EXPECT_EQ(trap.GetDownLeft(), expected);
 }
 
-// Тест для конструктора с параметрами
 TEST(TrapezoidTest, ParameterizedConstructor) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
@@ -27,7 +26,6 @@ TEST(TrapezoidTest, ParameterizedConstructor) {
     EXPECT_EQ(trap.GetDownLeft(), topLeft);
 }
 
-// Тест для копирующего конструктора
 TEST(TrapezoidTest, CopyConstructor) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
@@ -58,7 +56,6 @@ TEST(TrapezoidTest, MoveConstructor) {
     EXPECT_EQ(trap2.GetDownLeft(), topLeft);
 }
 
-// Тест для метода CheckOnRightFigure
 TEST(TrapezoidTest, CheckOnRightFigure) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
@@ -76,7 +73,6 @@ TEST(TrapezoidTest, CheckOnRightFigure) {
     EXPECT_THROW(Trapezoid<double>(badTopLeft, badTopRight, badDownRight, badDownLeft), BadFigure);
 }
 
-// Тест для метода CalculateCentroid
 TEST(TrapezoidTest, CalculateCentroid) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
@@ -93,7 +89,6 @@ TEST(TrapezoidTest, CalculateCentroid) {
     EXPECT_NEAR(centroid.GetY(), expectedCordY, 1e-6);
 }
 
-// Тест для метода CalculateArea
 TEST(TrapezoidTest, CalculateArea) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
@@ -108,7 +103,6 @@ TEST(TrapezoidTest, CalculateArea) {
     EXPECT_NEAR(area, expectedArea, 1e-6);
 }
 
-// Тест для оператора присваивания копированием
 TEST(TrapezoidTest, CopyAssignmentOperator) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
@@ -125,7 +119,6 @@ TEST(TrapezoidTest, CopyAssignmentOperator) {
     EXPECT_EQ(trap2.GetDownLeft(), topLeft);
 }
 
-// Тест для оператора присваивания перемещением
 TEST(TrapezoidTest, MoveAssignmentOperator) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
@@ -142,7 +135,6 @@ TEST(TrapezoidTest, MoveAssignmentOperator) {
     EXPECT_EQ(trap2.GetDownLeft(), topLeft);
 }
 
-// Тест для оператора сравнения
 TEST(TrapezoidTest, EqualityOperator) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
@@ -162,7 +154,6 @@ TEST(TrapezoidTest, EqualityOperator) {
     EXPECT_FALSE(trap1 == trap3);
 }
 
-// Тест для оператора преобразования к double
 TEST(TrapezoidTest, ConversionOperator) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
@@ -177,7 +168,6 @@ TEST(TrapezoidTest, ConversionOperator) {
     EXPECT_NEAR(area, expectedArea, 1e-6);
 }
 
-// Тест для оператора ввода
 TEST(TrapezoidTest, InputOperator) {
     std::stringstream ss;
     ss << "0 0 1 1 2 1 3 0";
@@ -196,7 +186,6 @@ TEST(TrapezoidTest, InputOperator) {
     EXPECT_EQ(trap.GetDownLeft(), topLeft);
 }
 
-// Тест для оператора вывода
 TEST(TrapezoidTest, OutputOperator) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
@@ -211,4 +200,34 @@ TEST(TrapezoidTest, OutputOperator) {
     std::string expected = "(1, 1) (2, 1) (3, 0) (0, 0)";
 
     EXPECT_EQ(ss.str(), expected);
+}
+
+TEST(TrapezoidTest, Clone) {
+    Point<double> topLeft(0, 0);
+    Point<double> topRight(1, 1);
+    Point<double> downRight(2, 1);
+    Point<double> downLeft(3, 0);
+
+    Trapezoid<double> trap(topLeft, topRight, downRight, downLeft);
+    std::unique_ptr<Figure<double>> clonedTrap = trap.Clone();
+
+    EXPECT_EQ(clonedTrap->GetTopLeft(), topRight);
+    EXPECT_EQ(clonedTrap->GetTopRight(), downRight);
+    EXPECT_EQ(clonedTrap->GetDownRight(), downLeft);
+    EXPECT_EQ(clonedTrap->GetDownLeft(), topLeft);
+}
+
+TEST(TrapezoidTest, Move) {
+    Point<double> topLeft(0, 0);
+    Point<double> topRight(1, 1);
+    Point<double> downRight(2, 1);
+    Point<double> downLeft(3, 0);
+
+    Trapezoid<double> trap(topLeft, topRight, downRight, downLeft);
+    std::unique_ptr<Figure<double>> movedTrap = trap.Move();
+
+    EXPECT_EQ(movedTrap->GetTopLeft(), topRight);
+    EXPECT_EQ(movedTrap->GetTopRight(), downRight);
+    EXPECT_EQ(movedTrap->GetDownRight(), downLeft);
+    EXPECT_EQ(movedTrap->GetDownLeft(), topLeft);
 }

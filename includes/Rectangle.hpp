@@ -35,8 +35,8 @@ public:
     Point<TPoint> GetDownLeft() const { return downLeft_; }
     std::pair<TPoint, TPoint> GetSize() const { return size_; }
 
-    // virtual Rectangle* Clone() const override { return new Rectangle(*this); }
-    // virtual Rectangle* Move() noexcept override { return new Rectangle(std::move(*this)); }
+    virtual std::unique_ptr<Figure<TPoint>> Clone() const override { return std::make_unique<Rectangle>(*this); }
+    virtual std::unique_ptr<Figure<TPoint>> Move() noexcept override { return std::make_unique<Rectangle>(std::move(*this)); }
 
     virtual void ChangeArrangementIfBad() {
         std::vector<Point<TPoint>> goodArrangement {topLeft_, topRight_, downRight_, downLeft_};
@@ -52,7 +52,7 @@ public:
 
         TPoint diag1 = Point<TPoint>::Length(topLeft_, downRight_);
         TPoint diag2 = Point<TPoint>::Length(topRight_, downLeft_);
-        if (std::abs(diag1 - diag2) < eps) {
+        if (std::abs(diag1 - diag2) >= eps) {
             throw BadFigure("It's not a Rectangle");
         }
     }

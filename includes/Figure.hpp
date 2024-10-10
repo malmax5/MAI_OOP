@@ -18,11 +18,8 @@ public:
     virtual Point<TPoint> GetDownRight() const = 0;
     virtual Point<TPoint> GetDownLeft() const = 0;
 
-    // virtual Figure* Clone() const = 0;
-    // virtual Figure* Move() noexcept = 0;
-
-    // virtual Figure& operator=(const Figure& other) = 0;
-    // virtual Figure& operator=(Figure&& other) noexcept = 0;
+    virtual std::unique_ptr<Figure> Clone() const = 0;
+    virtual std::unique_ptr<Figure> Move() noexcept = 0;
 
     virtual operator double() const = 0;
 

@@ -12,7 +12,6 @@ TEST(SquareTest, DefaultConstructor) {
     EXPECT_EQ(sq.GetDownLeft(), expected);
 }
 
-// Тест для конструктора с параметрами
 TEST(SquareTest, ParameterizedConstructor) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -27,7 +26,6 @@ TEST(SquareTest, ParameterizedConstructor) {
     EXPECT_EQ(sq.GetDownLeft(), downLeft);
 }
 
-// Тест для копирующего конструктора
 TEST(SquareTest, CopyConstructor) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -58,7 +56,6 @@ TEST(SquareTest, MoveConstructor) {
     EXPECT_EQ(sq2.GetDownLeft(), downLeft);
 }
 
-// Тест для метода CheckOnRightFigure
 TEST(SquareTest, CheckOnRightFigure) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -76,7 +73,6 @@ TEST(SquareTest, CheckOnRightFigure) {
     EXPECT_THROW(Square<double>(badTopLeft, badTopRight, badDownRight, badDownLeft), BadFigure);
 }
 
-// Тест для метода CalculateCentroid
 TEST(SquareTest, CalculateCentroid) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -93,7 +89,6 @@ TEST(SquareTest, CalculateCentroid) {
     EXPECT_NEAR(centroid.GetY(), expectedCordY, 1e-6);
 }
 
-// Тест для метода CalculateArea
 TEST(SquareTest, CalculateArea) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -108,7 +103,6 @@ TEST(SquareTest, CalculateArea) {
     EXPECT_NEAR(area, expectedArea, 1e-6);
 }
 
-// Тест для оператора присваивания копированием
 TEST(SquareTest, CopyAssignmentOperator) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -125,7 +119,6 @@ TEST(SquareTest, CopyAssignmentOperator) {
     EXPECT_EQ(sq2.GetDownLeft(), downLeft);
 }
 
-// Тест для оператора присваивания перемещением
 TEST(SquareTest, MoveAssignmentOperator) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -142,7 +135,6 @@ TEST(SquareTest, MoveAssignmentOperator) {
     EXPECT_EQ(sq2.GetDownLeft(), downLeft);
 }
 
-// Тест для оператора сравнения
 TEST(SquareTest, EqualityOperator) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -162,7 +154,6 @@ TEST(SquareTest, EqualityOperator) {
     EXPECT_FALSE(sq1 == sq3);
 }
 
-// Тест для оператора преобразования к double
 TEST(SquareTest, ConversionOperator) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -177,7 +168,6 @@ TEST(SquareTest, ConversionOperator) {
     EXPECT_NEAR(area, expectedArea, 1e-6);
 }
 
-// Тест для оператора ввода
 TEST(SquareTest, InputOperator) {
     std::stringstream ss;
     ss << "0 4 4 4 4 0 0 0";
@@ -196,7 +186,6 @@ TEST(SquareTest, InputOperator) {
     EXPECT_EQ(sq.GetDownLeft(), downLeft);
 }
 
-// Тест для оператора вывода
 TEST(SquareTest, OutputOperator) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
@@ -211,4 +200,34 @@ TEST(SquareTest, OutputOperator) {
     std::string expected = "(0, 4) (4, 4) (4, 0) (0, 0)";
 
     EXPECT_EQ(ss.str(), expected);
+}
+
+TEST(SquareTest, Clone) {
+    Point<double> topLeft(0, 4);
+    Point<double> topRight(4, 4);
+    Point<double> downRight(4, 0);
+    Point<double> downLeft(0, 0);
+
+    Square<double> sq(topLeft, topRight, downRight, downLeft);
+    std::unique_ptr<Figure<double>> clonedSq = sq.Clone();
+
+    EXPECT_EQ(clonedSq->GetTopLeft(), topLeft);
+    EXPECT_EQ(clonedSq->GetTopRight(), topRight);
+    EXPECT_EQ(clonedSq->GetDownRight(), downRight);
+    EXPECT_EQ(clonedSq->GetDownLeft(), downLeft);
+}
+
+TEST(SquareTest, Move) {
+    Point<double> topLeft(0, 4);
+    Point<double> topRight(4, 4);
+    Point<double> downRight(4, 0);
+    Point<double> downLeft(0, 0);
+
+    Square<double> sq(topLeft, topRight, downRight, downLeft);
+    std::unique_ptr<Figure<double>> movedSq = sq.Move();
+
+    EXPECT_EQ(movedSq->GetTopLeft(), topLeft);
+    EXPECT_EQ(movedSq->GetTopRight(), topRight);
+    EXPECT_EQ(movedSq->GetDownRight(), downRight);
+    EXPECT_EQ(movedSq->GetDownLeft(), downLeft);
 }
