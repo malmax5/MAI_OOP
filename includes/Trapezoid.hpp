@@ -3,6 +3,7 @@
 
 #include "../includes/Figure.hpp"
 #include "../includes/Point.hpp"
+#include "../includes/Vector.hpp"
 #include "../includes/exceptions/BadFigure.hpp"
 #include <vector>
 #include <algorithm>
@@ -18,76 +19,113 @@ public:
         : topLeft_(topLeft), topRight_(topRight), downRight_(downRight), downLeft_(downLeft)
     {
         ChangeArrangementIfBad();
+        SetSize();
         CheckOnRightFigure();
     }
     Trapezoid(const Trapezoid& other)
-        : topLeft_(other.topLeft_), topRight_(other.topRight_), downRight_(other.downRight_), downLeft_(other.downLeft_)
-    {}
+        : topLeft_(other.topLeft_), topRight_(other.topRight_), downRight_(other.downRight_), downLeft_(other.downLeft_) {}
     Trapezoid(Trapezoid&& other) noexcept
         : topLeft_(std::move(other.topLeft_)),
           topRight_(std::move(other.topRight_)),
           downRight_(std::move(other.downRight_)),
-          downLeft_(std::move(other.downLeft_))
-    {}
+          downLeft_(std::move(other.downLeft_)) {}
 
-    static bool ComparePoints(const Point<TPoint>& startPoint, const Point<TPoint>& p1, const Point<TPoint>& p2) {
-        TPoint angle1 = Point<TPoint>::Angle(startPoint, p1);
-        TPoint angle2 = Point<TPoint>::Angle(startPoint, p2);
+    Point<TPoint> GetTopLeft() const { return topLeft_; }
+    Point<TPoint> GetTopRight() const { return topRight_; }
+    Point<TPoint> GetDownRight() const { return downRight_; }
+    Point<TPoint> GetDownLeft() const { return downLeft_; }
+
+    // virtual Trapezoid* Clone() const override { return new Trapezoid(*this); }
+    // virtual Trapezoid* Move() noexcept override { return new Trapezoid(std::move(*this)); }
+
+    static bool ComparePoints(const Vector<TPoint>& startPoint, const Point<TPoint>& p1, const Point<TPoint>& p2) {
+        TPoint angle2 = Vector<TPoint>::Angle(startPoint, Vector<TPoint>(p2));
+        TPoint angle1 = Vector<TPoint>::Angle(startPoint, Vector<TPoint>(p1));
         return angle1 < angle2;
     }
 
     void ChangeArrangementIfBad() {
-        std::vector<Point<TPoint>> goodArrangement {topLeft_, topRight_, downRight_, downLeft_};
-        std::sort(goodArrangement.begin(), goodArrangement.end());
-        Point<TPoint> startPoint = goodArrangement[0];
-        std::sort(goodArrangement.begin(), goodArrangement.end(), 
-                  [&startPoint](const Point<TPoint>& p1, const Point<TPoint>& p2) {
-                      return ComparePoints(startPoint, p1, p2);
-                  });
+        TPoint eps = 1e-9;
 
-        if (Point<TPoint>::Length(goodArrangement[0], goodArrangement[1]) == Point<TPoint>::Length(goodArrangement[2], goodArrangement[3])) {
-            downLeft_ = std::move(goodArrangement[0]);
-            topLeft_ = std::move(goodArrangement[1]);
-            topRight_ = std::move(goodArrangement[2]);
-            downRight_ = std::move(goodArrangement[3]);
-        } else {
-            downLeft_ = std::move(goodArrangement[1]);
-            topLeft_ = std::move(goodArrangement[2]);
-            topRight_ = std::move(goodArrangement[3]);
-            downRight_ = std::move(goodArrangement[0]);
+        std::vector<Point<TPoint>> pointsToSort {topLeft_, topRight_, downRight_, downLeft_};
+        sort(pointsToSort.begin(), pointsToSort.end());
+        Vector<TPoint> startPoint(pointsToSort[0]);
+        sort(pointsToSort.begin(), pointsToSort.end(), [startPoint](const Point<TPoint>& p1, const Point<TPoint>& p2)
+                                                       { return ComparePoints(startPoint, p1, p2); });
+        
+        topLeft_ = std::move(pointsToSort[0]);
+        topRight_ = std::move(pointsToSort[1]);
+        downRight_ = std::move(pointsToSort[2]);
+        downLeft_ = std::move(pointsToSort[3]);
+
+        Vector<TPoint> vec1 = topRight_ - topLeft_;
+        Vector<TPoint> vec2 = downRight_ - topRight_;
+        Vector<TPoint> vec3 = downLeft_ - downRight_;
+        Vector<TPoint> vec4 = topLeft_ - downLeft_;
+
+        bool isParallel1 = (Vector<TPoint>::CrossProduct(vec1, vec3) < eps);
+        bool isParallel2 = (Vector<TPoint>::CrossProduct(vec2, vec4) < eps);
+
+        if (isParallel1) {
+            if (Vector<TPoint>::Length(vec1) > Vector<TPoint>::Length(vec3)) {
+                std::swap(downRight_, topRight_);
+                std::swap(downLeft_, topLeft_);
+            } // 1 2 3 4  1.(3 4)(1 2)
+        } else if (isParallel2) {
+            if (Vector<TPoint>::Length(vec2) > Vector<TPoint>::Length(vec4)) {
+                std::swap(downLeft_, topRight_);
+            } // 1 2 3 4  1.(4 1)(2 3)
+            else {
+                std::swap(downRight_, topLeft_);
+            } // 1 2 3 4 1.(1 4)(2 3)
         }
     }
 
     virtual void CheckOnRightFigure() {
-        TPoint diag1 = Point<TPoint>::Length(topLeft_, downRight_);
-        TPoint diag2 = Point<TPoint>::Length(topRight_, downLeft_);
-        TPoint side1 = Point<TPoint>::Length(downLeft_, topLeft_);
-        TPoint side2 = Point<TPoint>::Length(topLeft_, topRight_);
-        TPoint side3 = Point<TPoint>::Length(topRight_, downRight_);
-        TPoint side4 = Point<TPoint>::Length(downRight_, downLeft_);
-        if (!(diag1 == diag2 && (side1 == side3 && side2 != side4 || side1 != side3 && side2 == side4))) {
+        TPoint eps = 1e-9;
+
+        Vector<TPoint> vec1 = topRight_ - topLeft_;
+        Vector<TPoint> vec2 = downRight_ - topRight_;
+        Vector<TPoint> vec3 = downLeft_ - downRight_;
+        Vector<TPoint> vec4 = topLeft_ - downLeft_;
+
+        bool isParallel1 = (Vector<TPoint>::CrossProduct(vec1, vec3) < eps);
+        bool isParallel2 = (Vector<TPoint>::CrossProduct(vec2, vec4) < eps);
+
+        if (!(isParallel1 ^ isParallel2)) {
             throw BadFigure("It's not a Trapezoid");
         }
     }
 
-    virtual Point<TPoint> CalculateCentroid() const override {
-        Point<TPoint> firstPoint((topRight_.xCord + topLeft_.xCord) / 2, (topRight_.yCord + topLeft_.yCord) / 2);
-        Point<TPoint> secondPoint((downRight_.xCord + downLeft_.xCord) / 2, (downRight_.yCord + downLeft_.yCord) / 2);
-        TPoint lengthDegree = Point<TPoint>::Length(topLeft_, topRight_) > Point<TPoint>::Length(downLeft_, downRight_) 
-                              ? Point<TPoint>::Length(firstPoint, secondPoint) / 3 
-                              : (2 * Point<TPoint>::Length(firstPoint, secondPoint)) / 3;
-        TPoint kLD = lengthDegree / Point<TPoint>::Length(firstPoint, secondPoint);
-        TPoint xLengthDegree = std::abs(firstPoint.xCord - secondPoint.xCord) * kLD;
-        TPoint yLengthDegree = std::abs(firstPoint.yCord - secondPoint.yCord) * kLD;
-        return {firstPoint.xCord - xLengthDegree, firstPoint.yCord - yLengthDegree};
+    virtual void SetSize() {
+        TPoint firstSide = Point<TPoint>::Length(topLeft_, topRight_);
+        TPoint secondSide = Point<TPoint>::Length(topRight_, downRight_);
+        TPoint thirdSide = Point<TPoint>::Length(downRight_, downLeft_);
+        TPoint fourthSide = Point<TPoint>::Length(downLeft_, topRight_);
+        size_ = {firstSide, secondSide, thirdSide, fourthSide};
+    }
+
+    TPoint CalculateHeight() const {
+        Vector<TPoint> vec1 = topRight_ - topLeft_;
+
+        Vector<TPoint> perpendicularVec = Vector<TPoint>::Perpendicular(vec1);
+
+        TPoint distance = std::abs(Vector<TPoint>::DotProduct(perpendicularVec, Vector<TPoint>(topLeft_, downLeft_))) / Vector<TPoint>::Length(perpendicularVec);
+
+        return distance;
+    }
+
+    Point<TPoint> CalculateCentroid() const {
+        TPoint xCordCentroid = (topLeft_.GetX() + topRight_.GetX() + downRight_.GetX() + downLeft_.GetX()) / 4;
+        TPoint yCordCentroid = (topLeft_.GetY() + topRight_.GetY() + downRight_.GetY() + downLeft_.GetY()) / 4;
+        return Point<TPoint>(xCordCentroid, yCordCentroid);
     }
 
     virtual double CalculateArea() const override {
-        TPoint firstSide = Point<TPoint>::Length(topLeft_, topRight_);
-        TPoint secondSide = Point<TPoint>::Length(downLeft_, downRight_);
-        TPoint thirdSide = Point<TPoint>::Length(topLeft_, downLeft_);
-        TPoint perimetrDevTwo = (firstSide + secondSide + 2 * thirdSide) / 2; 
-        return std::sqrt((perimetrDevTwo - firstSide) * (perimetrDevTwo - secondSide) * std::pow((perimetrDevTwo - thirdSide), 2));
+        TPoint firstSide = size_[0];
+        TPoint secondSide = size_[2];
+        TPoint height = CalculateHeight(); 
+        return ((firstSide + secondSide) / 2) * height;
     }
 
     Trapezoid& operator= (const Trapezoid& other) {
@@ -121,11 +159,6 @@ public:
         return CalculateArea();
     }
 
-    Point<TPoint> GetTopLeft() const { return topLeft_; }
-    Point<TPoint> GetTopRight() const { return topRight_; }
-    Point<TPoint> GetDownRight() const { return downRight_; }
-    Point<TPoint> GetDownLeft() const { return downLeft_; }
-
     virtual ~Trapezoid() override {}
 
 public:
@@ -135,11 +168,12 @@ public:
     template <typename TStreamPoint>
     friend std::ostream& operator<<(std::ostream& os, const Trapezoid<TStreamPoint>& trap);
 
-protected:
+private:
     Point<TPoint> topLeft_;
     Point<TPoint> topRight_;
     Point<TPoint> downRight_;
     Point<TPoint> downLeft_;
+    std::vector<TPoint> size_;
 };
 
 template <typename TStreamPoint>

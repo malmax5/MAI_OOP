@@ -29,6 +29,15 @@ public:
           downLeft_(std::move(other.downLeft_)),
           size_(std::move(other.size_)) {}
 
+    Point<TPoint> GetTopLeft() const { return topLeft_; }
+    Point<TPoint> GetTopRight() const { return topRight_; }
+    Point<TPoint> GetDownRight() const { return downRight_; }
+    Point<TPoint> GetDownLeft() const { return downLeft_; }
+    std::pair<TPoint, TPoint> GetSize() const { return size_; }
+
+    // virtual Rectangle* Clone() const override { return new Rectangle(*this); }
+    // virtual Rectangle* Move() noexcept override { return new Rectangle(std::move(*this)); }
+
     virtual void ChangeArrangementIfBad() {
         std::vector<Point<TPoint>> goodArrangement {topLeft_, topRight_, downRight_, downLeft_};
         std::sort(goodArrangement.begin(), goodArrangement.end());
@@ -39,9 +48,11 @@ public:
     }
 
     virtual void CheckOnRightFigure() {
+        TPoint eps = 1e-9;
+
         TPoint diag1 = Point<TPoint>::Length(topLeft_, downRight_);
         TPoint diag2 = Point<TPoint>::Length(topRight_, downLeft_);
-        if (!(diag1 == diag2)) {
+        if (std::abs(diag1 - diag2) < eps) {
             throw BadFigure("It's not a Rectangle");
         }
     }
@@ -52,13 +63,9 @@ public:
         size_ = {firstSide, secondSide};
     }
 
-    virtual std::pair<double, double> GetSize_() {
-        return size_;
-    }
-
     virtual Point<TPoint> CalculateCentroid() const override {
-        TPoint xCord = (topLeft_.xCord + topRight_.xCord) / 2;
-        TPoint yCord = (topLeft_.yCord + downLeft_.yCord) / 2;
+        TPoint xCord = (topLeft_.GetX() + topRight_.GetX()) / 2;
+        TPoint yCord = (topLeft_.GetY() + downLeft_.GetY()) / 2;
         Point<TPoint> centroid(xCord, yCord);
         return centroid;
     }
@@ -100,12 +107,6 @@ public:
         return CalculateArea();
     }
 
-    Point<TPoint> GetTopLeft() const { return topLeft_; }
-    Point<TPoint> GetTopRight() const { return topRight_; }
-    Point<TPoint> GetDownRight() const { return downRight_; }
-    Point<TPoint> GetDownLeft() const { return downLeft_; }
-    std::pair<TPoint, TPoint> GetSize() const { return size_; }
-
     virtual ~Rectangle() override {}
 
 public:
@@ -115,7 +116,7 @@ public:
     template <typename TStreamPoint>
     friend std::ostream& operator<<(std::ostream& os, const Rectangle<TStreamPoint>& rect);
 
-protected:
+private:
     Point<TPoint> topLeft_;
     Point<TPoint> topRight_;
     Point<TPoint> downRight_;

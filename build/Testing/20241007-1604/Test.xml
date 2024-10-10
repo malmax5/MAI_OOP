@@ -24,39 +24,11 @@
 	ProcessorClockFrequency="2808"
 	>
 	<Testing>
-		<StartDateTime>Oct 07 19:51 RTZ 2 (зима)</StartDateTime>
-		<StartTestTime>1728319917</StartTestTime>
-		<TestList>
-			<Test>./FigureTest</Test>
-		</TestList>
-		<Test Status="passed">
-			<Name>FigureTest</Name>
-			<Path>.</Path>
-			<FullName>./FigureTest</FullName>
-			<FullCommandLine>C:\Users\CrazyBlackFire\Documents\Code\oop\Lab3\build\lab_3_tests.exe</FullCommandLine>
-			<Results>
-				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.0170313</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="numeric/double" name="Processors">
-					<Value>1</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Completion Status">
-					<Value>Completed</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>C:\Users\CrazyBlackFire\Documents\Code\oop\Lab3\build\lab_3_tests.exe</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Environment">
-					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
-				</NamedMeasurement>
-				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyVlMFuwjAMhu99Ch/HgQoYh112QEzbYdqYUHdCPYTWpZHSpHIcNnj6hVZCtKws86WK+/m348TZPJ4thbXTWuod3D8Ao2ULBZkK5s0CrJP+G0eb8dlSeFFmK1QLoN5LMrpC7WHksat78OxS9VnuHGHiHdEG1p/v0Fh64Y8Tw0ItCIUnWlu9DhBwN4HKjgal1liZPbaOQbVL6CwYsIGWBT4VM4q6IdNOTEKixqOR+fW+O7/iJyyEU7w02jK5jA11q/6L/rUf3aAPQaJCRpJHzAMTDcUEpFua+hCYpYcGiL/5cwsU76EhlQuVOSUYl/5mk/ferL0P/yfB9V2/AQb2fGGt3DVDuaqRRL87ceyHNCmlhVoQgymAS2zn2TiuHcOXsEDNZORgpc4QpJ/17wwxty1cEtrSqPwUPZ3M5rA9nF6KNPoB6htmFg==</Value>
-				</Measurement>
-			</Results>
-		</Test>
-		<EndDateTime>Oct 07 19:51 RTZ 2 (зима)</EndDateTime>
-		<EndTestTime>1728319917</EndTestTime>
+		<StartDateTime>Oct 07 20:29 RTZ 2 (зима)</StartDateTime>
+		<StartTestTime>1728322160</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 07 20:29 RTZ 2 (зима)</EndDateTime>
+		<EndTestTime>1728322160</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

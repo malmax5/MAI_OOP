@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 
 set(CMLIB_AUTHOR_NAME "Погожев Максим" CACHE STRING "")
 set(CMLIB_AUTHOR_EMAIL "crazyblackfire@mail.ru" CACHE STRING "")
-set(CMLIB_DESCRIPTION "ООП, лабороторная работа номер 2, вариант 4" CACHE STRING "")
+set(CMLIB_DESCRIPTION "ООП, лабороторная работа номер 3, вариант 18" CACHE STRING "")
 
 project(test VERSION 0.1.0 LANGUAGES C CXX)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
@@ -35,6 +35,7 @@ set(
     includes/Trapezoid.hpp
     includes/Square.hpp
     includes/Point.hpp
+    includes/Vector.hpp
 )
 
 # add_executable(
@@ -68,41 +69,22 @@ add_test(NAME FigureTest COMMAND lab_3_tests)
 if (MSVC)
     set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
-    # target_compile_options(
-    #     lab_2 PRIVATE
-    #     /W4
-    # )
     target_compile_options(
         lab_3_tests PRIVATE
         /W4
     )
 else ()
-    # target_compile_options(
-    #     lab_2 PRIVATE
-    #     # -Wall
-    #     # -Wextra
-    #     # -Wshadow
-    #     # -Wcast-align
-    #     # -Wconversion
-    #     # -Wsign-conversion
-    #     # -Wfloat-equal
-    #     # -Wpedantic
-    #     # -Werror
-    #     # -pedantic
-    #     # -O2
-    # )
     target_compile_options(
         lab_3_tests PRIVATE
-        # -Wall
-        # -Wextra
-        # -Wshadow
-        # -Wcast-align
-        # -Wconversion
-        # -Wsign-conversion
-        # -Wfloat-equal
-        # -Wpedantic
-        # -Werror
-        # -pedantic
-        # -O2
+        -Wall
+        -Wextra
+        -Wcast-align
+        -Wconversion
+        -Wsign-conversion
+        -Wfloat-equal
+        -Wpedantic
+        -Werror
+        -pedantic
+        -O2
     )
 endif()

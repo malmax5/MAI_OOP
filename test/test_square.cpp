@@ -89,8 +89,8 @@ TEST(SquareTest, CalculateCentroid) {
     double expectedCordX = 2.0;
     double expectedCordY = 2.0;
 
-    EXPECT_NEAR(centroid.xCord, expectedCordX, 1e-6);
-    EXPECT_NEAR(centroid.yCord, expectedCordY, 1e-6);
+    EXPECT_NEAR(centroid.GetX(), expectedCordX, 1e-6);
+    EXPECT_NEAR(centroid.GetY(), expectedCordY, 1e-6);
 }
 
 // Тест для метода CalculateArea

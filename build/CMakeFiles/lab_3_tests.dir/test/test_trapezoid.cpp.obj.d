@@ -229,6 +229,7 @@ CMakeFiles/lab_3_tests.dir/test/test_trapezoid.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/cmath \
  C:/msys64/mingw64/include/math.h \
  C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/includes/Point.hpp \
+ C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/includes/Vector.hpp \
  C:/Users/CrazyBlackFire/Documents/Code/oop/Lab3/includes/exceptions/BadFigure.hpp \
  C:/msys64/mingw64/include/c++/13.2.0/algorithm \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_algo.h \

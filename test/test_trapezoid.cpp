@@ -21,10 +21,10 @@ TEST(TrapezoidTest, ParameterizedConstructor) {
 
     Trapezoid<double> trap(topLeft, topRight, downRight, downLeft);
 
-    EXPECT_EQ(trap.GetTopLeft(), downRight);
-    EXPECT_EQ(trap.GetTopRight(), topRight);
-    EXPECT_EQ(trap.GetDownRight(), topLeft);
-    EXPECT_EQ(trap.GetDownLeft(), downLeft);
+    EXPECT_EQ(trap.GetTopLeft(), topRight);
+    EXPECT_EQ(trap.GetTopRight(), downRight);
+    EXPECT_EQ(trap.GetDownRight(), downLeft);
+    EXPECT_EQ(trap.GetDownLeft(), topLeft);
 }
 
 // Тест для копирующего конструктора
@@ -37,10 +37,10 @@ TEST(TrapezoidTest, CopyConstructor) {
     Trapezoid<double> trap1(topLeft, topRight, downRight, downLeft);
     Trapezoid<double> trap2(trap1);
 
-    EXPECT_EQ(trap2.GetTopLeft(), downRight);
-    EXPECT_EQ(trap2.GetTopRight(), topRight);
-    EXPECT_EQ(trap2.GetDownRight(), topLeft);
-    EXPECT_EQ(trap2.GetDownLeft(), downLeft);
+    EXPECT_EQ(trap2.GetTopLeft(), topRight);
+    EXPECT_EQ(trap2.GetTopRight(), downRight);
+    EXPECT_EQ(trap2.GetDownRight(), downLeft);
+    EXPECT_EQ(trap2.GetDownLeft(), topLeft);
 }
 
 TEST(TrapezoidTest, MoveConstructor) {
@@ -52,10 +52,10 @@ TEST(TrapezoidTest, MoveConstructor) {
     Trapezoid<double> trap1(topLeft, topRight, downRight, downLeft);
     Trapezoid<double> trap2(std::move(trap1));
 
-    EXPECT_EQ(trap2.GetTopLeft(), downRight);
-    EXPECT_EQ(trap2.GetTopRight(), topRight);
-    EXPECT_EQ(trap2.GetDownRight(), topLeft);
-    EXPECT_EQ(trap2.GetDownLeft(), downLeft);
+    EXPECT_EQ(trap2.GetTopLeft(), topRight);
+    EXPECT_EQ(trap2.GetTopRight(), downRight);
+    EXPECT_EQ(trap2.GetDownRight(), downLeft);
+    EXPECT_EQ(trap2.GetDownLeft(), topLeft);
 }
 
 // Тест для метода CheckOnRightFigure
@@ -87,10 +87,10 @@ TEST(TrapezoidTest, CalculateCentroid) {
     Point<double> centroid = trap.CalculateCentroid();
 
     double expectedCordX = 1.5;
-    double expectedCordY = 0.3333333;
+    double expectedCordY = 0.5;
 
-    EXPECT_NEAR(centroid.xCord, expectedCordX, 1e-6);
-    EXPECT_NEAR(centroid.yCord, expectedCordY, 1e-6);
+    EXPECT_NEAR(centroid.GetX(), expectedCordX, 1e-6);
+    EXPECT_NEAR(centroid.GetY(), expectedCordY, 1e-6);
 }
 
 // Тест для метода CalculateArea
@@ -119,10 +119,10 @@ TEST(TrapezoidTest, CopyAssignmentOperator) {
     Trapezoid<double> trap2;
     trap2 = trap1;
 
-    EXPECT_EQ(trap2.GetTopLeft(), downRight);
-    EXPECT_EQ(trap2.GetTopRight(), topRight);
-    EXPECT_EQ(trap2.GetDownRight(), topLeft);
-    EXPECT_EQ(trap2.GetDownLeft(), downLeft);
+    EXPECT_EQ(trap2.GetTopLeft(), topRight);
+    EXPECT_EQ(trap2.GetTopRight(), downRight);
+    EXPECT_EQ(trap2.GetDownRight(), downLeft);
+    EXPECT_EQ(trap2.GetDownLeft(), topLeft);
 }
 
 // Тест для оператора присваивания перемещением
@@ -136,10 +136,10 @@ TEST(TrapezoidTest, MoveAssignmentOperator) {
     Trapezoid<double> trap2;
     trap2 = std::move(trap1);
 
-    EXPECT_EQ(trap2.GetTopLeft(), downRight);
-    EXPECT_EQ(trap2.GetTopRight(), topRight);
-    EXPECT_EQ(trap2.GetDownRight(), topLeft);
-    EXPECT_EQ(trap2.GetDownLeft(), downLeft);
+    EXPECT_EQ(trap2.GetTopLeft(), topRight);
+    EXPECT_EQ(trap2.GetTopRight(), downRight);
+    EXPECT_EQ(trap2.GetDownRight(), downLeft);
+    EXPECT_EQ(trap2.GetDownLeft(), topLeft);
 }
 
 // Тест для оператора сравнения
@@ -190,10 +190,10 @@ TEST(TrapezoidTest, InputOperator) {
     Point<double> downRight(2, 1);
     Point<double> downLeft(3, 0);
 
-    EXPECT_EQ(trap.GetTopLeft(), downRight);
-    EXPECT_EQ(trap.GetTopRight(), topRight);
-    EXPECT_EQ(trap.GetDownRight(), topLeft);
-    EXPECT_EQ(trap.GetDownLeft(), downLeft);
+    EXPECT_EQ(trap.GetTopLeft(), topRight);
+    EXPECT_EQ(trap.GetTopRight(), downRight);
+    EXPECT_EQ(trap.GetDownRight(), downLeft);
+    EXPECT_EQ(trap.GetDownLeft(), topLeft);
 }
 
 // Тест для оператора вывода
@@ -208,7 +208,7 @@ TEST(TrapezoidTest, OutputOperator) {
     std::stringstream ss;
     ss << trap;
 
-    std::string expected = "(2, 1) (1, 1) (0, 0) (3, 0)";
+    std::string expected = "(1, 1) (2, 1) (3, 0) (0, 0)";
 
     EXPECT_EQ(ss.str(), expected);
 }

@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/lab_3_tests.dir/includes_CXX.rsp
 
-CXX_FLAGS =  -std=c++14 -g
+CXX_FLAGS =  -std=c++14 -g -Wall -Wextra -Wcast-align -Wconversion -Wsign-conversion -Wfloat-equal -Wpedantic -Werror -pedantic -O2
 

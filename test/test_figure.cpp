@@ -30,7 +30,7 @@ TEST(FigureTest, RemoveFigure) {
 
     size_t indexToRemove = 1;
     delete figures[indexToRemove];
-    figures.erase(figures.begin() + indexToRemove);
+    figures.erase(figures.begin() + static_cast<std::vector<Figure<double>*>::difference_type>(indexToRemove));
 
     EXPECT_EQ(figures.size(), 1);
     EXPECT_NE(figures[0], nullptr);
