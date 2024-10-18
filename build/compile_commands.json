@@ -1,0 +1,80 @@
+[
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build",
+  "command": "/usr/bin/g++  -I/home/cbf/MAI/OOP/Lab_3/includes -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wextra -Wcast-align -Wconversion -Wfloat-equal -Wpedantic -Werror -pedantic -O2 -o CMakeFiles/lab_3_tests.dir/test/test_rectangle.cpp.o -c /home/cbf/MAI/OOP/Lab_3/test/test_rectangle.cpp",
+  "file": "/home/cbf/MAI/OOP/Lab_3/test/test_rectangle.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/test/test_rectangle.cpp.o"
+},
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build",
+  "command": "/usr/bin/g++  -I/home/cbf/MAI/OOP/Lab_3/includes -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wextra -Wcast-align -Wconversion -Wfloat-equal -Wpedantic -Werror -pedantic -O2 -o CMakeFiles/lab_3_tests.dir/test/test_square.cpp.o -c /home/cbf/MAI/OOP/Lab_3/test/test_square.cpp",
+  "file": "/home/cbf/MAI/OOP/Lab_3/test/test_square.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/test/test_square.cpp.o"
+},
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build",
+  "command": "/usr/bin/g++  -I/home/cbf/MAI/OOP/Lab_3/includes -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wextra -Wcast-align -Wconversion -Wfloat-equal -Wpedantic -Werror -pedantic -O2 -o CMakeFiles/lab_3_tests.dir/test/test_trapezoid.cpp.o -c /home/cbf/MAI/OOP/Lab_3/test/test_trapezoid.cpp",
+  "file": "/home/cbf/MAI/OOP/Lab_3/test/test_trapezoid.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/test/test_trapezoid.cpp.o"
+},
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build",
+  "command": "/usr/bin/g++  -I/home/cbf/MAI/OOP/Lab_3/includes -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wextra -Wcast-align -Wconversion -Wfloat-equal -Wpedantic -Werror -pedantic -O2 -o CMakeFiles/lab_3_tests.dir/test/test_figure.cpp.o -c /home/cbf/MAI/OOP/Lab_3/test/test_figure.cpp",
+  "file": "/home/cbf/MAI/OOP/Lab_3/test/test_figure.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/test/test_figure.cpp.o"
+},
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build",
+  "command": "/usr/bin/g++  -I/home/cbf/MAI/OOP/Lab_3/includes -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wextra -Wcast-align -Wconversion -Wfloat-equal -Wpedantic -Werror -pedantic -O2 -o CMakeFiles/lab_3_tests.dir/src/implementations/Point.cpp.o -c /home/cbf/MAI/OOP/Lab_3/src/implementations/Point.cpp",
+  "file": "/home/cbf/MAI/OOP/Lab_3/src/implementations/Point.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/src/implementations/Point.cpp.o"
+},
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build",
+  "command": "/usr/bin/g++  -I/home/cbf/MAI/OOP/Lab_3/includes -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wextra -Wcast-align -Wconversion -Wfloat-equal -Wpedantic -Werror -pedantic -O2 -o CMakeFiles/lab_3_tests.dir/src/implementations/Vector.cpp.o -c /home/cbf/MAI/OOP/Lab_3/src/implementations/Vector.cpp",
+  "file": "/home/cbf/MAI/OOP/Lab_3/src/implementations/Vector.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/src/implementations/Vector.cpp.o"
+},
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build",
+  "command": "/usr/bin/g++  -I/home/cbf/MAI/OOP/Lab_3/includes -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wextra -Wcast-align -Wconversion -Wfloat-equal -Wpedantic -Werror -pedantic -O2 -o CMakeFiles/lab_3_tests.dir/src/implementations/Rectangle.cpp.o -c /home/cbf/MAI/OOP/Lab_3/src/implementations/Rectangle.cpp",
+  "file": "/home/cbf/MAI/OOP/Lab_3/src/implementations/Rectangle.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/src/implementations/Rectangle.cpp.o"
+},
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build",
+  "command": "/usr/bin/g++  -I/home/cbf/MAI/OOP/Lab_3/includes -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wextra -Wcast-align -Wconversion -Wfloat-equal -Wpedantic -Werror -pedantic -O2 -o CMakeFiles/lab_3_tests.dir/src/implementations/Square.cpp.o -c /home/cbf/MAI/OOP/Lab_3/src/implementations/Square.cpp",
+  "file": "/home/cbf/MAI/OOP/Lab_3/src/implementations/Square.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/src/implementations/Square.cpp.o"
+},
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build",
+  "command": "/usr/bin/g++  -I/home/cbf/MAI/OOP/Lab_3/includes -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wextra -Wcast-align -Wconversion -Wfloat-equal -Wpedantic -Werror -pedantic -O2 -o CMakeFiles/lab_3_tests.dir/src/implementations/Trapezoid.cpp.o -c /home/cbf/MAI/OOP/Lab_3/src/implementations/Trapezoid.cpp",
+  "file": "/home/cbf/MAI/OOP/Lab_3/src/implementations/Trapezoid.cpp",
+  "output": "CMakeFiles/lab_3_tests.dir/src/implementations/Trapezoid.cpp.o"
+},
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build/googletest/googlemock",
+  "command": "/usr/bin/g++  -I/home/cbf/MAI/OOP/Lab_3/includes -I/home/cbf/MAI/OOP/Lab_3/googletest/googlemock/include -I/home/cbf/MAI/OOP/Lab_3/googletest/googlemock -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/cbf/MAI/OOP/Lab_3/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/cbf/MAI/OOP/Lab_3/googletest/googlemock/src/gmock-all.cc",
+  "output": "googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build/googletest/googlemock",
+  "command": "/usr/bin/g++  -isystem /home/cbf/MAI/OOP/Lab_3/includes -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googlemock/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googlemock -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/cbf/MAI/OOP/Lab_3/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/cbf/MAI/OOP/Lab_3/googletest/googlemock/src/gmock_main.cc",
+  "output": "googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build/googletest/googletest",
+  "command": "/usr/bin/g++  -I/home/cbf/MAI/OOP/Lab_3/includes -I/home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -I/home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/cbf/MAI/OOP/Lab_3/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/cbf/MAI/OOP/Lab_3/googletest/googletest/src/gtest-all.cc",
+  "output": "googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/cbf/MAI/OOP/Lab_3/build/googletest/googletest",
+  "command": "/usr/bin/g++  -I/home/cbf/MAI/OOP/Lab_3/includes -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_3/googletest/googletest  -std=c++14 -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/cbf/MAI/OOP/Lab_3/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/cbf/MAI/OOP/Lab_3/googletest/googletest/src/gtest_main.cc",
+  "output": "googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

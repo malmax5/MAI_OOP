@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241012-1322-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.28.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="cbf-Redmi-Book-Pro-15-2023"
+	OSRelease="6.8.0-45-generic"
+	OSVersion="#45-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 30 12:02:04 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="116"
+	ProcessorCacheSize="1024"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="1906"
+	TotalPhysicalMemory="15153"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4391.48"
+	>
+	<Testing>
+		<StartDateTime>Oct 12 22:17 MSK</StartDateTime>
+		<StartTestTime>1728760633</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 12 22:17 MSK</EndDateTime>
+		<EndTestTime>1728760633</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
