@@ -2,9 +2,11 @@
 #include <memory>
 #include <vector>
 // #include </home/cbf/MAI/OOP/Lab_3/includes/Vector.hpp>
+#include </home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp>
 
 int main()
 {
+    std::cout << is_integral_excluding_char_v<int>;
     // Point<double> topLeft(0, 0);
     // Point<double> topRight(1, 1);
     // Point<double> downRight(2, 1);

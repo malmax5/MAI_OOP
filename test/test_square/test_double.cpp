@@ -56,7 +56,7 @@ TEST(SquareTest, MoveConstructor) {
     EXPECT_EQ(sq2.GetDownLeft(), downLeft);
 }
 
-TEST(SquareTest, CheckOnRightFigure) {
+TEST(SquareTest, CheckOnRightFigure_double) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
     Point<double> downRight(4, 0);
@@ -73,7 +73,7 @@ TEST(SquareTest, CheckOnRightFigure) {
     EXPECT_THROW(Square<double>(badTopLeft, badTopRight, badDownRight, badDownLeft), BadFigure);
 }
 
-TEST(SquareTest, CalculateCentroid) {
+TEST(SquareTest, CalculateCentroid_double) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
     Point<double> downRight(4, 0);
@@ -89,7 +89,7 @@ TEST(SquareTest, CalculateCentroid) {
     EXPECT_NEAR(centroid.GetY(), expectedCordY, 1e-6);
 }
 
-TEST(SquareTest, CalculateArea) {
+TEST(SquareTest, CalculateArea_double) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
     Point<double> downRight(4, 0);

@@ -3,8 +3,9 @@
 
 #include <iostream>
 #include <cmath>
+#include <concepts/ArithmeticConcept.hpp>
 
-template <typename T>
+template <Arithmetic T>
 class Point {
 public:
     using ValueType = T;

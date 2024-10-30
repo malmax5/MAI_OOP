@@ -2,8 +2,8 @@
 
 template<typename TPoint>
 static bool ComparePoints(const Vector<TPoint>& startPoint, const Point<TPoint>& p1, const Point<TPoint>& p2) {
-    TPoint angle2 = Vector<TPoint>::Angle(startPoint, Vector<TPoint>(p2));
-    TPoint angle1 = Vector<TPoint>::Angle(startPoint, Vector<TPoint>(p1));
+    double angle2 = Vector<TPoint>::Angle(startPoint, Vector<TPoint>(p2));
+    double angle1 = Vector<TPoint>::Angle(startPoint, Vector<TPoint>(p1));
     return angle1 < angle2;
 }
 
@@ -53,7 +53,7 @@ std::unique_ptr<Figure<TPoint>> Trapezoid<TPoint>::Move() noexcept {
 
 template <typename TPoint>
 void Trapezoid<TPoint>::ChangeArrangementIfBad() {
-    TPoint eps = 1e-9;
+    double eps = 1e-9;
 
     std::vector<Point<TPoint>> pointsToSort {topLeft_, topRight_, downRight_, downLeft_};
     std::sort(pointsToSort.begin(), pointsToSort.end());
@@ -91,7 +91,7 @@ void Trapezoid<TPoint>::ChangeArrangementIfBad() {
 
 template <typename TPoint>
 void Trapezoid<TPoint>::CheckOnRightFigure() {
-    TPoint eps = 1e-9;
+    double eps = 1e-9;
 
     Vector<TPoint> vec1 = topRight_ - topLeft_;
     Vector<TPoint> vec2 = downRight_ - topRight_;
@@ -108,10 +108,10 @@ void Trapezoid<TPoint>::CheckOnRightFigure() {
 
 template <typename TPoint>
 void Trapezoid<TPoint>::SetSize() {
-    TPoint firstSide = Point<TPoint>::Length(topLeft_, topRight_);
-    TPoint secondSide = Point<TPoint>::Length(topRight_, downRight_);
-    TPoint thirdSide = Point<TPoint>::Length(downRight_, downLeft_);
-    TPoint fourthSide = Point<TPoint>::Length(downLeft_, topRight_);
+    double firstSide = Point<TPoint>::Length(topLeft_, topRight_);
+    double secondSide = Point<TPoint>::Length(topRight_, downRight_);
+    double thirdSide = Point<TPoint>::Length(downRight_, downLeft_);
+    double fourthSide = Point<TPoint>::Length(downLeft_, topRight_);
     size_ = {firstSide, secondSide, thirdSide, fourthSide};
 }
 
@@ -120,22 +120,22 @@ TPoint Trapezoid<TPoint>::CalculateHeight() const {
     Vector<TPoint> vec1 = topRight_ - topLeft_;
     Vector<TPoint> perpendicularVec = Vector<TPoint>::Perpendicular(vec1);
 
-    TPoint distance = std::abs(Vector<TPoint>::DotProduct(perpendicularVec, Vector<TPoint>(topLeft_, downLeft_))) / Vector<TPoint>::Length(perpendicularVec);
+    double distance = std::abs(Vector<TPoint>::DotProduct(perpendicularVec, Vector<TPoint>(topLeft_, downLeft_))) / Vector<TPoint>::Length(perpendicularVec);
 
-    return distance;
+    return (TPoint)distance;
 }
 
 template <typename TPoint>
-Point<TPoint> Trapezoid<TPoint>::CalculateCentroid() const {
-    TPoint xCordCentroid = (topLeft_.GetX() + topRight_.GetX() + downRight_.GetX() + downLeft_.GetX()) / 4;
-    TPoint yCordCentroid = (topLeft_.GetY() + topRight_.GetY() + downRight_.GetY() + downLeft_.GetY()) / 4;
-    return Point<TPoint>(xCordCentroid, yCordCentroid);
+Point<double> Trapezoid<TPoint>::CalculateCentroid() const {
+    double xCordCentroid = (double)(topLeft_.GetX() + topRight_.GetX() + downRight_.GetX() + downLeft_.GetX()) / 4;
+    double yCordCentroid = (double)(topLeft_.GetY() + topRight_.GetY() + downRight_.GetY() + downLeft_.GetY()) / 4;
+    return Point<double>(xCordCentroid, yCordCentroid);
 }
 
 template <typename TPoint>
 double Trapezoid<TPoint>::CalculateArea() const {
-    TPoint firstSide = size_[0];
-    TPoint secondSide = size_[2];
+    double firstSide = size_[0];
+    double secondSide = size_[2];
     TPoint height = CalculateHeight(); 
     return ((firstSide + secondSide) / 2) * height;
 }
@@ -195,3 +195,7 @@ std::ostream& operator<<(std::ostream& os, const Trapezoid<TStreamPoint>& trap) 
 template class Trapezoid<double>;
 template std::istream& operator>><double>(std::istream&, Trapezoid<double>&);
 template std::ostream& operator<< <double>(std::ostream&, const Trapezoid<double>&);
+
+template class Trapezoid<int>;
+template std::istream& operator>><int>(std::istream&, Trapezoid<int>&);
+template std::ostream& operator<< <int>(std::ostream&, const Trapezoid<int>&);

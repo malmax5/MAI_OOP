@@ -33,7 +33,7 @@ typename Vector<T>::ValueType Vector<T>::GetY() const {
 }
 
 template <typename T>
-typename Vector<T>::ValueType Vector<T>::Length(const Vector& vec) {
+double Vector<T>::Length(const Vector& vec) {
     return std::sqrt(vec.xCord * vec.xCord + vec.yCord * vec.yCord);
 }
 
@@ -96,3 +96,7 @@ std::ostream& operator<<(std::ostream& os, const Vector<TVector>& vec) {
 template class Vector<double>;
 template std::istream& operator>><double>(std::istream&, Vector<double>&);
 template std::ostream& operator<< <double>(std::ostream&, const Vector<double>&);
+
+template class Vector<int>;
+template std::istream& operator>><int>(std::istream&, Vector<int>&);
+template std::ostream& operator<< <int>(std::ostream&, const Vector<int>&);

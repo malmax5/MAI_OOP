@@ -61,10 +61,10 @@ void Rectangle<TPoint>::ChangeArrangementIfBad() {
 
 template <typename TPoint>
 void Rectangle<TPoint>::CheckOnRightFigure() {
-    TPoint eps = 1e-9;
+    double eps = 1e-9;
 
-    TPoint diag1 = Point<TPoint>::Length(topLeft_, downRight_);
-    TPoint diag2 = Point<TPoint>::Length(topRight_, downLeft_);
+    double diag1 = Point<TPoint>::Length(topLeft_, downRight_);
+    double diag2 = Point<TPoint>::Length(topRight_, downLeft_);
     if (std::abs(diag1 - diag2) >= eps) {
         throw BadFigure("It's not a Rectangle");
     }
@@ -72,16 +72,16 @@ void Rectangle<TPoint>::CheckOnRightFigure() {
 
 template <typename TPoint>
 void Rectangle<TPoint>::SetSize() {
-    TPoint firstSide = Point<TPoint>::Length(topLeft_, topRight_);
-    TPoint secondSide = Point<TPoint>::Length(topLeft_, downLeft_);
+    double firstSide = Point<TPoint>::Length(topLeft_, topRight_);
+    double secondSide = Point<TPoint>::Length(topLeft_, downLeft_);
     size_ = {firstSide, secondSide};
 }
 
 template <typename TPoint>
-Point<TPoint> Rectangle<TPoint>::CalculateCentroid() const {
-    TPoint xCord = (topLeft_.GetX() + topRight_.GetX()) / 2;
-    TPoint yCord = (topLeft_.GetY() + downLeft_.GetY()) / 2;
-    Point<TPoint> centroid(xCord, yCord);
+Point<double> Rectangle<TPoint>::CalculateCentroid() const {
+    double xCord = (topLeft_.GetX() + topRight_.GetX()) / 2;
+    double yCord = (topLeft_.GetY() + downLeft_.GetY()) / 2;
+    Point<double> centroid(xCord, yCord);
     return centroid;
 }
 
@@ -148,3 +148,7 @@ std::ostream& operator<<(std::ostream& os, const Rectangle<TStreamPoint>& rect) 
 template class Rectangle<double>;
 template std::istream& operator>><double>(std::istream&, Rectangle<double>&);
 template std::ostream& operator<< <double>(std::ostream&, const Rectangle<double>&);
+
+template class Rectangle<int>;
+template std::istream& operator>><int>(std::istream&, Rectangle<int>&);
+template std::ostream& operator<< <int>(std::ostream&, const Rectangle<int>&);

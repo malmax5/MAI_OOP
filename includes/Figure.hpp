@@ -11,7 +11,7 @@ class Figure
 public:
     virtual ~Figure() = default;
 
-    virtual Point<TPoint> CalculateCentroid() const = 0;
+    virtual Point<double> CalculateCentroid() const = 0;
     virtual double CalculateArea() const = 0;
 
     virtual Point<TPoint> GetTopLeft() const = 0;

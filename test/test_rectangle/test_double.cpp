@@ -56,7 +56,7 @@ TEST(RectangleTest, MoveConstructor) {
     EXPECT_EQ(trap2.GetDownLeft(), downLeft);
 }
 
-TEST(RectangleTest, CheckOnRightFigure) {
+TEST(RectangleTest, CheckOnRightFigure_double) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
     Point<double> downRight(4, 0);
@@ -73,7 +73,7 @@ TEST(RectangleTest, CheckOnRightFigure) {
     EXPECT_THROW(Rectangle<double>(badTopLeft, badTopRight, badDownRight, badDownLeft), BadFigure);
 }
 
-TEST(RectangleTest, CalculateCentroid) {
+TEST(RectangleTest, CalculateCentroid_double) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
     Point<double> downRight(4, 0);
@@ -89,7 +89,7 @@ TEST(RectangleTest, CalculateCentroid) {
     EXPECT_NEAR(centroid.GetY(), expectedCordY, 1e-6);
 }
 
-TEST(RectangleTest, CalculateArea) {
+TEST(RectangleTest, CalculateArea_double) {
     Point<double> topLeft(0, 4);
     Point<double> topRight(4, 4);
     Point<double> downRight(4, 0);

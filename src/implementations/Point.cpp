@@ -101,3 +101,8 @@ template class Point<double>;
 template std::istream& operator>><double>(std::istream&, Point<double>&);
 template std::ostream& operator<< <double>(std::ostream&, const Point<double>&);
 template void swap<double>(Point<double>&, Point<double>&);
+
+template class Point<int>;
+template std::istream& operator>><int>(std::istream&, Point<int>&);
+template std::ostream& operator<< <int>(std::ostream&, const Point<int>&);
+template void swap<int>(Point<int>&, Point<int>&);

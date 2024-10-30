@@ -28,7 +28,7 @@ public:
     virtual void CheckOnRightFigure();
     virtual void SetSize();
     TPoint CalculateHeight() const;
-    Point<TPoint> CalculateCentroid() const;
+    Point<double> CalculateCentroid() const;
     virtual double CalculateArea() const override;
 
     Trapezoid& operator=(const Trapezoid& other);
@@ -50,7 +50,7 @@ private:
     Point<TPoint> topRight_;
     Point<TPoint> downRight_;
     Point<TPoint> downLeft_;
-    std::vector<TPoint> size_;
+    std::vector<double> size_;
 };
 
 #endif

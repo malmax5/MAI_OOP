@@ -56,7 +56,7 @@ TEST(TrapezoidTest, MoveConstructor) {
     EXPECT_EQ(trap2.GetDownLeft(), topLeft);
 }
 
-TEST(TrapezoidTest, CheckOnRightFigure) {
+TEST(TrapezoidTest, CheckOnRightFigure_double) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
     Point<double> downRight(2, 1);
@@ -73,7 +73,7 @@ TEST(TrapezoidTest, CheckOnRightFigure) {
     EXPECT_THROW(Trapezoid<double>(badTopLeft, badTopRight, badDownRight, badDownLeft), BadFigure);
 }
 
-TEST(TrapezoidTest, CalculateCentroid) {
+TEST(TrapezoidTest, CalculateCentroid_double) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
     Point<double> downRight(2, 1);
@@ -89,7 +89,7 @@ TEST(TrapezoidTest, CalculateCentroid) {
     EXPECT_NEAR(centroid.GetY(), expectedCordY, 1e-6);
 }
 
-TEST(TrapezoidTest, CalculateArea) {
+TEST(TrapezoidTest, CalculateArea_double) {
     Point<double> topLeft(0, 0);
     Point<double> topRight(1, 1);
     Point<double> downRight(2, 1);

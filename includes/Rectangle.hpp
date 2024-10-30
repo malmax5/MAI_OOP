@@ -26,7 +26,7 @@ public:
     virtual void ChangeArrangementIfBad();
     virtual void CheckOnRightFigure();
     virtual void SetSize();
-    virtual Point<TPoint> CalculateCentroid() const override;
+    virtual Point<double> CalculateCentroid() const override;
     virtual double CalculateArea() const override;
 
     Rectangle& operator=(const Rectangle& other);

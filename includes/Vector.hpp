@@ -22,7 +22,7 @@ public:
     ValueType GetX() const;
     ValueType GetY() const;
 
-    static ValueType Length(const Vector& vec);
+    static double Length(const Vector& vec);
     static ValueType DotProduct(const Vector& vec1, const Vector& vec2);
     static ValueType CrossProduct(const Vector& vec1, const Vector& vec2);
     static Vector Perpendicular(const Vector& vec);

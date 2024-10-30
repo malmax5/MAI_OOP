@@ -27,9 +27,9 @@ std::unique_ptr<Figure<TPoint>> Square<TPoint>::Move() noexcept {
 
 template <typename TPoint>
 void Square<TPoint>::CheckOnRightFigure() {
-    TPoint diag1 = Point<TPoint>::Length(this->GetTopLeft(), this->GetDownRight());
-    TPoint diag2 = Point<TPoint>::Length(this->GetTopRight(), this->GetDownLeft());
-    TPoint eps = 1e-9;
+    double diag1 = Point<TPoint>::Length(this->GetTopLeft(), this->GetDownRight());
+    double diag2 = Point<TPoint>::Length(this->GetTopRight(), this->GetDownLeft());
+    double eps = 1e-9;
 
     if (std::abs(diag1 - diag2) >= eps || std::abs(this->GetSize().first - this->GetSize().second) >= eps) {
         throw BadFigure("It's not a Square");
@@ -55,4 +55,5 @@ Square<TPoint>& Square<TPoint>::operator=(Square&& other) noexcept {
 template <typename TPoint>
 Square<TPoint>::~Square() {}
 
+template class Square<int>;
 template class Square<double>;
