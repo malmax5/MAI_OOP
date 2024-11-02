@@ -6,7 +6,9 @@
 #include <vector>
 #include <algorithm>
 
-template <typename TPoint>
+#include "concepts/ArithmeticConcept.hpp"
+
+template <Arithmetic TPoint>
 class Rectangle : virtual public Figure<TPoint> {
 public:
     Rectangle();

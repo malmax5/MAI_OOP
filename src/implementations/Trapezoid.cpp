@@ -1,16 +1,18 @@
 #include "Trapezoid.hpp"
 
-template<typename TPoint>
+#include "../../includes/concepts/ArithmeticConcept.hpp"
+
+template<Arithmetic TPoint>
 static bool ComparePoints(const Vector<TPoint>& startPoint, const Point<TPoint>& p1, const Point<TPoint>& p2) {
     double angle2 = Vector<TPoint>::Angle(startPoint, Vector<TPoint>(p2));
     double angle1 = Vector<TPoint>::Angle(startPoint, Vector<TPoint>(p1));
     return angle1 < angle2;
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Trapezoid<TPoint>::Trapezoid() : topLeft_(0, 0), topRight_(0, 0), downRight_(0, 0), downLeft_(0, 0) {}
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Trapezoid<TPoint>::Trapezoid(Point<TPoint> topLeft, Point<TPoint> topRight, Point<TPoint> downRight, Point<TPoint> downLeft)
     : topLeft_(topLeft), topRight_(topRight), downRight_(downRight), downLeft_(downLeft) {
     ChangeArrangementIfBad();
@@ -18,40 +20,40 @@ Trapezoid<TPoint>::Trapezoid(Point<TPoint> topLeft, Point<TPoint> topRight, Poin
     CheckOnRightFigure();
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Trapezoid<TPoint>::Trapezoid(const Trapezoid& other)
     : topLeft_(other.topLeft_), topRight_(other.topRight_), downRight_(other.downRight_), downLeft_(other.downLeft_) {}
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Trapezoid<TPoint>::Trapezoid(Trapezoid&& other) noexcept
     : topLeft_(std::move(other.topLeft_)),
       topRight_(std::move(other.topRight_)),
       downRight_(std::move(other.downRight_)),
       downLeft_(std::move(other.downLeft_)) {}
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Point<TPoint> Trapezoid<TPoint>::GetTopLeft() const { return topLeft_; }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Point<TPoint> Trapezoid<TPoint>::GetTopRight() const { return topRight_; }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Point<TPoint> Trapezoid<TPoint>::GetDownRight() const { return downRight_; }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Point<TPoint> Trapezoid<TPoint>::GetDownLeft() const { return downLeft_; }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 std::unique_ptr<Figure<TPoint>> Trapezoid<TPoint>::Clone() const {
     return std::make_unique<Trapezoid>(*this);
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 std::unique_ptr<Figure<TPoint>> Trapezoid<TPoint>::Move() noexcept {
     return std::make_unique<Trapezoid>(std::move(*this));
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 void Trapezoid<TPoint>::ChangeArrangementIfBad() {
     double eps = 1e-9;
 
@@ -89,7 +91,7 @@ void Trapezoid<TPoint>::ChangeArrangementIfBad() {
     }
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 void Trapezoid<TPoint>::CheckOnRightFigure() {
     double eps = 1e-9;
 
@@ -106,7 +108,7 @@ void Trapezoid<TPoint>::CheckOnRightFigure() {
     }
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 void Trapezoid<TPoint>::SetSize() {
     double firstSide = Point<TPoint>::Length(topLeft_, topRight_);
     double secondSide = Point<TPoint>::Length(topRight_, downRight_);
@@ -115,24 +117,24 @@ void Trapezoid<TPoint>::SetSize() {
     size_ = {firstSide, secondSide, thirdSide, fourthSide};
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 TPoint Trapezoid<TPoint>::CalculateHeight() const {
     Vector<TPoint> vec1 = topRight_ - topLeft_;
     Vector<TPoint> perpendicularVec = Vector<TPoint>::Perpendicular(vec1);
 
-    double distance = std::abs(Vector<TPoint>::DotProduct(perpendicularVec, Vector<TPoint>(topLeft_, downLeft_))) / Vector<TPoint>::Length(perpendicularVec);
+    double distance = std::abs(static_cast<double>(Vector<TPoint>::DotProduct(perpendicularVec, Vector<TPoint>(topLeft_, downLeft_)))) / Vector<TPoint>::Length(perpendicularVec);
 
     return (TPoint)distance;
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Point<double> Trapezoid<TPoint>::CalculateCentroid() const {
     double xCordCentroid = (double)(topLeft_.GetX() + topRight_.GetX() + downRight_.GetX() + downLeft_.GetX()) / 4;
     double yCordCentroid = (double)(topLeft_.GetY() + topRight_.GetY() + downRight_.GetY() + downLeft_.GetY()) / 4;
     return Point<double>(xCordCentroid, yCordCentroid);
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 double Trapezoid<TPoint>::CalculateArea() const {
     double firstSide = size_[0];
     double secondSide = size_[2];
@@ -140,7 +142,7 @@ double Trapezoid<TPoint>::CalculateArea() const {
     return ((firstSide + secondSide) / 2) * height;
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Trapezoid<TPoint>& Trapezoid<TPoint>::operator=(const Trapezoid& other) {
     if (this != &other) {
         topLeft_ = other.topLeft_;
@@ -151,7 +153,7 @@ Trapezoid<TPoint>& Trapezoid<TPoint>::operator=(const Trapezoid& other) {
     return *this;
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Trapezoid<TPoint>& Trapezoid<TPoint>::operator=(Trapezoid&& other) noexcept {
     if (this != &other) {
         topLeft_ = std::move(other.topLeft_);
@@ -162,7 +164,7 @@ Trapezoid<TPoint>& Trapezoid<TPoint>::operator=(Trapezoid&& other) noexcept {
     return *this;
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 bool Trapezoid<TPoint>::operator==(const Trapezoid& other) const {
     return topLeft_ == other.topLeft_ &&
            topRight_ == other.topRight_ &&
@@ -170,12 +172,12 @@ bool Trapezoid<TPoint>::operator==(const Trapezoid& other) const {
            downLeft_ == other.downLeft_;
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Trapezoid<TPoint>::operator double() const {
     return CalculateArea();
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Trapezoid<TPoint>::~Trapezoid() {}
 
 template <typename TStreamPoint>

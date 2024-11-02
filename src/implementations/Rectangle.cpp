@@ -1,10 +1,13 @@
 #include "Rectangle.hpp"
 
-template <typename TPoint>
+#include "../../includes/concepts/ArithmeticConcept.hpp"
+
+
+template <Arithmetic TPoint>
 Rectangle<TPoint>::Rectangle()
     : topLeft_(0, 0), topRight_(0, 0), downRight_(0, 0), downLeft_(0, 0) {}
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Rectangle<TPoint>::Rectangle(Point<TPoint> topLeft, Point<TPoint> topRight, Point<TPoint> downRight, Point<TPoint> downLeft)
     : topLeft_(topLeft), topRight_(topRight), downRight_(downRight), downLeft_(downLeft) {
     ChangeArrangementIfBad();
@@ -12,11 +15,11 @@ Rectangle<TPoint>::Rectangle(Point<TPoint> topLeft, Point<TPoint> topRight, Poin
     SetSize();
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Rectangle<TPoint>::Rectangle(const Rectangle& other)
     : topLeft_(other.topLeft_), topRight_(other.topRight_), downRight_(other.downRight_), downLeft_(other.downLeft_), size_(other.size_) {}
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Rectangle<TPoint>::Rectangle(Rectangle&& other) noexcept
     : topLeft_(std::move(other.topLeft_)),
       topRight_(std::move(other.topRight_)),
@@ -24,32 +27,32 @@ Rectangle<TPoint>::Rectangle(Rectangle&& other) noexcept
       downLeft_(std::move(other.downLeft_)),
       size_(std::move(other.size_)) {}
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Point<TPoint> Rectangle<TPoint>::GetTopLeft() const { return topLeft_; }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Point<TPoint> Rectangle<TPoint>::GetTopRight() const { return topRight_; }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Point<TPoint> Rectangle<TPoint>::GetDownRight() const { return downRight_; }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Point<TPoint> Rectangle<TPoint>::GetDownLeft() const { return downLeft_; }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 std::pair<TPoint, TPoint> Rectangle<TPoint>::GetSize() const { return size_; }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 std::unique_ptr<Figure<TPoint>> Rectangle<TPoint>::Clone() const {
     return std::make_unique<Rectangle>(*this);
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 std::unique_ptr<Figure<TPoint>> Rectangle<TPoint>::Move() noexcept {
     return std::make_unique<Rectangle>(std::move(*this));
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 void Rectangle<TPoint>::ChangeArrangementIfBad() {
     std::vector<Point<TPoint>> goodArrangement {topLeft_, topRight_, downRight_, downLeft_};
     std::sort(goodArrangement.begin(), goodArrangement.end());
@@ -59,7 +62,7 @@ void Rectangle<TPoint>::ChangeArrangementIfBad() {
     downLeft_ = std::move(goodArrangement[0]);
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 void Rectangle<TPoint>::CheckOnRightFigure() {
     double eps = 1e-9;
 
@@ -70,14 +73,14 @@ void Rectangle<TPoint>::CheckOnRightFigure() {
     }
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 void Rectangle<TPoint>::SetSize() {
     double firstSide = Point<TPoint>::Length(topLeft_, topRight_);
     double secondSide = Point<TPoint>::Length(topLeft_, downLeft_);
     size_ = {firstSide, secondSide};
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Point<double> Rectangle<TPoint>::CalculateCentroid() const {
     double xCord = (topLeft_.GetX() + topRight_.GetX()) / 2;
     double yCord = (topLeft_.GetY() + downLeft_.GetY()) / 2;
@@ -85,12 +88,12 @@ Point<double> Rectangle<TPoint>::CalculateCentroid() const {
     return centroid;
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 double Rectangle<TPoint>::CalculateArea() const {
     return size_.first * size_.second;
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Rectangle<TPoint>& Rectangle<TPoint>::operator=(const Rectangle& other) {
     if (this != &other) {
         topLeft_ = other.topLeft_;
@@ -102,7 +105,7 @@ Rectangle<TPoint>& Rectangle<TPoint>::operator=(const Rectangle& other) {
     return *this;
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Rectangle<TPoint>& Rectangle<TPoint>::operator=(Rectangle&& other) noexcept {
     if (this != &other) {
         topLeft_ = std::move(other.topLeft_);
@@ -114,7 +117,7 @@ Rectangle<TPoint>& Rectangle<TPoint>::operator=(Rectangle&& other) noexcept {
     return *this;
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 bool Rectangle<TPoint>::operator==(const Rectangle& other) const {
     return topLeft_ == other.topLeft_ &&
            topRight_ == other.topRight_ &&
@@ -122,12 +125,12 @@ bool Rectangle<TPoint>::operator==(const Rectangle& other) const {
            downLeft_ == other.downLeft_;
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Rectangle<TPoint>::operator double() const {
     return CalculateArea();
 }
 
-template <typename TPoint>
+template <Arithmetic TPoint>
 Rectangle<TPoint>::~Rectangle() {}
 
 template <typename TStreamPoint>

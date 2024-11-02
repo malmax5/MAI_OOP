@@ -1,6 +1,5 @@
-CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.o: \
- /home/cbf/MAI/OOP/Lab_4/test/test_square/test_int.cpp \
- /usr/include/stdc-predef.h \
+CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o: \
+ /home/cbf/MAI/OOP/Lab_4/test/test_main.cpp /usr/include/stdc-predef.h \
  /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/gtest.h \
  /usr/include/c++/10/cstddef \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
@@ -288,39 +287,4 @@ CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.o: \
  /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/gtest-test-part.h \
  /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/gtest-typed-test.h \
  /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/gtest_pred_impl.h \
- /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/gtest_prod.h \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/Square.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/Rectangle.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/../includes/Figure.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/../includes/Point.hpp \
- /usr/include/c++/10/cmath /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
- /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/10/bits/specfun.h /usr/include/c++/10/tr1/gamma.tcc \
- /usr/include/c++/10/tr1/special_function_util.h \
- /usr/include/c++/10/tr1/bessel_function.tcc \
- /usr/include/c++/10/tr1/beta_function.tcc \
- /usr/include/c++/10/tr1/ell_integral.tcc \
- /usr/include/c++/10/tr1/exp_integral.tcc \
- /usr/include/c++/10/tr1/hypergeometric.tcc \
- /usr/include/c++/10/tr1/legendre_function.tcc \
- /usr/include/c++/10/tr1/modified_bessel_func.tcc \
- /usr/include/c++/10/tr1/poly_hermite.tcc \
- /usr/include/c++/10/tr1/poly_laguerre.tcc \
- /usr/include/c++/10/tr1/riemann_zeta.tcc \
- /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/concepts/../type_traits_values_and_modified/type_traits_v.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/concepts/../type_traits_values_and_modified/type_traits_mod.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/concepts/../type_traits_values_and_modified/type_traits_v.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/../includes/concepts/ArithmeticConcept.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/../includes/exceptions/BadFigure.hpp \
- /usr/include/c++/10/algorithm /usr/include/c++/10/bits/ranges_algo.h \
- /usr/include/c++/10/pstl/glue_algorithm_defs.h \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/concepts/ArithmeticConcept.hpp
+ /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/gtest_prod.h

@@ -6,6 +6,7 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.o: /home/cbf/MAI/OOP/La
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -232,10 +233,12 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.o: /home/cbf/MAI/OOP/La
 CMakeFiles/lab_4_tests.dir/src/implementations/Rectangle.cpp.o: /home/cbf/MAI/OOP/Lab_4/src/implementations/Rectangle.cpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Rectangle.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -508,11 +511,13 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Rectangle.cpp.o: /home/cbf/MAI/OO
 CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.o: /home/cbf/MAI/OOP/Lab_4/src/implementations/Square.cpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Rectangle.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Square.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -786,10 +791,12 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o: /home/cbf/MAI/OO
   /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Vector.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Trapezoid.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1065,6 +1072,7 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.o: /home/cbf/MAI/OOP/L
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1313,10 +1321,14 @@ CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.o: /home/cbf/MAI/OOP
   /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Vector.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/Array.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Rectangle.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Square.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Trapezoid.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
@@ -1708,10 +1720,14 @@ CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.o: /home/cbf/MAI/OOP/La
   /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Vector.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/Array.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Rectangle.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Square.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Trapezoid.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
@@ -2102,8 +2118,10 @@ CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o: /home/cbf/MAI/
   /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/internal/gtest-type-util.h \
   /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Rectangle.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
@@ -2494,8 +2512,10 @@ CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.o: /home/cbf/MAI/OOP
   /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/internal/gtest-type-util.h \
   /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Rectangle.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
@@ -2886,9 +2906,11 @@ CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.o: /home/cbf/MAI/OOP
   /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/internal/gtest-type-util.h \
   /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Rectangle.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Square.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
@@ -3279,9 +3301,11 @@ CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.o: /home/cbf/MAI/OOP/La
   /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/internal/gtest-type-util.h \
   /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Rectangle.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Square.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
@@ -3673,8 +3697,10 @@ CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.o: /home/cbf/MAI/
   /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Vector.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Trapezoid.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
@@ -4066,8 +4092,10 @@ CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o: /home/cbf/MAI/OOP
   /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Vector.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/Trapezoid.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
@@ -5214,6 +5242,8 @@ CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o: /home/cbf/MAI/OOP
 /usr/include/c++/10/bit:
 
 /usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+/home/cbf/MAI/OOP/Lab_4/includes/Array.hpp:
 
 /usr/include/c++/10/bits/allocated_ptr.h:
 

@@ -7,7 +7,9 @@
 #include <vector>
 #include <algorithm>
 
-template <typename TPoint>
+#include "concepts/ArithmeticConcept.hpp"
+
+template <Arithmetic TPoint>
 class Trapezoid : virtual public Figure<TPoint> {
 public:
     Trapezoid();

@@ -318,7 +318,9 @@ CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o: \
  /home/cbf/MAI/OOP/Lab_4/includes/concepts/../type_traits_values_and_modified/type_traits_v.hpp \
  /home/cbf/MAI/OOP/Lab_4/includes/concepts/../type_traits_values_and_modified/type_traits_mod.hpp \
  /home/cbf/MAI/OOP/Lab_4/includes/concepts/../type_traits_values_and_modified/type_traits_v.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/../includes/concepts/ArithmeticConcept.hpp \
  /home/cbf/MAI/OOP/Lab_4/includes/../includes/../includes/Vector.hpp \
  /home/cbf/MAI/OOP/Lab_4/includes/../includes/../includes/exceptions/BadFigure.hpp \
  /usr/include/c++/10/algorithm /usr/include/c++/10/bits/ranges_algo.h \
- /usr/include/c++/10/pstl/glue_algorithm_defs.h
+ /usr/include/c++/10/pstl/glue_algorithm_defs.h \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/concepts/ArithmeticConcept.hpp

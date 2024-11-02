@@ -5,7 +5,9 @@
 #include <iostream>
 #include <memory>
 
-template <typename TPoint>
+#include "concepts/ArithmeticConcept.hpp"
+
+template <Arithmetic TPoint>
 class Figure
 {
 public:

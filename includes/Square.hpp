@@ -3,7 +3,9 @@
 
 #include "Rectangle.hpp"
 
-template <typename TPoint>
+#include "concepts/ArithmeticConcept.hpp"
+
+template <Arithmetic TPoint>
 class Square : virtual public Rectangle<TPoint> {
 public:
     Square();

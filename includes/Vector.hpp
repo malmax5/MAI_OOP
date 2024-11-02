@@ -5,7 +5,9 @@
 #include <iostream>
 #include <cmath>
 
-template <typename T>
+#include "concepts/ArithmeticConcept.hpp"
+
+template <Arithmetic T>
 class Vector {
 public:
     using ValueType = T;
