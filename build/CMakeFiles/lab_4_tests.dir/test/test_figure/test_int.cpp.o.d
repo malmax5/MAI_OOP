@@ -327,4 +327,6 @@ CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.o: \
  /home/cbf/MAI/OOP/Lab_4/includes/../includes/figures/Square.hpp \
  /home/cbf/MAI/OOP/Lab_4/includes/../includes/figures/Rectangle.hpp \
  /home/cbf/MAI/OOP/Lab_4/includes/../includes/Array.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/figures/Figure.hpp
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/figures/Figure.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/concepts/FigureConcept.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/concepts/../coordinates/Point.hpp

@@ -786,16 +786,16 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.o: /home/cbf/MAI/OOP/L
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o: /home/cbf/MAI/OOP/Lab_4/src/implementations/Trapezoid.cpp \
-  /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp \
-  /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
-  /home/cbf/MAI/OOP/Lab_4/includes/Vector.hpp \
-  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/coordinates/Point.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/coordinates/Vector.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
-  /home/cbf/MAI/OOP/Lab_4/includes/Trapezoid.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/coordinates/Point.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/figures/Figure.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/figures/Trapezoid.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1317,6 +1317,8 @@ CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.o: /home/cbf/MAI/OOP
   /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/internal/gtest-string.h \
   /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/internal/gtest-type-util.h \
   /home/cbf/MAI/OOP/Lab_4/includes/Array.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/coordinates/Point.hpp \
+  /home/cbf/MAI/OOP/Lab_4/includes/concepts/FigureConcept.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/coordinates/Point.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/coordinates/Vector.hpp \
   /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp \
@@ -4935,7 +4937,7 @@ CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o: /home/cbf/MAI/OOP
 
 /usr/include/asm-generic/posix_types.h:
 
-/home/cbf/MAI/OOP/Lab_4/includes/figures/Trapezoid.hpp:
+/home/cbf/MAI/OOP/Lab_4/includes/concepts/FigureConcept.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/cxxabi_tweaks.h:
 
@@ -4969,17 +4971,13 @@ CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o: /home/cbf/MAI/OOP
 
 /home/cbf/MAI/OOP/Lab_4/test/test_figure/test_double.cpp:
 
-/home/cbf/MAI/OOP/Lab_4/includes/coordinates/Vector.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
 /home/cbf/MAI/OOP/Lab_4/src/implementations/Vector.cpp:
 
-/home/cbf/MAI/OOP/Lab_4/includes/Trapezoid.hpp:
+/home/cbf/MAI/OOP/Lab_4/includes/figures/Trapezoid.hpp:
 
-/home/cbf/MAI/OOP/Lab_4/includes/Vector.hpp:
-
-/home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp:
+/home/cbf/MAI/OOP/Lab_4/includes/coordinates/Vector.hpp:
 
 /home/cbf/MAI/OOP/Lab_4/src/implementations/Trapezoid.cpp:
 
@@ -5190,8 +5188,6 @@ CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o: /home/cbf/MAI/OOP
 /usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp:
-
-/home/cbf/MAI/OOP/Lab_4/includes/Point.hpp:
 
 /usr/include/c++/10/bits/stl_pair.h:
 

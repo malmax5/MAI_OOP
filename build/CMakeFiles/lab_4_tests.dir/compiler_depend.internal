@@ -790,16 +790,16 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.o
 
 CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o
  /home/cbf/MAI/OOP/Lab_4/src/implementations/Trapezoid.cpp
- /home/cbf/MAI/OOP/Lab_4/includes/Figure.hpp
- /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp
- /home/cbf/MAI/OOP/Lab_4/includes/Vector.hpp
- /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp
+ /home/cbf/MAI/OOP/Lab_4/includes/coordinates/Point.hpp
+ /home/cbf/MAI/OOP/Lab_4/includes/coordinates/Vector.hpp
  /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp
- /home/cbf/MAI/OOP/Lab_4/includes/Trapezoid.hpp
+ /home/cbf/MAI/OOP/Lab_4/includes/coordinates/Point.hpp
+ /home/cbf/MAI/OOP/Lab_4/includes/figures/Figure.hpp
  /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_mod.hpp
  /home/cbf/MAI/OOP/Lab_4/includes/type_traits_values_and_modified/type_traits_v.hpp
  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp
  /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp
+ /home/cbf/MAI/OOP/Lab_4/includes/figures/Trapezoid.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -1323,6 +1323,8 @@ CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.o
  /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/internal/gtest-string.h
  /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/internal/gtest-type-util.h
  /home/cbf/MAI/OOP/Lab_4/includes/Array.hpp
+ /home/cbf/MAI/OOP/Lab_4/includes/coordinates/Point.hpp
+ /home/cbf/MAI/OOP/Lab_4/includes/concepts/FigureConcept.hpp
  /home/cbf/MAI/OOP/Lab_4/includes/coordinates/Point.hpp
  /home/cbf/MAI/OOP/Lab_4/includes/coordinates/Vector.hpp
  /home/cbf/MAI/OOP/Lab_4/includes/exceptions/BadFigure.hpp

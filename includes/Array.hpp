@@ -3,8 +3,9 @@
 #include <vector>
 #include <algorithm>
 #include "figures/Figure.hpp"
+#include "concepts/FigureConcept.hpp"
 
-template <typename TFigure>
+template <GeometricShape TFigure>
 class Array {
 public:
     Array() : size(0), capacity(1) {
