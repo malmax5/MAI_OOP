@@ -1,7 +1,7 @@
 #ifndef FIGURE_HPP
 #define FIGURE_HPP
 
-#include "Point.hpp"
+#include "../coordinates/Point.hpp"
 #include <iostream>
 #include <memory>
 

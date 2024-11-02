@@ -1,4 +1,4 @@
-#include "Point.hpp"
+#include "../../includes/coordinates/Point.hpp"
 #include "../../includes/concepts/ArithmeticConcept.hpp"
 
 

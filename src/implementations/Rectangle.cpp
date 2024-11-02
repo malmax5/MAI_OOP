@@ -1,4 +1,4 @@
-#include "Rectangle.hpp"
+#include "../../includes/figures/Rectangle.hpp"
 
 #include "../../includes/concepts/ArithmeticConcept.hpp"
 

@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../includes/Trapezoid.hpp"
+#include "../includes/figures/Trapezoid.hpp"
 
 TEST(TrapezoidTest, CheckOnRightFigure_int) {
     Point<int> topLeft(0, 0);

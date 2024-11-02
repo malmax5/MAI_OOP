@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include "../includes/Trapezoid.hpp"
-#include "../includes/Rectangle.hpp"
-#include "../includes/Square.hpp"
+#include "../includes/figures/Trapezoid.hpp"
+#include "../includes/figures/Rectangle.hpp"
+#include "../includes/figures/Square.hpp"
 #include "../includes/Array.hpp"
 
 TEST(ArrayTest, TotalArea) {

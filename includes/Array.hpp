@@ -2,7 +2,7 @@
 #include <memory>
 #include <vector>
 #include <algorithm>
-#include "Figure.hpp"
+#include "figures/Figure.hpp"
 
 template <typename TFigure>
 class Array {

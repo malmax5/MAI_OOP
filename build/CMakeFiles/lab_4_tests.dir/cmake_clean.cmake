@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.o.d"
   "CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.o"
   "CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.o.d"
+  "CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o"
+  "CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o.d"
   "CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o"
   "CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o.d"
   "CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.o"

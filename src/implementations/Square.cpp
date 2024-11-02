@@ -1,4 +1,4 @@
-#include "Square.hpp"
+#include "../../includes/figures/Square.hpp"
 
 #include "../../includes/concepts/ArithmeticConcept.hpp"
 

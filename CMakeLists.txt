@@ -16,7 +16,7 @@ add_subdirectory(
 
 set(
     TEST_SOURCES
-    # test/test_main.cpp
+    test/test_main.cpp
     test/test_rectangle/test_double.cpp
     test/test_rectangle/test_int.cpp
     test/test_square/test_double.cpp
@@ -25,11 +25,12 @@ set(
     test/test_trapezoid/test_int.cpp
     test/test_figure/test_double.cpp
     test/test_figure/test_int.cpp
-    includes/Rectangle.hpp
-    includes/Trapezoid.hpp
-    includes/Square.hpp/
-    includes/Point.hpp
-    includes/Vector.hpp
+    includes/figures/Rectangle.hpp
+    includes/figures/Trapezoid.hpp
+    includes/figures/Square.hpp
+    includes/coordinates/Point.hpp
+    includes/coordinates/Vector.hpp
+    includes/Array.hpp
     includes/concepts/ArithmeticConcept.hpp
     src/implementations/Point.cpp
     src/implementations/Vector.cpp

@@ -69,10 +69,24 @@ include CMakeFiles/lab_4_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab_4_tests.dir/flags.make
 
+CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
+CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_4/test/test_main.cpp
+CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o -MF CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o.d -o CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o -c /home/cbf/MAI/OOP/Lab_4/test/test_main.cpp
+
+CMakeFiles/lab_4_tests.dir/test/test_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_4_tests.dir/test/test_main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_4/test/test_main.cpp > CMakeFiles/lab_4_tests.dir/test/test_main.cpp.i
+
+CMakeFiles/lab_4_tests.dir/test/test_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_4_tests.dir/test/test_main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_4/test/test_main.cpp -o CMakeFiles/lab_4_tests.dir/test/test_main.cpp.s
+
 CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o: /home/cbf/MAI/OOP/Lab_4/test/test_rectangle/test_double.cpp
 CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o -MF CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o.d -o CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o -c /home/cbf/MAI/OOP/Lab_4/test/test_rectangle/test_double.cpp
 
 CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.s: cmake_force
 CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.o: /home/cbf/MAI/OOP/Lab_4/test/test_rectangle/test_int.cpp
 CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.o -MF CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.o.d -o CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.o -c /home/cbf/MAI/OOP/Lab_4/test/test_rectangle/test_int.cpp
 
 CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.s: cmake_force
 CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.o: /home/cbf/MAI/OOP/Lab_4/test/test_square/test_double.cpp
 CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.o -MF CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.o.d -o CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.o -c /home/cbf/MAI/OOP/Lab_4/test/test_square/test_double.cpp
 
 CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.s: cmake_force
 CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.o: /home/cbf/MAI/OOP/Lab_4/test/test_square/test_int.cpp
 CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.o -MF CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.o.d -o CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.o -c /home/cbf/MAI/OOP/Lab_4/test/test_square/test_int.cpp
 
 CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/lab_4_tests.dir/test/test_square/test_int.cpp.s: cmake_force
 CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.o: /home/cbf/MAI/OOP/Lab_4/test/test_trapezoid/test_double.cpp
 CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.o -MF CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.o.d -o CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.o -c /home/cbf/MAI/OOP/Lab_4/test/test_trapezoid/test_double.cpp
 
 CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.s: cmake_force
 CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o: /home/cbf/MAI/OOP/Lab_4/test/test_trapezoid/test_int.cpp
 CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o -MF CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o.d -o CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.o -c /home/cbf/MAI/OOP/Lab_4/test/test_trapezoid/test_int.cpp
 
 CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_int.cpp.s: cmake_force
 CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.o: /home/cbf/MAI/OOP/Lab_4/test/test_figure/test_double.cpp
 CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.o -MF CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.o.d -o CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.o -c /home/cbf/MAI/OOP/Lab_4/test/test_figure/test_double.cpp
 
 CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/lab_4_tests.dir/test/test_figure/test_double.cpp.s: cmake_force
 CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.o: /home/cbf/MAI/OOP/Lab_4/test/test_figure/test_int.cpp
 CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.o -MF CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.o.d -o CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.o -c /home/cbf/MAI/OOP/Lab_4/test/test_figure/test_int.cpp
 
 CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.s: cmake_force
 CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.o: /home/cbf/MAI/OOP/Lab_4/src/implementations/Point.cpp
 CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.o -MF CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.o.d -o CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.o -c /home/cbf/MAI/OOP/Lab_4/src/implementations/Point.cpp
 
 CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.s: cmake_force
 CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.o: /home/cbf/MAI/OOP/Lab_4/src/implementations/Vector.cpp
 CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.o -MF CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.o.d -o CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.o -c /home/cbf/MAI/OOP/Lab_4/src/implementations/Vector.cpp
 
 CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.s: cmake_force
 CMakeFiles/lab_4_tests.dir/src/implementations/Rectangle.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/src/implementations/Rectangle.cpp.o: /home/cbf/MAI/OOP/Lab_4/src/implementations/Rectangle.cpp
 CMakeFiles/lab_4_tests.dir/src/implementations/Rectangle.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/lab_4_tests.dir/src/implementations/Rectangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lab_4_tests.dir/src/implementations/Rectangle.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/src/implementations/Rectangle.cpp.o -MF CMakeFiles/lab_4_tests.dir/src/implementations/Rectangle.cpp.o.d -o CMakeFiles/lab_4_tests.dir/src/implementations/Rectangle.cpp.o -c /home/cbf/MAI/OOP/Lab_4/src/implementations/Rectangle.cpp
 
 CMakeFiles/lab_4_tests.dir/src/implementations/Rectangle.cpp.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Rectangle.cpp.s: cmake_force
 CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.o: /home/cbf/MAI/OOP/Lab_4/src/implementations/Square.cpp
 CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.o -MF CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.o.d -o CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.o -c /home/cbf/MAI/OOP/Lab_4/src/implementations/Square.cpp
 
 CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Square.cpp.s: cmake_force
 CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o: CMakeFiles/lab_4_tests.dir/flags.make
 CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o: /home/cbf/MAI/OOP/Lab_4/src/implementations/Trapezoid.cpp
 CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o: CMakeFiles/lab_4_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o -MF CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o.d -o CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o -c /home/cbf/MAI/OOP/Lab_4/src/implementations/Trapezoid.cpp
 
 CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.i: cmake_force
@@ -253,6 +267,7 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.s: cmake_force
 
 # Object files for target lab_4_tests
 lab_4_tests_OBJECTS = \
+"CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o" \
 "CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o" \
 "CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.o" \
 "CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.o" \
@@ -270,6 +285,7 @@ lab_4_tests_OBJECTS = \
 # External object files for target lab_4_tests
 lab_4_tests_EXTERNAL_OBJECTS =
 
+lab_4_tests: CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o
 lab_4_tests: CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_double.cpp.o
 lab_4_tests: CMakeFiles/lab_4_tests.dir/test/test_rectangle/test_int.cpp.o
 lab_4_tests: CMakeFiles/lab_4_tests.dir/test/test_square/test_double.cpp.o
@@ -288,7 +304,7 @@ lab_4_tests: lib/libgtest.a
 lab_4_tests: lib/libgtest_main.a
 lab_4_tests: lib/libgtest.a
 lab_4_tests: CMakeFiles/lab_4_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable lab_4_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable lab_4_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab_4_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

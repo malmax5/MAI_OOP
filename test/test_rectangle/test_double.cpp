@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../includes/Rectangle.hpp"
+#include "../includes/figures/Rectangle.hpp"
 
 TEST(RectangleTest, DefaultConstructor) {
     Rectangle<double> trap;

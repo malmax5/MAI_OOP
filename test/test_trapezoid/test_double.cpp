@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../includes/Trapezoid.hpp"
+#include "../includes/figures/Trapezoid.hpp"
 
 TEST(TrapezoidTest, DefaultConstructor) {
     Trapezoid<double> trap;

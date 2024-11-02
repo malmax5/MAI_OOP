@@ -404,6 +404,30 @@ test/test_figure/test_int.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_4_tests.dir/build.make CMakeFiles/lab_4_tests.dir/test/test_figure/test_int.cpp.s
 .PHONY : test/test_figure/test_int.cpp.s
 
+test/test_main.o: test/test_main.cpp.o
+.PHONY : test/test_main.o
+
+# target to build an object file
+test/test_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_4_tests.dir/build.make CMakeFiles/lab_4_tests.dir/test/test_main.cpp.o
+.PHONY : test/test_main.cpp.o
+
+test/test_main.i: test/test_main.cpp.i
+.PHONY : test/test_main.i
+
+# target to preprocess a source file
+test/test_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_4_tests.dir/build.make CMakeFiles/lab_4_tests.dir/test/test_main.cpp.i
+.PHONY : test/test_main.cpp.i
+
+test/test_main.s: test/test_main.cpp.s
+.PHONY : test/test_main.s
+
+# target to generate assembly for a file
+test/test_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_4_tests.dir/build.make CMakeFiles/lab_4_tests.dir/test/test_main.cpp.s
+.PHONY : test/test_main.cpp.s
+
 test/test_rectangle/test_double.o: test/test_rectangle/test_double.cpp.o
 .PHONY : test/test_rectangle/test_double.o
 
@@ -587,6 +611,9 @@ help:
 	@echo "... test/test_figure/test_int.o"
 	@echo "... test/test_figure/test_int.i"
 	@echo "... test/test_figure/test_int.s"
+	@echo "... test/test_main.o"
+	@echo "... test/test_main.i"
+	@echo "... test/test_main.s"
 	@echo "... test/test_rectangle/test_double.o"
 	@echo "... test/test_rectangle/test_double.i"
 	@echo "... test/test_rectangle/test_double.s"

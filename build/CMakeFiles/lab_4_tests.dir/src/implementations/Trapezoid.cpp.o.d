@@ -1,9 +1,9 @@
 CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o: \
  /home/cbf/MAI/OOP/Lab_4/src/implementations/Trapezoid.cpp \
  /usr/include/stdc-predef.h \
- /home/cbf/MAI/OOP/Lab_4/includes/Trapezoid.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/Figure.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/Point.hpp \
+ /home/cbf/MAI/OOP/Lab_4/src/implementations/../../includes/figures/Trapezoid.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/figures/Figure.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/figures/../coordinates/Point.hpp \
  /usr/include/c++/10/iostream \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
@@ -214,8 +214,8 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o: \
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/concepts/ArithmeticConcept.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/Vector.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/coordinates/Vector.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/coordinates/Point.hpp \
  /home/cbf/MAI/OOP/Lab_4/includes/../includes/exceptions/BadFigure.hpp \
  /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_vector.h \
  /usr/include/c++/10/bits/stl_bvector.h \
@@ -228,5 +228,4 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Trapezoid.cpp.o: \
  /usr/include/c++/10/bits/node_handle.h \
  /usr/include/c++/10/bits/unordered_map.h \
  /usr/include/c++/10/bits/erase_if.h \
- /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
  /home/cbf/MAI/OOP/Lab_4/src/implementations/../../includes/concepts/ArithmeticConcept.hpp

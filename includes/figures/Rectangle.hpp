@@ -1,7 +1,7 @@
 #ifndef RECTANGLE_HPP
 #define RECTANGLE_HPP
 
-#include "../includes/Figure.hpp"
+#include "../includes/figures/Figure.hpp"
 #include "../includes/exceptions/BadFigure.hpp"
 #include <vector>
 #include <algorithm>

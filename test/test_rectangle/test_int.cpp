@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../includes/Rectangle.hpp"
+#include "../includes/figures/Rectangle.hpp"
 
 TEST(RectangleTest, CheckOnRightFigure_int) {
     Point<int> topLeft(0, 4);

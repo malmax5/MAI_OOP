@@ -1,7 +1,9 @@
 CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.o: \
  /home/cbf/MAI/OOP/Lab_4/src/implementations/Vector.cpp \
- /usr/include/stdc-predef.h /home/cbf/MAI/OOP/Lab_4/includes/Vector.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp /usr/include/c++/10/iostream \
+ /usr/include/stdc-predef.h \
+ /home/cbf/MAI/OOP/Lab_4/src/implementations/../../includes/coordinates/Vector.hpp \
+ /home/cbf/MAI/OOP/Lab_4/src/implementations/../../includes/coordinates/Point.hpp \
+ /usr/include/c++/10/iostream \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -188,5 +190,4 @@ CMakeFiles/lab_4_tests.dir/src/implementations/Vector.cpp.o: \
  /home/cbf/MAI/OOP/Lab_4/includes/concepts/../type_traits_values_and_modified/type_traits_v.hpp \
  /home/cbf/MAI/OOP/Lab_4/includes/concepts/../type_traits_values_and_modified/type_traits_mod.hpp \
  /home/cbf/MAI/OOP/Lab_4/includes/concepts/../type_traits_values_and_modified/type_traits_v.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/concepts/ArithmeticConcept.hpp \
  /home/cbf/MAI/OOP/Lab_4/src/implementations/../../includes/concepts/ArithmeticConcept.hpp

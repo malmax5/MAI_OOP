@@ -1,6 +1,7 @@
 CMakeFiles/lab_4_tests.dir/src/implementations/Point.cpp.o: \
  /home/cbf/MAI/OOP/Lab_4/src/implementations/Point.cpp \
- /usr/include/stdc-predef.h /home/cbf/MAI/OOP/Lab_4/includes/Point.hpp \
+ /usr/include/stdc-predef.h \
+ /home/cbf/MAI/OOP/Lab_4/src/implementations/../../includes/coordinates/Point.hpp \
  /usr/include/c++/10/iostream \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \

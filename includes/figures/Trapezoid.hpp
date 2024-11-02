@@ -1,8 +1,8 @@
 #ifndef TRAPEZOID_HPP
 #define TRAPEZOID_HPP
 
-#include "../includes/Figure.hpp"
-#include "../includes/Vector.hpp"
+#include "../includes/figures/Figure.hpp"
+#include "../includes/coordinates/Vector.hpp"
 #include "../includes/exceptions/BadFigure.hpp"
 #include <vector>
 #include <algorithm>

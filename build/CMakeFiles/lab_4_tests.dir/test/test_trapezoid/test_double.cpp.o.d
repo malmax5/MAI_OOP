@@ -289,9 +289,9 @@ CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.o: \
  /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/gtest-typed-test.h \
  /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/gtest_pred_impl.h \
  /home/cbf/MAI/OOP/Lab_4/googletest/googletest/include/gtest/gtest_prod.h \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/Trapezoid.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/../includes/Figure.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/../includes/Point.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/figures/Trapezoid.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/figures/Figure.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/figures/../coordinates/Point.hpp \
  /usr/include/c++/10/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -318,9 +318,8 @@ CMakeFiles/lab_4_tests.dir/test/test_trapezoid/test_double.cpp.o: \
  /home/cbf/MAI/OOP/Lab_4/includes/concepts/../type_traits_values_and_modified/type_traits_v.hpp \
  /home/cbf/MAI/OOP/Lab_4/includes/concepts/../type_traits_values_and_modified/type_traits_mod.hpp \
  /home/cbf/MAI/OOP/Lab_4/includes/concepts/../type_traits_values_and_modified/type_traits_v.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/../includes/concepts/ArithmeticConcept.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/../includes/Vector.hpp \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/../includes/exceptions/BadFigure.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/coordinates/Vector.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/coordinates/Point.hpp \
+ /home/cbf/MAI/OOP/Lab_4/includes/../includes/exceptions/BadFigure.hpp \
  /usr/include/c++/10/algorithm /usr/include/c++/10/bits/ranges_algo.h \
- /usr/include/c++/10/pstl/glue_algorithm_defs.h \
- /home/cbf/MAI/OOP/Lab_4/includes/../includes/concepts/ArithmeticConcept.hpp
+ /usr/include/c++/10/pstl/glue_algorithm_defs.h

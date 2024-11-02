@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../includes/Square.hpp"
+#include "../includes/figures/Square.hpp"
 
 TEST(SquareTest, CheckOnRightFigure_int) {
     Point<int> topLeft(0, 4);

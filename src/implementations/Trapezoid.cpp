@@ -1,4 +1,4 @@
-#include "Trapezoid.hpp"
+#include "../../includes/figures/Trapezoid.hpp"
 
 #include "../../includes/concepts/ArithmeticConcept.hpp"
 
