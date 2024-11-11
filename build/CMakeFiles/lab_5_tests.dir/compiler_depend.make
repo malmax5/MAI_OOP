@@ -3,6 +3,7 @@
 
 CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/src/forward_list/forward_list.cpp \
   /home/cbf/MAI/OOP/Lab_5/includes/forward_list/forward_list.hpp \
+  /home/cbf/MAI/OOP/Lab_5/includes/forward_list/iterators/forward_list_iterator.hpp \
   /home/cbf/MAI/OOP/Lab_5/includes/forward_list/node.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -436,6 +437,7 @@ CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/
   /home/cbf/MAI/OOP/Lab_5/includes/allocators/extensions/map_memory_resource_adds.hpp \
   /home/cbf/MAI/OOP/Lab_5/includes/allocators/map_memory_resource.hpp \
   /home/cbf/MAI/OOP/Lab_5/includes/forward_list/forward_list.hpp \
+  /home/cbf/MAI/OOP/Lab_5/includes/forward_list/iterators/forward_list_iterator.hpp \
   /home/cbf/MAI/OOP/Lab_5/includes/forward_list/node.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -702,8 +704,6 @@ CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h:
 
-/usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h:
-
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
@@ -828,7 +828,11 @@ CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/
 
 /usr/include/c++/10/ratio:
 
-/usr/include/c++/10/bits/shared_ptr_atomic.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/locale.h:
+
+/usr/include/c++/10/pstl/pstl_config.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -839,6 +843,10 @@ CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/
 /usr/include/c++/10/bits/allocated_ptr.h:
 
 /usr/include/c++/10/bits/range_access.h:
+
+/usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h:
+
+/home/cbf/MAI/OOP/Lab_5/includes/forward_list/iterators/forward_list_iterator.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -859,8 +867,6 @@ CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/c++/10/cwctype:
-
-/usr/include/c++/10/bits/atomic_base.h:
 
 /usr/include/c++/10/bits/locale_facets.tcc:
 
@@ -895,6 +901,10 @@ CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/
 /home/cbf/MAI/OOP/Lab_5/includes/allocators/map_memory_resource.hpp:
 
 /usr/include/c++/10/iterator:
+
+/usr/include/c++/10/condition_variable:
+
+/usr/include/c++/10/bits/exception.h:
 
 /usr/include/c++/10/bits/ptr_traits.h:
 
@@ -972,6 +982,14 @@ CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/
 
 /usr/include/c++/10/ostream:
 
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/10/bits/ranges_algobase.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/10/bits/move.h:
+
 /usr/include/c++/10/system_error:
 
 /usr/include/c++/10/bits/hash_bytes.h:
@@ -986,13 +1004,23 @@ CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/
 
 /usr/include/c++/10/clocale:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+/usr/include/asm-generic/errno.h:
 
-/usr/include/c++/10/bits/ranges_algobase.h:
+/home/cbf/MAI/OOP/Lab_5/includes/forward_list/node.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+/usr/include/c++/10/bits/atomic_base.h:
 
-/usr/include/c++/10/bits/move.h:
+/home/cbf/MAI/OOP/Lab_5/includes/forward_list/forward_list.hpp:
+
+/usr/include/c++/10/bits/char_traits.h:
+
+/usr/include/wchar.h:
+
+/home/cbf/MAI/OOP/Lab_5/src/forward_list/forward_list.cpp:
+
+/usr/include/c++/10/bits/enable_special_members.h:
+
+/usr/include/c++/10/pstl/glue_memory_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -1003,22 +1031,6 @@ CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/c++/10/chrono:
-
-/usr/include/wchar.h:
-
-/home/cbf/MAI/OOP/Lab_5/src/forward_list/forward_list.cpp:
-
-/usr/include/c++/10/bits/enable_special_members.h:
-
-/usr/include/c++/10/pstl/glue_memory_defs.h:
-
-/usr/include/asm-generic/errno.h:
-
-/home/cbf/MAI/OOP/Lab_5/includes/forward_list/node.hpp:
-
-/home/cbf/MAI/OOP/Lab_5/includes/forward_list/forward_list.hpp:
-
-/usr/include/c++/10/bits/char_traits.h:
 
 /usr/include/c++/10/debug/assertions.h:
 
@@ -1038,9 +1050,7 @@ CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/
 
 /usr/include/c++/10/compare:
 
-/usr/include/c++/10/condition_variable:
-
-/usr/include/c++/10/bits/exception.h:
+/usr/include/c++/10/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/10/bits/shared_ptr_base.h:
 
@@ -1169,9 +1179,3 @@ CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/
 /usr/include/c++/10/optional:
 
 /usr/include/c++/10/pstl/execution_defs.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/locale.h:
-
-/usr/include/c++/10/pstl/pstl_config.h:

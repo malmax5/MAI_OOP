@@ -2,12 +2,11 @@
 
 #include <iostream>
 #include <memory_resource>
-
 #include "node.hpp"
+#include "iterators/forward_list_iterator.hpp"
 
 template<typename T, typename Allocator = std::pmr::polymorphic_allocator<Node<T>>>
-class ForwardList
-{
+class ForwardList {
     using ValueType = T;
 
 public:
@@ -22,6 +21,9 @@ public:
     ValueType GetFront();
 
     void Clear();
+
+    ForwardIterator<T> Begin();
+    ForwardIterator<T> End();
 
 private:
     Node<ValueType>* head_;

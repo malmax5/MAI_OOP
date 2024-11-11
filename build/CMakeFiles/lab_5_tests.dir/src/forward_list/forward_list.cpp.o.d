@@ -187,4 +187,5 @@ CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o: \
  /usr/include/c++/10/bits/unique_lock.h /usr/include/c++/10/stop_token \
  /usr/include/c++/10/atomic \
  /home/cbf/MAI/OOP/Lab_5/src/forward_list/../../includes/forward_list/forward_list.hpp \
- /home/cbf/MAI/OOP/Lab_5/src/forward_list/../../includes/forward_list/node.hpp
+ /home/cbf/MAI/OOP/Lab_5/src/forward_list/../../includes/forward_list/node.hpp \
+ /home/cbf/MAI/OOP/Lab_5/src/forward_list/../../includes/forward_list/iterators/forward_list_iterator.hpp

@@ -4,6 +4,7 @@
 CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o
  /home/cbf/MAI/OOP/Lab_5/src/forward_list/forward_list.cpp
  /home/cbf/MAI/OOP/Lab_5/includes/forward_list/forward_list.hpp
+ /home/cbf/MAI/OOP/Lab_5/includes/forward_list/iterators/forward_list_iterator.hpp
  /home/cbf/MAI/OOP/Lab_5/includes/forward_list/node.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -439,6 +440,7 @@ CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o
  /home/cbf/MAI/OOP/Lab_5/includes/allocators/extensions/map_memory_resource_adds.hpp
  /home/cbf/MAI/OOP/Lab_5/includes/allocators/map_memory_resource.hpp
  /home/cbf/MAI/OOP/Lab_5/includes/forward_list/forward_list.hpp
+ /home/cbf/MAI/OOP/Lab_5/includes/forward_list/iterators/forward_list_iterator.hpp
  /home/cbf/MAI/OOP/Lab_5/includes/forward_list/node.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h

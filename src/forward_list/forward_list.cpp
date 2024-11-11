@@ -7,7 +7,7 @@ template<typename T, typename Allocator>
 ForwardList<T, Allocator>::ForwardList(std::pmr::memory_resource* mem_resource)
     : head_(nullptr), allocator_(mem_resource) {}
 
-template<typename T,  typename Allocator>
+template<typename T, typename Allocator>
 ForwardList<T, Allocator>::ForwardList(const T& data, std::pmr::memory_resource* mem_resource)
     : head_(nullptr), allocator_(mem_resource) 
 {
@@ -58,5 +58,16 @@ T ForwardList<T, Allocator>::GetFront()
     return head_->GetData();
 }
 
+template<typename T, typename Allocator>
+ForwardIterator<T> ForwardList<T, Allocator>::Begin()
+{
+    return ForwardIterator<T>(head_);
+}
+
+template<typename T, typename Allocator>
+ForwardIterator<T> ForwardList<T, Allocator>::End()
+{
+    return ForwardIterator<T>(nullptr);
+}
 
 template class ForwardList<int>;

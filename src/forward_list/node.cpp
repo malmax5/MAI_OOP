@@ -1,5 +1,4 @@
 #include <iostream>
-
 #include "../../includes/forward_list/node.hpp"
 
 template<typename T>
@@ -46,7 +45,6 @@ template<typename T>
 Node<T>::~Node()
 {
     next_ = nullptr;
-    std::free(this);
 }
 
 template<typename T>
@@ -62,10 +60,15 @@ Node<T>* Node<T>::GetNext()
 }
 
 template<typename T>
-T Node<T>::GetData()
+T& Node<T>::GetData()
 {
     return data_;
 }
 
+template<typename T>
+const T& Node<T>::GetData() const
+{
+    return data_;
+}
 
 template class Node<int>;

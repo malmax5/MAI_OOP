@@ -18,7 +18,8 @@ public:
 
     ~Node();
 
-    ValueType GetData();
+    ValueType& GetData();
+    const ValueType& GetData() const;
 
 public:
     void SetNext(Node<ValueType>* next);
@@ -27,5 +28,5 @@ public:
 private:
     Node* next_;
     ValueType data_;
-
 };
+
