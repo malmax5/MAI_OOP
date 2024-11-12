@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /home/cbf/MAI/OOP/Lab_5/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
@@ -84,6 +94,51 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"gmock\" \"gtest\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -128,6 +183,58 @@ lab_5_tests: cmake_check_build_system
 lab_5_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/build
 .PHONY : lab_5_tests/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest_main.dir/build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
 src/forward_list/forward_list.o: src/forward_list/forward_list.cpp.o
 .PHONY : src/forward_list/forward_list.o
@@ -201,29 +308,77 @@ src/forward_list/node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.s
 .PHONY : src/forward_list/node.cpp.s
 
-src/main_forward_list.o: src/main_forward_list.cpp.o
-.PHONY : src/main_forward_list.o
+tests/test_allocator.o: tests/test_allocator.cpp.o
+.PHONY : tests/test_allocator.o
 
 # target to build an object file
-src/main_forward_list.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o
-.PHONY : src/main_forward_list.cpp.o
+tests/test_allocator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o
+.PHONY : tests/test_allocator.cpp.o
 
-src/main_forward_list.i: src/main_forward_list.cpp.i
-.PHONY : src/main_forward_list.i
+tests/test_allocator.i: tests/test_allocator.cpp.i
+.PHONY : tests/test_allocator.i
 
 # target to preprocess a source file
-src/main_forward_list.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.i
-.PHONY : src/main_forward_list.cpp.i
+tests/test_allocator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.i
+.PHONY : tests/test_allocator.cpp.i
 
-src/main_forward_list.s: src/main_forward_list.cpp.s
-.PHONY : src/main_forward_list.s
+tests/test_allocator.s: tests/test_allocator.cpp.s
+.PHONY : tests/test_allocator.s
 
 # target to generate assembly for a file
-src/main_forward_list.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.s
-.PHONY : src/main_forward_list.cpp.s
+tests/test_allocator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.s
+.PHONY : tests/test_allocator.cpp.s
+
+tests/test_forward_list.o: tests/test_forward_list.cpp.o
+.PHONY : tests/test_forward_list.o
+
+# target to build an object file
+tests/test_forward_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o
+.PHONY : tests/test_forward_list.cpp.o
+
+tests/test_forward_list.i: tests/test_forward_list.cpp.i
+.PHONY : tests/test_forward_list.i
+
+# target to preprocess a source file
+tests/test_forward_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.i
+.PHONY : tests/test_forward_list.cpp.i
+
+tests/test_forward_list.s: tests/test_forward_list.cpp.s
+.PHONY : tests/test_forward_list.s
+
+# target to generate assembly for a file
+tests/test_forward_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.s
+.PHONY : tests/test_forward_list.cpp.s
+
+tests/test_main.o: tests/test_main.cpp.o
+.PHONY : tests/test_main.o
+
+# target to build an object file
+tests/test_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o
+.PHONY : tests/test_main.cpp.o
+
+tests/test_main.i: tests/test_main.cpp.i
+.PHONY : tests/test_main.i
+
+# target to preprocess a source file
+tests/test_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.i
+.PHONY : tests/test_main.cpp.i
+
+tests/test_main.s: tests/test_main.cpp.s
+.PHONY : tests/test_main.s
+
+# target to generate assembly for a file
+tests/test_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.s
+.PHONY : tests/test_main.cpp.s
 
 # Help Target
 help:
@@ -232,7 +387,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... gmock"
+	@echo "... gmock_main"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... lab_5_tests"
 	@echo "... src/forward_list/forward_list.o"
 	@echo "... src/forward_list/forward_list.i"
@@ -243,9 +407,15 @@ help:
 	@echo "... src/forward_list/node.o"
 	@echo "... src/forward_list/node.i"
 	@echo "... src/forward_list/node.s"
-	@echo "... src/main_forward_list.o"
-	@echo "... src/main_forward_list.i"
-	@echo "... src/main_forward_list.s"
+	@echo "... tests/test_allocator.o"
+	@echo "... tests/test_allocator.i"
+	@echo "... tests/test_allocator.s"
+	@echo "... tests/test_forward_list.o"
+	@echo "... tests/test_forward_list.i"
+	@echo "... tests/test_forward_list.s"
+	@echo "... tests/test_main.o"
+	@echo "... tests/test_main.i"
+	@echo "... tests/test_main.s"
 .PHONY : help
 
 

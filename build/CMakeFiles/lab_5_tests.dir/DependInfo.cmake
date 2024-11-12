@@ -11,7 +11,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cbf/MAI/OOP/Lab_5/src/forward_list/forward_list.cpp" "CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o" "gcc" "CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_5/src/forward_list/iterators/forward_list_iterator.cpp" "CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o" "gcc" "CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_5/src/forward_list/node.cpp" "CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o" "gcc" "CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o.d"
-  "/home/cbf/MAI/OOP/Lab_5/src/main_forward_list.cpp" "CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o" "gcc" "CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_5/tests/test_allocator.cpp" "CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o" "gcc" "CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_5/tests/test_forward_list.cpp" "CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o" "gcc" "CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_5/tests/test_main.cpp" "CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o" "gcc" "CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -41,6 +41,12 @@ Node<T>& Node<T>::operator=(Node<T>&& other) noexcept
     return *this;
 }
 
+template <typename T>
+bool Node<T>::operator==(const Node& other) const
+{
+    return data_ == other.data_;
+}
+
 template<typename T>
 Node<T>::~Node()
 {

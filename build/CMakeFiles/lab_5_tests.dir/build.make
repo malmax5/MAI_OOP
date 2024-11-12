@@ -69,24 +69,10 @@ include CMakeFiles/lab_5_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab_5_tests.dir/flags.make
 
-CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: CMakeFiles/lab_5_tests.dir/flags.make
-CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/src/main_forward_list.cpp
-CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o: CMakeFiles/lab_5_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o -MF CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o.d -o CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o -c /home/cbf/MAI/OOP/Lab_5/src/main_forward_list.cpp
-
-CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_5/src/main_forward_list.cpp > CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.i
-
-CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_5/src/main_forward_list.cpp -o CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.s
-
 CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o: CMakeFiles/lab_5_tests.dir/flags.make
 CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o: /home/cbf/MAI/OOP/Lab_5/src/forward_list/node.cpp
 CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o: CMakeFiles/lab_5_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o -MF CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o.d -o CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o -c /home/cbf/MAI/OOP/Lab_5/src/forward_list/node.cpp
 
 CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.i: cmake_force
@@ -100,7 +86,7 @@ CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.s: cmake_force
 CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o: CMakeFiles/lab_5_tests.dir/flags.make
 CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/src/forward_list/forward_list.cpp
 CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o: CMakeFiles/lab_5_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o -MF CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o.d -o CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o -c /home/cbf/MAI/OOP/Lab_5/src/forward_list/forward_list.cpp
 
 CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.i: cmake_force
@@ -114,7 +100,7 @@ CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.s: cmake_force
 CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o: CMakeFiles/lab_5_tests.dir/flags.make
 CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o: /home/cbf/MAI/OOP/Lab_5/src/forward_list/iterators/forward_list_iterator.cpp
 CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o: CMakeFiles/lab_5_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o -MF CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o.d -o CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o -c /home/cbf/MAI/OOP/Lab_5/src/forward_list/iterators/forward_list_iterator.cpp
 
 CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.i: cmake_force
@@ -125,23 +111,72 @@ CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_5/src/forward_list/iterators/forward_list_iterator.cpp -o CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.s
 
+CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: CMakeFiles/lab_5_tests.dir/flags.make
+CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/test_main.cpp
+CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: CMakeFiles/lab_5_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o -MF CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o.d -o CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o -c /home/cbf/MAI/OOP/Lab_5/tests/test_main.cpp
+
+CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_5/tests/test_main.cpp > CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.i
+
+CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_5/tests/test_main.cpp -o CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.s
+
+CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o: CMakeFiles/lab_5_tests.dir/flags.make
+CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/test_allocator.cpp
+CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o: CMakeFiles/lab_5_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o -MF CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o.d -o CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o -c /home/cbf/MAI/OOP/Lab_5/tests/test_allocator.cpp
+
+CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_5/tests/test_allocator.cpp > CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.i
+
+CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_5/tests/test_allocator.cpp -o CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.s
+
+CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o: CMakeFiles/lab_5_tests.dir/flags.make
+CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/test_forward_list.cpp
+CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o: CMakeFiles/lab_5_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o -MF CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o.d -o CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o -c /home/cbf/MAI/OOP/Lab_5/tests/test_forward_list.cpp
+
+CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_5/tests/test_forward_list.cpp > CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.i
+
+CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_5/tests/test_forward_list.cpp -o CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.s
+
 # Object files for target lab_5_tests
 lab_5_tests_OBJECTS = \
-"CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o" \
 "CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o" \
 "CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o" \
-"CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o"
+"CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o" \
+"CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o" \
+"CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o" \
+"CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o"
 
 # External object files for target lab_5_tests
 lab_5_tests_EXTERNAL_OBJECTS =
 
-lab_5_tests: CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o
 lab_5_tests: CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o
 lab_5_tests: CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o
 lab_5_tests: CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o
+lab_5_tests: CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o
+lab_5_tests: CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o
+lab_5_tests: CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o
 lab_5_tests: CMakeFiles/lab_5_tests.dir/build.make
+lab_5_tests: lib/libgtest.a
+lab_5_tests: lib/libgtest_main.a
+lab_5_tests: lib/libgtest.a
 lab_5_tests: CMakeFiles/lab_5_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lab_5_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable lab_5_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab_5_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

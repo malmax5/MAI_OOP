@@ -15,6 +15,7 @@ public:
 
     Node& operator=(const Node& other);
     Node& operator=(Node&& other) noexcept;
+    bool operator==(const Node& other) const;
 
     ~Node();
 

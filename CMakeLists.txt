@@ -9,18 +9,18 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
 include_directories(includes)
 
-# add_subdirectory(
-#     "${CMAKE_CURRENT_SOURCE_DIR}/googletest"
-#     "googletest"
-# )
+add_subdirectory(
+    "${CMAKE_CURRENT_SOURCE_DIR}/googletest"
+    "googletest"
+)
 
 set(
     TEST_SOURCES
     # src/main_allocator.cpp
-    src/main_forward_list.cpp
+    # src/main_forward_list.cpp
 
-    # includes/allocators/extensions/map_memory_resource_adds.hpp
-    # includes/allocators/map_memory_resource.hpp
+    includes/allocators/extensions/map_memory_resource_adds.hpp
+    includes/allocators/map_memory_resource.hpp
 
     includes/forward_list/node.hpp
     includes/forward_list/forward_list.hpp
@@ -29,6 +29,10 @@ set(
 
     includes/forward_list/iterators/forward_list_iterator.hpp
     src/forward_list/iterators/forward_list_iterator.cpp
+
+    tests/test_main.cpp
+    tests/test_allocator.cpp
+    tests/test_forward_list.cpp
 )
 
 add_executable(
@@ -36,26 +40,24 @@ add_executable(
     ${TEST_SOURCES}
 )
 
-# target_include_directories(
-#     lab_5_tests PRIVATE
-#     "${CMAKE_CURRENT_SOURCE_DIR}/googletest/googletest/include"
-# )
+target_include_directories(
+    lab_5_tests PRIVATE
+    "${CMAKE_CURRENT_SOURCE_DIR}/googletest/googletest/include"
+)
 
-# target_link_libraries(
-#     lab_5_tests
-#     gtest 
-#     gtest_main
-# )
+target_link_libraries(
+    lab_5_tests
+    gtest 
+    gtest_main
+)
 
-# enable_testing()
+enable_testing()
 
-# add_test(NAME RectangleTest COMMAND lab_5_tests)
-# add_test(NAME SquareTest COMMAND lab_5_tests)
-# add_test(NAME TrapezoidTest COMMAND lab_5_tests)
-# add_test(NAME FigureTest COMMAND lab_5_tests)
+add_test(NAME MapMemoryResourceTest COMMAND lab_5_tests)
+add_test(NAME ForwardListTest COMMAND lab_5_tests)
 
 if (MSVC)
-    # set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+    set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
     target_compile_options(
         lab_5_tests PRIVATE
