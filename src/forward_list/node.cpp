@@ -48,6 +48,18 @@ Node<T>::~Node()
 }
 
 template<typename T>
+T Node<T>::Data()
+{
+    return data_;
+}
+
+template<typename T>
+const T Node<T>::Data() const
+{
+    return data_;
+}
+
+template<typename T>
 void Node<T>::SetNext(Node<T>* next)
 {
     next_ = next;
@@ -69,6 +81,12 @@ template<typename T>
 const T& Node<T>::GetData() const
 {
     return data_;
+}
+
+template<typename T>
+void Node<T>::SetData(T value)
+{
+    data_ = value;
 }
 
 template class Node<int>;

@@ -1,69 +1,34 @@
 #pragma once
 
-#include "/home/cbf/MAI/OOP/Lab_5/includes/forward_list/node.hpp"
+#include <iterator>
+#include "../node.hpp"
 
 template<typename T>
 class ForwardIterator {
 public:
     using iterator_category = std::forward_iterator_tag;
+    using value_type = T;
     using difference_type = std::ptrdiff_t;
-    using ValueType = T;
-    using Pointer = T*;
-    using Reference = T&;
+    using pointer = Node<T>*;
+    using reference = Node<T>&;
 
-    ForwardIterator(Node<T>* node = nullptr) : current_(node) {}
+    ForwardIterator(pointer node = nullptr);
+    ForwardIterator(const ForwardIterator& other);
+    ~ForwardIterator() = default;
 
-    Reference operator*() const
-    {
-        return current_->GetData();
-    }
+    ForwardIterator& operator=(const ForwardIterator& other);
 
-    Pointer operator->() const
-    {
-        return current_;
-    }
+    reference operator*() const;
+    pointer operator->() const;
 
-    ForwardIterator& operator++()
-    {
-        if (current_)
-        {
-            current_ = current_->GetNext();
-        }
-        return *this;
-    }
+    ForwardIterator& operator++();
+    ForwardIterator operator++(int);
 
-    ForwardIterator operator++(int)
-    {
-        ForwardIterator tmp = *this;
-        ++(*this);
-        return tmp;
-    }
+    bool operator==(const ForwardIterator& other) const;
+    bool operator!=(const ForwardIterator& other) const;
 
-    ForwardIterator(const ForwardIterator& other) : current_(other.current_) {}
-    ForwardIterator& operator=(const ForwardIterator& other)
-    {
-        if (this != &other)
-        {
-            current_ = other.current_;
-        }
-        return *this;
-    }
-
-    bool operator==(const ForwardIterator& other) const
-    {
-        return current_ == other.current_;
-    }
-
-    bool operator!=(const ForwardIterator& other) const
-    {
-        return current_ != other.current_;
-    }
-
-    void SetIterator(Node<T>* node)
-    {
-        current_ = node;
-    }
+    void SetIterator(Node<T>* node);
 
 private:
-    Node<T>* current_;
+    pointer current_;
 };

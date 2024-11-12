@@ -10,7 +10,9 @@ int main()
     list.PushFront(20);
     list.PushFront(30);
 
-    for (auto it = list.Begin(); it != list.End(); ++it) {
-        std::cout << *it << " ";
+    auto it = list.Begin();
+
+    for (; it != list.End(); ++it) {
+        std::cout << it->Data() << " ";
     }
 }

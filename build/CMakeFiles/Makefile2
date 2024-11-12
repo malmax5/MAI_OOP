@@ -81,12 +81,12 @@ clean: CMakeFiles/lab_5_tests.dir/clean
 CMakeFiles/lab_5_tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=1,2,3,4 "Built target lab_5_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cbf/MAI/OOP/Lab_5/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target lab_5_tests"
 .PHONY : CMakeFiles/lab_5_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lab_5_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cbf/MAI/OOP/Lab_5/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cbf/MAI/OOP/Lab_5/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab_5_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cbf/MAI/OOP/Lab_5/build/CMakeFiles 0
 .PHONY : CMakeFiles/lab_5_tests.dir/rule

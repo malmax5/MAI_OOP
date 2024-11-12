@@ -6,7 +6,7 @@
 #include "iterators/forward_list_iterator.hpp"
 
 template<typename T, typename Allocator = std::pmr::polymorphic_allocator<Node<T>>>
-class ForwardList {
+class ForwardList{
     using ValueType = T;
 
 public:

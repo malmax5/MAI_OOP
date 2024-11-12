@@ -28,6 +28,7 @@ set(
     src/forward_list/forward_list.cpp
 
     includes/forward_list/iterators/forward_list_iterator.hpp
+    src/forward_list/iterators/forward_list_iterator.cpp
 )
 
 add_executable(

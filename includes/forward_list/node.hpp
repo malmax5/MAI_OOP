@@ -18,15 +18,25 @@ public:
 
     ~Node();
 
+    ValueType Data();
+    const ValueType Data() const;
+
+protected:
     ValueType& GetData();
     const ValueType& GetData() const;
+    void SetData(ValueType value);
 
-public:
     void SetNext(Node<ValueType>* next);
     Node<ValueType>* GetNext();
 
 private:
     Node* next_;
     ValueType data_;
+
+    template<typename U, typename Allocator>
+    friend class ForwardList;
+
+    template<typename U>
+    friend class ForwardIterator;
 };
 

@@ -153,6 +153,30 @@ src/forward_list/forward_list.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.s
 .PHONY : src/forward_list/forward_list.cpp.s
 
+src/forward_list/iterators/forward_list_iterator.o: src/forward_list/iterators/forward_list_iterator.cpp.o
+.PHONY : src/forward_list/iterators/forward_list_iterator.o
+
+# target to build an object file
+src/forward_list/iterators/forward_list_iterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o
+.PHONY : src/forward_list/iterators/forward_list_iterator.cpp.o
+
+src/forward_list/iterators/forward_list_iterator.i: src/forward_list/iterators/forward_list_iterator.cpp.i
+.PHONY : src/forward_list/iterators/forward_list_iterator.i
+
+# target to preprocess a source file
+src/forward_list/iterators/forward_list_iterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.i
+.PHONY : src/forward_list/iterators/forward_list_iterator.cpp.i
+
+src/forward_list/iterators/forward_list_iterator.s: src/forward_list/iterators/forward_list_iterator.cpp.s
+.PHONY : src/forward_list/iterators/forward_list_iterator.s
+
+# target to generate assembly for a file
+src/forward_list/iterators/forward_list_iterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_5_tests.dir/build.make CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.s
+.PHONY : src/forward_list/iterators/forward_list_iterator.cpp.s
+
 src/forward_list/node.o: src/forward_list/node.cpp.o
 .PHONY : src/forward_list/node.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/forward_list/forward_list.o"
 	@echo "... src/forward_list/forward_list.i"
 	@echo "... src/forward_list/forward_list.s"
+	@echo "... src/forward_list/iterators/forward_list_iterator.o"
+	@echo "... src/forward_list/iterators/forward_list_iterator.i"
+	@echo "... src/forward_list/iterators/forward_list_iterator.s"
 	@echo "... src/forward_list/node.o"
 	@echo "... src/forward_list/node.i"
 	@echo "... src/forward_list/node.s"

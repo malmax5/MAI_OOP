@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cbf/MAI/OOP/Lab_5/src/forward_list/forward_list.cpp" "CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o" "gcc" "CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_5/src/forward_list/iterators/forward_list_iterator.cpp" "CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o" "gcc" "CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_5/src/forward_list/node.cpp" "CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o" "gcc" "CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_5/src/main_forward_list.cpp" "CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o" "gcc" "CMakeFiles/lab_5_tests.dir/src/main_forward_list.cpp.o.d"
   )
