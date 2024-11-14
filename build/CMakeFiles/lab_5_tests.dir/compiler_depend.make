@@ -175,13 +175,20 @@ CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o: /home/cbf/MAI/OO
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -219,6 +226,8 @@ CMakeFiles/lab_5_tests.dir/src/forward_list/forward_list.cpp.o: /home/cbf/MAI/OO
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
@@ -370,13 +379,20 @@ CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -414,6 +430,8 @@ CMakeFiles/lab_5_tests.dir/src/forward_list/iterators/forward_list_iterator.cpp.
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
@@ -562,13 +580,20 @@ CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o: /home/cbf/MAI/OOP/Lab_5/
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -606,6 +631,8 @@ CMakeFiles/lab_5_tests.dir/src/forward_list/node.cpp.o: /home/cbf/MAI/OOP/Lab_5/
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
@@ -876,7 +903,9 @@ CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o: /home/cbf/MAI/OOP/Lab_5/t
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/sigaction.h \
   /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
@@ -897,8 +926,15 @@ CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o: /home/cbf/MAI/OOP/Lab_5/t
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -944,10 +980,14 @@ CMakeFiles/lab_5_tests.dir/tests/test_allocator.cpp.o: /home/cbf/MAI/OOP/Lab_5/t
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
@@ -1228,7 +1268,9 @@ CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/sigaction.h \
   /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
@@ -1249,8 +1291,15 @@ CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -1296,10 +1345,14 @@ CMakeFiles/lab_5_tests.dir/tests/test_forward_list.cpp.o: /home/cbf/MAI/OOP/Lab_
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
@@ -1573,7 +1626,9 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/sigaction.h \
   /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
@@ -1594,8 +1649,15 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -1641,10 +1703,14 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
@@ -1687,6 +1753,8 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
@@ -1698,6 +1766,8 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
@@ -1750,8 +1820,6 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 /usr/include/linux/stddef.h:
 
 /usr/include/linux/stat.h:
-
-/usr/include/linux/posix_types.h:
 
 /usr/include/c++/10/variant:
 
@@ -1817,6 +1885,18 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 
 /home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/internal/gtest-port-arch.h:
 
+/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/internal/gtest-internal.h:
+
+/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/internal/gtest-filepath.h:
+
+/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/gtest_prod.h:
+
+/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/gtest_pred_impl.h:
+
+/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/gtest.h:
+
+/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/gtest-typed-test.h:
+
 /usr/include/c++/10/pstl/execution_defs.h:
 
 /usr/include/c++/10/bits/stringfwd.h:
@@ -1824,6 +1904,8 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 /usr/include/c++/10/new:
 
 /usr/include/c++/10/limits:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
 /usr/include/c++/10/iostream:
 
@@ -1848,10 +1930,6 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 /usr/include/c++/10/cstdio:
 
 /usr/include/c++/10/ext/concurrence.h:
-
-/usr/include/x86_64-linux-gnu/c++/10/bits/time_members.h:
-
-/usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h:
 
 /usr/include/c++/10/cstddef:
 
@@ -1886,6 +1964,10 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 /usr/include/c++/10/bits/stl_vector.h:
 
 /usr/include/c++/10/cerrno:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
 
 /usr/include/c++/10/bits/stl_uninitialized.h:
 
@@ -1931,6 +2013,8 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 
 /usr/include/c++/10/bits/basic_ios.tcc:
 
+/usr/include/x86_64-linux-gnu/bits/select-decl.h:
+
 /usr/include/c++/10/bits/locale_classes.h:
 
 /usr/include/c++/10/cstdint:
@@ -1957,13 +2041,15 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 
 /usr/include/c++/10/bits/char_traits.h:
 
-/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/gtest_pred_impl.h:
-
 /home/cbf/MAI/OOP/Lab_5/includes/forward_list/forward_list.hpp:
 
 /usr/include/c++/10/bits/atomic_base.h:
 
 /usr/include/c++/10/clocale:
+
+/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/gtest-test-part.h:
+
+/usr/include/c++/10/bits/charconv.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
@@ -1987,9 +2073,9 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/c++/10/initializer_list:
-
 /home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/internal/custom/gtest-port.h:
+
+/usr/include/c++/10/initializer_list:
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h:
 
@@ -2005,7 +2091,7 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
-/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/gtest-typed-test.h:
+/usr/include/x86_64-linux-gnu/bits/unistd-decl.h:
 
 /usr/include/c++/10/bits/invoke.h:
 
@@ -2095,10 +2181,6 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 
 /usr/include/c++/10/bits/std_abs.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
 /usr/include/c++/10/bits/range_cmp.h:
 
 /home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/gtest-death-test.h:
@@ -2159,6 +2241,8 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 
 /usr/include/c++/10/bits/range_access.h:
 
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
 /usr/include/c++/10/bits/allocated_ptr.h:
 
 /usr/include/c++/10/bits/ranges_uninitialized.h:
@@ -2172,6 +2256,10 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/c++/10/pstl/pstl_config.h:
+
+/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h:
+
+/usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
@@ -2198,8 +2286,6 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 /usr/include/c++/10/string_view:
 
 /usr/include/c++/10/tuple:
-
-/usr/include/c++/10/type_traits:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -2253,13 +2339,11 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/gtest_prod.h:
-
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/gtest.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
@@ -2275,11 +2359,23 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
+/usr/include/c++/10/type_traits:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/c++/10/ext/type_traits.h:
 
@@ -2315,10 +2411,6 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h:
 
-/usr/include/c++/10/bits/charconv.h:
-
-/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/gtest-test-part.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
@@ -2340,6 +2432,14 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
+
+/usr/include/x86_64-linux-gnu/c++/10/bits/time_members.h:
+
+/usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h:
 
@@ -2378,11 +2478,3 @@ CMakeFiles/lab_5_tests.dir/tests/test_main.cpp.o: /home/cbf/MAI/OOP/Lab_5/tests/
 /usr/include/c++/10/utility:
 
 /home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/gtest-printers.h:
-
-/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/internal/gtest-internal.h:
-
-/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/internal/gtest-filepath.h:
-
-/usr/include/locale.h:
-
-/home/cbf/MAI/OOP/Lab_5/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h:

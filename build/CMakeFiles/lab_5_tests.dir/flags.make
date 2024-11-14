@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/cbf/MAI/OOP/Lab_5/includes -isystem /home/cbf/MAI/OOP/Lab_5/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_5/googletest/googletest
 
-CXX_FLAGS =  -std=c++20
+CXX_FLAGS =  -std=c++20 -Wall -Wextra -Wcast-align -Wconversion -Wsign-conversion -Wfloat-equal -Wpedantic -Werror -pedantic -O2
 

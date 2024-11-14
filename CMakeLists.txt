@@ -61,20 +61,20 @@ if (MSVC)
 
     target_compile_options(
         lab_5_tests PRIVATE
-        # /W4
+        /W4
     )
 else ()
     target_compile_options(
         lab_5_tests PRIVATE
-        # -Wall
-        # -Wextra
-        # -Wcast-align
-        # -Wconversion
-        # -Wsign-conversion
-        # -Wfloat-equal
-        # -Wpedantic
-        # -Werror
-        # -pedantic
-        # -O2
+        -Wall
+        -Wextra
+        -Wcast-align
+        -Wconversion
+        -Wsign-conversion
+        -Wfloat-equal
+        -Wpedantic
+        -Werror
+        -pedantic
+        -O2
     )
 endif()

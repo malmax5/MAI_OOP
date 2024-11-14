@@ -4,6 +4,7 @@
 #include <map>
 #include <memory_resource>
 #include <cstdlib>
+#include <cstddef>
 
 #include "extensions/map_memory_resource_adds.hpp"
 
@@ -14,6 +15,10 @@ public:
     ~MapMemoryResource()
     {
         for (const auto& [ptr, size] : allocated_blocks)
+        {
+            std::free(ptr);
+        }
+        for (const auto& [ptr, size] : deallocated_blocks)
         {
             std::free(ptr);
         }
@@ -42,7 +47,7 @@ protected:
         return ptr;
     }
 
-    virtual void do_deallocate(void* ptr, size_t size, size_t alignment) override
+    virtual void do_deallocate(void* ptr, size_t, size_t) override
     {
         auto it = allocated_blocks.find(ptr);
         if (it != allocated_blocks.end())

@@ -20,12 +20,15 @@ TEST(MapMemoryResourceTest, DeallocateSuccess)
     resource.deallocate(ptr, 100, 16);
 }
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wunused-result"
 TEST(MapMemoryResourceTest, AllocateInvalidAlignment)
 {
     MapMemoryResource resource;
     auto expected = std::bad_alloc();
     EXPECT_THROW(resource.allocate(100, 0), decltype(expected));
 }
+#pragma GCC diagnostic pop
 
 TEST(MapMemoryResourceTest, AllocateLargeMemory)
 {

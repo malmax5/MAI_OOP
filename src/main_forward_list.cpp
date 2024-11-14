@@ -5,7 +5,8 @@
 
 int main()
 {
-    ForwardList<int> list;
+    MapMemoryResource resource;
+    ForwardList<int> list(&resource);
     list.PushFront(10);
     list.PushFront(20);
     list.PushFront(30);

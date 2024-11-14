@@ -2,10 +2,26 @@
 
 #include <iostream>
 
-template<typename T>
-class Node
+template<class T>
+struct BaseNode
 {
     using ValueType = T;
+
+protected:
+    BaseNode* next_;
+};
+
+template<class T>
+struct Node : private BaseNode<T>
+{
+    using typename BaseNode<T>::ValueType;
+    using BaseNode<T>::next_;
+
+    template<typename U, typename Allocator>
+    friend class ForwardList;
+
+    template<typename U>
+    friend class ForwardIterator;
 
 public:
     Node();
@@ -31,13 +47,6 @@ protected:
     Node<ValueType>* GetNext();
 
 private:
-    Node* next_;
+    // Node* next_;
     ValueType data_;
-
-    template<typename U, typename Allocator>
-    friend class ForwardList;
-
-    template<typename U>
-    friend class ForwardIterator;
 };
-

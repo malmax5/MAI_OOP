@@ -2,16 +2,28 @@
 #include "../../includes/forward_list/node.hpp"
 
 template<typename T>
-Node<T>::Node() : next_(nullptr), data_() {}
+Node<T>::Node() : data_()
+{
+    next_ = nullptr;
+}
 
 template<typename T>
-Node<T>::Node(const ValueType& data) : next_(nullptr), data_(data) {}
+Node<T>::Node(const ValueType& data) : data_(data)
+{
+    next_ = nullptr;
+}
 
 template<typename T>
-Node<T>::Node(const Node<T>& other) : next_(other.next_), data_(other.data_) {}
+Node<T>::Node(const Node<T>& other) : data_(other.data_)
+{
+    next_ = other.next_;
+}
 
 template<typename T>
-Node<T>::Node(Node<T>&& other) noexcept : next_(std::move(other.next_)), data_(std::move(other.data_)) {}
+Node<T>::Node(Node<T>&& other) noexcept : data_(std::move(other.data_))
+{
+    next_ = std::move(other.next_);
+}
 
 template<typename T>
 Node<T>& Node<T>::operator=(const Node<T>& other)
@@ -54,43 +66,43 @@ Node<T>::~Node()
 }
 
 template<typename T>
-T Node<T>::Data()
+typename Node<T>::ValueType Node<T>::Data()
 {
     return data_;
 }
 
 template<typename T>
-const T Node<T>::Data() const
+const typename Node<T>::ValueType Node<T>::Data() const
 {
     return data_;
 }
 
 template<typename T>
-void Node<T>::SetNext(Node<T>* next)
+void Node<T>::SetNext(Node<ValueType>* next)
 {
     next_ = next;
 }
 
 template<typename T>
-Node<T>* Node<T>::GetNext()
+Node<typename Node<T>::ValueType>* Node<T>::GetNext()
 {
-    return next_;
+    return reinterpret_cast<Node<T>*>(next_);
 }
 
 template<typename T>
-T& Node<T>::GetData()
-{
-    return data_;
-}
-
-template<typename T>
-const T& Node<T>::GetData() const
+typename Node<T>::ValueType& Node<T>::GetData()
 {
     return data_;
 }
 
 template<typename T>
-void Node<T>::SetData(T value)
+const typename Node<T>::ValueType& Node<T>::GetData() const
+{
+    return data_;
+}
+
+template<typename T>
+void Node<T>::SetData(ValueType value)
 {
     data_ = value;
 }
