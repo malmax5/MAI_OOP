@@ -4,8 +4,8 @@ class Material: private_fields: name, armor_multiple
                 constructor(name)
                 public_funcs: GetName, GetArmorMultiple, SetArmorMultiple, SetName, GetArmorMultiple
 
-class Equip:    private_fields: armor, material
-                public_func: GetArmor, SetArmor, GetMaterial, SetMaterial
+class Equip:    private_fields: armor, material, name
+                public_func: GetArmor, SetArmor, GetMaterial, SetMaterial, SetName, GetName
 
 !Derived Equip!
 class Helmet:   implements: Equip
@@ -26,6 +26,14 @@ class Dimond: implements Material
 class MyEquip:  private_fields: Equip[3](0 - Helmet, 1 - Chestplate, 2 - Boots), additionArmor
                 public_funcs: SetHelmet, SetChestplate, SetBoots
                 Events: TotalArmor -> additionArmor
+
+<Material Builder>
+class(interface) MaterialBuilder:  clear_virtual_public_funcs: Reset, SetMaterialName, SetMaterialArmorMultiple
+class MaterialBuilderMain:  public_funcs: BuildIronMaterial, BuildGoldMaterial, BuildDimondMaterial
+
+<Equip Builder>
+class(interface) EquipBuilder: clear_virtual_public_funcs: Reset, SetArmor, SetMaterial
+class EquipBuilderMain: public_funcs: 
 
 -----Mob-----
 !Base!

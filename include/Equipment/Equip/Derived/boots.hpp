@@ -4,5 +4,6 @@
 
 struct Boots : virtual protected Equip
 {
-
+public:
+    Boots();
 };

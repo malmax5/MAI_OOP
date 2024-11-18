@@ -2,6 +2,13 @@
 
 #include <string>
 
+enum ArmorMultiple
+{
+    IronMultiple = 2,
+    GoldMultiple = 3,
+    DimondMultiple = 4
+};
+
 struct Material
 {
 public:

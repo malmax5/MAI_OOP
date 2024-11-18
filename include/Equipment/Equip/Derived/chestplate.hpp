@@ -4,5 +4,6 @@
 
 struct Chestplate : virtual protected Equip
 {
-
+public:
+    Chestplate();
 };
