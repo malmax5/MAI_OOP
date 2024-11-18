@@ -2,7 +2,7 @@
 
 #include "../Base/equip.hpp"
 
-struct Helmet : virtual protected Equip
+struct Helmet : virtual public Equip
 {
 public:
     Helmet();

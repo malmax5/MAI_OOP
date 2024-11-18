@@ -1,8 +1,12 @@
-#include "include/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.hpp"
-#include "include/Equipment/Equip/Builder/Equip_Builder/equip_builder.hpp"
-#include "include/Equipment/Material/Builder/material_builder.hpp"
+#include "/home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.hpp"
+
+#include <iostream>
 
 int main()
 {
+    MyEquipBuilderMain builder;
+    MyEquip* equip = builder.BuildSetByMask(IronMaterial, GoldMaterial, DimondMaterial);
+
+    std::cout << equip->TotalArmor();
 
 }

@@ -2,7 +2,7 @@
 
 #include "../Base/equip.hpp"
 
-struct Chestplate : virtual protected Equip
+struct Chestplate : virtual public Equip
 {
 public:
     Chestplate();

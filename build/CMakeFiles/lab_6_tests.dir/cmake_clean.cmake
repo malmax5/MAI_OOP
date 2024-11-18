@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/lab_6_tests.dir/main.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/main.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/boots.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/boots.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/chestplate.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/chestplate.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/helmet.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/helmet.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o.d"
+  "lab_6_tests"
+  "lab_6_tests.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/lab_6_tests.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

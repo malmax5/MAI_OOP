@@ -2,7 +2,7 @@
 
 #include "../Base/material.hpp"
 
-struct Gold : virtual protected Material
+struct Gold : virtual public Material
 {
 public:
     Gold();

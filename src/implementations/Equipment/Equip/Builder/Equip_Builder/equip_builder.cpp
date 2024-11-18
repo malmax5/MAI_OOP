@@ -5,9 +5,9 @@ void EquipBuilder::Reset()
     equip_ = new Equip;
 }
 
-void EquipBuilder::SetArmor(double armor)
+void EquipBuilder::SetEquip(Equip* equip)
 {
-    equip_->SetArmor(armor);
+    equip_ = equip;
 }
 
 void EquipBuilder::SetMaterial(Material* material)

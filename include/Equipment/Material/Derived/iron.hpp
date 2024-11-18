@@ -2,7 +2,7 @@
 
 #include "../Base/material.hpp"
 
-struct Iron : virtual protected Material
+struct Iron : virtual public Material
 {
 public:
     Iron();

@@ -2,7 +2,7 @@
 
 void MyEquipBuilder::Reset()
 {
-    myEquip_ = new MyEquip;
+    myEquip_ = new MyEquip();
 }
 
 void MyEquipBuilder::SetHelmet(Helmet* helmet)

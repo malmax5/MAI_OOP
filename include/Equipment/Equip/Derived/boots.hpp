@@ -2,7 +2,7 @@
 
 #include "../Base/equip.hpp"
 
-struct Boots : virtual protected Equip
+struct Boots : virtual public Equip
 {
 public:
     Boots();

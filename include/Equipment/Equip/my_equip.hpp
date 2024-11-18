@@ -23,10 +23,9 @@ public:
     void SetChestplate(Chestplate* chestplate);
     void SetBoots(Boots* boots);
 
-protected:
+public:
     double TotalArmor();
 
-private:
+public:
     std::vector<Equip*> armorSet;
-    double additionArmor;
 };

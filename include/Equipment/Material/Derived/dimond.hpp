@@ -2,7 +2,7 @@
 
 #include "../Base/material.hpp"
 
-struct Dimond : virtual protected Material
+struct Dimond : virtual public Material
 {
 public:
     Dimond();

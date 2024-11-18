@@ -1,8 +1,8 @@
 #include "../../../../include/Equipment/Equip/my_equip.hpp"
 
-MyEquip::MyEquip() : additionArmor(0)
+MyEquip::MyEquip()
 {
-    armorSet.reserve(3);
+    armorSet.resize(3);
 }
 
 void MyEquip::SetHelmet(Helmet* helmet)
@@ -18,4 +18,14 @@ void MyEquip::SetChestplate(Chestplate* chestplate)
 void MyEquip::SetBoots(Boots* boots)
 {
     armorSet[BootsId] = reinterpret_cast<Equip*>(boots);
+}
+
+double MyEquip::TotalArmor()
+{
+    double armor = 0;
+    for (auto& elem : armorSet)
+    {
+        armor += elem->GetArmor() * elem->GetMaterial()->GetArmorMultiple();
+    }
+    return armor;
 }

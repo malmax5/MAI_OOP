@@ -8,7 +8,7 @@ class EquipBuilder : IEquipBuilder
 {
 public:
     void Reset() override;
-    void SetArmor(double armor) override;
+    void SetEquip(Equip* equip) override;
     void SetMaterial(Material* material) override;
     void SetName(std::string name) override;
     Equip* GetResult();
