@@ -1,0 +1,45 @@
+-----Equipment-----
+!Base!
+class Material: private_fields: name, armor_multiple
+                constructor(name)
+                public_funcs: GetName, GetArmorMultiple, SetArmorMultiple, SetName, GetArmorMultiple
+
+class Equip:    private_fields: armor, material
+                public_func: GetArmor, SetArmor, GetMaterial, SetMaterial
+
+!Derived Equip!
+class Helmet:   implements: Equip
+
+class Chestplate: implements: Equip
+
+class Boots: implements: Equip
+
+!Derived Material!
+class Gold:  implements Material
+             base_constructor: SetArmorMultiple, SetName
+class Iron: implements Material
+             base_constructor: SetArmorMultiple, SetName
+class Dimond: implements Material
+             base_constructor: SetArmorMultiple, SetName
+
+!Usage!
+class MyEquip:  private_fields: Equip[3](0 - Helmet, 1 - Chestplate, 2 - Boots), additionArmor
+                public_funcs: SetHelmet, SetChestplate, SetBoots
+                Events: TotalArmor -> additionArmor
+
+-----Mob-----
+!Base!
+class Mob:  protected_fields: name, hp, baseArmor, xCord, yCord, is_peaceful
+            protected_funcs: setters/getters for private_fields
+            clear_virtual_protected_funcs: SummaryArmor()
+
+class PeacefulMob:  implements: virtual protected Mob
+                    base_constructor: is_peaceful(1)
+
+class AgressiveMob: implements: virtual protected Mob
+                    base_constructor: is_peaceful(0)
+                    protected_fields: damage, attack_distance
+                    protected_funcs: setters/getters for private_fields
+
+
+!Derived!
