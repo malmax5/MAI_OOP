@@ -293,6 +293,34 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/iron.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.s
 
+CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/decorative.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/decorative.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/decorative.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/decorative.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/no_material.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/no_material.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/no_material.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/no_material.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.s
+
 # Object files for target lab_6_tests
 lab_6_tests_OBJECTS = \
 "CMakeFiles/lab_6_tests.dir/main.cpp.o" \
@@ -310,7 +338,9 @@ lab_6_tests_OBJECTS = \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.cpp.o" \
-"CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o"
+"CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o"
 
 # External object files for target lab_6_tests
 lab_6_tests_EXTERNAL_OBJECTS =
@@ -331,9 +361,11 @@ lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/B
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/build.make
 lab_6_tests: CMakeFiles/lab_6_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable lab_6_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable lab_6_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab_6_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

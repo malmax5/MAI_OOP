@@ -13,7 +13,7 @@ enum ArmorMultiple
 
 enum WhatMaterial
 {
-    NoMaterial = 0,
+    NoMaterialMaterial = 0,
     DecorativeMaterial = 1,
     IronMaterial = 2,
     GoldMaterial = 3,

@@ -1,86 +1,105 @@
 #include "../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.hpp"
 
 
-MyEquip* MyEquipBuilderMain::BuildSetByMask(int helmetMaterial, int chestplateMaterial, int bootsMaterial)
+// MyEquip* MyEquipBuilderMain::BuildSetByMask(WhatMaterial helmetMaterial, WhatMaterial chestplateMaterial, WhatMaterial bootsMaterial)
+// {
+//     Helmet* helmet;
+//     Chestplate* chestplate;
+//     Boots* boots;
+//     MyEquip* equip;
+
+//     MyEquipBuilder myEquipBuilder;
+//     EquipWithMaterialBuilder equipWithMaterialBuilder;
+//     EquipBuilder equipBuilder;
+
+//     helmet = BuildHelmetByMaterial(helmetMaterial, equipWithMaterialBuilder, equipBuilder);
+//     chestplate = BuildChestplateByMaterial(chestplateMaterial, equipWithMaterialBuilder, equipBuilder);
+//     boots = BuildBootsByMaterial(bootsMaterial, equipWithMaterialBuilder, equipBuilder);
+
+//     myEquipBuilder.Reset();
+//     myEquipBuilder.SetHelmet(helmet);
+//     myEquipBuilder.SetChestplate(chestplate);
+//     myEquipBuilder.SetBoots(boots);
+
+//     equip = myEquipBuilder.GetResult();
+
+//     return equip;
+// }
+
+Helmet* MyEquipBuilderMain::BuildHelmetByMaterial(WhatMaterial helmetMaterial, EquipWithMaterialBuilder& equipWithMaterialBuilder, EquipBuilder& equipBuilder)
 {
-    Helmet* helmet;
-    Chestplate* chestplate;
-    Boots* boots;
-    MyEquip* equip;
-
-    MyEquipBuilder builder0;
-    EquipWithMaterialBuilder builder1;
-    EquipBuilder builder2;
-
     switch (helmetMaterial)
     {
-    case NoMaterial:
+    case NoMaterialMaterial:
+        equipWithMaterialBuilder.BuildNoMaterialHelmet(&equipBuilder);
         break;
     case DecorativeMaterial:
+        equipWithMaterialBuilder.BuildDecorativeHelmet(&equipBuilder);
         break;
     case IronMaterial:
-        builder1.BuildIronHelmet(&builder2);
+        equipWithMaterialBuilder.BuildIronHelmet(&equipBuilder);
         break;
     case GoldMaterial:
-        builder1.BuildGoldHelmet(&builder2);
+        equipWithMaterialBuilder.BuildGoldHelmet(&equipBuilder);
         break;
     case DimondMaterial:
-        builder1.BuildDimondHelmet(&builder2);
+        equipWithMaterialBuilder.BuildDimondHelmet(&equipBuilder);
         break;
     
     default:
         break;
     }
-    helmet = reinterpret_cast<Helmet*>(builder2.GetResult());
+    return reinterpret_cast<Helmet*>(equipBuilder.GetResult());
+}
 
+Chestplate* MyEquipBuilderMain::BuildChestplateByMaterial(WhatMaterial chestplateMaterial, EquipWithMaterialBuilder& equipWithMaterialBuilder, EquipBuilder& equipBuilder)
+{
     switch (chestplateMaterial)
     {
-    case NoMaterial:
+    case NoMaterialMaterial:
+        equipWithMaterialBuilder.BuildNoMaterialChestplate(&equipBuilder);
         break;
     case DecorativeMaterial:
+        equipWithMaterialBuilder.BuildDecorativeChestplate(&equipBuilder);
         break;
     case IronMaterial:
-        builder1.BuildIronChestplate(&builder2);
+        equipWithMaterialBuilder.BuildIronChestplate(&equipBuilder);
         break;
     case GoldMaterial:
-        builder1.BuildGoldChestplate(&builder2);
+        equipWithMaterialBuilder.BuildGoldChestplate(&equipBuilder);
         break;
     case DimondMaterial:
-        builder1.BuildDimondChestplate(&builder2);
+        equipWithMaterialBuilder.BuildDimondChestplate(&equipBuilder);
         break;
     
     default:
         break;
     }
-    chestplate = reinterpret_cast<Chestplate*>(builder2.GetResult());
+    return reinterpret_cast<Chestplate*>(equipBuilder.GetResult());
+}
 
+Boots* MyEquipBuilderMain::BuildBootsByMaterial(WhatMaterial bootsMaterial, EquipWithMaterialBuilder& equipWithMaterialBuilder, EquipBuilder& equipBuilder)
+{
     switch (bootsMaterial)
     {
-    case NoMaterial:
+    case NoMaterialMaterial:
+        equipWithMaterialBuilder.BuildNoMaterialBoots(&equipBuilder);
         break;
     case DecorativeMaterial:
+        equipWithMaterialBuilder.BuildDecorativeBoots(&equipBuilder);
         break;
     case IronMaterial:
-        builder1.BuildIronBoots(&builder2);
+        equipWithMaterialBuilder.BuildIronBoots(&equipBuilder);
         break;
     case GoldMaterial:
-        builder1.BuildGoldBoots(&builder2);
+        equipWithMaterialBuilder.BuildGoldBoots(&equipBuilder);
         break;
     case DimondMaterial:
-        builder1.BuildDimondBoots(&builder2);
+        equipWithMaterialBuilder.BuildDimondBoots(&equipBuilder);
         break;
     
     default:
         break;
     }
-    boots = reinterpret_cast<Boots*>(builder2.GetResult());
-
-    builder0.Reset();
-    builder0.SetHelmet(helmet);
-    builder0.SetChestplate(chestplate);
-    builder0.SetBoots(boots);
-
-    equip = builder0.GetResult();
-
-    return equip;
+    return reinterpret_cast<Boots*>(equipBuilder.GetResult());
 }

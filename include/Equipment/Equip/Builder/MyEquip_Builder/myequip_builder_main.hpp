@@ -14,5 +14,10 @@
 class MyEquipBuilderMain
 {
 public:
-    MyEquip* BuildSetByMask(int helmetMaterial, int chestplateMaterial, int bootsMaterial);
+//     MyEquip* BuildSetByMask(WhatMaterial helmetMaterial, WhatMaterial chestplateMaterial, WhatMaterial bootsMaterial);
+
+// private:
+    Helmet* BuildHelmetByMaterial(WhatMaterial helmetMaterial, EquipWithMaterialBuilder& equipWithMaterialBuilder, EquipBuilder& equipBuilder);
+    Chestplate* BuildChestplateByMaterial(WhatMaterial chestplateMaterial, EquipWithMaterialBuilder& equipWithMaterialBuilder, EquipBuilder& equipBuilder);
+    Boots* BuildBootsByMaterial(WhatMaterial bootsMaterial, EquipWithMaterialBuilder& equipWithMaterialBuilder, EquipBuilder& equipBuilder);
 };

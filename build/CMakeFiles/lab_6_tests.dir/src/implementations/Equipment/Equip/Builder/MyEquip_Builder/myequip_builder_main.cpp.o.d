@@ -158,4 +158,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../../Builder/../Equip/Builder/Equip_Builder/equip_builder_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../../Builder/../Material/Derived/dimond.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../../Builder/../Material/Derived/iron.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../../Builder/../Material/Derived/gold.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../../Builder/../Material/Derived/gold.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../../Builder/../Material/Derived/decorative.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../../Builder/../Material/Derived/no_material.hpp

@@ -1,6 +1,6 @@
-#include "../../../../../include/Equipment/Material/Derived/iron.hpp"
+#include "../../../../../include/Equipment/Material/Derived/no_material.hpp"
 
-Iron::Iron()
+NoMaterial::NoMaterial()
 {
     SetArmorMultiple(NoMaterialMultiple);
     SetName("No Material");

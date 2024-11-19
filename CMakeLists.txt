@@ -31,12 +31,15 @@ set(
     include/Equipment/Equip/Derived/boots.hpp
     include/Equipment/Equip/Derived/chestplate.hpp
     include/Equipment/Equip/Derived/helmet.hpp
+    include/Equipment/Factory/equipment_factory.hpp
     include/Equipment/Equip/my_equip.hpp
     #material
     include/Equipment/Material/Base/material.hpp
     include/Equipment/Material/Derived/dimond.hpp
     include/Equipment/Material/Derived/gold.hpp
     include/Equipment/Material/Derived/iron.hpp
+    include/Equipment/Material/Derived/decorative.hpp
+    include/Equipment/Material/Derived/no_material.hpp
 
     #cpp
     #equip
@@ -56,6 +59,11 @@ set(
     src/implementations/Equipment/Material/Derived/dimond.cpp
     src/implementations/Equipment/Material/Derived/gold.cpp
     src/implementations/Equipment/Material/Derived/iron.cpp
+    src/implementations/Equipment/Material/Derived/decorative.cpp
+    src/implementations/Equipment/Material/Derived/no_material.cpp
+
+    #logger
+    Log/log.hpp
 )
 
 add_executable(

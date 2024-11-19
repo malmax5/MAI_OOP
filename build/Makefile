@@ -441,6 +441,30 @@ src/implementations/Equipment/Material/Base/material.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.cpp.s
 .PHONY : src/implementations/Equipment/Material/Base/material.cpp.s
 
+src/implementations/Equipment/Material/Derived/decorative.o: src/implementations/Equipment/Material/Derived/decorative.cpp.o
+.PHONY : src/implementations/Equipment/Material/Derived/decorative.o
+
+# target to build an object file
+src/implementations/Equipment/Material/Derived/decorative.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o
+.PHONY : src/implementations/Equipment/Material/Derived/decorative.cpp.o
+
+src/implementations/Equipment/Material/Derived/decorative.i: src/implementations/Equipment/Material/Derived/decorative.cpp.i
+.PHONY : src/implementations/Equipment/Material/Derived/decorative.i
+
+# target to preprocess a source file
+src/implementations/Equipment/Material/Derived/decorative.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.i
+.PHONY : src/implementations/Equipment/Material/Derived/decorative.cpp.i
+
+src/implementations/Equipment/Material/Derived/decorative.s: src/implementations/Equipment/Material/Derived/decorative.cpp.s
+.PHONY : src/implementations/Equipment/Material/Derived/decorative.s
+
+# target to generate assembly for a file
+src/implementations/Equipment/Material/Derived/decorative.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.s
+.PHONY : src/implementations/Equipment/Material/Derived/decorative.cpp.s
+
 src/implementations/Equipment/Material/Derived/dimond.o: src/implementations/Equipment/Material/Derived/dimond.cpp.o
 .PHONY : src/implementations/Equipment/Material/Derived/dimond.o
 
@@ -513,6 +537,30 @@ src/implementations/Equipment/Material/Derived/iron.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.s
 .PHONY : src/implementations/Equipment/Material/Derived/iron.cpp.s
 
+src/implementations/Equipment/Material/Derived/no_material.o: src/implementations/Equipment/Material/Derived/no_material.cpp.o
+.PHONY : src/implementations/Equipment/Material/Derived/no_material.o
+
+# target to build an object file
+src/implementations/Equipment/Material/Derived/no_material.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o
+.PHONY : src/implementations/Equipment/Material/Derived/no_material.cpp.o
+
+src/implementations/Equipment/Material/Derived/no_material.i: src/implementations/Equipment/Material/Derived/no_material.cpp.i
+.PHONY : src/implementations/Equipment/Material/Derived/no_material.i
+
+# target to preprocess a source file
+src/implementations/Equipment/Material/Derived/no_material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.i
+.PHONY : src/implementations/Equipment/Material/Derived/no_material.cpp.i
+
+src/implementations/Equipment/Material/Derived/no_material.s: src/implementations/Equipment/Material/Derived/no_material.cpp.s
+.PHONY : src/implementations/Equipment/Material/Derived/no_material.s
+
+# target to generate assembly for a file
+src/implementations/Equipment/Material/Derived/no_material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.s
+.PHONY : src/implementations/Equipment/Material/Derived/no_material.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -561,6 +609,9 @@ help:
 	@echo "... src/implementations/Equipment/Material/Base/material.o"
 	@echo "... src/implementations/Equipment/Material/Base/material.i"
 	@echo "... src/implementations/Equipment/Material/Base/material.s"
+	@echo "... src/implementations/Equipment/Material/Derived/decorative.o"
+	@echo "... src/implementations/Equipment/Material/Derived/decorative.i"
+	@echo "... src/implementations/Equipment/Material/Derived/decorative.s"
 	@echo "... src/implementations/Equipment/Material/Derived/dimond.o"
 	@echo "... src/implementations/Equipment/Material/Derived/dimond.i"
 	@echo "... src/implementations/Equipment/Material/Derived/dimond.s"
@@ -570,6 +621,9 @@ help:
 	@echo "... src/implementations/Equipment/Material/Derived/iron.o"
 	@echo "... src/implementations/Equipment/Material/Derived/iron.i"
 	@echo "... src/implementations/Equipment/Material/Derived/iron.s"
+	@echo "... src/implementations/Equipment/Material/Derived/no_material.o"
+	@echo "... src/implementations/Equipment/Material/Derived/no_material.i"
+	@echo "... src/implementations/Equipment/Material/Derived/no_material.s"
 .PHONY : help
 
 

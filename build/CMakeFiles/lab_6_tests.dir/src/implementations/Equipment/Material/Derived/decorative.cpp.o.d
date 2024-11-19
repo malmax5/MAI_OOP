@@ -1,10 +1,8 @@
-CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o: \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/equip_material_builder_main.cpp \
+CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o: \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/decorative.cpp \
  /usr/include/stdc-predef.h \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/equip_material_builder_main.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Equip/Builder/Equip_Builder/equip_builder.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Equip/Builder/Equip_Builder/equip_builder_interface.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Equip/Builder/Equip_Builder/../../Base/equip.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/../../../../../include/Equipment/Material/Derived/decorative.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/../../../../../include/Equipment/Material/Derived/../Base/material.hpp \
  /usr/include/c++/10/string \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
@@ -143,41 +141,4 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Builder/equip_material_
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/10/bits/charconv.h \
- /usr/include/c++/10/bits/basic_string.tcc \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Equip/Builder/Equip_Builder/../../Base/../../Material/Base/material.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Equip/Builder/Equip_Builder/../../my_equip.hpp \
- /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_uninitialized.h \
- /usr/include/c++/10/bits/stl_vector.h \
- /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Equip/Builder/Equip_Builder/../../Derived/helmet.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Equip/Builder/Equip_Builder/../../Derived/chestplate.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Equip/Builder/Equip_Builder/../../Derived/boots.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Material/Derived/dimond.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Material/Derived/iron.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Material/Derived/gold.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Material/Derived/decorative.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Material/Derived/no_material.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../Log/log.hpp \
- /usr/include/c++/10/iostream /usr/include/c++/10/ostream \
- /usr/include/c++/10/ios /usr/include/c++/10/bits/ios_base.h \
- /usr/include/c++/10/bits/locale_classes.h \
- /usr/include/c++/10/bits/locale_classes.tcc \
- /usr/include/c++/10/system_error \
- /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
- /usr/include/c++/10/stdexcept /usr/include/c++/10/streambuf \
- /usr/include/c++/10/bits/streambuf.tcc \
- /usr/include/c++/10/bits/basic_ios.h \
- /usr/include/c++/10/bits/locale_facets.h /usr/include/c++/10/cwctype \
- /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
- /usr/include/c++/10/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
- /usr/include/c++/10/bits/locale_facets.tcc \
- /usr/include/c++/10/bits/basic_ios.tcc \
- /usr/include/c++/10/bits/ostream.tcc /usr/include/c++/10/istream \
- /usr/include/c++/10/bits/istream.tcc /usr/include/c++/10/fstream \
- /usr/include/c++/10/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
- /usr/include/c++/10/bits/fstream.tcc
+ /usr/include/c++/10/bits/basic_string.tcc

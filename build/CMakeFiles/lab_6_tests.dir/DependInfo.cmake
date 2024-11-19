@@ -21,9 +21,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Derived/helmet.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/helmet.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/helmet.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/my_equip.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Base/material.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/decorative.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/dimond.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/gold.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/iron.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/no_material.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
