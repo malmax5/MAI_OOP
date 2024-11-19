@@ -37,14 +37,19 @@ class EquipBuilderMain: public_funcs:
 
 -----Mob-----
 !Base!
-class Mob:  protected_fields: name, hp, baseArmor, xCord, yCord, is_peaceful
-            protected_funcs: setters/getters for private_fields
-            clear_virtual_protected_funcs: SummaryArmor()
+class Positionable :    fields: xCord, yCord
+                        funcs: GetX, SetX, GetY, SetY
 
-class PeacefulMob:  implements: virtual protected Mob
-                    base_constructor: is_peaceful(1)
+class NPC:  implements: Positionable
+            fields: npc_type_id, current_npc_id, hp, armor, equip, speed
+            funcs: set_npc_id, set_current_npc_id, set_hp, set_armor, set_speed, <-getters
+            
+class AgressiveNPC: implements: NPC
+                    fields: attack_damage, attack_distance, target
 
-class AgressiveMob: implements: virtual protected Mob
-                    base_constructor: is_peaceful(0)
-                    protected_fields: damage, attack_distance
-                    protected_funcs: setters/getters for private_fields
+class PeacefulNPC: implements: NPC
+
+!Derived!
+class Knight: implements: AgressiveNPC
+class Squirrel: implements: AgressiveNPC
+class Pegasus: implements: PeacefulNPC

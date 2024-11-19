@@ -19,6 +19,7 @@ set(
     #main
     main.cpp
 
+    #!Equipment Start
     #hpp
     #equip
     include/Equipment/Builder/equip_material_builder_main.hpp
@@ -61,9 +62,47 @@ set(
     src/implementations/Equipment/Material/Derived/iron.cpp
     src/implementations/Equipment/Material/Derived/decorative.cpp
     src/implementations/Equipment/Material/Derived/no_material.cpp
+    #!Equipment Stop
 
-    #logger
+    #!NPC Start
+    #hpp
+    include/NPC/Base/npc.hpp
+    include/NPC/Base/agressive_npc.hpp
+    include/NPC/Base/peaceful_npc.hpp
+    include/NPC/Derived/knight.hpp
+    include/NPC/Derived/pegasus.hpp
+    include/NPC/Derived/squirrel.hpp
+    include/NPC/Builder/npc_builder_interface.hpp
+    include/NPC/Builder/npc_builder.hpp
+    include/NPC/Builder/npc_builder_main.hpp
+    include/NPC/Factory/npc_factory_interface.hpp
+    include/NPC/Factory/knight_factory.hpp
+    include/NPC/Factory/pegasus_factory.hpp
+    include/NPC/Factory/squirrel_factory.hpp
+    include/NPC/Enums/armor_enum.hpp
+    include/NPC/Enums/hp_enum.hpp
+    include/NPC/Enums/speed_enum.hpp
+    include/NPC/Enums/type_id_enum.hpp
+
+    #cpp
+    src/implementations/NPC/Base/npc.cpp
+    src/implementations/NPC/Base/agressive_npc.cpp
+    src/implementations/NPC/Base/peaceful_npc.cpp
+    src/implementations/NPC/Derived/knight.cpp
+    src/implementations/NPC/Derived/pegasus.cpp
+    src/implementations/NPC/Derived/squirrel.cpp
+    src/implementations/NPC/Builder/npc_builder_interface.cpp
+    src/implementations/NPC/Builder/npc_builder.cpp
+    src/implementations/NPC/Builder/npc_builder_main.cpp
+    src/implementations/NPC/Factory/npc_factory_interface.cpp
+    src/implementations/NPC/Factory/knight_factory.cpp
+    src/implementations/NPC/Factory/pegasus_factory.cpp
+    src/implementations/NPC/Factory/squirrel_factory.cpp
+    #!NPC Stop
+
+    #!Logger Start
     Log/log.hpp
+    #!Logger Stop
 )
 
 add_executable(

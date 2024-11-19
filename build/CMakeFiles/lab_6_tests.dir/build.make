@@ -321,6 +321,188 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_mat
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/no_material.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.s
 
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/npc.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/npc.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/npc.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/npc.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/agressive_npc.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/agressive_npc.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/agressive_npc.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/agressive_npc.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/peaceful_npc.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/peaceful_npc.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/peaceful_npc.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/peaceful_npc.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/knight.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/knight.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/knight.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/knight.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/pegasus.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/pegasus.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/pegasus.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/pegasus.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/squirrel.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/squirrel.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/squirrel.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/squirrel.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder_interface.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder_interface.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder_interface.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder_interface.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder_main.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder_main.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder_main.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder_main.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/npc_factory_interface.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/npc_factory_interface.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/npc_factory_interface.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/npc_factory_interface.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/knight_factory.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/knight_factory.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/knight_factory.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/knight_factory.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/pegasus_factory.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/pegasus_factory.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/pegasus_factory.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/pegasus_factory.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/squirrel_factory.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/squirrel_factory.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/squirrel_factory.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/squirrel_factory.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.s
+
 # Object files for target lab_6_tests
 lab_6_tests_OBJECTS = \
 "CMakeFiles/lab_6_tests.dir/main.cpp.o" \
@@ -340,7 +522,20 @@ lab_6_tests_OBJECTS = \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o" \
-"CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o"
+"CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.o"
 
 # External object files for target lab_6_tests
 lab_6_tests_EXTERNAL_OBJECTS =
@@ -363,9 +558,22 @@ lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/D
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/build.make
 lab_6_tests: CMakeFiles/lab_6_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable lab_6_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable lab_6_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab_6_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

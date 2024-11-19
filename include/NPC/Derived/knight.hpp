@@ -1,0 +1,8 @@
+#include "../Enums/type_id_enum.hpp"
+#include "../Base/agressive_npc.hpp"
+
+class Knight : public AgressiveNPC
+{
+public:
+    Knight();
+};

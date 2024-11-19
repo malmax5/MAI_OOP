@@ -561,6 +561,318 @@ src/implementations/Equipment/Material/Derived/no_material.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.s
 .PHONY : src/implementations/Equipment/Material/Derived/no_material.cpp.s
 
+src/implementations/NPC/Base/agressive_npc.o: src/implementations/NPC/Base/agressive_npc.cpp.o
+.PHONY : src/implementations/NPC/Base/agressive_npc.o
+
+# target to build an object file
+src/implementations/NPC/Base/agressive_npc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o
+.PHONY : src/implementations/NPC/Base/agressive_npc.cpp.o
+
+src/implementations/NPC/Base/agressive_npc.i: src/implementations/NPC/Base/agressive_npc.cpp.i
+.PHONY : src/implementations/NPC/Base/agressive_npc.i
+
+# target to preprocess a source file
+src/implementations/NPC/Base/agressive_npc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.i
+.PHONY : src/implementations/NPC/Base/agressive_npc.cpp.i
+
+src/implementations/NPC/Base/agressive_npc.s: src/implementations/NPC/Base/agressive_npc.cpp.s
+.PHONY : src/implementations/NPC/Base/agressive_npc.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Base/agressive_npc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.s
+.PHONY : src/implementations/NPC/Base/agressive_npc.cpp.s
+
+src/implementations/NPC/Base/npc.o: src/implementations/NPC/Base/npc.cpp.o
+.PHONY : src/implementations/NPC/Base/npc.o
+
+# target to build an object file
+src/implementations/NPC/Base/npc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o
+.PHONY : src/implementations/NPC/Base/npc.cpp.o
+
+src/implementations/NPC/Base/npc.i: src/implementations/NPC/Base/npc.cpp.i
+.PHONY : src/implementations/NPC/Base/npc.i
+
+# target to preprocess a source file
+src/implementations/NPC/Base/npc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.i
+.PHONY : src/implementations/NPC/Base/npc.cpp.i
+
+src/implementations/NPC/Base/npc.s: src/implementations/NPC/Base/npc.cpp.s
+.PHONY : src/implementations/NPC/Base/npc.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Base/npc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.s
+.PHONY : src/implementations/NPC/Base/npc.cpp.s
+
+src/implementations/NPC/Base/peaceful_npc.o: src/implementations/NPC/Base/peaceful_npc.cpp.o
+.PHONY : src/implementations/NPC/Base/peaceful_npc.o
+
+# target to build an object file
+src/implementations/NPC/Base/peaceful_npc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o
+.PHONY : src/implementations/NPC/Base/peaceful_npc.cpp.o
+
+src/implementations/NPC/Base/peaceful_npc.i: src/implementations/NPC/Base/peaceful_npc.cpp.i
+.PHONY : src/implementations/NPC/Base/peaceful_npc.i
+
+# target to preprocess a source file
+src/implementations/NPC/Base/peaceful_npc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.i
+.PHONY : src/implementations/NPC/Base/peaceful_npc.cpp.i
+
+src/implementations/NPC/Base/peaceful_npc.s: src/implementations/NPC/Base/peaceful_npc.cpp.s
+.PHONY : src/implementations/NPC/Base/peaceful_npc.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Base/peaceful_npc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.s
+.PHONY : src/implementations/NPC/Base/peaceful_npc.cpp.s
+
+src/implementations/NPC/Builder/npc_builder.o: src/implementations/NPC/Builder/npc_builder.cpp.o
+.PHONY : src/implementations/NPC/Builder/npc_builder.o
+
+# target to build an object file
+src/implementations/NPC/Builder/npc_builder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o
+.PHONY : src/implementations/NPC/Builder/npc_builder.cpp.o
+
+src/implementations/NPC/Builder/npc_builder.i: src/implementations/NPC/Builder/npc_builder.cpp.i
+.PHONY : src/implementations/NPC/Builder/npc_builder.i
+
+# target to preprocess a source file
+src/implementations/NPC/Builder/npc_builder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.i
+.PHONY : src/implementations/NPC/Builder/npc_builder.cpp.i
+
+src/implementations/NPC/Builder/npc_builder.s: src/implementations/NPC/Builder/npc_builder.cpp.s
+.PHONY : src/implementations/NPC/Builder/npc_builder.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Builder/npc_builder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.s
+.PHONY : src/implementations/NPC/Builder/npc_builder.cpp.s
+
+src/implementations/NPC/Builder/npc_builder_interface.o: src/implementations/NPC/Builder/npc_builder_interface.cpp.o
+.PHONY : src/implementations/NPC/Builder/npc_builder_interface.o
+
+# target to build an object file
+src/implementations/NPC/Builder/npc_builder_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.o
+.PHONY : src/implementations/NPC/Builder/npc_builder_interface.cpp.o
+
+src/implementations/NPC/Builder/npc_builder_interface.i: src/implementations/NPC/Builder/npc_builder_interface.cpp.i
+.PHONY : src/implementations/NPC/Builder/npc_builder_interface.i
+
+# target to preprocess a source file
+src/implementations/NPC/Builder/npc_builder_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.i
+.PHONY : src/implementations/NPC/Builder/npc_builder_interface.cpp.i
+
+src/implementations/NPC/Builder/npc_builder_interface.s: src/implementations/NPC/Builder/npc_builder_interface.cpp.s
+.PHONY : src/implementations/NPC/Builder/npc_builder_interface.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Builder/npc_builder_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.s
+.PHONY : src/implementations/NPC/Builder/npc_builder_interface.cpp.s
+
+src/implementations/NPC/Builder/npc_builder_main.o: src/implementations/NPC/Builder/npc_builder_main.cpp.o
+.PHONY : src/implementations/NPC/Builder/npc_builder_main.o
+
+# target to build an object file
+src/implementations/NPC/Builder/npc_builder_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.o
+.PHONY : src/implementations/NPC/Builder/npc_builder_main.cpp.o
+
+src/implementations/NPC/Builder/npc_builder_main.i: src/implementations/NPC/Builder/npc_builder_main.cpp.i
+.PHONY : src/implementations/NPC/Builder/npc_builder_main.i
+
+# target to preprocess a source file
+src/implementations/NPC/Builder/npc_builder_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.i
+.PHONY : src/implementations/NPC/Builder/npc_builder_main.cpp.i
+
+src/implementations/NPC/Builder/npc_builder_main.s: src/implementations/NPC/Builder/npc_builder_main.cpp.s
+.PHONY : src/implementations/NPC/Builder/npc_builder_main.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Builder/npc_builder_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.s
+.PHONY : src/implementations/NPC/Builder/npc_builder_main.cpp.s
+
+src/implementations/NPC/Derived/knight.o: src/implementations/NPC/Derived/knight.cpp.o
+.PHONY : src/implementations/NPC/Derived/knight.o
+
+# target to build an object file
+src/implementations/NPC/Derived/knight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o
+.PHONY : src/implementations/NPC/Derived/knight.cpp.o
+
+src/implementations/NPC/Derived/knight.i: src/implementations/NPC/Derived/knight.cpp.i
+.PHONY : src/implementations/NPC/Derived/knight.i
+
+# target to preprocess a source file
+src/implementations/NPC/Derived/knight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.i
+.PHONY : src/implementations/NPC/Derived/knight.cpp.i
+
+src/implementations/NPC/Derived/knight.s: src/implementations/NPC/Derived/knight.cpp.s
+.PHONY : src/implementations/NPC/Derived/knight.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Derived/knight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.s
+.PHONY : src/implementations/NPC/Derived/knight.cpp.s
+
+src/implementations/NPC/Derived/pegasus.o: src/implementations/NPC/Derived/pegasus.cpp.o
+.PHONY : src/implementations/NPC/Derived/pegasus.o
+
+# target to build an object file
+src/implementations/NPC/Derived/pegasus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o
+.PHONY : src/implementations/NPC/Derived/pegasus.cpp.o
+
+src/implementations/NPC/Derived/pegasus.i: src/implementations/NPC/Derived/pegasus.cpp.i
+.PHONY : src/implementations/NPC/Derived/pegasus.i
+
+# target to preprocess a source file
+src/implementations/NPC/Derived/pegasus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.i
+.PHONY : src/implementations/NPC/Derived/pegasus.cpp.i
+
+src/implementations/NPC/Derived/pegasus.s: src/implementations/NPC/Derived/pegasus.cpp.s
+.PHONY : src/implementations/NPC/Derived/pegasus.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Derived/pegasus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.s
+.PHONY : src/implementations/NPC/Derived/pegasus.cpp.s
+
+src/implementations/NPC/Derived/squirrel.o: src/implementations/NPC/Derived/squirrel.cpp.o
+.PHONY : src/implementations/NPC/Derived/squirrel.o
+
+# target to build an object file
+src/implementations/NPC/Derived/squirrel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o
+.PHONY : src/implementations/NPC/Derived/squirrel.cpp.o
+
+src/implementations/NPC/Derived/squirrel.i: src/implementations/NPC/Derived/squirrel.cpp.i
+.PHONY : src/implementations/NPC/Derived/squirrel.i
+
+# target to preprocess a source file
+src/implementations/NPC/Derived/squirrel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.i
+.PHONY : src/implementations/NPC/Derived/squirrel.cpp.i
+
+src/implementations/NPC/Derived/squirrel.s: src/implementations/NPC/Derived/squirrel.cpp.s
+.PHONY : src/implementations/NPC/Derived/squirrel.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Derived/squirrel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.s
+.PHONY : src/implementations/NPC/Derived/squirrel.cpp.s
+
+src/implementations/NPC/Factory/knight_factory.o: src/implementations/NPC/Factory/knight_factory.cpp.o
+.PHONY : src/implementations/NPC/Factory/knight_factory.o
+
+# target to build an object file
+src/implementations/NPC/Factory/knight_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o
+.PHONY : src/implementations/NPC/Factory/knight_factory.cpp.o
+
+src/implementations/NPC/Factory/knight_factory.i: src/implementations/NPC/Factory/knight_factory.cpp.i
+.PHONY : src/implementations/NPC/Factory/knight_factory.i
+
+# target to preprocess a source file
+src/implementations/NPC/Factory/knight_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.i
+.PHONY : src/implementations/NPC/Factory/knight_factory.cpp.i
+
+src/implementations/NPC/Factory/knight_factory.s: src/implementations/NPC/Factory/knight_factory.cpp.s
+.PHONY : src/implementations/NPC/Factory/knight_factory.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Factory/knight_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.s
+.PHONY : src/implementations/NPC/Factory/knight_factory.cpp.s
+
+src/implementations/NPC/Factory/npc_factory_interface.o: src/implementations/NPC/Factory/npc_factory_interface.cpp.o
+.PHONY : src/implementations/NPC/Factory/npc_factory_interface.o
+
+# target to build an object file
+src/implementations/NPC/Factory/npc_factory_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.o
+.PHONY : src/implementations/NPC/Factory/npc_factory_interface.cpp.o
+
+src/implementations/NPC/Factory/npc_factory_interface.i: src/implementations/NPC/Factory/npc_factory_interface.cpp.i
+.PHONY : src/implementations/NPC/Factory/npc_factory_interface.i
+
+# target to preprocess a source file
+src/implementations/NPC/Factory/npc_factory_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.i
+.PHONY : src/implementations/NPC/Factory/npc_factory_interface.cpp.i
+
+src/implementations/NPC/Factory/npc_factory_interface.s: src/implementations/NPC/Factory/npc_factory_interface.cpp.s
+.PHONY : src/implementations/NPC/Factory/npc_factory_interface.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Factory/npc_factory_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.s
+.PHONY : src/implementations/NPC/Factory/npc_factory_interface.cpp.s
+
+src/implementations/NPC/Factory/pegasus_factory.o: src/implementations/NPC/Factory/pegasus_factory.cpp.o
+.PHONY : src/implementations/NPC/Factory/pegasus_factory.o
+
+# target to build an object file
+src/implementations/NPC/Factory/pegasus_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
+.PHONY : src/implementations/NPC/Factory/pegasus_factory.cpp.o
+
+src/implementations/NPC/Factory/pegasus_factory.i: src/implementations/NPC/Factory/pegasus_factory.cpp.i
+.PHONY : src/implementations/NPC/Factory/pegasus_factory.i
+
+# target to preprocess a source file
+src/implementations/NPC/Factory/pegasus_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.i
+.PHONY : src/implementations/NPC/Factory/pegasus_factory.cpp.i
+
+src/implementations/NPC/Factory/pegasus_factory.s: src/implementations/NPC/Factory/pegasus_factory.cpp.s
+.PHONY : src/implementations/NPC/Factory/pegasus_factory.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Factory/pegasus_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.s
+.PHONY : src/implementations/NPC/Factory/pegasus_factory.cpp.s
+
+src/implementations/NPC/Factory/squirrel_factory.o: src/implementations/NPC/Factory/squirrel_factory.cpp.o
+.PHONY : src/implementations/NPC/Factory/squirrel_factory.o
+
+# target to build an object file
+src/implementations/NPC/Factory/squirrel_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.o
+.PHONY : src/implementations/NPC/Factory/squirrel_factory.cpp.o
+
+src/implementations/NPC/Factory/squirrel_factory.i: src/implementations/NPC/Factory/squirrel_factory.cpp.i
+.PHONY : src/implementations/NPC/Factory/squirrel_factory.i
+
+# target to preprocess a source file
+src/implementations/NPC/Factory/squirrel_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.i
+.PHONY : src/implementations/NPC/Factory/squirrel_factory.cpp.i
+
+src/implementations/NPC/Factory/squirrel_factory.s: src/implementations/NPC/Factory/squirrel_factory.cpp.s
+.PHONY : src/implementations/NPC/Factory/squirrel_factory.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Factory/squirrel_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.s
+.PHONY : src/implementations/NPC/Factory/squirrel_factory.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -624,6 +936,45 @@ help:
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.o"
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.i"
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.s"
+	@echo "... src/implementations/NPC/Base/agressive_npc.o"
+	@echo "... src/implementations/NPC/Base/agressive_npc.i"
+	@echo "... src/implementations/NPC/Base/agressive_npc.s"
+	@echo "... src/implementations/NPC/Base/npc.o"
+	@echo "... src/implementations/NPC/Base/npc.i"
+	@echo "... src/implementations/NPC/Base/npc.s"
+	@echo "... src/implementations/NPC/Base/peaceful_npc.o"
+	@echo "... src/implementations/NPC/Base/peaceful_npc.i"
+	@echo "... src/implementations/NPC/Base/peaceful_npc.s"
+	@echo "... src/implementations/NPC/Builder/npc_builder.o"
+	@echo "... src/implementations/NPC/Builder/npc_builder.i"
+	@echo "... src/implementations/NPC/Builder/npc_builder.s"
+	@echo "... src/implementations/NPC/Builder/npc_builder_interface.o"
+	@echo "... src/implementations/NPC/Builder/npc_builder_interface.i"
+	@echo "... src/implementations/NPC/Builder/npc_builder_interface.s"
+	@echo "... src/implementations/NPC/Builder/npc_builder_main.o"
+	@echo "... src/implementations/NPC/Builder/npc_builder_main.i"
+	@echo "... src/implementations/NPC/Builder/npc_builder_main.s"
+	@echo "... src/implementations/NPC/Derived/knight.o"
+	@echo "... src/implementations/NPC/Derived/knight.i"
+	@echo "... src/implementations/NPC/Derived/knight.s"
+	@echo "... src/implementations/NPC/Derived/pegasus.o"
+	@echo "... src/implementations/NPC/Derived/pegasus.i"
+	@echo "... src/implementations/NPC/Derived/pegasus.s"
+	@echo "... src/implementations/NPC/Derived/squirrel.o"
+	@echo "... src/implementations/NPC/Derived/squirrel.i"
+	@echo "... src/implementations/NPC/Derived/squirrel.s"
+	@echo "... src/implementations/NPC/Factory/knight_factory.o"
+	@echo "... src/implementations/NPC/Factory/knight_factory.i"
+	@echo "... src/implementations/NPC/Factory/knight_factory.s"
+	@echo "... src/implementations/NPC/Factory/npc_factory_interface.o"
+	@echo "... src/implementations/NPC/Factory/npc_factory_interface.i"
+	@echo "... src/implementations/NPC/Factory/npc_factory_interface.s"
+	@echo "... src/implementations/NPC/Factory/pegasus_factory.o"
+	@echo "... src/implementations/NPC/Factory/pegasus_factory.i"
+	@echo "... src/implementations/NPC/Factory/pegasus_factory.s"
+	@echo "... src/implementations/NPC/Factory/squirrel_factory.o"
+	@echo "... src/implementations/NPC/Factory/squirrel_factory.i"
+	@echo "... src/implementations/NPC/Factory/squirrel_factory.s"
 .PHONY : help
 
 
