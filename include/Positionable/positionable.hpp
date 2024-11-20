@@ -5,10 +5,10 @@ class Position
     friend class PegasusFactory;
     friend class KnightFactory;
     friend class SquirrelFactory;
+    friend class MoveCommand;
 public:
     double GetXCord();
     double GetYCord();
-    void Move(double speed, double xCordEnd, double yCordEnd);
 
 protected:
     void SetXCord(double xCord);

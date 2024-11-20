@@ -51,6 +51,17 @@
         "iostream": "cpp",
         "istream": "cpp",
         "map": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "charconv": "cpp",
+        "chrono": "cpp",
+        "condition_variable": "cpp",
+        "ratio": "cpp",
+        "iomanip": "cpp",
+        "mutex": "cpp",
+        "sstream": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp",
+        "semaphore": "cpp",
+        "format": "cpp"
     }
 }

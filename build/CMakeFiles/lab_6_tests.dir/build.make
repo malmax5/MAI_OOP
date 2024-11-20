@@ -517,10 +517,66 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/squirrel_factory.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.s
 
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/attack_command.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/attack_command.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/attack_command.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/attack_command.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/comand_interface.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/comand_interface.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/comand_interface.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/comand_interface.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/move_command.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/move_command.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/move_command.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/move_command.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.s
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/command_executer.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/command_executer.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/command_executer.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/command_executer.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.s
+
 CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
 CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/positionable.cpp
 CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/positionable.cpp
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.i: cmake_force
@@ -531,10 +587,24 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/positionable.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.s
 
+CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/position_funcs.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/position_funcs.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/position_funcs.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/position_funcs.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.s
+
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/game.cpp
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/game.cpp
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.i: cmake_force
@@ -548,7 +618,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.s: cmake_force
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/terminal.cpp
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/terminal.cpp
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.i: cmake_force
@@ -593,7 +663,12 @@ lab_6_tests_OBJECTS = \
 "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o"
 
@@ -632,12 +707,17 @@ lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_fact
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/build.make
 lab_6_tests: CMakeFiles/lab_6_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable lab_6_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable lab_6_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab_6_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

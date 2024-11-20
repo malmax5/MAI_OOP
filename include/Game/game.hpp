@@ -2,8 +2,14 @@
 
 #include <iostream>
 #include <vector>
+#include <thread>
 
 #include "../NPC/Base/npc.hpp"
+#include "../NPC/FightLogic/command_executer.hpp"
+
+#include "../NPC/FightLogic/Command/move_command.hpp"
+#include "../NPC/FightLogic/Command/attack_command.hpp"
+#include "../NPC/FightLogic/Command/command_interface.hpp"
 
 class Game
 {

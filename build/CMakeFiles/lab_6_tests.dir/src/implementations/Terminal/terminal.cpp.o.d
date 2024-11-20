@@ -160,7 +160,33 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: \
  /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_uninitialized.h \
  /usr/include/c++/10/bits/stl_vector.h \
  /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc \
+ /usr/include/c++/10/bits/vector.tcc /usr/include/c++/10/thread \
+ /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
+ /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
+ /usr/include/c++/10/memory \
+ /usr/include/c++/10/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/10/bits/ranges_uninitialized.h \
+ /usr/include/c++/10/bits/ranges_algobase.h /usr/include/c++/10/iterator \
+ /usr/include/c++/10/bits/stream_iterator.h /usr/include/c++/10/ranges \
+ /usr/include/c++/10/bits/refwrap.h /usr/include/c++/10/bits/invoke.h \
+ /usr/include/c++/10/optional /usr/include/c++/10/utility \
+ /usr/include/c++/10/bits/stl_relops.h \
+ /usr/include/c++/10/bits/enable_special_members.h \
+ /usr/include/c++/10/tuple /usr/include/c++/10/array \
+ /usr/include/c++/10/bits/uses_allocator.h \
+ /usr/include/c++/10/ext/concurrence.h \
+ /usr/include/c++/10/bits/unique_ptr.h \
+ /usr/include/c++/10/bits/shared_ptr.h \
+ /usr/include/c++/10/bits/shared_ptr_base.h \
+ /usr/include/c++/10/bits/allocated_ptr.h \
+ /usr/include/c++/10/ext/aligned_buffer.h \
+ /usr/include/c++/10/bits/shared_ptr_atomic.h \
+ /usr/include/c++/10/bits/atomic_base.h \
+ /usr/include/c++/10/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
+ /usr/include/c++/10/pstl/glue_memory_defs.h \
+ /usr/include/c++/10/pstl/execution_defs.h /usr/include/c++/10/stop_token \
+ /usr/include/c++/10/atomic \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/Base/npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/Base/../../Positionable/positionable.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
@@ -169,6 +195,38 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/FightLogic/command_executer.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/FightLogic/Command/command_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/FightLogic/Command/../../../Positionable/position_funcs.hpp \
+ /usr/include/c++/10/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/10/bits/specfun.h /usr/include/c++/10/tr1/gamma.tcc \
+ /usr/include/c++/10/tr1/special_function_util.h \
+ /usr/include/c++/10/tr1/bessel_function.tcc \
+ /usr/include/c++/10/tr1/beta_function.tcc \
+ /usr/include/c++/10/tr1/ell_integral.tcc \
+ /usr/include/c++/10/tr1/exp_integral.tcc \
+ /usr/include/c++/10/tr1/hypergeometric.tcc \
+ /usr/include/c++/10/tr1/legendre_function.tcc \
+ /usr/include/c++/10/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/10/tr1/poly_hermite.tcc \
+ /usr/include/c++/10/tr1/poly_laguerre.tcc \
+ /usr/include/c++/10/tr1/riemann_zeta.tcc /usr/include/c++/10/queue \
+ /usr/include/c++/10/deque /usr/include/c++/10/bits/stl_deque.h \
+ /usr/include/c++/10/bits/deque.tcc /usr/include/c++/10/bits/stl_queue.h \
+ /usr/include/c++/10/mutex /usr/include/c++/10/bits/std_mutex.h \
+ /usr/include/c++/10/bits/unique_lock.h \
+ /usr/include/c++/10/condition_variable \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/FightLogic/Command/move_command.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/FightLogic/Command/attack_command.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../NPC/Factory/knight_factory.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../NPC/Factory/npc_factory_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../NPC/Factory/pegasus_factory.hpp \

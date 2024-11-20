@@ -84,6 +84,10 @@ set(
     include/NPC/Enums/hp_enum.hpp
     include/NPC/Enums/speed_enum.hpp
     include/NPC/Enums/type_id_enum.hpp
+    include/NPC/FightLogic/Command/attack_command.hpp
+    include/NPC/FightLogic/Command/command_interface.hpp
+    include/NPC/FightLogic/Command/move_command.hpp
+    include/NPC/FightLogic/command_executer.hpp
 
     #cpp
     src/implementations/NPC/Base/npc.cpp
@@ -100,14 +104,20 @@ set(
     src/implementations/NPC/Factory/knight_factory.cpp
     src/implementations/NPC/Factory/pegasus_factory.cpp
     src/implementations/NPC/Factory/squirrel_factory.cpp
+    src/implementations/NPC/FightLogic/Command/attack_command.cpp
+    src/implementations/NPC/FightLogic/Command/comand_interface.cpp
+    src/implementations/NPC/FightLogic/Command/move_command.cpp
+    src/implementations/NPC/FightLogic/command_executer.cpp
     #!NPC Stop
 
     #!Positionable
     #hpp
     include/Positionable/positionable.hpp
+    include/Positionable/position_funcs.hpp
 
     #cpp
     src/implementations/Positionable/positionable.cpp
+    src/implementations/Positionable/position_funcs.cpp
     #!Positionable Stop
 
     #!Game

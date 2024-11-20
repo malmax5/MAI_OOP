@@ -921,6 +921,126 @@ src/implementations/NPC/Factory/squirrel_factory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.s
 .PHONY : src/implementations/NPC/Factory/squirrel_factory.cpp.s
 
+src/implementations/NPC/FightLogic/Command/attack_command.o: src/implementations/NPC/FightLogic/Command/attack_command.cpp.o
+.PHONY : src/implementations/NPC/FightLogic/Command/attack_command.o
+
+# target to build an object file
+src/implementations/NPC/FightLogic/Command/attack_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.o
+.PHONY : src/implementations/NPC/FightLogic/Command/attack_command.cpp.o
+
+src/implementations/NPC/FightLogic/Command/attack_command.i: src/implementations/NPC/FightLogic/Command/attack_command.cpp.i
+.PHONY : src/implementations/NPC/FightLogic/Command/attack_command.i
+
+# target to preprocess a source file
+src/implementations/NPC/FightLogic/Command/attack_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.i
+.PHONY : src/implementations/NPC/FightLogic/Command/attack_command.cpp.i
+
+src/implementations/NPC/FightLogic/Command/attack_command.s: src/implementations/NPC/FightLogic/Command/attack_command.cpp.s
+.PHONY : src/implementations/NPC/FightLogic/Command/attack_command.s
+
+# target to generate assembly for a file
+src/implementations/NPC/FightLogic/Command/attack_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.s
+.PHONY : src/implementations/NPC/FightLogic/Command/attack_command.cpp.s
+
+src/implementations/NPC/FightLogic/Command/comand_interface.o: src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o
+.PHONY : src/implementations/NPC/FightLogic/Command/comand_interface.o
+
+# target to build an object file
+src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o
+.PHONY : src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o
+
+src/implementations/NPC/FightLogic/Command/comand_interface.i: src/implementations/NPC/FightLogic/Command/comand_interface.cpp.i
+.PHONY : src/implementations/NPC/FightLogic/Command/comand_interface.i
+
+# target to preprocess a source file
+src/implementations/NPC/FightLogic/Command/comand_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.i
+.PHONY : src/implementations/NPC/FightLogic/Command/comand_interface.cpp.i
+
+src/implementations/NPC/FightLogic/Command/comand_interface.s: src/implementations/NPC/FightLogic/Command/comand_interface.cpp.s
+.PHONY : src/implementations/NPC/FightLogic/Command/comand_interface.s
+
+# target to generate assembly for a file
+src/implementations/NPC/FightLogic/Command/comand_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.s
+.PHONY : src/implementations/NPC/FightLogic/Command/comand_interface.cpp.s
+
+src/implementations/NPC/FightLogic/Command/move_command.o: src/implementations/NPC/FightLogic/Command/move_command.cpp.o
+.PHONY : src/implementations/NPC/FightLogic/Command/move_command.o
+
+# target to build an object file
+src/implementations/NPC/FightLogic/Command/move_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.o
+.PHONY : src/implementations/NPC/FightLogic/Command/move_command.cpp.o
+
+src/implementations/NPC/FightLogic/Command/move_command.i: src/implementations/NPC/FightLogic/Command/move_command.cpp.i
+.PHONY : src/implementations/NPC/FightLogic/Command/move_command.i
+
+# target to preprocess a source file
+src/implementations/NPC/FightLogic/Command/move_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.i
+.PHONY : src/implementations/NPC/FightLogic/Command/move_command.cpp.i
+
+src/implementations/NPC/FightLogic/Command/move_command.s: src/implementations/NPC/FightLogic/Command/move_command.cpp.s
+.PHONY : src/implementations/NPC/FightLogic/Command/move_command.s
+
+# target to generate assembly for a file
+src/implementations/NPC/FightLogic/Command/move_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.s
+.PHONY : src/implementations/NPC/FightLogic/Command/move_command.cpp.s
+
+src/implementations/NPC/FightLogic/command_executer.o: src/implementations/NPC/FightLogic/command_executer.cpp.o
+.PHONY : src/implementations/NPC/FightLogic/command_executer.o
+
+# target to build an object file
+src/implementations/NPC/FightLogic/command_executer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o
+.PHONY : src/implementations/NPC/FightLogic/command_executer.cpp.o
+
+src/implementations/NPC/FightLogic/command_executer.i: src/implementations/NPC/FightLogic/command_executer.cpp.i
+.PHONY : src/implementations/NPC/FightLogic/command_executer.i
+
+# target to preprocess a source file
+src/implementations/NPC/FightLogic/command_executer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.i
+.PHONY : src/implementations/NPC/FightLogic/command_executer.cpp.i
+
+src/implementations/NPC/FightLogic/command_executer.s: src/implementations/NPC/FightLogic/command_executer.cpp.s
+.PHONY : src/implementations/NPC/FightLogic/command_executer.s
+
+# target to generate assembly for a file
+src/implementations/NPC/FightLogic/command_executer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.s
+.PHONY : src/implementations/NPC/FightLogic/command_executer.cpp.s
+
+src/implementations/Positionable/position_funcs.o: src/implementations/Positionable/position_funcs.cpp.o
+.PHONY : src/implementations/Positionable/position_funcs.o
+
+# target to build an object file
+src/implementations/Positionable/position_funcs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
+.PHONY : src/implementations/Positionable/position_funcs.cpp.o
+
+src/implementations/Positionable/position_funcs.i: src/implementations/Positionable/position_funcs.cpp.i
+.PHONY : src/implementations/Positionable/position_funcs.i
+
+# target to preprocess a source file
+src/implementations/Positionable/position_funcs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.i
+.PHONY : src/implementations/Positionable/position_funcs.cpp.i
+
+src/implementations/Positionable/position_funcs.s: src/implementations/Positionable/position_funcs.cpp.s
+.PHONY : src/implementations/Positionable/position_funcs.s
+
+# target to generate assembly for a file
+src/implementations/Positionable/position_funcs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.s
+.PHONY : src/implementations/Positionable/position_funcs.cpp.s
+
 src/implementations/Positionable/positionable.o: src/implementations/Positionable/positionable.cpp.o
 .PHONY : src/implementations/Positionable/positionable.o
 
@@ -1077,6 +1197,21 @@ help:
 	@echo "... src/implementations/NPC/Factory/squirrel_factory.o"
 	@echo "... src/implementations/NPC/Factory/squirrel_factory.i"
 	@echo "... src/implementations/NPC/Factory/squirrel_factory.s"
+	@echo "... src/implementations/NPC/FightLogic/Command/attack_command.o"
+	@echo "... src/implementations/NPC/FightLogic/Command/attack_command.i"
+	@echo "... src/implementations/NPC/FightLogic/Command/attack_command.s"
+	@echo "... src/implementations/NPC/FightLogic/Command/comand_interface.o"
+	@echo "... src/implementations/NPC/FightLogic/Command/comand_interface.i"
+	@echo "... src/implementations/NPC/FightLogic/Command/comand_interface.s"
+	@echo "... src/implementations/NPC/FightLogic/Command/move_command.o"
+	@echo "... src/implementations/NPC/FightLogic/Command/move_command.i"
+	@echo "... src/implementations/NPC/FightLogic/Command/move_command.s"
+	@echo "... src/implementations/NPC/FightLogic/command_executer.o"
+	@echo "... src/implementations/NPC/FightLogic/command_executer.i"
+	@echo "... src/implementations/NPC/FightLogic/command_executer.s"
+	@echo "... src/implementations/Positionable/position_funcs.o"
+	@echo "... src/implementations/Positionable/position_funcs.i"
+	@echo "... src/implementations/Positionable/position_funcs.s"
 	@echo "... src/implementations/Positionable/positionable.o"
 	@echo "... src/implementations/Positionable/positionable.i"
 	@echo "... src/implementations/Positionable/positionable.s"

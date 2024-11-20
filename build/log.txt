@@ -730,3 +730,48 @@ created Iron Boots
 created Gold Helmet
 created Dimond Chestplate
 created Iron Boots
+created Dimond Helmet
+created Gold Chestplate
+created No Material Boots
+created Gold Helmet
+created Gold Chestplate
+created Gold Boots
+created Decorative Helmet
+created Dimond Chestplate
+created No Material Boots
+created Gold Helmet
+created No Material Chestplate
+created Iron Boots
+created No Material Helmet
+created Gold Chestplate
+created Gold Boots
+created Gold Helmet
+created Gold Chestplate
+created No Material Boots
+created Iron Helmet
+created Decorative Chestplate
+created Iron Boots
+created Gold Helmet
+created Decorative Chestplate
+created Dimond Boots
+created Dimond Helmet
+created Gold Chestplate
+created Decorative Boots
+created Gold Helmet
+created Iron Chestplate
+created No Material Boots
+created Decorative Helmet
+created Decorative Chestplate
+created Dimond Boots
+created Gold Helmet
+created Gold Chestplate
+created Gold Boots
+created Dimond Helmet
+created No Material Chestplate
+created Decorative Boots
+created Gold Helmet
+created Iron Chestplate
+created Iron Boots
+created Dimond Helmet
+created Gold Chestplate
+created Gold Boots
