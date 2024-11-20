@@ -4,6 +4,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/squirrel_factory.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/npc_factory_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Positionable/positionable.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/my_equip.hpp \
  /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
@@ -154,7 +155,14 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/Derived/boots.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/npc_builder_main.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/npc_builder.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/npc_builder_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/peaceful_npc_builder_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/agressive_npc_builder_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Base/peaceful_npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Base/agressive_npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Derived/knight.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Derived/../Enums/type_id_enum.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Derived/pegasus.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Derived/squirrel.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/equipment_factory.hpp \
  /usr/include/c++/10/ctime \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/MyEquip_Builder/myequip_builder.hpp \

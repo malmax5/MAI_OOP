@@ -1,11 +1,8 @@
-#include "include/NPC/Factory/knight_factory.hpp"
+#include "include/Terminal/terminal.hpp"
 
 #include <iostream>
 
 int main()
 {
-    KnightFactory factory;
-    NPC* knight = factory.CreateNPC();
-    knight = factory.CreateNPC();
-    std::cout << knight->GetCurrentId();
+    Terminal terminal;
 }

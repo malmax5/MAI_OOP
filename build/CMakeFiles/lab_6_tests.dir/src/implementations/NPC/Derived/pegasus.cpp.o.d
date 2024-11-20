@@ -5,6 +5,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Enums/type_id_enum.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/peaceful_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Positionable/positionable.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/my_equip.hpp \
  /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \

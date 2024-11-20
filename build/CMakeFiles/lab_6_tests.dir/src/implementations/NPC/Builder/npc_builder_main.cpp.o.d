@@ -3,7 +3,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
  /usr/include/stdc-predef.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/npc_builder_main.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/npc_builder.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/npc_builder_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/peaceful_npc_builder_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/my_equip.hpp \
  /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
@@ -152,7 +152,15 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Derived/boots.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/agressive_npc_builder_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/peaceful_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/../../Positionable/positionable.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/agressive_npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Derived/knight.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Derived/../Enums/type_id_enum.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Derived/pegasus.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Derived/squirrel.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Factory/equipment_factory.hpp \
  /usr/include/c++/10/ctime \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/MyEquip_Builder/myequip_builder.hpp \
@@ -168,4 +176,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/MyEquip_Builder/myequip_builder_main.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Enums/hp_enum.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Enums/armor_enum.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Enums/speed_enum.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Enums/speed_enum.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Enums/attack_damage_enum.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Enums/attack_distance_enum.hpp

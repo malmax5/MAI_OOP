@@ -4,5 +4,5 @@
 class INPCFactory
 {
 public:
-    virtual NPC* CreateNPC() = 0;
+    virtual NPC* CreateNPC(double xCord, double yCord) = 0;
 };

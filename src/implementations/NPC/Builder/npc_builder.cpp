@@ -1,36 +1,99 @@
 #include "../../../../include/NPC/Builder/npc_builder.hpp"
 
-void NPCBuilder::Reset()
+void PeacefulNPCBuilder::Reset()
 {
-    npc = new NPC;
+    npc_ = new PeacefulNPC;
 }
 
-void NPCBuilder::SetCurrentId(unsigned int currentId)
+void PeacefulNPCBuilder::SetCurrentId(unsigned int currentId)
 {
-    npc->SetCurrentId(currentId);
+    npc_->SetCurrentId(currentId);
 }
 
-void NPCBuilder::SetHp(double hp)
+void PeacefulNPCBuilder::SetHp(double hp)
 {
-    npc->SetHp(hp);
+    npc_->SetHp(hp);
 }
 
-void NPCBuilder::SetBaseArmor(double armor)
+void PeacefulNPCBuilder::SetBaseArmor(double armor)
 {
-    npc->SetBaseArmor(armor);
+    npc_->SetBaseArmor(armor);
 }
 
-void NPCBuilder::SetEquip(MyEquip* equip)
+void PeacefulNPCBuilder::SetEquip(MyEquip* equip)
 {
-    npc->SetEquip(equip);
+    npc_->SetEquip(equip);
 }
 
-void NPCBuilder::SetSpeed(double speed)
+void PeacefulNPCBuilder::SetSpeed(double speed)
 {
-    npc->SetSpeed(speed);
+    npc_->SetSpeed(speed);
 }
 
-NPC* NPCBuilder::GetResult()
+PeacefulNPC* PeacefulNPCBuilder::GetResult()
 {
-    return npc;
+    return npc_;
+}
+
+
+void AgressiveNPCBuilder::Reset()
+{
+    npc_ = new AgressiveNPC;
+}
+
+void AgressiveNPCBuilder::SetCurrentId(unsigned int currentId)
+{
+    npc_->SetCurrentId(currentId);
+}
+
+void AgressiveNPCBuilder::SetHp(double hp)
+{
+    npc_->SetHp(hp);
+}
+
+void AgressiveNPCBuilder::SetBaseArmor(double armor)
+{
+    npc_->SetBaseArmor(armor);
+}
+
+void AgressiveNPCBuilder::SetEquip(MyEquip* equip)
+{
+    npc_->SetEquip(equip);
+}
+
+void AgressiveNPCBuilder::SetSpeed(double speed)
+{
+    npc_->SetSpeed(speed);
+}
+
+void AgressiveNPCBuilder::SetAttackDamage(double attackDamage)
+{
+    npc_->SetAttackDamage(attackDamage);
+}
+
+void AgressiveNPCBuilder::SetAttackDistance(double attackDistance)
+{
+    npc_->SetAttackDistance(attackDistance);
+}
+
+AgressiveNPC* AgressiveNPCBuilder::GetResult()
+{
+    return npc_;
+}
+
+
+void PegasusBuilder::Reset()
+{
+    npc_ = new Pegasus;
+}
+
+
+void KnightBuilder::Reset()
+{
+    npc_ = new Knight;
+}
+
+void SquirrelBuilder::Reset()
+{
+    npc_ = new Squirrel;
 }

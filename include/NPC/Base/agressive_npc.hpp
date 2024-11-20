@@ -4,9 +4,12 @@
 
 class AgressiveNPC : public NPC 
 {
+    friend class AgressiveNPCBuilder;
+    friend class VisitorAddTarget;
+
 public:
-    double GetAttackDamage();
-    double GetAttackDistance();
+    double GetAttackDamage() override;
+    double GetAttackDistance() override;
     NPC* GetTarget();
 
 protected:

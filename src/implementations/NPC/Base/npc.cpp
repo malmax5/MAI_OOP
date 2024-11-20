@@ -17,12 +17,22 @@ double NPC::GetHp()
 
 double NPC::GetArmor()
 {
-    return armor_;
+    return totalArmor_;
 }
 
 double NPC::GetSpeed()
 {
     return speed_;
+}
+
+double NPC::GetAttackDamage()
+{
+    return 0;
+}
+
+double NPC::GetAttackDistance()
+{
+    return 0;
 }
 
 void NPC::SetTypeId(unsigned int typeId)
@@ -43,11 +53,13 @@ void NPC::SetHp(double hp)
 void NPC::SetBaseArmor(double armor)
 {
     armor_ = armor;
+    totalArmor_ += armor;
 }
 
 void NPC::SetEquip(MyEquip* equip)
 {
     equip_ = equip;
+    totalArmor_ += equip_->TotalArmor();
 }
 
 void NPC::SetSpeed(double speed)

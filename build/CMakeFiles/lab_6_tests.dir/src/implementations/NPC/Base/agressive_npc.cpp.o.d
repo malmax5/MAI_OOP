@@ -3,6 +3,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: \
  /usr/include/stdc-predef.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/agressive_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/../../Positionable/positionable.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/../../Equipment/Equip/my_equip.hpp \
  /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \

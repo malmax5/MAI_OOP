@@ -1,20 +1,58 @@
 #pragma once
 
-#include "npc_builder_interface.hpp"
-#include "../Base/npc.hpp"
+#include "peaceful_npc_builder_interface.hpp"
+#include "agressive_npc_builder_interface.hpp"
+#include "../Base/peaceful_npc.hpp"
+#include "../Base/agressive_npc.hpp"
+#include "../Derived/knight.hpp"
+#include "../Derived/pegasus.hpp"
+#include "../Derived/squirrel.hpp"
 
-class NPCBuilder : INPCBuilder
+class PeacefulNPCBuilder : IPeacefulNPCBuilder
 {
 public:
-    void Reset() override;
+    virtual void Reset() override;
     void SetCurrentId(unsigned int currentId) override;
     void SetHp(double hp) override;
     void SetBaseArmor(double armor) override;
     void SetEquip(MyEquip* equip) override;
     void SetSpeed(double speed) override;
 
-    NPC* GetResult();
+    PeacefulNPC* GetResult();
 
-private:
-    NPC* npc;
+protected:
+    PeacefulNPC* npc_;
+};
+
+class AgressiveNPCBuilder : IAgressiveNPCBuilder
+{
+public:
+    virtual void Reset() override;
+    void SetCurrentId(unsigned int currentId) override;
+    void SetHp(double hp) override;
+    void SetBaseArmor(double armor) override;
+    void SetEquip(MyEquip* equip) override;
+    void SetSpeed(double speed) override;
+    void SetAttackDamage(double attackDamage) override;
+    void SetAttackDistance(double attackDistance) override;
+
+    AgressiveNPC* GetResult();
+
+protected:
+    AgressiveNPC* npc_;
+};
+
+class PegasusBuilder : public PeacefulNPCBuilder
+{
+    void Reset() final;
+};
+
+class KnightBuilder : public AgressiveNPCBuilder
+{
+    void Reset() final;
+};
+
+class SquirrelBuilder : public AgressiveNPCBuilder
+{
+    void Reset() final;
 };

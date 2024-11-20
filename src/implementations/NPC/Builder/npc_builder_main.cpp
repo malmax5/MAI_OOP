@@ -2,36 +2,42 @@
 #include "../../../../include/NPC/Enums/hp_enum.hpp"
 #include "../../../../include/NPC/Enums/armor_enum.hpp"
 #include "../../../../include/NPC/Enums/speed_enum.hpp"
+#include "../../../../include/NPC/Enums/attack_damage_enum.hpp"
+#include "../../../../include/NPC/Enums/attack_distance_enum.hpp"
 
-unsigned int NPCBuilderMain::npcCount = 0;
-StandartEquipmentFactoryRandom* NPCBuilderMain::equipFactory = new StandartEquipmentFactoryRandom;
+unsigned int UsageNPCFactory::npcCount = 0;
+StandartEquipmentFactoryRandom* UsageNPCFactory::equipFactory = new StandartEquipmentFactoryRandom;
 
-void NPCBuilderMain::BuildNPCKnight(NPCBuilder* builder)
+void AgressiveNPCBuilderMain::BuildNPCKnight(AgressiveNPCBuilder* builder)
 {
     builder->Reset();
     builder->SetCurrentId(npcCount++);
     builder->SetHp(KnightHp);
     builder->SetBaseArmor(KnightArmor);
-    builder->SetEquip(NPCBuilderMain::equipFactory->createEquip());
+    builder->SetEquip(UsageNPCFactory::equipFactory->createEquip());
     builder->SetSpeed(KnightSpeed);
+    builder->SetAttackDamage(KnightAttackDamage);
+    builder->SetAttackDistance(KnightAttackDistance);
 }
 
-void NPCBuilderMain::BuildNPCPegasus(NPCBuilder* builder)
+void PeacefulNPCBuilderMain::BuildNPCPegasus(PeacefulNPCBuilder* builder)
 {
     builder->Reset();
     builder->SetCurrentId(npcCount++);
     builder->SetHp(PegasusHp);
     builder->SetBaseArmor(PegasusArmor);
-    builder->SetEquip(NPCBuilderMain::equipFactory->createEquip());
+    builder->SetEquip(UsageNPCFactory::equipFactory->createEquip());
     builder->SetSpeed(PegasusSpeed);
 }
 
-void NPCBuilderMain::BuildNPCSquirrel(NPCBuilder* builder)
+void AgressiveNPCBuilderMain::BuildNPCSquirrel(AgressiveNPCBuilder* builder)
 {
     builder->Reset();
     builder->SetCurrentId(npcCount++);
     builder->SetHp(SquirrelHp);
     builder->SetBaseArmor(SquirrelArmor);
-    builder->SetEquip(NPCBuilderMain::equipFactory->createEquip());
+    builder->SetEquip(UsageNPCFactory::equipFactory->createEquip());
     builder->SetSpeed(SquirrelSpeed);
+    builder->SetAttackDamage(SquirrelAttackDamage);
+    builder->SetAttackDistance(SquirrelAttackDistance);
 }

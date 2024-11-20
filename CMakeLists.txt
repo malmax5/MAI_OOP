@@ -72,7 +72,8 @@ set(
     include/NPC/Derived/knight.hpp
     include/NPC/Derived/pegasus.hpp
     include/NPC/Derived/squirrel.hpp
-    include/NPC/Builder/npc_builder_interface.hpp
+    include/NPC/Builder/peaceful_npc_builder_interface.hpp
+    include/NPC/Builder/agressive_npc_builder_interface.hpp
     include/NPC/Builder/npc_builder.hpp
     include/NPC/Builder/npc_builder_main.hpp
     include/NPC/Factory/npc_factory_interface.hpp
@@ -91,7 +92,8 @@ set(
     src/implementations/NPC/Derived/knight.cpp
     src/implementations/NPC/Derived/pegasus.cpp
     src/implementations/NPC/Derived/squirrel.cpp
-    src/implementations/NPC/Builder/npc_builder_interface.cpp
+    src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp
+    src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp
     src/implementations/NPC/Builder/npc_builder.cpp
     src/implementations/NPC/Builder/npc_builder_main.cpp
     src/implementations/NPC/Factory/npc_factory_interface.cpp
@@ -99,6 +101,30 @@ set(
     src/implementations/NPC/Factory/pegasus_factory.cpp
     src/implementations/NPC/Factory/squirrel_factory.cpp
     #!NPC Stop
+
+    #!Positionable
+    #hpp
+    include/Positionable/positionable.hpp
+
+    #cpp
+    src/implementations/Positionable/positionable.cpp
+    #!Positionable Stop
+
+    #!Game
+    #hpp
+    include/Game/game.hpp
+
+    #cpp
+    src/implementations/Game/game.cpp
+    #!Game Stop
+
+    #!Terminal
+    #hpp
+    include/Terminal/terminal.hpp
+
+    #cpp
+    src/implementations/Terminal/terminal.cpp
+    #!Terminal Stop
 
     #!Logger Start
     Log/log.hpp

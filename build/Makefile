@@ -561,6 +561,30 @@ src/implementations/Equipment/Material/Derived/no_material.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.s
 .PHONY : src/implementations/Equipment/Material/Derived/no_material.cpp.s
 
+src/implementations/Game/game.o: src/implementations/Game/game.cpp.o
+.PHONY : src/implementations/Game/game.o
+
+# target to build an object file
+src/implementations/Game/game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o
+.PHONY : src/implementations/Game/game.cpp.o
+
+src/implementations/Game/game.i: src/implementations/Game/game.cpp.i
+.PHONY : src/implementations/Game/game.i
+
+# target to preprocess a source file
+src/implementations/Game/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.i
+.PHONY : src/implementations/Game/game.cpp.i
+
+src/implementations/Game/game.s: src/implementations/Game/game.cpp.s
+.PHONY : src/implementations/Game/game.s
+
+# target to generate assembly for a file
+src/implementations/Game/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.s
+.PHONY : src/implementations/Game/game.cpp.s
+
 src/implementations/NPC/Base/agressive_npc.o: src/implementations/NPC/Base/agressive_npc.cpp.o
 .PHONY : src/implementations/NPC/Base/agressive_npc.o
 
@@ -633,6 +657,30 @@ src/implementations/NPC/Base/peaceful_npc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.s
 .PHONY : src/implementations/NPC/Base/peaceful_npc.cpp.s
 
+src/implementations/NPC/Builder/agressive_npc_builder_interface.o: src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.o
+.PHONY : src/implementations/NPC/Builder/agressive_npc_builder_interface.o
+
+# target to build an object file
+src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.o
+.PHONY : src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.o
+
+src/implementations/NPC/Builder/agressive_npc_builder_interface.i: src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.i
+.PHONY : src/implementations/NPC/Builder/agressive_npc_builder_interface.i
+
+# target to preprocess a source file
+src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.i
+.PHONY : src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.i
+
+src/implementations/NPC/Builder/agressive_npc_builder_interface.s: src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.s
+.PHONY : src/implementations/NPC/Builder/agressive_npc_builder_interface.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.s
+.PHONY : src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.s
+
 src/implementations/NPC/Builder/npc_builder.o: src/implementations/NPC/Builder/npc_builder.cpp.o
 .PHONY : src/implementations/NPC/Builder/npc_builder.o
 
@@ -657,30 +705,6 @@ src/implementations/NPC/Builder/npc_builder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.s
 .PHONY : src/implementations/NPC/Builder/npc_builder.cpp.s
 
-src/implementations/NPC/Builder/npc_builder_interface.o: src/implementations/NPC/Builder/npc_builder_interface.cpp.o
-.PHONY : src/implementations/NPC/Builder/npc_builder_interface.o
-
-# target to build an object file
-src/implementations/NPC/Builder/npc_builder_interface.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.o
-.PHONY : src/implementations/NPC/Builder/npc_builder_interface.cpp.o
-
-src/implementations/NPC/Builder/npc_builder_interface.i: src/implementations/NPC/Builder/npc_builder_interface.cpp.i
-.PHONY : src/implementations/NPC/Builder/npc_builder_interface.i
-
-# target to preprocess a source file
-src/implementations/NPC/Builder/npc_builder_interface.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.i
-.PHONY : src/implementations/NPC/Builder/npc_builder_interface.cpp.i
-
-src/implementations/NPC/Builder/npc_builder_interface.s: src/implementations/NPC/Builder/npc_builder_interface.cpp.s
-.PHONY : src/implementations/NPC/Builder/npc_builder_interface.s
-
-# target to generate assembly for a file
-src/implementations/NPC/Builder/npc_builder_interface.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_interface.cpp.s
-.PHONY : src/implementations/NPC/Builder/npc_builder_interface.cpp.s
-
 src/implementations/NPC/Builder/npc_builder_main.o: src/implementations/NPC/Builder/npc_builder_main.cpp.o
 .PHONY : src/implementations/NPC/Builder/npc_builder_main.o
 
@@ -704,6 +728,30 @@ src/implementations/NPC/Builder/npc_builder_main.s: src/implementations/NPC/Buil
 src/implementations/NPC/Builder/npc_builder_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.s
 .PHONY : src/implementations/NPC/Builder/npc_builder_main.cpp.s
+
+src/implementations/NPC/Builder/peaceful_npc_builder_interface.o: src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.o
+.PHONY : src/implementations/NPC/Builder/peaceful_npc_builder_interface.o
+
+# target to build an object file
+src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.o
+.PHONY : src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.o
+
+src/implementations/NPC/Builder/peaceful_npc_builder_interface.i: src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.i
+.PHONY : src/implementations/NPC/Builder/peaceful_npc_builder_interface.i
+
+# target to preprocess a source file
+src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.i
+.PHONY : src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.i
+
+src/implementations/NPC/Builder/peaceful_npc_builder_interface.s: src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.s
+.PHONY : src/implementations/NPC/Builder/peaceful_npc_builder_interface.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.s
+.PHONY : src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.s
 
 src/implementations/NPC/Derived/knight.o: src/implementations/NPC/Derived/knight.cpp.o
 .PHONY : src/implementations/NPC/Derived/knight.o
@@ -873,6 +921,54 @@ src/implementations/NPC/Factory/squirrel_factory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.s
 .PHONY : src/implementations/NPC/Factory/squirrel_factory.cpp.s
 
+src/implementations/Positionable/positionable.o: src/implementations/Positionable/positionable.cpp.o
+.PHONY : src/implementations/Positionable/positionable.o
+
+# target to build an object file
+src/implementations/Positionable/positionable.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o
+.PHONY : src/implementations/Positionable/positionable.cpp.o
+
+src/implementations/Positionable/positionable.i: src/implementations/Positionable/positionable.cpp.i
+.PHONY : src/implementations/Positionable/positionable.i
+
+# target to preprocess a source file
+src/implementations/Positionable/positionable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.i
+.PHONY : src/implementations/Positionable/positionable.cpp.i
+
+src/implementations/Positionable/positionable.s: src/implementations/Positionable/positionable.cpp.s
+.PHONY : src/implementations/Positionable/positionable.s
+
+# target to generate assembly for a file
+src/implementations/Positionable/positionable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.s
+.PHONY : src/implementations/Positionable/positionable.cpp.s
+
+src/implementations/Terminal/terminal.o: src/implementations/Terminal/terminal.cpp.o
+.PHONY : src/implementations/Terminal/terminal.o
+
+# target to build an object file
+src/implementations/Terminal/terminal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o
+.PHONY : src/implementations/Terminal/terminal.cpp.o
+
+src/implementations/Terminal/terminal.i: src/implementations/Terminal/terminal.cpp.i
+.PHONY : src/implementations/Terminal/terminal.i
+
+# target to preprocess a source file
+src/implementations/Terminal/terminal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.i
+.PHONY : src/implementations/Terminal/terminal.cpp.i
+
+src/implementations/Terminal/terminal.s: src/implementations/Terminal/terminal.cpp.s
+.PHONY : src/implementations/Terminal/terminal.s
+
+# target to generate assembly for a file
+src/implementations/Terminal/terminal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.s
+.PHONY : src/implementations/Terminal/terminal.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -936,6 +1032,9 @@ help:
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.o"
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.i"
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.s"
+	@echo "... src/implementations/Game/game.o"
+	@echo "... src/implementations/Game/game.i"
+	@echo "... src/implementations/Game/game.s"
 	@echo "... src/implementations/NPC/Base/agressive_npc.o"
 	@echo "... src/implementations/NPC/Base/agressive_npc.i"
 	@echo "... src/implementations/NPC/Base/agressive_npc.s"
@@ -945,15 +1044,18 @@ help:
 	@echo "... src/implementations/NPC/Base/peaceful_npc.o"
 	@echo "... src/implementations/NPC/Base/peaceful_npc.i"
 	@echo "... src/implementations/NPC/Base/peaceful_npc.s"
+	@echo "... src/implementations/NPC/Builder/agressive_npc_builder_interface.o"
+	@echo "... src/implementations/NPC/Builder/agressive_npc_builder_interface.i"
+	@echo "... src/implementations/NPC/Builder/agressive_npc_builder_interface.s"
 	@echo "... src/implementations/NPC/Builder/npc_builder.o"
 	@echo "... src/implementations/NPC/Builder/npc_builder.i"
 	@echo "... src/implementations/NPC/Builder/npc_builder.s"
-	@echo "... src/implementations/NPC/Builder/npc_builder_interface.o"
-	@echo "... src/implementations/NPC/Builder/npc_builder_interface.i"
-	@echo "... src/implementations/NPC/Builder/npc_builder_interface.s"
 	@echo "... src/implementations/NPC/Builder/npc_builder_main.o"
 	@echo "... src/implementations/NPC/Builder/npc_builder_main.i"
 	@echo "... src/implementations/NPC/Builder/npc_builder_main.s"
+	@echo "... src/implementations/NPC/Builder/peaceful_npc_builder_interface.o"
+	@echo "... src/implementations/NPC/Builder/peaceful_npc_builder_interface.i"
+	@echo "... src/implementations/NPC/Builder/peaceful_npc_builder_interface.s"
 	@echo "... src/implementations/NPC/Derived/knight.o"
 	@echo "... src/implementations/NPC/Derived/knight.i"
 	@echo "... src/implementations/NPC/Derived/knight.s"
@@ -975,6 +1077,12 @@ help:
 	@echo "... src/implementations/NPC/Factory/squirrel_factory.o"
 	@echo "... src/implementations/NPC/Factory/squirrel_factory.i"
 	@echo "... src/implementations/NPC/Factory/squirrel_factory.s"
+	@echo "... src/implementations/Positionable/positionable.o"
+	@echo "... src/implementations/Positionable/positionable.i"
+	@echo "... src/implementations/Positionable/positionable.s"
+	@echo "... src/implementations/Terminal/terminal.o"
+	@echo "... src/implementations/Terminal/terminal.i"
+	@echo "... src/implementations/Terminal/terminal.s"
 .PHONY : help
 
 

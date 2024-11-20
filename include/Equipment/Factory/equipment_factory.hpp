@@ -18,11 +18,15 @@ class StandartEquipmentFactoryRandom : public EquipmentFactory
 public:
     MyEquip* createEquip() const override
     {
-        std::srand(static_cast<unsigned int>(time(0)));
-
-        WhatMaterial helmetMaterial = static_cast<WhatMaterial>(std::rand() % 5);
-        WhatMaterial chestplateMaterial = static_cast<WhatMaterial>(std::rand() % 5);
-        WhatMaterial bootsMaterial = static_cast<WhatMaterial>(std::rand() % 5);
+        int start = 0;
+        int end = 4;
+        int rand1 = std::rand() % (end - start + 1) + start;
+        int rand2 = std::rand() % (end - start + 1) + start;
+        int rand3 = std::rand() % (end - start + 1) + start;
+        
+        WhatMaterial helmetMaterial = static_cast<WhatMaterial>(rand1);
+        WhatMaterial chestplateMaterial = static_cast<WhatMaterial>(rand2);
+        WhatMaterial bootsMaterial = static_cast<WhatMaterial>(rand3);
 
         Helmet* helmet;
         Chestplate* chestplate;

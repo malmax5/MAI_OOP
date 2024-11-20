@@ -3,5 +3,5 @@
 class PegasusFactory : public INPCFactory
 {
 public:
-    NPC* CreateNPC();
+    NPC* CreateNPC(double xCord, double yCord);
 };

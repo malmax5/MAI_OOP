@@ -3,6 +3,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
  /usr/include/stdc-predef.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/npc_factory_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Positionable/positionable.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/my_equip.hpp \
  /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \

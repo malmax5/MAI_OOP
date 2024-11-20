@@ -2,12 +2,16 @@
 #include "../../../../include/NPC/Builder/npc_builder_main.hpp"
 #include "../../../../include/NPC/Builder/npc_builder.hpp"
 
-NPC* KnightFactory::CreateNPC()
+NPC* KnightFactory::CreateNPC(double xCord, double yCord)
 {
-    NPCBuilder builder;
-    NPCBuilderMain builderMain;
+    KnightBuilder builder;
+    AgressiveNPCBuilderMain builderMain;
 
     builderMain.BuildNPCKnight(&builder);
 
-    return builder.GetResult();
+    AgressiveNPC* knight = builder.GetResult();
+
+    knight->SetPosition(xCord, yCord);
+
+    return knight;
 }

@@ -1,9 +1,11 @@
 #pragma once
+#include "../../Positionable/positionable.hpp"
 #include "../../Equipment/Equip/my_equip.hpp"
 
-class NPC
+class NPC : public Position
 {
-    friend class NPCBuilder;
+    friend class PeacefulNPCBuilder;
+    friend class AgressiveNPCBuilder;
 
 public:
     unsigned int GetTypeId();
@@ -11,6 +13,8 @@ public:
     double GetHp();
     double GetArmor();
     double GetSpeed();
+    virtual double GetAttackDistance();
+    virtual double GetAttackDamage();
 
 protected:
     void SetTypeId(unsigned int typeId);
@@ -26,6 +30,7 @@ private:
     unsigned int currentId_;
     double hp_;
     double armor_;
+    double totalArmor_ = 0;
     double speed_;
     MyEquip* equip_;
 };

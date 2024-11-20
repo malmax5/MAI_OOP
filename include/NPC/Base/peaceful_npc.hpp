@@ -2,4 +2,7 @@
 
 #include "npc.hpp"
 
-class PeacefulNPC : public NPC {};
+class PeacefulNPC : public NPC 
+{
+    friend class PeacefulNPCBuilder;
+};

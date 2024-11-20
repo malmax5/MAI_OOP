@@ -2,7 +2,7 @@
 
 #include "../../Equipment/Equip/my_equip.hpp"
 
-class INPCBuilder
+class IAgressiveNPCBuilder
 {
 public:
     virtual void Reset() = 0;
@@ -11,4 +11,6 @@ public:
     virtual void SetBaseArmor(double armor) = 0;
     virtual void SetEquip(MyEquip* equip) = 0;
     virtual void SetSpeed(double speed) = 0;
+    virtual void SetAttackDamage(double attackDamage) = 0;
+    virtual void SetAttackDistance(double attackDistance) = 0;
 };
