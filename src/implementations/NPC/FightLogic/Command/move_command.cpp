@@ -6,6 +6,10 @@ MoveCommand::MoveCommand(NPC* npc, double xDirection, double yDirection)
     : xDirection_(xDirection), yDirection_(yDirection), npc_(npc)
 {}
 
+MoveCommand::MoveCommand(NPC* npc, NPC* target)
+    : xDirection_(target->GetXCord() - npc->GetXCord()), yDirection_(target->GetYCord() - npc->GetYCord()), npc_(npc)
+{}
+
 void MoveCommand::execute()
 {
     double speed = npc_->GetSpeed();

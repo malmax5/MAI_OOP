@@ -10,7 +10,7 @@ public:
     AttackCommand(NPC* attacker, NPC* target);
     void execute() final;
 
-private:
+public:
     static bool CanAttack(NPC* npc1, NPC* npc2);
 
 private:

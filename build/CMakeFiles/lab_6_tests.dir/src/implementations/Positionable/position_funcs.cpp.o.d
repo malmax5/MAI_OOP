@@ -3,6 +3,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
  /usr/include/stdc-predef.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/../../../include/Positionable/position_funcs.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/../../../include/Positionable/../NPC/Base/npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/../../../include/Positionable/../NPC/Base/../Enums/type_id_enum.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/../../../include/Positionable/../NPC/Base/../../Positionable/positionable.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/../../../include/Positionable/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
  /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_algobase.h \

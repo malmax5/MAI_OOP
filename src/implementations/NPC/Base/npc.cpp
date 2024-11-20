@@ -1,6 +1,6 @@
 #include "../../../../include/NPC/Base/npc.hpp"
 
-unsigned int NPC::GetTypeId()
+NPCId NPC::GetTypeId()
 {
     return typeId_;
 }
@@ -35,7 +35,7 @@ double NPC::GetAttackDistance()
     return 0;
 }
 
-void NPC::SetTypeId(unsigned int typeId)
+void NPC::SetTypeId(NPCId typeId)
 {
     typeId_ = typeId;
 }

@@ -123,9 +123,11 @@ set(
     #!Game
     #hpp
     include/Game/game.hpp
+    include/Game/enemy_mask.hpp
 
     #cpp
     src/implementations/Game/game.cpp
+    src/implementations/Game/enemy_mask.cpp
     #!Game Stop
 
     #!Terminal

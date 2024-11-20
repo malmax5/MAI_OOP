@@ -185,20 +185,15 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h /usr/include/c++/10/stop_token \
- /usr/include/c++/10/atomic \
- /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/Base/npc.hpp \
- /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/Base/../../Positionable/positionable.hpp \
- /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
- /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/Base/../../Equipment/Equip/Base/equip.hpp \
- /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
- /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
- /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
- /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
- /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/FightLogic/command_executer.hpp \
- /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/FightLogic/Command/command_interface.hpp \
- /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/FightLogic/Command/../../../Positionable/position_funcs.hpp \
- /usr/include/c++/10/cmath /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/c++/10/atomic /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/c++/10/cmath \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
@@ -218,10 +213,37 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
  /usr/include/c++/10/tr1/modified_bessel_func.tcc \
  /usr/include/c++/10/tr1/poly_hermite.tcc \
  /usr/include/c++/10/tr1/poly_laguerre.tcc \
- /usr/include/c++/10/tr1/riemann_zeta.tcc /usr/include/c++/10/queue \
- /usr/include/c++/10/deque /usr/include/c++/10/bits/stl_deque.h \
- /usr/include/c++/10/bits/deque.tcc /usr/include/c++/10/bits/stl_queue.h \
- /usr/include/c++/10/mutex /usr/include/c++/10/bits/std_mutex.h \
+ /usr/include/c++/10/tr1/riemann_zeta.tcc /usr/include/c++/10/algorithm \
+ /usr/include/c++/10/bits/ranges_algo.h \
+ /usr/include/c++/10/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/10/functional /usr/include/c++/10/bits/std_function.h \
+ /usr/include/c++/10/unordered_map /usr/include/c++/10/bits/hashtable.h \
+ /usr/include/c++/10/bits/hashtable_policy.h \
+ /usr/include/c++/10/bits/node_handle.h \
+ /usr/include/c++/10/bits/unordered_map.h \
+ /usr/include/c++/10/bits/erase_if.h \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/enemy_mask.hpp \
+ /usr/include/c++/10/map /usr/include/c++/10/bits/stl_tree.h \
+ /usr/include/c++/10/bits/stl_map.h \
+ /usr/include/c++/10/bits/stl_multimap.h /usr/include/c++/10/set \
+ /usr/include/c++/10/bits/stl_set.h \
+ /usr/include/c++/10/bits/stl_multiset.h \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/Enums/type_id_enum.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/position_funcs.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Positionable/positionable.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Base/equip.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/FightLogic/command_executer.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/FightLogic/Command/command_interface.hpp \
+ /usr/include/c++/10/queue /usr/include/c++/10/deque \
+ /usr/include/c++/10/bits/stl_deque.h /usr/include/c++/10/bits/deque.tcc \
+ /usr/include/c++/10/bits/stl_queue.h /usr/include/c++/10/mutex \
+ /usr/include/c++/10/bits/std_mutex.h \
  /usr/include/c++/10/bits/unique_lock.h \
  /usr/include/c++/10/condition_variable \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/FightLogic/Command/move_command.hpp \

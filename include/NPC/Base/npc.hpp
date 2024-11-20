@@ -1,4 +1,5 @@
 #pragma once
+#include "../Enums/type_id_enum.hpp"
 #include "../../Positionable/positionable.hpp"
 #include "../../Equipment/Equip/my_equip.hpp"
 
@@ -9,7 +10,7 @@ class NPC : public Position
     friend class AttackCommand;
 
 public:
-    unsigned int GetTypeId();
+    NPCId GetTypeId();
     unsigned int GetCurrentId();
     double GetHp();
     double GetArmor();
@@ -18,7 +19,7 @@ public:
     virtual double GetAttackDamage();
 
 protected:
-    void SetTypeId(unsigned int typeId);
+    void SetTypeId(NPCId typeId);
 
     void SetCurrentId(unsigned int currentId);
     void SetHp(double hp);
@@ -27,7 +28,7 @@ protected:
     void SetSpeed(double speed);
 
 private:
-    unsigned int typeId_;
+    NPCId typeId_;
     unsigned int currentId_;
     double hp_;
     double armor_;

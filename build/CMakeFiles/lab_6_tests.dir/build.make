@@ -615,10 +615,24 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/game.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.s
 
+CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/enemy_mask.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/enemy_mask.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/enemy_mask.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/enemy_mask.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.s
+
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/terminal.cpp
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/terminal.cpp
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.i: cmake_force
@@ -670,6 +684,7 @@ lab_6_tests_OBJECTS = \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o"
 
 # External object files for target lab_6_tests
@@ -714,10 +729,11 @@ lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/comma
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/build.make
 lab_6_tests: CMakeFiles/lab_6_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable lab_6_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CXX executable lab_6_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab_6_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -35,6 +35,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o.d"
   "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o"
   "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o.d"
   "CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o"
   "CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o.d"
   "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o"

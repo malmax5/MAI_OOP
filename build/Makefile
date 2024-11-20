@@ -561,6 +561,30 @@ src/implementations/Equipment/Material/Derived/no_material.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.s
 .PHONY : src/implementations/Equipment/Material/Derived/no_material.cpp.s
 
+src/implementations/Game/enemy_mask.o: src/implementations/Game/enemy_mask.cpp.o
+.PHONY : src/implementations/Game/enemy_mask.o
+
+# target to build an object file
+src/implementations/Game/enemy_mask.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o
+.PHONY : src/implementations/Game/enemy_mask.cpp.o
+
+src/implementations/Game/enemy_mask.i: src/implementations/Game/enemy_mask.cpp.i
+.PHONY : src/implementations/Game/enemy_mask.i
+
+# target to preprocess a source file
+src/implementations/Game/enemy_mask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.i
+.PHONY : src/implementations/Game/enemy_mask.cpp.i
+
+src/implementations/Game/enemy_mask.s: src/implementations/Game/enemy_mask.cpp.s
+.PHONY : src/implementations/Game/enemy_mask.s
+
+# target to generate assembly for a file
+src/implementations/Game/enemy_mask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.s
+.PHONY : src/implementations/Game/enemy_mask.cpp.s
+
 src/implementations/Game/game.o: src/implementations/Game/game.cpp.o
 .PHONY : src/implementations/Game/game.o
 
@@ -1152,6 +1176,9 @@ help:
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.o"
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.i"
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.s"
+	@echo "... src/implementations/Game/enemy_mask.o"
+	@echo "... src/implementations/Game/enemy_mask.i"
+	@echo "... src/implementations/Game/enemy_mask.s"
 	@echo "... src/implementations/Game/game.o"
 	@echo "... src/implementations/Game/game.i"
 	@echo "... src/implementations/Game/game.s"

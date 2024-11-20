@@ -1,4 +1,5 @@
 #include "../../../../include/NPC/FightLogic/command_executer.hpp"
+#include <iostream>
 
 namespace tce {
     std::thread thr;
@@ -16,7 +17,7 @@ namespace tce {
                 if (stopFlag) {
                     break;
                 }
-                command = std::move(commandQueue.front());
+                command = commandQueue.front();
                 commandQueue.pop();
             }
             command->execute();

@@ -2,6 +2,6 @@
 
 enum NPCAttackDistance
 {
-    KnightAttackDistance = 50,
-    SquirrelAttackDistance = 50,
+    KnightAttackDistance = 2,
+    SquirrelAttackDistance = 2,
 };

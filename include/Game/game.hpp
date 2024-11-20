@@ -3,6 +3,13 @@
 #include <iostream>
 #include <vector>
 #include <thread>
+#include <unistd.h>
+#include <cmath>
+#include <algorithm>
+
+#include "enemy_mask.hpp"
+
+#include "../Positionable/position_funcs.hpp"
 
 #include "../NPC/Base/npc.hpp"
 #include "../NPC/FightLogic/command_executer.hpp"

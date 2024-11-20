@@ -6,10 +6,8 @@ AttackCommand::AttackCommand(NPC* attacker, NPC* target)
 
 void AttackCommand::execute()
 {
-    if (CanAttack(attacker_, target_))
-    {
-        target_->SetHp(target_->GetHp() - attacker_->GetAttackDamage());
-    }
+
+    target_->SetHp(target_->GetHp() - attacker_->GetAttackDamage());
 }
 
 bool AttackCommand::CanAttack(NPC* attacker, NPC* target)
