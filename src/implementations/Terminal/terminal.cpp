@@ -1,8 +1,8 @@
 #include "../../../include/Terminal/terminal.hpp"
 
-Terminal::Terminal() : knightFactory_(new KnightFactory),
-                       pegasusFactory_(new PegasusFactory),
-                       squirrelFactory_(new SquirrelFactory)
+Terminal::Terminal() : knightFactory_(std::make_shared<KnightFactory>()),
+                       pegasusFactory_(std::make_shared<PegasusFactory>()),
+                       squirrelFactory_(std::make_shared<SquirrelFactory>())
 {
     std::srand(time(0));
     TerminalUpdate();
@@ -59,12 +59,13 @@ void Terminal::TerminalUpdate()
 
         if(command == 123)
             break;
+        
     }
 }
 
 void Terminal::CreateNewGame()
 {
-    game_ = new Game;
+    game_ = std::make_shared<Game>();
 }
 
 void Terminal::StartGame()

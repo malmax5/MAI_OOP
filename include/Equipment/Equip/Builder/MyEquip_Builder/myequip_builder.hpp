@@ -8,11 +8,11 @@ class MyEquipBuilder : IMyEquipBuilder
 {
 public:
     void Reset() override;
-    void SetHelmet(Helmet* helmet) override;
-    void SetChestplate(Chestplate* chestplate) override;
-    void SetBoots(Boots* boots) override;
-    MyEquip* GetResult();
+    void SetHelmet(std::shared_ptr<Equip> helmet) override;
+    void SetChestplate(std::shared_ptr<Equip> chestplate) override;
+    void SetBoots(std::shared_ptr<Equip> boots) override;
+    std::shared_ptr<MyEquip> GetResult();
 
 private:
-    MyEquip* myEquip_;
+    std::shared_ptr<MyEquip> myEquip_;
 };

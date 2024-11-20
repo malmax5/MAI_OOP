@@ -10,13 +10,13 @@
 class EquipmentFactory
 {
 public:
-    virtual MyEquip* createEquip() const = 0;
+    virtual std::shared_ptr<MyEquip> createEquip() const = 0;
 };
 
 class StandartEquipmentFactoryRandom : public EquipmentFactory
 {
 public:
-    MyEquip* createEquip() const override
+    std::shared_ptr<MyEquip> createEquip() const override
     {
         int start = 0;
         int end = 4;
@@ -28,26 +28,26 @@ public:
         WhatMaterial chestplateMaterial = static_cast<WhatMaterial>(rand2);
         WhatMaterial bootsMaterial = static_cast<WhatMaterial>(rand3);
 
-        Helmet* helmet;
-        Chestplate* chestplate;
-        Boots* boots;
-        MyEquip* equip;
+        std::shared_ptr<Equip> helmet;
+        std::shared_ptr<Equip> chestplate;
+        std::shared_ptr<Equip> boots;
+        std::shared_ptr<MyEquip> equip;
 
-        MyEquipBuilder myEquipBuilder;
-        EquipWithMaterialBuilder equipWithMaterialBuilder;
-        EquipBuilder equipBuilder;
-        MyEquipBuilderMain myEquipBuilderMain;
+        std::shared_ptr<MyEquipBuilder> myEquipBuilder = std::make_shared<MyEquipBuilder>();
+        std::shared_ptr<EquipWithMaterialBuilder> equipWithMaterialBuilder = std::make_shared<EquipWithMaterialBuilder>();
+        std::shared_ptr<EquipBuilder> equipBuilder = std::make_shared<EquipBuilder>();
+        std::shared_ptr<MyEquipBuilderMain> myEquipBuilderMain = std::make_shared<MyEquipBuilderMain>();
 
-        helmet = myEquipBuilderMain.BuildHelmetByMaterial(helmetMaterial, equipWithMaterialBuilder, equipBuilder);
-        chestplate = myEquipBuilderMain.BuildChestplateByMaterial(chestplateMaterial, equipWithMaterialBuilder, equipBuilder);
-        boots = myEquipBuilderMain.BuildBootsByMaterial(bootsMaterial, equipWithMaterialBuilder, equipBuilder);
+        helmet = myEquipBuilderMain->BuildHelmetByMaterial(helmetMaterial, equipWithMaterialBuilder, equipBuilder);
+        chestplate = myEquipBuilderMain->BuildChestplateByMaterial(chestplateMaterial, equipWithMaterialBuilder, equipBuilder);
+        boots = myEquipBuilderMain->BuildBootsByMaterial(bootsMaterial, equipWithMaterialBuilder, equipBuilder);
 
-        myEquipBuilder.Reset();
-        myEquipBuilder.SetHelmet(helmet);
-        myEquipBuilder.SetChestplate(chestplate);
-        myEquipBuilder.SetBoots(boots);
+        myEquipBuilder->Reset();
+        myEquipBuilder->SetHelmet(helmet);
+        myEquipBuilder->SetChestplate(chestplate);
+        myEquipBuilder->SetBoots(boots);
 
-        equip = myEquipBuilder.GetResult();
+        equip = std::shared_ptr<MyEquip>(myEquipBuilder->GetResult());
 
         return equip;
     }

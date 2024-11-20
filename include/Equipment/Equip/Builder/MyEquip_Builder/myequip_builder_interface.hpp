@@ -9,8 +9,8 @@ class IMyEquipBuilder
 {
 public:
     virtual void Reset() = 0;
-    virtual void SetHelmet(Helmet* helmet) = 0;
-    virtual void SetChestplate(Chestplate* chestplate) = 0;
-    virtual void SetBoots(Boots* boots) = 0;
+    virtual void SetHelmet(std::shared_ptr<Equip> helmet) = 0;
+    virtual void SetChestplate(std::shared_ptr<Equip> chestplate) = 0;
+    virtual void SetBoots(std::shared_ptr<Equip> boots) = 0;
 
 };

@@ -1,8 +1,10 @@
 #include "../../../../include/NPC/Builder/npc_builder.hpp"
 
+#include <iostream>
+
 void PeacefulNPCBuilder::Reset()
 {
-    npc_ = new PeacefulNPC;
+    npc_ = std::make_shared<PeacefulNPC>();
 }
 
 void PeacefulNPCBuilder::SetCurrentId(unsigned int currentId)
@@ -20,7 +22,7 @@ void PeacefulNPCBuilder::SetBaseArmor(double armor)
     npc_->SetBaseArmor(armor);
 }
 
-void PeacefulNPCBuilder::SetEquip(MyEquip* equip)
+void PeacefulNPCBuilder::SetEquip(std::shared_ptr<MyEquip> equip)
 {
     npc_->SetEquip(equip);
 }
@@ -30,7 +32,7 @@ void PeacefulNPCBuilder::SetSpeed(double speed)
     npc_->SetSpeed(speed);
 }
 
-PeacefulNPC* PeacefulNPCBuilder::GetResult()
+std::shared_ptr<PeacefulNPC> PeacefulNPCBuilder::GetResult()
 {
     return npc_;
 }
@@ -38,7 +40,7 @@ PeacefulNPC* PeacefulNPCBuilder::GetResult()
 
 void AgressiveNPCBuilder::Reset()
 {
-    npc_ = new AgressiveNPC;
+    npc_ = std::make_shared<AgressiveNPC>();
 }
 
 void AgressiveNPCBuilder::SetCurrentId(unsigned int currentId)
@@ -56,7 +58,7 @@ void AgressiveNPCBuilder::SetBaseArmor(double armor)
     npc_->SetBaseArmor(armor);
 }
 
-void AgressiveNPCBuilder::SetEquip(MyEquip* equip)
+void AgressiveNPCBuilder::SetEquip(std::shared_ptr<MyEquip> equip)
 {
     npc_->SetEquip(equip);
 }
@@ -76,7 +78,7 @@ void AgressiveNPCBuilder::SetAttackDistance(double attackDistance)
     npc_->SetAttackDistance(attackDistance);
 }
 
-AgressiveNPC* AgressiveNPCBuilder::GetResult()
+std::shared_ptr<AgressiveNPC> AgressiveNPCBuilder::GetResult()
 {
     return npc_;
 }
@@ -84,16 +86,16 @@ AgressiveNPC* AgressiveNPCBuilder::GetResult()
 
 void PegasusBuilder::Reset()
 {
-    npc_ = new Pegasus;
+    npc_ = std::make_shared<Pegasus>();
 }
 
 
 void KnightBuilder::Reset()
 {
-    npc_ = new Knight;
+    npc_ = std::make_shared<Knight>();
 }
 
 void SquirrelBuilder::Reset()
 {
-    npc_ = new Squirrel;
+    npc_ = std::make_shared<Squirrel>();
 }

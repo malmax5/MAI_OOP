@@ -17,7 +17,7 @@ public:
 //     MyEquip* BuildSetByMask(WhatMaterial helmetMaterial, WhatMaterial chestplateMaterial, WhatMaterial bootsMaterial);
 
 // private:
-    Helmet* BuildHelmetByMaterial(WhatMaterial helmetMaterial, EquipWithMaterialBuilder& equipWithMaterialBuilder, EquipBuilder& equipBuilder);
-    Chestplate* BuildChestplateByMaterial(WhatMaterial chestplateMaterial, EquipWithMaterialBuilder& equipWithMaterialBuilder, EquipBuilder& equipBuilder);
-    Boots* BuildBootsByMaterial(WhatMaterial bootsMaterial, EquipWithMaterialBuilder& equipWithMaterialBuilder, EquipBuilder& equipBuilder);
+    std::shared_ptr<Equip> BuildHelmetByMaterial(WhatMaterial helmetMaterial, std::shared_ptr<EquipWithMaterialBuilder> equipWithMaterialBuilder, std::shared_ptr<EquipBuilder> equipBuilder);
+    std::shared_ptr<Equip> BuildChestplateByMaterial(WhatMaterial chestplateMaterial, std::shared_ptr<EquipWithMaterialBuilder> equipWithMaterialBuilder, std::shared_ptr<EquipBuilder> equipBuilder);
+    std::shared_ptr<Equip> BuildBootsByMaterial(WhatMaterial bootsMaterial, std::shared_ptr<EquipWithMaterialBuilder> equipWithMaterialBuilder, std::shared_ptr<EquipBuilder> equipBuilder);
 };

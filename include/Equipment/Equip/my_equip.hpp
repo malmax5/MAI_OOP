@@ -19,13 +19,13 @@ class MyEquip
 public:
     MyEquip();
 
-    void SetHelmet(Helmet* helmet);
-    void SetChestplate(Chestplate* chestplate);
-    void SetBoots(Boots* boots);
+    void SetHelmet(std::shared_ptr<Equip> helmet);
+    void SetChestplate(std::shared_ptr<Equip> chestplate);
+    void SetBoots(std::shared_ptr<Equip> boots);
 
 public:
     double TotalArmor();
 
 public:
-    std::vector<Equip*> armorSet;
+    std::vector<std::shared_ptr<Equip>> armorSet;
 };

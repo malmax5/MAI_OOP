@@ -8,11 +8,11 @@ class EquipBuilder : IEquipBuilder
 {
 public:
     void Reset() override;
-    void SetEquip(Equip* equip) override;
-    void SetMaterial(Material* material) override;
+    void SetEquip(std::shared_ptr<Equip> equip) override;
+    void SetMaterial(std::shared_ptr<Material> material) override;
     void SetName(std::string name) override;
-    Equip* GetResult();
+    std::shared_ptr<Equip> GetResult();
 
 private:
-    Equip* equip_;
+    std::shared_ptr<Equip> equip_;
 };

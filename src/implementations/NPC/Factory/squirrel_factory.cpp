@@ -2,14 +2,14 @@
 #include "../../../../include/NPC/Builder/npc_builder_main.hpp"
 #include "../../../../include/NPC/Builder/npc_builder.hpp"
 
-NPC* SquirrelFactory::CreateNPC(double xCord, double yCord)
+std::shared_ptr<NPC> SquirrelFactory::CreateNPC(double xCord, double yCord)
 {
-    SquirrelBuilder builder;
-    AgressiveNPCBuilderMain builderMain;
+    std::shared_ptr<SquirrelBuilder> builder = std::make_shared<SquirrelBuilder>();
+    std::shared_ptr<AgressiveNPCBuilderMain> builderMain = std::make_shared<AgressiveNPCBuilderMain>();
 
-    builderMain.BuildNPCSquirrel(&builder);
+    builderMain->BuildNPCSquirrel(builder);
 
-    AgressiveNPC* squirrel = builder.GetResult();
+    std::shared_ptr<AgressiveNPC> squirrel = builder->GetResult();
 
     squirrel->SetPosition(xCord, yCord);
 

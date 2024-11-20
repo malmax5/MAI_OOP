@@ -11,23 +11,23 @@
 class EquipWithMaterialBuilder
 {
 public:
-    void BuildDecorativeHelmet(EquipBuilder* builder);
-    void BuildDecorativeChestplate(EquipBuilder* builder);
-    void BuildDecorativeBoots(EquipBuilder* builder);
+    void BuildDecorativeHelmet(std::shared_ptr<EquipBuilder> builder);
+    void BuildDecorativeChestplate(std::shared_ptr<EquipBuilder> builder);
+    void BuildDecorativeBoots(std::shared_ptr<EquipBuilder> builder);
 
-    void BuildNoMaterialHelmet(EquipBuilder* builder);
-    void BuildNoMaterialChestplate(EquipBuilder* builder);
-    void BuildNoMaterialBoots(EquipBuilder* builder);
+    void BuildNoMaterialHelmet(std::shared_ptr<EquipBuilder> builder);
+    void BuildNoMaterialChestplate(std::shared_ptr<EquipBuilder> builder);
+    void BuildNoMaterialBoots(std::shared_ptr<EquipBuilder> builder);
 
-    void BuildIronHelmet(EquipBuilder* builder);
-    void BuildIronChestplate(EquipBuilder* builder);
-    void BuildIronBoots(EquipBuilder* builder);
+    void BuildIronHelmet(std::shared_ptr<EquipBuilder> builder);
+    void BuildIronChestplate(std::shared_ptr<EquipBuilder> builder);
+    void BuildIronBoots(std::shared_ptr<EquipBuilder> builder);
 
-    void BuildGoldHelmet(EquipBuilder* builder);
-    void BuildGoldChestplate(EquipBuilder* builder);
-    void BuildGoldBoots(EquipBuilder* builder);
+    void BuildGoldHelmet(std::shared_ptr<EquipBuilder> builder);
+    void BuildGoldChestplate(std::shared_ptr<EquipBuilder> builder);
+    void BuildGoldBoots(std::shared_ptr<EquipBuilder> builder);
 
-    void BuildDimondHelmet(EquipBuilder* builder);
-    void BuildDimondChestplate(EquipBuilder* builder);
-    void BuildDimondBoots(EquipBuilder* builder);
+    void BuildDimondHelmet(std::shared_ptr<EquipBuilder> builder);
+    void BuildDimondChestplate(std::shared_ptr<EquipBuilder> builder);
+    void BuildDimondBoots(std::shared_ptr<EquipBuilder> builder);
 };

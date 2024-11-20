@@ -5,7 +5,7 @@ double Equip::GetArmor()
     return armor_;
 }
 
-Material* Equip::GetMaterial()
+std::shared_ptr<Material> Equip::GetMaterial()
 {
     return material_;
 }
@@ -20,7 +20,7 @@ void Equip::SetArmor(double armor)
     armor_ = armor;
 }
 
-void Equip::SetMaterial(Material* material)
+void Equip::SetMaterial(std::shared_ptr<Material> material)
 {
     material_ = material;
 }

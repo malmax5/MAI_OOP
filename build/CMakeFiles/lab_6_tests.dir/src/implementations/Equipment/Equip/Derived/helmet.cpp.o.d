@@ -141,5 +141,43 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/helmet.cp
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/10/bits/charconv.h \
- /usr/include/c++/10/bits/basic_string.tcc \
+ /usr/include/c++/10/bits/basic_string.tcc /usr/include/c++/10/memory \
+ /usr/include/c++/10/bits/stl_uninitialized.h \
+ /usr/include/c++/10/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/10/bits/ranges_uninitialized.h \
+ /usr/include/c++/10/bits/ranges_algobase.h /usr/include/c++/10/iterator \
+ /usr/include/c++/10/bits/stream_iterator.h \
+ /usr/include/c++/10/bits/streambuf_iterator.h \
+ /usr/include/c++/10/streambuf /usr/include/c++/10/bits/ios_base.h \
+ /usr/include/c++/10/bits/locale_classes.h \
+ /usr/include/c++/10/bits/locale_classes.tcc \
+ /usr/include/c++/10/system_error \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
+ /usr/include/c++/10/stdexcept /usr/include/c++/10/bits/streambuf.tcc \
+ /usr/include/c++/10/ranges /usr/include/c++/10/bits/refwrap.h \
+ /usr/include/c++/10/bits/invoke.h /usr/include/c++/10/optional \
+ /usr/include/c++/10/utility /usr/include/c++/10/bits/stl_relops.h \
+ /usr/include/c++/10/bits/enable_special_members.h \
+ /usr/include/c++/10/tuple /usr/include/c++/10/array \
+ /usr/include/c++/10/bits/uses_allocator.h \
+ /usr/include/c++/10/ext/concurrence.h \
+ /usr/include/c++/10/bits/unique_ptr.h /usr/include/c++/10/ostream \
+ /usr/include/c++/10/ios /usr/include/c++/10/bits/basic_ios.h \
+ /usr/include/c++/10/bits/locale_facets.h /usr/include/c++/10/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
+ /usr/include/c++/10/bits/locale_facets.tcc \
+ /usr/include/c++/10/bits/basic_ios.tcc \
+ /usr/include/c++/10/bits/ostream.tcc \
+ /usr/include/c++/10/bits/shared_ptr.h \
+ /usr/include/c++/10/bits/shared_ptr_base.h \
+ /usr/include/c++/10/bits/allocated_ptr.h \
+ /usr/include/c++/10/ext/aligned_buffer.h \
+ /usr/include/c++/10/bits/shared_ptr_atomic.h \
+ /usr/include/c++/10/bits/atomic_base.h \
+ /usr/include/c++/10/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
+ /usr/include/c++/10/pstl/glue_memory_defs.h \
+ /usr/include/c++/10/pstl/execution_defs.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Derived/../../../../../include/Equipment/Equip/Derived/../Base/../../Material/Base/material.hpp

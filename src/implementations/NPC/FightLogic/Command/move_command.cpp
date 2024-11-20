@@ -1,12 +1,10 @@
 #include "../../../../../include/NPC/FightLogic/Command/move_command.hpp"
 
-#include <iostream>
-
-MoveCommand::MoveCommand(NPC* npc, double xDirection, double yDirection)
+MoveCommand::MoveCommand(std::shared_ptr<NPC> npc, double xDirection, double yDirection)
     : xDirection_(xDirection), yDirection_(yDirection), npc_(npc)
 {}
 
-MoveCommand::MoveCommand(NPC* npc, NPC* target)
+MoveCommand::MoveCommand(std::shared_ptr<NPC> npc, std::shared_ptr<NPC> target)
     : xDirection_(target->GetXCord() - npc->GetXCord()), yDirection_(target->GetYCord() - npc->GetYCord()), npc_(npc)
 {}
 

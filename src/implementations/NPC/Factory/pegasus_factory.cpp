@@ -2,14 +2,14 @@
 #include "../../../../include/NPC/Builder/npc_builder_main.hpp"
 #include "../../../../include/NPC/Builder/npc_builder.hpp"
 
-NPC* PegasusFactory::CreateNPC(double xCord, double yCord)
+std::shared_ptr<NPC> PegasusFactory::CreateNPC(double xCord, double yCord)
 {
-    PegasusBuilder builder;
-    PeacefulNPCBuilderMain builderMain;
+    std::shared_ptr<PegasusBuilder> builder = std::make_shared<PegasusBuilder>();
+    std::shared_ptr<PeacefulNPCBuilderMain> builderMain = std::make_shared<PeacefulNPCBuilderMain>();
 
-    builderMain.BuildNPCPegasus(&builder);
+    builderMain->BuildNPCPegasus(builder);
 
-    PeacefulNPC* pegasus = builder.GetResult();
+    std::shared_ptr<PeacefulNPC> pegasus = builder->GetResult();
 
     pegasus->SetPosition(xCord, yCord);
 

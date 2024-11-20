@@ -7,18 +7,18 @@ class UsageNPCFactory
 {
 protected:
     static unsigned int npcCount;
-    static StandartEquipmentFactoryRandom* equipFactory;
+    static std::shared_ptr<StandartEquipmentFactoryRandom> equipFactory;
 };
 
 class PeacefulNPCBuilderMain : private UsageNPCFactory
 {
 public:
-    void BuildNPCPegasus(PeacefulNPCBuilder* builder);
+    void BuildNPCPegasus(std::shared_ptr<PeacefulNPCBuilder> builder);
 };
 
 class AgressiveNPCBuilderMain : private UsageNPCFactory
 {
 public:
-    void BuildNPCKnight(AgressiveNPCBuilder* builder);
-    void BuildNPCSquirrel(AgressiveNPCBuilder* builder);
+    void BuildNPCKnight(std::shared_ptr<AgressiveNPCBuilder> builder);
+    void BuildNPCSquirrel(std::shared_ptr<AgressiveNPCBuilder> builder);
 };

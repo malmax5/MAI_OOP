@@ -10,7 +10,7 @@ double AgressiveNPC::GetAttackDistance()
     return attackDistance_;
 }
 
-NPC* AgressiveNPC::GetTarget()
+std::shared_ptr<NPC> AgressiveNPC::GetTarget()
 {
     return target_;
 }
@@ -25,7 +25,7 @@ void AgressiveNPC::SetAttackDistance(double attackDistnce)
     attackDistance_ = attackDistnce;
 }
 
-void AgressiveNPC::SetTarget(NPC* target)
+void AgressiveNPC::SetTarget(std::shared_ptr<NPC> target)
 {
     target_ = target;
 }

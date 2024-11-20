@@ -5,19 +5,19 @@ MyEquip::MyEquip()
     armorSet.resize(3);
 }
 
-void MyEquip::SetHelmet(Helmet* helmet)
+void MyEquip::SetHelmet(std::shared_ptr<Equip> helmet)
 {
-    armorSet[HelmetId] = reinterpret_cast<Equip*>(helmet);
+    armorSet[HelmetId] = helmet;
 }
 
-void MyEquip::SetChestplate(Chestplate* chestplate)
+void MyEquip::SetChestplate(std::shared_ptr<Equip> chestplate)
 {
-    armorSet[ChestplateId] = reinterpret_cast<Equip*>(chestplate);
+    armorSet[ChestplateId] = chestplate;
 }
 
-void MyEquip::SetBoots(Boots* boots)
+void MyEquip::SetBoots(std::shared_ptr<Equip> boots)
 {
-    armorSet[BootsId] = reinterpret_cast<Equip*>(boots);
+    armorSet[BootsId] = boots;
 }
 
 double MyEquip::TotalArmor()

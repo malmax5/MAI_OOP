@@ -15,13 +15,13 @@ public:
     void SetCurrentId(unsigned int currentId) override;
     void SetHp(double hp) override;
     void SetBaseArmor(double armor) override;
-    void SetEquip(MyEquip* equip) override;
+    void SetEquip(std::shared_ptr<MyEquip> equip) override;
     void SetSpeed(double speed) override;
 
-    PeacefulNPC* GetResult();
+    std::shared_ptr<PeacefulNPC> GetResult();
 
 protected:
-    PeacefulNPC* npc_;
+    std::shared_ptr<PeacefulNPC> npc_;
 };
 
 class AgressiveNPCBuilder : IAgressiveNPCBuilder
@@ -31,15 +31,15 @@ public:
     void SetCurrentId(unsigned int currentId) override;
     void SetHp(double hp) override;
     void SetBaseArmor(double armor) override;
-    void SetEquip(MyEquip* equip) override;
+    void SetEquip(std::shared_ptr<MyEquip> equip) override;
     void SetSpeed(double speed) override;
     void SetAttackDamage(double attackDamage) override;
     void SetAttackDistance(double attackDistance) override;
 
-    AgressiveNPC* GetResult();
+    std::shared_ptr<AgressiveNPC> GetResult();
 
 protected:
-    AgressiveNPC* npc_;
+    std::shared_ptr<AgressiveNPC> npc_;
 };
 
 class PegasusBuilder : public PeacefulNPCBuilder

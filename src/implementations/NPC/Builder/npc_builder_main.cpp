@@ -6,9 +6,9 @@
 #include "../../../../include/NPC/Enums/attack_distance_enum.hpp"
 
 unsigned int UsageNPCFactory::npcCount = 0;
-StandartEquipmentFactoryRandom* UsageNPCFactory::equipFactory = new StandartEquipmentFactoryRandom;
+std::shared_ptr<StandartEquipmentFactoryRandom> UsageNPCFactory::equipFactory = std::make_shared<StandartEquipmentFactoryRandom>();
 
-void AgressiveNPCBuilderMain::BuildNPCKnight(AgressiveNPCBuilder* builder)
+void AgressiveNPCBuilderMain::BuildNPCKnight(std::shared_ptr<AgressiveNPCBuilder> builder)
 {
     builder->Reset();
     builder->SetCurrentId(npcCount++);
@@ -20,7 +20,7 @@ void AgressiveNPCBuilderMain::BuildNPCKnight(AgressiveNPCBuilder* builder)
     builder->SetAttackDistance(KnightAttackDistance);
 }
 
-void PeacefulNPCBuilderMain::BuildNPCPegasus(PeacefulNPCBuilder* builder)
+void PeacefulNPCBuilderMain::BuildNPCPegasus(std::shared_ptr<PeacefulNPCBuilder> builder)
 {
     builder->Reset();
     builder->SetCurrentId(npcCount++);
@@ -30,7 +30,7 @@ void PeacefulNPCBuilderMain::BuildNPCPegasus(PeacefulNPCBuilder* builder)
     builder->SetSpeed(PegasusSpeed);
 }
 
-void AgressiveNPCBuilderMain::BuildNPCSquirrel(AgressiveNPCBuilder* builder)
+void AgressiveNPCBuilderMain::BuildNPCSquirrel(std::shared_ptr<AgressiveNPCBuilder> builder)
 {
     builder->Reset();
     builder->SetCurrentId(npcCount++);

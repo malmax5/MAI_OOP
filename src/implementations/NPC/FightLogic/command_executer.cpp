@@ -3,14 +3,14 @@
 
 namespace tce {
     std::thread thr;
-    std::queue<ICommand*> commandQueue;
+    std::queue<std::shared_ptr<ICommand>> commandQueue;
     std::mutex commandQueueMutex;
     std::condition_variable commandQueueCV;
     bool stopFlag = false;
 
     void CommandExecutionThread() {
         while (true) {
-            ICommand* command;
+            std::shared_ptr<ICommand> command = std::make_shared<ICommand>();
             {
                 std::unique_lock<std::mutex> lock(commandQueueMutex);
                 commandQueueCV.wait(lock, [] { return !commandQueue.empty() || stopFlag; });

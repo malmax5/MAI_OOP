@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <memory>
 
 #include "../Game/game.hpp"
 
@@ -26,8 +27,8 @@ public:
 private:
     void TerminalUpdate();
 
-    Game* game_;
-    KnightFactory* knightFactory_;
-    PegasusFactory* pegasusFactory_;
-    SquirrelFactory* squirrelFactory_;
+    std::shared_ptr<Game> game_;
+    std::shared_ptr<KnightFactory> knightFactory_;
+    std::shared_ptr<PegasusFactory> pegasusFactory_;
+    std::shared_ptr<SquirrelFactory> squirrelFactory_;
 };

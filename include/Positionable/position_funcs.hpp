@@ -6,6 +6,6 @@
 class NPCPositionFuncs
 {
 public:
-    static double DistanceBetNPC(NPC* npc1, NPC* npc2);
+    static double DistanceBetNPC(std::shared_ptr<NPC> npc1, std::shared_ptr<NPC> npc2);
 
 };

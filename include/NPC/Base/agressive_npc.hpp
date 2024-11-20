@@ -10,15 +10,15 @@ class AgressiveNPC : public NPC
 public:
     double GetAttackDamage() override;
     double GetAttackDistance() override;
-    NPC* GetTarget();
+    std::shared_ptr<NPC> GetTarget();
 
 protected:
     void SetAttackDamage(double attackDamage);
     void SetAttackDistance(double attackDistance);
-    void SetTarget(NPC* target);
+    void SetTarget(std::shared_ptr<NPC> target);
 
 private:
     double attackDamage_;
     double attackDistance_;
-    NPC* target_;
+    std::shared_ptr<NPC> target_;
 };

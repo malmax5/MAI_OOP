@@ -1,4 +1,7 @@
 #pragma once
+
+#include <memory>
+
 #include "../Enums/type_id_enum.hpp"
 #include "../../Positionable/positionable.hpp"
 #include "../../Equipment/Equip/my_equip.hpp"
@@ -24,7 +27,7 @@ protected:
     void SetCurrentId(unsigned int currentId);
     void SetHp(double hp);
     void SetBaseArmor(double armor);
-    void SetEquip(MyEquip* equip);
+    void SetEquip(std::shared_ptr<MyEquip> equip);
     void SetSpeed(double speed);
 
 private:
@@ -34,5 +37,5 @@ private:
     double armor_;
     double totalArmor_ = 0;
     double speed_;
-    MyEquip* equip_;
+    std::shared_ptr<MyEquip> equip_;
 };

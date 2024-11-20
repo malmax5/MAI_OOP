@@ -3,5 +3,5 @@
 class PegasusFactory : public INPCFactory
 {
 public:
-    NPC* CreateNPC(double xCord, double yCord);
+    std::shared_ptr<NPC> CreateNPC(double xCord, double yCord);
 };

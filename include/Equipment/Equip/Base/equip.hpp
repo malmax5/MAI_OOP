@@ -1,6 +1,7 @@
 #pragma once
 
 #include<string>
+#include <memory>
 
 #include "../../Material/Base/material.hpp"
 
@@ -17,16 +18,16 @@ struct Equip
 
 public:
     double GetArmor();
-    Material* GetMaterial();
+    std::shared_ptr<Material> GetMaterial();
     std::string GetName();
 
 protected:
     void SetArmor(double armor);
-    void SetMaterial(Material* material);
+    void SetMaterial(std::shared_ptr<Material> material);
     void SetName(std::string name);
 
 private:
     double armor_;
-    Material* material_;
+    std::shared_ptr<Material> material_;
     std::string name_;
 };

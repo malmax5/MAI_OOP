@@ -2,14 +2,14 @@
 #include "../../../../include/NPC/Builder/npc_builder_main.hpp"
 #include "../../../../include/NPC/Builder/npc_builder.hpp"
 
-NPC* KnightFactory::CreateNPC(double xCord, double yCord)
+std::shared_ptr<NPC> KnightFactory::CreateNPC(double xCord, double yCord)
 {
-    KnightBuilder builder;
-    AgressiveNPCBuilderMain builderMain;
+    std::shared_ptr<KnightBuilder> builder = std::make_shared<KnightBuilder>();
+    std::shared_ptr<AgressiveNPCBuilderMain> builderMain = std::make_shared<AgressiveNPCBuilderMain>();
 
-    builderMain.BuildNPCKnight(&builder);
+    builderMain->BuildNPCKnight(builder);
 
-    AgressiveNPC* knight = builder.GetResult();
+    std::shared_ptr<AgressiveNPC> knight = builder->GetResult();
 
     knight->SetPosition(xCord, yCord);
 

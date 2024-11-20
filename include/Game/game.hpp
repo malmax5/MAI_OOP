@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <cmath>
 #include <algorithm>
+#include <memory>
 
 #include "enemy_mask.hpp"
 
@@ -28,10 +29,10 @@ private:
     void Update();
     void End();
 
-    void AddNPC(NPC* npc);
+    void AddNPC(std::shared_ptr<NPC> npc);
     void RemoveNPC(int npcId);
     void PrintNPC();
 
 private:
-    std::vector<NPC*> npcInGame_;
+    std::vector<std::shared_ptr<NPC>> npcInGame_;
 };

@@ -27,7 +27,7 @@ void Game::Update()
                     {
                         std::cout << " - " << npcInGame_[i]->GetCurrentId() << " an " << npcInGame_[j]->GetCurrentId() << "\n";
                         std::unique_lock<std::mutex> lock(tce::commandQueueMutex);
-                        tce::commandQueue.push(new AttackCommand(npcInGame_[i], npcInGame_[j]));
+                        tce::commandQueue.push(std::make_shared<AttackCommand>(npcInGame_[i], npcInGame_[j]));
                         tce::commandQueueCV.notify_one();
                     }
                 }
@@ -39,14 +39,14 @@ void Game::Update()
         while(tce::commandQueue.size() != 0) {}
 
         npcInGame_.erase(std::remove_if(npcInGame_.begin(), npcInGame_.end(), 
-        [](NPC* npc) {
+        [](std::shared_ptr<NPC> npc) {
             return npc->GetHp() <= 0;
         }), npcInGame_.end());
 
         std::cout << "Move\n";
         for (int i = 0; i < npcInGame_.size(); i++)
         {
-            NPC* target;
+            std::shared_ptr<NPC> target;
             double dist = -1;
             for (int j = 0; j < npcInGame_.size(); j++)
             {
@@ -71,7 +71,7 @@ void Game::Update()
             {
                 std::cout << "- " << npcInGame_[i]->GetCurrentId() << " to " << target->GetCurrentId() << "\n";
                 std::unique_lock<std::mutex> lock(tce::commandQueueMutex);
-                tce::commandQueue.push(new MoveCommand(npcInGame_[i], target));
+                tce::commandQueue.push(std::make_shared<MoveCommand>(npcInGame_[i], target));
                 tce::commandQueueCV.notify_one();
             }
         }
@@ -92,7 +92,7 @@ void Game::End()
     tce::thr.join();
 }
 
-void Game::AddNPC(NPC* npc)
+void Game::AddNPC(std::shared_ptr<NPC> npc)
 {
     npcInGame_.push_back(npc);
 }

@@ -2,25 +2,26 @@
 
 void MyEquipBuilder::Reset()
 {
-    myEquip_ = new MyEquip();
+    // myEquip_ =  std::make_shared<MyEquip>();
+    myEquip_ = std::make_shared<MyEquip>();
 }
 
-void MyEquipBuilder::SetHelmet(Helmet* helmet)
+void MyEquipBuilder::SetHelmet(std::shared_ptr<Equip> helmet)
 {
     myEquip_->SetHelmet(helmet);
 }
 
-void MyEquipBuilder::SetChestplate(Chestplate* chestplate)
+void MyEquipBuilder::SetChestplate(std::shared_ptr<Equip> chestplate)
 {
     myEquip_->SetChestplate(chestplate);
 }
 
-void MyEquipBuilder::SetBoots(Boots* boots)
+void MyEquipBuilder::SetBoots(std::shared_ptr<Equip> boots)
 {
     myEquip_->SetBoots(boots);
 }
 
-MyEquip* MyEquipBuilder::GetResult()
+std::shared_ptr<MyEquip> MyEquipBuilder::GetResult()
 {
     return myEquip_;
 }

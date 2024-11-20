@@ -56,7 +56,7 @@ void NPC::SetBaseArmor(double armor)
     totalArmor_ += armor;
 }
 
-void NPC::SetEquip(MyEquip* equip)
+void NPC::SetEquip(std::shared_ptr<MyEquip> equip)
 {
     equip_ = equip;
     totalArmor_ += equip_->TotalArmor();

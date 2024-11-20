@@ -16,90 +16,92 @@
 //     chestplate = BuildChestplateByMaterial(chestplateMaterial, equipWithMaterialBuilder, equipBuilder);
 //     boots = BuildBootsByMaterial(bootsMaterial, equipWithMaterialBuilder, equipBuilder);
 
-//     myEquipBuilder.Reset();
-//     myEquipBuilder.SetHelmet(helmet);
-//     myEquipBuilder.SetChestplate(chestplate);
-//     myEquipBuilder.SetBoots(boots);
+//     myEquipBuilder->Reset();
+//     myEquipBuilder->SetHelmet(helmet);
+//     myEquipBuilder->SetChestplate(chestplate);
+//     myEquipBuilder->SetBoots(boots);
 
-//     equip = myEquipBuilder.GetResult();
+//     equip = myEquipBuilder->GetResult();
 
 //     return equip;
 // }
 
-Helmet* MyEquipBuilderMain::BuildHelmetByMaterial(WhatMaterial helmetMaterial, EquipWithMaterialBuilder& equipWithMaterialBuilder, EquipBuilder& equipBuilder)
+std::shared_ptr<Equip> MyEquipBuilderMain::BuildHelmetByMaterial(WhatMaterial helmetMaterial, std::shared_ptr<EquipWithMaterialBuilder> equipWithMaterialBuilder, std::shared_ptr<EquipBuilder> equipBuilder)
 {
     switch (helmetMaterial)
     {
     case NoMaterialMaterial:
-        equipWithMaterialBuilder.BuildNoMaterialHelmet(&equipBuilder);
+        equipWithMaterialBuilder->BuildNoMaterialHelmet(equipBuilder);
         break;
     case DecorativeMaterial:
-        equipWithMaterialBuilder.BuildDecorativeHelmet(&equipBuilder);
+        equipWithMaterialBuilder->BuildDecorativeHelmet(equipBuilder);
         break;
     case IronMaterial:
-        equipWithMaterialBuilder.BuildIronHelmet(&equipBuilder);
+        equipWithMaterialBuilder->BuildIronHelmet(equipBuilder);
         break;
     case GoldMaterial:
-        equipWithMaterialBuilder.BuildGoldHelmet(&equipBuilder);
+        equipWithMaterialBuilder->BuildGoldHelmet(equipBuilder);
         break;
     case DimondMaterial:
-        equipWithMaterialBuilder.BuildDimondHelmet(&equipBuilder);
+        equipWithMaterialBuilder->BuildDimondHelmet(equipBuilder);
         break;
     
     default:
         break;
     }
-    return reinterpret_cast<Helmet*>(equipBuilder.GetResult());
+
+    return std::shared_ptr<Equip>(equipBuilder->GetResult());
 }
 
-Chestplate* MyEquipBuilderMain::BuildChestplateByMaterial(WhatMaterial chestplateMaterial, EquipWithMaterialBuilder& equipWithMaterialBuilder, EquipBuilder& equipBuilder)
+std::shared_ptr<Equip> MyEquipBuilderMain::BuildChestplateByMaterial(WhatMaterial chestplateMaterial, std::shared_ptr<EquipWithMaterialBuilder> equipWithMaterialBuilder, std::shared_ptr<EquipBuilder> equipBuilder)
 {
     switch (chestplateMaterial)
     {
     case NoMaterialMaterial:
-        equipWithMaterialBuilder.BuildNoMaterialChestplate(&equipBuilder);
+        equipWithMaterialBuilder->BuildNoMaterialChestplate(equipBuilder);
         break;
     case DecorativeMaterial:
-        equipWithMaterialBuilder.BuildDecorativeChestplate(&equipBuilder);
+        equipWithMaterialBuilder->BuildDecorativeChestplate(equipBuilder);
         break;
     case IronMaterial:
-        equipWithMaterialBuilder.BuildIronChestplate(&equipBuilder);
+        equipWithMaterialBuilder->BuildIronChestplate(equipBuilder);
         break;
     case GoldMaterial:
-        equipWithMaterialBuilder.BuildGoldChestplate(&equipBuilder);
+        equipWithMaterialBuilder->BuildGoldChestplate(equipBuilder);
         break;
     case DimondMaterial:
-        equipWithMaterialBuilder.BuildDimondChestplate(&equipBuilder);
+        equipWithMaterialBuilder->BuildDimondChestplate(equipBuilder);
         break;
     
     default:
         break;
     }
-    return reinterpret_cast<Chestplate*>(equipBuilder.GetResult());
+    return std::shared_ptr<Equip>(equipBuilder->GetResult());
 }
 
-Boots* MyEquipBuilderMain::BuildBootsByMaterial(WhatMaterial bootsMaterial, EquipWithMaterialBuilder& equipWithMaterialBuilder, EquipBuilder& equipBuilder)
+std::shared_ptr<Equip> MyEquipBuilderMain::BuildBootsByMaterial(WhatMaterial bootsMaterial, std::shared_ptr<EquipWithMaterialBuilder> equipWithMaterialBuilder, std::shared_ptr<EquipBuilder> equipBuilder)
 {
     switch (bootsMaterial)
     {
     case NoMaterialMaterial:
-        equipWithMaterialBuilder.BuildNoMaterialBoots(&equipBuilder);
+        equipWithMaterialBuilder->BuildNoMaterialBoots(equipBuilder);
         break;
     case DecorativeMaterial:
-        equipWithMaterialBuilder.BuildDecorativeBoots(&equipBuilder);
+        equipWithMaterialBuilder->BuildDecorativeBoots(equipBuilder);
         break;
     case IronMaterial:
-        equipWithMaterialBuilder.BuildIronBoots(&equipBuilder);
+        equipWithMaterialBuilder->BuildIronBoots(equipBuilder);
         break;
     case GoldMaterial:
-        equipWithMaterialBuilder.BuildGoldBoots(&equipBuilder);
+        equipWithMaterialBuilder->BuildGoldBoots(equipBuilder);
         break;
     case DimondMaterial:
-        equipWithMaterialBuilder.BuildDimondBoots(&equipBuilder);
+        equipWithMaterialBuilder->BuildDimondBoots(equipBuilder);
         break;
     
     default:
         break;
     }
-    return reinterpret_cast<Boots*>(equipBuilder.GetResult());
+
+    return std::shared_ptr<Equip>(equipBuilder->GetResult());
 }
