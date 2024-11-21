@@ -2,6 +2,8 @@
 
 #include <memory>
 
+#include "../../Game/Visitor/visitor.hpp"
+
 #include "../Enums/type_id_enum.hpp"
 #include "../../Positionable/positionable.hpp"
 #include "../../Equipment/Equip/my_equip.hpp"
@@ -14,6 +16,7 @@ class NPC : public Position
 
 public:
     NPCId GetTypeId();
+    std::string GetName();
     unsigned int GetCurrentId();
     double GetHp();
     double GetArmor();
@@ -21,8 +24,11 @@ public:
     virtual double GetAttackDistance();
     virtual double GetAttackDamage();
 
+    virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor);
+
 protected:
     void SetTypeId(NPCId typeId);
+    void SetName(std::string name);
 
     void SetCurrentId(unsigned int currentId);
     void SetHp(double hp);
@@ -32,6 +38,7 @@ protected:
 
 private:
     NPCId typeId_;
+    std::string name_;
     unsigned int currentId_;
     double hp_;
     double armor_;

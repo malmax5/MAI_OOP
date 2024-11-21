@@ -178,6 +178,9 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
  /usr/include/c++/10/pstl/execution_defs.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/position_funcs.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Game/Visitor/visitor.hpp \
+ /usr/include/c++/10/iostream /usr/include/c++/10/istream \
+ /usr/include/c++/10/bits/istream.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../Enums/type_id_enum.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Positionable/positionable.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
@@ -219,5 +222,4 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
  /usr/include/c++/10/atomic /usr/include/c++/10/mutex \
  /usr/include/c++/10/bits/std_mutex.h \
  /usr/include/c++/10/bits/unique_lock.h \
- /usr/include/c++/10/condition_variable /usr/include/c++/10/iostream \
- /usr/include/c++/10/istream /usr/include/c++/10/bits/istream.tcc
+ /usr/include/c++/10/condition_variable

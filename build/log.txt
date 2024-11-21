@@ -1393,3 +1393,10 @@ created Gold Boots
 created No Material Helmet
 created Dimond Chestplate
 created Dimond Boots
+NPC with id: 3 Killed
+NPC with id: 1 Killed
+NPC with id: 2 Killed
+NPC with id: 1 Killed
+NPC with id: 3 Killed
+NPC with id: 1 Killed
+NPC with id: 2 Killed

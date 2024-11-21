@@ -5,4 +5,5 @@ class Pegasus : public PeacefulNPC
 {
 public:
     Pegasus();
+    void AcceptVisitor(std::shared_ptr<Visitor> visitor) final;
 };

@@ -190,11 +190,4 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Builder/equip_material_
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Material/Derived/iron.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Material/Derived/gold.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Material/Derived/decorative.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Material/Derived/no_material.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../Log/log.hpp \
- /usr/include/c++/10/iostream /usr/include/c++/10/istream \
- /usr/include/c++/10/bits/istream.tcc /usr/include/c++/10/fstream \
- /usr/include/c++/10/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
- /usr/include/c++/10/bits/fstream.tcc
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/../../../../include/Equipment/Builder/../Material/Derived/no_material.hpp

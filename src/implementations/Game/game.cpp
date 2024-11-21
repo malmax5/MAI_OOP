@@ -1,5 +1,7 @@
 #include "../../../include/Game/game.hpp"
 
+Game::Game() : getInfoVisitor(std::make_shared<GetInfoVisitor>()) {}
+
 void Game::Start()
 {
     //Preparing environment to game
@@ -14,7 +16,6 @@ void Game::Update()
     std::cout << "Update\n";
     while(npcInGame_.size() > 1)
     {
-        std::cout << "Attack\n";
         for (int i = 0; i < npcInGame_.size(); i++)
         {
             for (int j = 0; j < npcInGame_.size(); j++)
@@ -25,7 +26,6 @@ void Game::Update()
                     AttackCommand::CanAttack(npcInGame_[i], npcInGame_[j]))
                 {
                     {
-                        std::cout << " - " << npcInGame_[i]->GetCurrentId() << " an " << npcInGame_[j]->GetCurrentId() << "\n";
                         std::unique_lock<std::mutex> lock(tce::commandQueueMutex);
                         tce::commandQueue.push(std::make_shared<AttackCommand>(npcInGame_[i], npcInGame_[j]));
                         tce::commandQueueCV.notify_one();
@@ -38,12 +38,8 @@ void Game::Update()
 
         while(tce::commandQueue.size() != 0) {}
 
-        npcInGame_.erase(std::remove_if(npcInGame_.begin(), npcInGame_.end(), 
-        [](std::shared_ptr<NPC> npc) {
-            return npc->GetHp() <= 0;
-        }), npcInGame_.end());
+        RemoveDeads();
 
-        std::cout << "Move\n";
         for (int i = 0; i < npcInGame_.size(); i++)
         {
             std::shared_ptr<NPC> target;
@@ -69,7 +65,6 @@ void Game::Update()
             }
             if (dist != -1)
             {
-                std::cout << "- " << npcInGame_[i]->GetCurrentId() << " to " << target->GetCurrentId() << "\n";
                 std::unique_lock<std::mutex> lock(tce::commandQueueMutex);
                 tce::commandQueue.push(std::make_shared<MoveCommand>(npcInGame_[i], target));
                 tce::commandQueueCV.notify_one();
@@ -109,13 +104,47 @@ void Game::RemoveNPC(int npcId)
     }
 }
 
+void Game::RemoveDeads()
+{
+    int i = 0;
+    while(i < npcInGame_.size())
+    {
+        if (npcInGame_[i]->GetHp() <= 0)
+        {
+            std::stringstream ss;
+            ss << "NPC with id: " << npcInGame_[i]->GetCurrentId() << " Killed";
+            Notify(ss.str());
+            npcInGame_.erase(npcInGame_.begin() + i);
+            i--;
+        }
+
+        i++;
+    }
+}
+
 void Game::PrintNPC()
 {
     for (auto& npc : npcInGame_)
     {
-        std::cout << "TypeId: " << npc->GetTypeId() << " " <<
-                     "Name: " << npc->GetCurrentId() << " " <<
-                     "X: " << npc->GetXCord() << " " <<
-                     "Y: " << npc->GetYCord() << "\n";
+        npc->AcceptVisitor(getInfoVisitor);
     }
 }
+
+void Game::Notify(const std::string& event) 
+{
+    for (const auto& observer : observers) 
+    {
+        observer->update(event);
+    }
+}
+
+void Game::Attach(std::shared_ptr<Observer> observer)
+{
+    observers.push_back(observer);
+}
+
+void Game::Detach(std::shared_ptr<Observer> observer)
+{
+    observers.erase(std::remove(observers.begin(), observers.end(), observer), observers.end());
+}
+

@@ -22,6 +22,9 @@ public:
     void IncludeKnight(double xCord, double yCord);
     void IncludeSquirrel(double xCord, double yCord);
 
+    void LoadNPCToFile(std::string filePath);
+    void ExportNPCFromFile(std::string filePath);
+
     void PrintObjects();
 
 private:
@@ -31,4 +34,10 @@ private:
     std::shared_ptr<KnightFactory> knightFactory_;
     std::shared_ptr<PegasusFactory> pegasusFactory_;
     std::shared_ptr<SquirrelFactory> squirrelFactory_;
+
+    std::shared_ptr<FileLogger> fileLogger;
+    std::shared_ptr<ScreenLogger> screenLogger;
+
+    static std::string loggerFilePath;
+    static std::string npcFilePath;
 };

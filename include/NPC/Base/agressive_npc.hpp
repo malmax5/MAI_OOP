@@ -12,6 +12,8 @@ public:
     double GetAttackDistance() override;
     std::shared_ptr<NPC> GetTarget();
 
+    void AcceptVisitor(std::shared_ptr<Visitor> visitor);
+
 protected:
     void SetAttackDamage(double attackDamage);
     void SetAttackDistance(double attackDistance);

@@ -29,3 +29,8 @@ void AgressiveNPC::SetTarget(std::shared_ptr<NPC> target)
 {
     target_ = target;
 }
+
+void AgressiveNPC::AcceptVisitor(std::shared_ptr<Visitor> visitor)
+{
+    
+}

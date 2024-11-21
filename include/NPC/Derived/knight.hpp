@@ -5,4 +5,5 @@ class Knight : public AgressiveNPC
 {
 public:
     Knight();
+    void AcceptVisitor(std::shared_ptr<Visitor> visitor) final;
 };

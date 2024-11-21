@@ -212,7 +212,8 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
  /usr/include/c++/10/tr1/modified_bessel_func.tcc \
  /usr/include/c++/10/tr1/poly_hermite.tcc \
  /usr/include/c++/10/tr1/poly_laguerre.tcc \
- /usr/include/c++/10/tr1/riemann_zeta.tcc /usr/include/c++/10/algorithm \
+ /usr/include/c++/10/tr1/riemann_zeta.tcc /usr/include/c++/10/sstream \
+ /usr/include/c++/10/bits/sstream.tcc /usr/include/c++/10/algorithm \
  /usr/include/c++/10/bits/ranges_algo.h \
  /usr/include/c++/10/pstl/glue_algorithm_defs.h \
  /usr/include/c++/10/functional /usr/include/c++/10/bits/std_function.h \
@@ -230,6 +231,7 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/Enums/type_id_enum.hpp \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/position_funcs.hpp \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Game/Visitor/visitor.hpp \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Positionable/positionable.hpp \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Base/equip.hpp \
@@ -237,6 +239,12 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/Observer/observer.hpp \
+ /usr/include/c++/10/fstream /usr/include/c++/10/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+ /usr/include/c++/10/bits/fstream.tcc \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/Visitor/get_info_visitor.hpp \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/FightLogic/command_executer.hpp \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/../NPC/FightLogic/Command/command_interface.hpp \
  /usr/include/c++/10/queue /usr/include/c++/10/deque \

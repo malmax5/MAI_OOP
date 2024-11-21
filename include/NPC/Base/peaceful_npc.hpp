@@ -5,4 +5,6 @@
 class PeacefulNPC : public NPC 
 {
     friend class PeacefulNPCBuilder;
+public:
+    virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor);
 };

@@ -561,6 +561,78 @@ src/implementations/Equipment/Material/Derived/no_material.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.s
 .PHONY : src/implementations/Equipment/Material/Derived/no_material.cpp.s
 
+src/implementations/Game/Observer/observer.o: src/implementations/Game/Observer/observer.cpp.o
+.PHONY : src/implementations/Game/Observer/observer.o
+
+# target to build an object file
+src/implementations/Game/Observer/observer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o
+.PHONY : src/implementations/Game/Observer/observer.cpp.o
+
+src/implementations/Game/Observer/observer.i: src/implementations/Game/Observer/observer.cpp.i
+.PHONY : src/implementations/Game/Observer/observer.i
+
+# target to preprocess a source file
+src/implementations/Game/Observer/observer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.i
+.PHONY : src/implementations/Game/Observer/observer.cpp.i
+
+src/implementations/Game/Observer/observer.s: src/implementations/Game/Observer/observer.cpp.s
+.PHONY : src/implementations/Game/Observer/observer.s
+
+# target to generate assembly for a file
+src/implementations/Game/Observer/observer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.s
+.PHONY : src/implementations/Game/Observer/observer.cpp.s
+
+src/implementations/Game/Visitor/get_info_visitor.o: src/implementations/Game/Visitor/get_info_visitor.cpp.o
+.PHONY : src/implementations/Game/Visitor/get_info_visitor.o
+
+# target to build an object file
+src/implementations/Game/Visitor/get_info_visitor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.o
+.PHONY : src/implementations/Game/Visitor/get_info_visitor.cpp.o
+
+src/implementations/Game/Visitor/get_info_visitor.i: src/implementations/Game/Visitor/get_info_visitor.cpp.i
+.PHONY : src/implementations/Game/Visitor/get_info_visitor.i
+
+# target to preprocess a source file
+src/implementations/Game/Visitor/get_info_visitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.i
+.PHONY : src/implementations/Game/Visitor/get_info_visitor.cpp.i
+
+src/implementations/Game/Visitor/get_info_visitor.s: src/implementations/Game/Visitor/get_info_visitor.cpp.s
+.PHONY : src/implementations/Game/Visitor/get_info_visitor.s
+
+# target to generate assembly for a file
+src/implementations/Game/Visitor/get_info_visitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.s
+.PHONY : src/implementations/Game/Visitor/get_info_visitor.cpp.s
+
+src/implementations/Game/Visitor/visitor.o: src/implementations/Game/Visitor/visitor.cpp.o
+.PHONY : src/implementations/Game/Visitor/visitor.o
+
+# target to build an object file
+src/implementations/Game/Visitor/visitor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o
+.PHONY : src/implementations/Game/Visitor/visitor.cpp.o
+
+src/implementations/Game/Visitor/visitor.i: src/implementations/Game/Visitor/visitor.cpp.i
+.PHONY : src/implementations/Game/Visitor/visitor.i
+
+# target to preprocess a source file
+src/implementations/Game/Visitor/visitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.i
+.PHONY : src/implementations/Game/Visitor/visitor.cpp.i
+
+src/implementations/Game/Visitor/visitor.s: src/implementations/Game/Visitor/visitor.cpp.s
+.PHONY : src/implementations/Game/Visitor/visitor.s
+
+# target to generate assembly for a file
+src/implementations/Game/Visitor/visitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.s
+.PHONY : src/implementations/Game/Visitor/visitor.cpp.s
+
 src/implementations/Game/enemy_mask.o: src/implementations/Game/enemy_mask.cpp.o
 .PHONY : src/implementations/Game/enemy_mask.o
 
@@ -1176,6 +1248,15 @@ help:
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.o"
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.i"
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.s"
+	@echo "... src/implementations/Game/Observer/observer.o"
+	@echo "... src/implementations/Game/Observer/observer.i"
+	@echo "... src/implementations/Game/Observer/observer.s"
+	@echo "... src/implementations/Game/Visitor/get_info_visitor.o"
+	@echo "... src/implementations/Game/Visitor/get_info_visitor.i"
+	@echo "... src/implementations/Game/Visitor/get_info_visitor.s"
+	@echo "... src/implementations/Game/Visitor/visitor.o"
+	@echo "... src/implementations/Game/Visitor/visitor.i"
+	@echo "... src/implementations/Game/Visitor/visitor.s"
 	@echo "... src/implementations/Game/enemy_mask.o"
 	@echo "... src/implementations/Game/enemy_mask.i"
 	@echo "... src/implementations/Game/enemy_mask.s"

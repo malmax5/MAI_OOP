@@ -124,10 +124,16 @@ set(
     #hpp
     include/Game/game.hpp
     include/Game/enemy_mask.hpp
+    include/Game/Observer/observer.hpp
+    include/Game/Visitor/visitor.hpp
+    include/Game/Visitor/get_info_visitor.hpp
 
     #cpp
     src/implementations/Game/game.cpp
     src/implementations/Game/enemy_mask.cpp
+    src/implementations/Game/Observer/observer.cpp
+    src/implementations/Game/Visitor/visitor.cpp
+    src/implementations/Game/Visitor/get_info_visitor.cpp
     #!Game Stop
 
     #!Terminal
@@ -137,10 +143,6 @@ set(
     #cpp
     src/implementations/Terminal/terminal.cpp
     #!Terminal Stop
-
-    #!Logger Start
-    Log/log.hpp
-    #!Logger Stop
 )
 
 add_executable(
