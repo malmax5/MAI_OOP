@@ -14,6 +14,14 @@ Terminal::Terminal() : knightFactory_(std::make_shared<KnightFactory>()),
     TerminalUpdate();
 }
 
+Terminal::~Terminal()
+{
+    if (game_)
+    {
+        DeleteThisGame();
+    }
+}
+
 void Terminal::TerminalUpdate()
 {
     //User interaction

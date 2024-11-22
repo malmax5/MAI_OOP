@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /home/cbf/MAI/OOP/Lab_6/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
@@ -84,6 +94,51 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"gmock\" \"gtest\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -142,29 +197,57 @@ run_valgrind/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_valgrind.dir/build.make CMakeFiles/run_valgrind.dir/build
 .PHONY : run_valgrind/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+#=============================================================================
+# Target rules for targets named gmock
 
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/main.cpp.o
-.PHONY : main.cpp.o
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
 
-main.i: main.cpp.i
-.PHONY : main.i
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
 
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/main.cpp.i
-.PHONY : main.cpp.i
+#=============================================================================
+# Target rules for targets named gmock_main
 
-main.s: main.cpp.s
-.PHONY : main.s
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
 
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/main.cpp.s
-.PHONY : main.cpp.s
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
 src/implementations/Equipment/Builder/equip_material_builder_main.o: src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o
 .PHONY : src/implementations/Equipment/Builder/equip_material_builder_main.o
@@ -1198,6 +1281,198 @@ src/implementations/Terminal/terminal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.s
 .PHONY : src/implementations/Terminal/terminal.cpp.s
 
+test/test_equip_builder.o: test/test_equip_builder.cpp.o
+.PHONY : test/test_equip_builder.o
+
+# target to build an object file
+test/test_equip_builder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_equip_builder.cpp.o
+.PHONY : test/test_equip_builder.cpp.o
+
+test/test_equip_builder.i: test/test_equip_builder.cpp.i
+.PHONY : test/test_equip_builder.i
+
+# target to preprocess a source file
+test/test_equip_builder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_equip_builder.cpp.i
+.PHONY : test/test_equip_builder.cpp.i
+
+test/test_equip_builder.s: test/test_equip_builder.cpp.s
+.PHONY : test/test_equip_builder.s
+
+# target to generate assembly for a file
+test/test_equip_builder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_equip_builder.cpp.s
+.PHONY : test/test_equip_builder.cpp.s
+
+test/test_equipment_factory.o: test/test_equipment_factory.cpp.o
+.PHONY : test/test_equipment_factory.o
+
+# target to build an object file
+test/test_equipment_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_equipment_factory.cpp.o
+.PHONY : test/test_equipment_factory.cpp.o
+
+test/test_equipment_factory.i: test/test_equipment_factory.cpp.i
+.PHONY : test/test_equipment_factory.i
+
+# target to preprocess a source file
+test/test_equipment_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_equipment_factory.cpp.i
+.PHONY : test/test_equipment_factory.cpp.i
+
+test/test_equipment_factory.s: test/test_equipment_factory.cpp.s
+.PHONY : test/test_equipment_factory.s
+
+# target to generate assembly for a file
+test/test_equipment_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_equipment_factory.cpp.s
+.PHONY : test/test_equipment_factory.cpp.s
+
+test/test_knight_factory.o: test/test_knight_factory.cpp.o
+.PHONY : test/test_knight_factory.o
+
+# target to build an object file
+test/test_knight_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.o
+.PHONY : test/test_knight_factory.cpp.o
+
+test/test_knight_factory.i: test/test_knight_factory.cpp.i
+.PHONY : test/test_knight_factory.i
+
+# target to preprocess a source file
+test/test_knight_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.i
+.PHONY : test/test_knight_factory.cpp.i
+
+test/test_knight_factory.s: test/test_knight_factory.cpp.s
+.PHONY : test/test_knight_factory.s
+
+# target to generate assembly for a file
+test/test_knight_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.s
+.PHONY : test/test_knight_factory.cpp.s
+
+test/test_main.o: test/test_main.cpp.o
+.PHONY : test/test_main.o
+
+# target to build an object file
+test/test_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_main.cpp.o
+.PHONY : test/test_main.cpp.o
+
+test/test_main.i: test/test_main.cpp.i
+.PHONY : test/test_main.i
+
+# target to preprocess a source file
+test/test_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_main.cpp.i
+.PHONY : test/test_main.cpp.i
+
+test/test_main.s: test/test_main.cpp.s
+.PHONY : test/test_main.s
+
+# target to generate assembly for a file
+test/test_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_main.cpp.s
+.PHONY : test/test_main.cpp.s
+
+test/test_my_equip_builder_main.o: test/test_my_equip_builder_main.cpp.o
+.PHONY : test/test_my_equip_builder_main.o
+
+# target to build an object file
+test/test_my_equip_builder_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_my_equip_builder_main.cpp.o
+.PHONY : test/test_my_equip_builder_main.cpp.o
+
+test/test_my_equip_builder_main.i: test/test_my_equip_builder_main.cpp.i
+.PHONY : test/test_my_equip_builder_main.i
+
+# target to preprocess a source file
+test/test_my_equip_builder_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_my_equip_builder_main.cpp.i
+.PHONY : test/test_my_equip_builder_main.cpp.i
+
+test/test_my_equip_builder_main.s: test/test_my_equip_builder_main.cpp.s
+.PHONY : test/test_my_equip_builder_main.s
+
+# target to generate assembly for a file
+test/test_my_equip_builder_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_my_equip_builder_main.cpp.s
+.PHONY : test/test_my_equip_builder_main.cpp.s
+
+test/test_myequip_builder.o: test/test_myequip_builder.cpp.o
+.PHONY : test/test_myequip_builder.o
+
+# target to build an object file
+test/test_myequip_builder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_myequip_builder.cpp.o
+.PHONY : test/test_myequip_builder.cpp.o
+
+test/test_myequip_builder.i: test/test_myequip_builder.cpp.i
+.PHONY : test/test_myequip_builder.i
+
+# target to preprocess a source file
+test/test_myequip_builder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_myequip_builder.cpp.i
+.PHONY : test/test_myequip_builder.cpp.i
+
+test/test_myequip_builder.s: test/test_myequip_builder.cpp.s
+.PHONY : test/test_myequip_builder.s
+
+# target to generate assembly for a file
+test/test_myequip_builder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_myequip_builder.cpp.s
+.PHONY : test/test_myequip_builder.cpp.s
+
+test/test_pegasus_factory.o: test/test_pegasus_factory.cpp.o
+.PHONY : test/test_pegasus_factory.o
+
+# target to build an object file
+test/test_pegasus_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_pegasus_factory.cpp.o
+.PHONY : test/test_pegasus_factory.cpp.o
+
+test/test_pegasus_factory.i: test/test_pegasus_factory.cpp.i
+.PHONY : test/test_pegasus_factory.i
+
+# target to preprocess a source file
+test/test_pegasus_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_pegasus_factory.cpp.i
+.PHONY : test/test_pegasus_factory.cpp.i
+
+test/test_pegasus_factory.s: test/test_pegasus_factory.cpp.s
+.PHONY : test/test_pegasus_factory.s
+
+# target to generate assembly for a file
+test/test_pegasus_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_pegasus_factory.cpp.s
+.PHONY : test/test_pegasus_factory.cpp.s
+
+test/test_squirrel_factory.o: test/test_squirrel_factory.cpp.o
+.PHONY : test/test_squirrel_factory.o
+
+# target to build an object file
+test/test_squirrel_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_squirrel_factory.cpp.o
+.PHONY : test/test_squirrel_factory.cpp.o
+
+test/test_squirrel_factory.i: test/test_squirrel_factory.cpp.i
+.PHONY : test/test_squirrel_factory.i
+
+# target to preprocess a source file
+test/test_squirrel_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_squirrel_factory.cpp.i
+.PHONY : test/test_squirrel_factory.cpp.i
+
+test/test_squirrel_factory.s: test/test_squirrel_factory.cpp.s
+.PHONY : test/test_squirrel_factory.s
+
+# target to generate assembly for a file
+test/test_squirrel_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_squirrel_factory.cpp.s
+.PHONY : test/test_squirrel_factory.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1205,12 +1480,18 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... test"
 	@echo "... run_valgrind"
+	@echo "... gmock"
+	@echo "... gmock_main"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... lab_6_tests"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... src/implementations/Equipment/Builder/equip_material_builder_main.o"
 	@echo "... src/implementations/Equipment/Builder/equip_material_builder_main.i"
 	@echo "... src/implementations/Equipment/Builder/equip_material_builder_main.s"
@@ -1340,6 +1621,30 @@ help:
 	@echo "... src/implementations/Terminal/terminal.o"
 	@echo "... src/implementations/Terminal/terminal.i"
 	@echo "... src/implementations/Terminal/terminal.s"
+	@echo "... test/test_equip_builder.o"
+	@echo "... test/test_equip_builder.i"
+	@echo "... test/test_equip_builder.s"
+	@echo "... test/test_equipment_factory.o"
+	@echo "... test/test_equipment_factory.i"
+	@echo "... test/test_equipment_factory.s"
+	@echo "... test/test_knight_factory.o"
+	@echo "... test/test_knight_factory.i"
+	@echo "... test/test_knight_factory.s"
+	@echo "... test/test_main.o"
+	@echo "... test/test_main.i"
+	@echo "... test/test_main.s"
+	@echo "... test/test_my_equip_builder_main.o"
+	@echo "... test/test_my_equip_builder_main.i"
+	@echo "... test/test_my_equip_builder_main.s"
+	@echo "... test/test_myequip_builder.o"
+	@echo "... test/test_myequip_builder.i"
+	@echo "... test/test_myequip_builder.s"
+	@echo "... test/test_pegasus_factory.o"
+	@echo "... test/test_pegasus_factory.i"
+	@echo "... test/test_pegasus_factory.s"
+	@echo "... test/test_squirrel_factory.o"
+	@echo "... test/test_squirrel_factory.i"
+	@echo "... test/test_squirrel_factory.s"
 .PHONY : help
 
 

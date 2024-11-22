@@ -7,17 +7,17 @@ set(CMLIB_DESCRIPTION "ООП, лабороторная работа номер 
 project(test VERSION 0.1.0 LANGUAGES C CXX)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
-# include_directories(includes)
+include_directories(includes)
 
-# add_subdirectory(
-#     "${CMAKE_CURRENT_SOURCE_DIR}/googletest"
-#     "googletest"
-# )
+add_subdirectory(
+    "${CMAKE_CURRENT_SOURCE_DIR}/gtest"
+    "gtest"
+)
 
 set(
     TEST_SOURCES
     #main
-    main.cpp
+    # main.cpp
 
     #!Equipment Start
     #hpp
@@ -143,6 +143,16 @@ set(
     #cpp
     src/implementations/Terminal/terminal.cpp
     #!Terminal Stop
+
+    #!Tests
+    test/test_main.cpp
+    test/test_equip_builder.cpp
+    test/test_myequip_builder.cpp
+    test/test_my_equip_builder_main.cpp
+    test/test_equipment_factory.cpp
+    test/test_pegasus_factory.cpp
+    test/test_knight_factory.cpp
+    test/test_squirrel_factory.cpp
 )
 
 add_executable(
@@ -155,24 +165,29 @@ add_custom_target(run_valgrind
     DEPENDS lab_6_tests
 )
 
-# target_include_directories(
-#     lab_6_tests PRIVATE
-#     "${CMAKE_CURRENT_SOURCE_DIR}/googletest/googletest/include"
-# )
+target_include_directories(
+    lab_6_tests PRIVATE
+    "${CMAKE_CURRENT_SOURCE_DIR}/googletest/googletest/include"
+)
 
-# target_link_libraries(
-#     lab_6_tests
-#     gtest 
-#     gtest_main
-# )
+target_link_libraries(
+    lab_6_tests
+    gtest 
+    gtest_main
+)
 
-# enable_testing()
+enable_testing()
 
-# add_test(NAME MapMemoryResourceTest COMMAND lab_6_tests)
-# add_test(NAME ForwardListTest COMMAND lab_6_tests)
+add_test(NAME EquipBuilderTest COMMAND lab_6_tests)
+add_test(NAME MyEquipBuilderMainTest COMMAND lab_6_tests)
+add_test(NAME MyEquipBuilderTest COMMAND lab_6_tests)
+add_test(NAME EquipmentFactoryTest COMMAND lab_6_tests)
+add_test(NAME SquirrelFactoryTest COMMAND lab_6_tests)
+add_test(NAME KnightFactoryTest COMMAND lab_6_tests)
+add_test(NAME PegasusFactoryTest COMMAND lab_6_tests)
 
 if (MSVC)
-    # set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+    set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
     target_compile_options(
         lab_6_tests PRIVATE

@@ -13,6 +13,7 @@ class Terminal
 {
 public:
     Terminal();
+    ~Terminal();
 
     void CreateNewGame();
     void StartGame();

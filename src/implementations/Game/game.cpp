@@ -1,6 +1,10 @@
 #include "../../../include/Game/game.hpp"
 
-Game::Game() : getInfoVisitor(std::make_shared<GetInfoVisitor>()) {}
+Game::Game() : getInfoVisitor(std::make_shared<GetInfoVisitor>()),
+               isThreadRunning(false)
+{
+    shouldStop_.store(false);
+}
 
 void Game::Start()
 {
