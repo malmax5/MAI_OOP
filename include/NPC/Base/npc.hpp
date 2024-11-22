@@ -20,10 +20,10 @@ public:
     double GetHp();
     double GetArmor();
     double GetSpeed();
-    virtual double GetAttackDistance();
-    virtual double GetAttackDamage();
+    virtual double GetAttackDistance() = 0;
+    virtual double GetAttackDamage() = 0;
 
-    virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor);
+    virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor) = 0;
 
 protected:
     void SetTypeId(NPCId typeId);
@@ -33,6 +33,8 @@ protected:
     void SetBaseArmor(double armor);
     void SetEquip(std::shared_ptr<MyEquip> equip);
     void SetSpeed(double speed);
+
+    virtual void GetDamage(double damage);
 
 private:
     NPCId typeId_;

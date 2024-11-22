@@ -10,8 +10,11 @@ void Game::Start()
 {
     if (tce::isThreadRunning)
     {
-        std::cout << "Thread already running. Waiting for completion.\n";
-        return;
+        shouldStop_.store(true);
+        if (gameThread.joinable())
+        {
+            gameThread.join();
+        }
     }
 
     //Preparing environment to game

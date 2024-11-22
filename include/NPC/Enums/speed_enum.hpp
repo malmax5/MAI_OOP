@@ -2,7 +2,7 @@
 
 enum NPCSpeed
 {
-    KnightSpeed = 10,
-    PegasusSpeed = 10,
-    SquirrelSpeed = 10
+    KnightSpeed = 3,
+    PegasusSpeed = 2,
+    SquirrelSpeed = 1
 };

@@ -25,15 +25,15 @@ double NPC::GetSpeed()
     return speed_;
 }
 
-double NPC::GetAttackDamage()
-{
-    return 0;
-}
+// double NPC::GetAttackDamage()
+// {
+//     return 0;
+// }
 
-double NPC::GetAttackDistance()
-{
-    return 0;
-}
+// double NPC::GetAttackDistance()
+// {
+//     return 0;
+// }
 
 void NPC::SetTypeId(NPCId typeId)
 {
@@ -70,4 +70,9 @@ void NPC::SetSpeed(double speed)
 void NPC::AcceptVisitor(std::shared_ptr<Visitor> visitor)
 {
 
+}
+
+void NPC::GetDamage(double damage)
+{
+    hp_ -= damage * (1 - (totalArmor_ / 240));
 }

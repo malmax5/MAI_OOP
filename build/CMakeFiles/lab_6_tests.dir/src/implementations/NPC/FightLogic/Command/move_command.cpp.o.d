@@ -193,12 +193,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
  /usr/include/c++/10/iostream \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../Enums/type_id_enum.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Positionable/positionable.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/equip.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
  /usr/include/c++/10/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -220,4 +214,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
  /usr/include/c++/10/tr1/modified_bessel_func.tcc \
  /usr/include/c++/10/tr1/poly_hermite.tcc \
  /usr/include/c++/10/tr1/poly_laguerre.tcc \
- /usr/include/c++/10/tr1/riemann_zeta.tcc
+ /usr/include/c++/10/tr1/riemann_zeta.tcc \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/equip.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/boots.hpp

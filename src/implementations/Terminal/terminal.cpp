@@ -107,11 +107,6 @@ void Terminal::StartGame()
         std::cout << "Need to create game before start\n";
         return;
     }
-    if (game_->isThreadRunning)
-    {
-        std::cout << "The game is already in proccess\n";
-        return;
-    }
 
     // game_->Attach(screenLogger);
     game_->shouldStop_.store(false);

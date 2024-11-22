@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lab_6_tests.dir/main.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/main.cpp.o.d"
   "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o"
   "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o.d"
   "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o"
@@ -91,8 +93,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab_6_tests.dir/test/test_equipment_factory.cpp.o.d"
   "CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.o"
   "CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.o.d"
-  "CMakeFiles/lab_6_tests.dir/test/test_main.cpp.o"
-  "CMakeFiles/lab_6_tests.dir/test/test_main.cpp.o.d"
   "CMakeFiles/lab_6_tests.dir/test/test_my_equip_builder_main.cpp.o"
   "CMakeFiles/lab_6_tests.dir/test/test_my_equip_builder_main.cpp.o.d"
   "CMakeFiles/lab_6_tests.dir/test/test_myequip_builder.cpp.o"

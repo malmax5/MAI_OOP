@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/cbf/MAI/OOP/Lab_6/main.cpp" "CMakeFiles/lab_6_tests.dir/main.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/main.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Builder/equip_material_builder_main.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Base/equip.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp.o.d"
@@ -54,7 +55,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cbf/MAI/OOP/Lab_6/test/test_equip_builder.cpp" "CMakeFiles/lab_6_tests.dir/test/test_equip_builder.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_equip_builder.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/test/test_equipment_factory.cpp" "CMakeFiles/lab_6_tests.dir/test/test_equipment_factory.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_equipment_factory.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/test/test_knight_factory.cpp" "CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.o.d"
-  "/home/cbf/MAI/OOP/Lab_6/test/test_main.cpp" "CMakeFiles/lab_6_tests.dir/test/test_main.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_main.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/test/test_my_equip_builder_main.cpp" "CMakeFiles/lab_6_tests.dir/test/test_my_equip_builder_main.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_my_equip_builder_main.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/test/test_myequip_builder.cpp" "CMakeFiles/lab_6_tests.dir/test/test_myequip_builder.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_myequip_builder.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/test/test_pegasus_factory.cpp" "CMakeFiles/lab_6_tests.dir/test/test_pegasus_factory.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_pegasus_factory.cpp.o.d"

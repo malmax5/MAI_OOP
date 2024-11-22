@@ -17,7 +17,7 @@ add_subdirectory(
 set(
     TEST_SOURCES
     #main
-    # main.cpp
+    main.cpp
 
     #!Equipment Start
     #hpp
@@ -145,7 +145,7 @@ set(
     #!Terminal Stop
 
     #!Tests
-    test/test_main.cpp
+    # test/test_main.cpp
     test/test_equip_builder.cpp
     test/test_myequip_builder.cpp
     test/test_my_equip_builder_main.cpp

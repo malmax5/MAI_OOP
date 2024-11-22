@@ -59,3 +59,84 @@ Start Game
 0 attacked a 1
 0 attacked a 1
 End Game
+Start Game
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+0x5b8be36e5700 moved
+Start Game
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+0x5b857f673700 moved
+Start Game
+0x622297d1e700 moved from (1, 1) to (8.07107, 8.07107)
+0x622297d1e700 moved from (8.07107, 8.07107) to (15.1421, 15.1421)
+0x622297d1e700 moved from (15.1421, 15.1421) to (8.07107, 8.07107)
+0x622297d1e700 moved from (8.07107, 8.07107) to (15.1421, 15.1421)
+Start Game
+0x62c197ec9700 moved from (1, 1) to (3.12132, 3.12132)
+0x62c197ec9700 moved from (3.12132, 3.12132) to (5.24264, 5.24264)
+0x62c197ec9700 moved from (5.24264, 5.24264) to (7.36396, 7.36396)
+0x62c197ec9700 moved from (7.36396, 7.36396) to (9.48528, 9.48528)
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+NPC with id: 1 Killed
+End Game
+Start Game
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+NPC with id: 1 Killed
+End Game

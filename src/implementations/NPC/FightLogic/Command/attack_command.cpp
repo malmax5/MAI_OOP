@@ -6,7 +6,7 @@ AttackCommand::AttackCommand(std::shared_ptr<NPC> attacker, std::shared_ptr<NPC>
 
 void AttackCommand::execute(std::function<void(const std::string&)> Notify)
 {
-    target_->SetHp(target_->GetHp() - attacker_->GetAttackDamage() * (1 - (target_->GetArmor() / 240)));
+    target_->GetDamage(attacker_->GetAttackDamage());
     std::stringstream ss;
     ss << attacker_->GetCurrentId() << " attacked a " << target_->GetCurrentId();
     Notify(ss.str());

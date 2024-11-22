@@ -1,5 +1,7 @@
 #pragma once
 
+#include <cmath>
+
 class Position
 {
     friend class PegasusFactory;
@@ -14,6 +16,7 @@ protected:
     void SetXCord(double xCord);
     void SetYCord(double yCord);
     void SetPosition(double xCord, double yCord);
+    void Move(double xDirection, double yDirection, double speed);
 
 private:
     double xCord_;

@@ -249,6 +249,30 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 src/implementations/Equipment/Builder/equip_material_builder_main.o: src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o
 .PHONY : src/implementations/Equipment/Builder/equip_material_builder_main.o
 
@@ -1353,30 +1377,6 @@ test/test_knight_factory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.s
 .PHONY : test/test_knight_factory.cpp.s
 
-test/test_main.o: test/test_main.cpp.o
-.PHONY : test/test_main.o
-
-# target to build an object file
-test/test_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_main.cpp.o
-.PHONY : test/test_main.cpp.o
-
-test/test_main.i: test/test_main.cpp.i
-.PHONY : test/test_main.i
-
-# target to preprocess a source file
-test/test_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_main.cpp.i
-.PHONY : test/test_main.cpp.i
-
-test/test_main.s: test/test_main.cpp.s
-.PHONY : test/test_main.s
-
-# target to generate assembly for a file
-test/test_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_main.cpp.s
-.PHONY : test/test_main.cpp.s
-
 test/test_my_equip_builder_main.o: test/test_my_equip_builder_main.cpp.o
 .PHONY : test/test_my_equip_builder_main.o
 
@@ -1492,6 +1492,9 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... lab_6_tests"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... src/implementations/Equipment/Builder/equip_material_builder_main.o"
 	@echo "... src/implementations/Equipment/Builder/equip_material_builder_main.i"
 	@echo "... src/implementations/Equipment/Builder/equip_material_builder_main.s"
@@ -1630,9 +1633,6 @@ help:
 	@echo "... test/test_knight_factory.o"
 	@echo "... test/test_knight_factory.i"
 	@echo "... test/test_knight_factory.s"
-	@echo "... test/test_main.o"
-	@echo "... test/test_main.i"
-	@echo "... test/test_main.s"
 	@echo "... test/test_my_equip_builder_main.o"
 	@echo "... test/test_my_equip_builder_main.i"
 	@echo "... test/test_my_equip_builder_main.s"
