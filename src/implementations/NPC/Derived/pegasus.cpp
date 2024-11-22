@@ -3,7 +3,6 @@
 Pegasus::Pegasus()
 {
     SetTypeId(PegasusId);
-    SetName("Pegasus");
 }
 
 void Pegasus::AcceptVisitor(std::shared_ptr<Visitor> visitor)

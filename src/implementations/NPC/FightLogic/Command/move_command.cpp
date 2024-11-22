@@ -8,11 +8,14 @@ MoveCommand::MoveCommand(std::shared_ptr<NPC> npc, std::shared_ptr<NPC> target)
     : xDirection_(target->GetXCord() - npc->GetXCord()), yDirection_(target->GetYCord() - npc->GetYCord()), npc_(npc)
 {}
 
-void MoveCommand::execute()
+void MoveCommand::execute(std::function<void(const std::string&)> Notify)
 {
     double speed = npc_->GetSpeed();
     double kNorm = sqrt(pow(xDirection_, 2) + pow(yDirection_, 2));
     double newX = npc_->GetXCord() + xDirection_ / kNorm;
     double newY = npc_->GetYCord() + yDirection_ / kNorm;
     npc_->SetPosition(newX, newY);
+    std::stringstream ss;
+    ss << npc_ << " moved";
+    Notify(ss.str());
 }

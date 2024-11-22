@@ -1,26 +1,28 @@
 #include "../../../../include/NPC/FightLogic/command_executer.hpp"
-#include <iostream>
 
 namespace tce {
     std::thread thr;
     std::queue<std::shared_ptr<ICommand>> commandQueue;
     std::mutex commandQueueMutex;
     std::condition_variable commandQueueCV;
-    bool stopFlag = false;
+    std::atomic<bool> stopFlag(false);
+    bool isThreadRunning = false;
 
-    void CommandExecutionThread() {
+    void CommandExecutionThread(std::function<void(const std::string&)> Notify)
+    {
         while (true) {
             std::shared_ptr<ICommand> command = std::make_shared<ICommand>();
             {
                 std::unique_lock<std::mutex> lock(commandQueueMutex);
-                commandQueueCV.wait(lock, [] { return !commandQueue.empty() || stopFlag; });
-                if (stopFlag) {
+                commandQueueCV.wait(lock, [] { return !commandQueue.empty() || stopFlag.load(); });
+                if (stopFlag.load()) {
                     break;
                 }
                 command = commandQueue.front();
                 commandQueue.pop();
             }
-            command->execute();
+            command->execute(Notify); 
         }
+        return;
     }
 }

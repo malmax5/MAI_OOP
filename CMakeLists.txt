@@ -150,6 +150,11 @@ add_executable(
     ${TEST_SOURCES}
 )
 
+add_custom_target(run_valgrind
+    COMMAND valgrind --leak-check=full --show-reachable=yes --track-origins=yes ./lab_6_tests
+    DEPENDS lab_6_tests
+)
+
 # target_include_directories(
 #     lab_6_tests PRIVATE
 #     "${CMAKE_CURRENT_SOURCE_DIR}/googletest/googletest/include"

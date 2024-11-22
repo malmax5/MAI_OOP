@@ -4,18 +4,35 @@ Game::Game() : getInfoVisitor(std::make_shared<GetInfoVisitor>()) {}
 
 void Game::Start()
 {
+    if (tce::isThreadRunning)
+    {
+        std::cout << "Thread already running. Waiting for completion.\n";
+        return;
+    }
+
     //Preparing environment to game
-    std::cout << "Start\n";
-    tce::thr = std::thread(tce::CommandExecutionThread);
-    Update();
+    if (gameThread.joinable())
+    {
+        gameThread.join();
+    }
+
+    tce::stopFlag.store(false);
+    tce::thr = std::thread([this]() { tce::CommandExecutionThread([this](const std::string& event) { Notify(event); }); });
+    tce::isThreadRunning = true;
+
+    gameThread = std::thread(&Game::Update, this);
+    isThreadRunning = true;
+
+    Notify("Start Game");
+    // Update();
 }
 
 void Game::Update()
 {
     //Game Logic
-    std::cout << "Update\n";
-    while(npcInGame_.size() > 1)
+    while(!shouldStop_.load())
     {
+        int commandsAdd = 0;
         for (int i = 0; i < npcInGame_.size(); i++)
         {
             for (int j = 0; j < npcInGame_.size(); j++)
@@ -29,14 +46,17 @@ void Game::Update()
                         std::unique_lock<std::mutex> lock(tce::commandQueueMutex);
                         tce::commandQueue.push(std::make_shared<AttackCommand>(npcInGame_[i], npcInGame_[j]));
                         tce::commandQueueCV.notify_one();
+                        commandsAdd++;
                     }
                 }
             }
         }
 
-        sleep(1);
+        std::this_thread::sleep_for(std::chrono::seconds(1));
 
-        while(tce::commandQueue.size() != 0) {}
+        while (!tce::commandQueue.empty()) {
+            std::this_thread::sleep_for(std::chrono::milliseconds(10));
+        }
 
         RemoveDeads();
 
@@ -68,23 +88,36 @@ void Game::Update()
                 std::unique_lock<std::mutex> lock(tce::commandQueueMutex);
                 tce::commandQueue.push(std::make_shared<MoveCommand>(npcInGame_[i], target));
                 tce::commandQueueCV.notify_one();
+                commandsAdd++;
             }
         }
 
-        sleep(1);
+        std::this_thread::sleep_for(std::chrono::seconds(1));
 
-        while(tce::commandQueue.size() != 0) {}
+        while (!tce::commandQueue.empty()) {
+            std::this_thread::sleep_for(std::chrono::milliseconds(10));
+        }
+
+        if (!commandsAdd)
+        {
+            break;
+        }
     }
+
         
     End();
+    Notify("End Game");
 }
 
 void Game::End()
 {
     //Destroy environment
-    tce::stopFlag = true;
+    tce::stopFlag.store(true);
     tce::commandQueueCV.notify_one();
-    tce::thr.join();
+    if (tce::thr.joinable()) {
+        tce::thr.join();
+    }
+    tce::isThreadRunning = false;
 }
 
 void Game::AddNPC(std::shared_ptr<NPC> npc)

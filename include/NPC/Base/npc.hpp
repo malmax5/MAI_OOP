@@ -16,7 +16,6 @@ class NPC : public Position
 
 public:
     NPCId GetTypeId();
-    std::string GetName();
     unsigned int GetCurrentId();
     double GetHp();
     double GetArmor();
@@ -28,7 +27,6 @@ public:
 
 protected:
     void SetTypeId(NPCId typeId);
-    void SetName(std::string name);
 
     void SetCurrentId(unsigned int currentId);
     void SetHp(double hp);
@@ -38,7 +36,6 @@ protected:
 
 private:
     NPCId typeId_;
-    std::string name_;
     unsigned int currentId_;
     double hp_;
     double armor_;

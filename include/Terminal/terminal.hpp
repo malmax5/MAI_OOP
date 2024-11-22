@@ -17,6 +17,7 @@ public:
     void CreateNewGame();
     void StartGame();
     void StopGame();
+    void DeleteThisGame();
 
     void IncludePegasus(double xCord, double yCord);
     void IncludeKnight(double xCord, double yCord);
@@ -26,6 +27,8 @@ public:
     void ExportNPCFromFile(std::string filePath);
 
     void PrintObjects();
+
+    void Help();
 
 private:
     void TerminalUpdate();

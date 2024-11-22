@@ -7,6 +7,7 @@
 #include <sstream>
 #include <algorithm>
 #include <memory>
+#include <functional>
 
 #include "enemy_mask.hpp"
 
@@ -48,4 +49,8 @@ private:
     std::vector<std::shared_ptr<NPC>> npcInGame_;
     std::vector<std::shared_ptr<Observer>> observers;
     std::shared_ptr<Visitor> getInfoVisitor;
+
+    std::thread gameThread;
+    std::atomic<bool> shouldStop_;
+    bool isThreadRunning;
 };

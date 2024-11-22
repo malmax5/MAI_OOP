@@ -129,6 +129,19 @@ lab_6_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/build
 .PHONY : lab_6_tests/fast
 
+#=============================================================================
+# Target rules for targets named run_valgrind
+
+# Build rule for target.
+run_valgrind: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_valgrind
+.PHONY : run_valgrind
+
+# fast build rule for target.
+run_valgrind/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_valgrind.dir/build.make CMakeFiles/run_valgrind.dir/build
+.PHONY : run_valgrind/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -1193,6 +1206,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... run_valgrind"
 	@echo "... lab_6_tests"
 	@echo "... main.o"
 	@echo "... main.i"

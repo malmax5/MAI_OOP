@@ -174,18 +174,25 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_int
  /usr/include/c++/10/bits/atomic_lockfree_defines.h \
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
- /usr/include/c++/10/pstl/execution_defs.h \
+ /usr/include/c++/10/pstl/execution_defs.h /usr/include/c++/10/sstream \
+ /usr/include/c++/10/istream /usr/include/c++/10/bits/istream.tcc \
+ /usr/include/c++/10/bits/sstream.tcc /usr/include/c++/10/functional \
+ /usr/include/c++/10/bits/std_function.h \
+ /usr/include/c++/10/unordered_map /usr/include/c++/10/bits/hashtable.h \
+ /usr/include/c++/10/bits/hashtable_policy.h \
+ /usr/include/c++/10/bits/node_handle.h \
+ /usr/include/c++/10/bits/unordered_map.h \
+ /usr/include/c++/10/bits/erase_if.h /usr/include/c++/10/vector \
+ /usr/include/c++/10/bits/stl_vector.h \
+ /usr/include/c++/10/bits/stl_bvector.h \
+ /usr/include/c++/10/bits/vector.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/position_funcs.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Game/Visitor/visitor.hpp \
- /usr/include/c++/10/iostream /usr/include/c++/10/istream \
- /usr/include/c++/10/bits/istream.tcc \
+ /usr/include/c++/10/iostream \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../Enums/type_id_enum.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Positionable/positionable.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
- /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_vector.h \
- /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \

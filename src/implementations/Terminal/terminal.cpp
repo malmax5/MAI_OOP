@@ -5,7 +5,10 @@ std::string Terminal::npcFilePath = "npc.txt";
 
 Terminal::Terminal() : knightFactory_(std::make_shared<KnightFactory>()),
                        pegasusFactory_(std::make_shared<PegasusFactory>()),
-                       squirrelFactory_(std::make_shared<SquirrelFactory>())
+                       squirrelFactory_(std::make_shared<SquirrelFactory>()),
+                       fileLogger(std::make_shared<FileLogger>(loggerFilePath)),
+                       screenLogger(std::make_shared<ScreenLogger>()),
+                       game_(nullptr)
 {
     std::srand(time(0));
     TerminalUpdate();
@@ -14,6 +17,8 @@ Terminal::Terminal() : knightFactory_(std::make_shared<KnightFactory>()),
 void Terminal::TerminalUpdate()
 {
     //User interaction
+    std::cout << "Print 10 to see a commands\n";
+
     int command = -1;
     double xCord, yCord;
     while(true)
@@ -32,34 +37,40 @@ void Terminal::TerminalUpdate()
             StopGame();
             break;
         case 3:
-            std::cout << "X: ";
-            std::cin >> xCord;
-            std::cout << "Y: ";
-            std::cin >> yCord;
-            IncludeKnight(xCord, yCord);
+            DeleteThisGame();
             break;
         case 4:
             std::cout << "X: ";
             std::cin >> xCord;
             std::cout << "Y: ";
             std::cin >> yCord;
-            IncludePegasus(xCord, yCord);
+            IncludeKnight(xCord, yCord);
             break;
         case 5:
             std::cout << "X: ";
             std::cin >> xCord;
             std::cout << "Y: ";
             std::cin >> yCord;
-            IncludeSquirrel(xCord, yCord);
+            IncludePegasus(xCord, yCord);
             break;
         case 6:
-            PrintObjects();
+            std::cout << "X: ";
+            std::cin >> xCord;
+            std::cout << "Y: ";
+            std::cin >> yCord;
+            IncludeSquirrel(xCord, yCord);
             break;
         case 7:
-            ExportNPCFromFile(npcFilePath);
+            PrintObjects();
             break;
         case 8:
+            ExportNPCFromFile(npcFilePath);
+            break;
+        case 9:
             LoadNPCToFile(npcFilePath);
+            break;
+        case 10:
+            Help();
             break;
         
         default:
@@ -75,52 +86,147 @@ void Terminal::TerminalUpdate()
 void Terminal::CreateNewGame()
 {
     game_ = std::make_shared<Game>();
+    game_->Attach(fileLogger);
+
+    std::cout << "--Game created--\n";
 }
 
 void Terminal::StartGame()
 {
     //Preparing before start
-    fileLogger = std::make_shared<FileLogger>(loggerFilePath);
-    screenLogger = std::make_shared<ScreenLogger>();
-    game_->Attach(fileLogger);
-    game_->Attach(screenLogger);
+    if (!game_)
+    {
+        std::cout << "Need to create game before start\n";
+        return;
+    }
+    if (game_->isThreadRunning)
+    {
+        std::cout << "The game is already in proccess\n";
+        return;
+    }
+
+    // game_->Attach(screenLogger);
+    game_->shouldStop_.store(false);
     game_->Start();
+
+    std::cout << "--Game started--\n";
 }
 
 void Terminal::StopGame()
 {
     //Preparing before stopping
+    if (!game_)
+    {
+        std::cout << "Need to create game\n";
+        return;
+    }
+    if (!game_->isThreadRunning)
+    {
+        std::cout << "Need to start game before stopping\n";
+        return;
+    }
+
+    game_->shouldStop_.store(true);
+    if (game_->gameThread.joinable())
+    {
+        game_->gameThread.join();
+    }
+
+    // game_->Detach(screenLogger);
+
+    std::cout << "--Game stopped--\n";
+}
+
+void Terminal::DeleteThisGame()
+{
+    if (!game_)
+    {
+        std::cout << "Need to create game\n";
+        return;
+    }
+
+    StopGame();
+
     game_->Detach(fileLogger);
-    game_->Detach(screenLogger);
-    game_->End();
+    game_ = nullptr;
+
+    std::cout << "--Game deleted--\n";
 }
 
 void Terminal::IncludeKnight(double xCord, double yCord)
 {
+    if (!game_)
+    {
+        std::cout << "Need to create game\n";
+        return;
+    }
+    if (game_->isThreadRunning)
+    {
+        std::cout << "Game in proccess< can't add a knight\n";
+        return;
+    }
+
     game_->AddNPC(knightFactory_->CreateNPC(xCord, yCord));
+    std::cout << "--Knight included--\n";
 }
 
 void Terminal::IncludePegasus(double xCord, double yCord)
 {
+    if (!game_)
+    {
+        std::cout << "Need to create game\n";
+        return;
+    }
+    if (game_->isThreadRunning)
+    {
+        std::cout << "Game in proccess< can't add a pegasus\n";
+        return;
+    }
+
     game_->AddNPC(pegasusFactory_->CreateNPC(xCord, yCord));
+    std::cout << "--Pegasus included--\n";
 }
 
 void Terminal::IncludeSquirrel(double xCord, double yCord)
 {
+    if (!game_)
+    {
+        std::cout << "Need to create game\n";
+        return;
+    }
+    if (game_->isThreadRunning)
+    {
+        std::cout << "Game in proccess< can't add a squirrel\n";
+        return;
+    }
+
     game_->AddNPC(squirrelFactory_->CreateNPC(xCord, yCord));
+    std::cout << "--Squirrel included--\n";
 }
 
 void Terminal::PrintObjects()
 {
+    if (!game_)
+    {
+        std::cout << "Need to create game\n";
+        return;
+    }
+
     game_->PrintNPC();
 }
 
 void Terminal::LoadNPCToFile(std::string filePath)
 {
-    std::ofstream file(filePath);
+    if (!game_)
+    {
+        std::cout << "Need to create game\n";
+        return;
+    }
+
+    std::ofstream file(filePath, std::ofstream::out | std::ofstream::trunc);
     if (!file.is_open())
     {
-        std::cerr << "Error: Unable to open file " << filePath << std::endl;
+        std::cerr << "Error: Unable to open file " << filePath << "\n";
         return;
     }
 
@@ -130,14 +236,21 @@ void Terminal::LoadNPCToFile(std::string filePath)
     }
 
     file.close();
+    std::cout << "--Exported--\n";
 }
 
 void Terminal::ExportNPCFromFile(std::string filePath)
 {
+    if (!game_)
+    {
+        std::cout << "Need to create game\n";
+        return;
+    }
+
     std::ifstream file(filePath);
     if (!file.is_open())
     {
-        std::cerr << "Error: Unable to open file " << filePath << std::endl;
+        std::cerr << "Error: Unable to open file " << filePath << "\n";
         return;
     }
 
@@ -156,10 +269,26 @@ void Terminal::ExportNPCFromFile(std::string filePath)
                 IncludeSquirrel(xCord, yCord);
                 break;
             default:
-                std::cerr << "Error: Unknown NPC type ID " << typeId << std::endl;
+                std::cerr << "Error: Unknown NPC type ID " << typeId << "\n";
                 break;
         }
     }
 
     file.close();
+    std::cout << "--Loaded--\n";
+}
+
+void Terminal::Help()
+{
+    std::cout << "0 - Create a new game\n" <<
+                 "1 - Start the game\n" <<
+                 "2 - Stop the game\n" <<
+                 "3 - Delete the game\n" <<
+                 "4 - Include knight in the game\n" <<
+                 "5 - Include pegasus in the game\n" <<
+                 "6 - Include squirrel in the game\n" <<
+                 "7 - Print included npc\n" <<
+                 "8 - Load npc from file\n" <<
+                 "9 - Export npc in file\n" <<
+                 "10 - Help\n";
 }

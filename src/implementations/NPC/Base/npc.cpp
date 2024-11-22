@@ -5,11 +5,6 @@ NPCId NPC::GetTypeId()
     return typeId_;
 }
 
-std::string NPC::GetName()
-{
-    return name_;
-}
-
 unsigned int NPC::GetCurrentId()
 {
     return currentId_;
@@ -45,11 +40,6 @@ void NPC::SetTypeId(NPCId typeId)
     typeId_ = typeId;
 }
 
-void NPC::SetName(std::string name)
-{
-    name_ = name;
-}
-
 void NPC::SetCurrentId(unsigned int currentId)
 {
     currentId_ = currentId;
@@ -79,5 +69,5 @@ void NPC::SetSpeed(double speed)
 
 void NPC::AcceptVisitor(std::shared_ptr<Visitor> visitor)
 {
-    
+
 }
