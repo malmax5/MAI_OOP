@@ -15,11 +15,6 @@ void EquipBuilder::SetMaterial(std::shared_ptr<Material> material)
     equip_->SetMaterial(material);
 }
 
-void EquipBuilder::SetName(std::string name)
-{
-    equip_->SetName(name);
-}
-
 std::shared_ptr<Equip> EquipBuilder::GetResult()
 {
     return equip_;

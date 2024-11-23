@@ -4,8 +4,7 @@
 #include <ctime>
 
 #include "../Equip/Builder/MyEquip_Builder/myequip_builder.hpp"
-#include "../Builder/equip_material_builder_main.hpp"
-#include "../Equip/Builder/MyEquip_Builder/myequip_builder_main.hpp"
+#include "../Equip/Builder/Equip_Builder/equip_builder_main.hpp"
 
 class EquipmentFactory
 {
@@ -34,21 +33,18 @@ public:
         std::shared_ptr<MyEquip> equip;
 
         std::shared_ptr<MyEquipBuilder> myEquipBuilder = std::make_shared<MyEquipBuilder>();
-        std::shared_ptr<EquipWithMaterialBuilder> equipWithMaterialBuilder = std::make_shared<EquipWithMaterialBuilder>();
         std::shared_ptr<EquipBuilder> equipBuilder = std::make_shared<EquipBuilder>();
         std::shared_ptr<MyEquipBuilderMain> myEquipBuilderMain = std::make_shared<MyEquipBuilderMain>();
 
-        helmet = myEquipBuilderMain->BuildHelmetByMaterial(helmetMaterial, equipWithMaterialBuilder, equipBuilder);
-        chestplate = myEquipBuilderMain->BuildChestplateByMaterial(chestplateMaterial, equipWithMaterialBuilder, equipBuilder);
-        boots = myEquipBuilderMain->BuildBootsByMaterial(bootsMaterial, equipWithMaterialBuilder, equipBuilder);
+        helmet = myEquipBuilderMain->BuildHelmetByMaterial(helmetMaterial, equipBuilder);
+        chestplate = myEquipBuilderMain->BuildChestplateByMaterial(chestplateMaterial, equipBuilder);
+        boots = myEquipBuilderMain->BuildBootsByMaterial(bootsMaterial, equipBuilder);
 
         myEquipBuilder->Reset();
         myEquipBuilder->SetHelmet(helmet);
         myEquipBuilder->SetChestplate(chestplate);
         myEquipBuilder->SetBoots(boots);
 
-        equip = std::shared_ptr<MyEquip>(myEquipBuilder->GetResult());
-
-        return equip;
+        return std::shared_ptr<MyEquip>(myEquipBuilder->GetResult());
     }
 };

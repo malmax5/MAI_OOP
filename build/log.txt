@@ -140,3 +140,23 @@ Start Game
 0 attacked a 1
 NPC with id: 1 Killed
 End Game
+Start Game
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+NPC with id: 1 Killed
+End Game
+Start Game
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+NPC with id: 1 Killed
+End Game

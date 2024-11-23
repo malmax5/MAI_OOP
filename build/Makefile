@@ -273,30 +273,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/implementations/Equipment/Builder/equip_material_builder_main.o: src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o
-.PHONY : src/implementations/Equipment/Builder/equip_material_builder_main.o
-
-# target to build an object file
-src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o
-.PHONY : src/implementations/Equipment/Builder/equip_material_builder_main.cpp.o
-
-src/implementations/Equipment/Builder/equip_material_builder_main.i: src/implementations/Equipment/Builder/equip_material_builder_main.cpp.i
-.PHONY : src/implementations/Equipment/Builder/equip_material_builder_main.i
-
-# target to preprocess a source file
-src/implementations/Equipment/Builder/equip_material_builder_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Builder/equip_material_builder_main.cpp.i
-.PHONY : src/implementations/Equipment/Builder/equip_material_builder_main.cpp.i
-
-src/implementations/Equipment/Builder/equip_material_builder_main.s: src/implementations/Equipment/Builder/equip_material_builder_main.cpp.s
-.PHONY : src/implementations/Equipment/Builder/equip_material_builder_main.s
-
-# target to generate assembly for a file
-src/implementations/Equipment/Builder/equip_material_builder_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Builder/equip_material_builder_main.cpp.s
-.PHONY : src/implementations/Equipment/Builder/equip_material_builder_main.cpp.s
-
 src/implementations/Equipment/Equip/Base/equip.o: src/implementations/Equipment/Equip/Base/equip.cpp.o
 .PHONY : src/implementations/Equipment/Equip/Base/equip.o
 
@@ -369,6 +345,30 @@ src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interfac
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.cpp.s
 .PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.cpp.s
 
+src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.o: src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.o
+.PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.o
+
+# target to build an object file
+src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.o
+.PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.o
+
+src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.i: src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.i
+.PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.i
+
+# target to preprocess a source file
+src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.i
+.PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.i
+
+src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.s: src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.s
+.PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.s
+
+# target to generate assembly for a file
+src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.s
+.PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.s
+
 src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.o: src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.cpp.o
 .PHONY : src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.o
 
@@ -416,30 +416,6 @@ src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_inte
 src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.cpp.s
 .PHONY : src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.cpp.s
-
-src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.o: src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.o
-.PHONY : src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.o
-
-# target to build an object file
-src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.o
-.PHONY : src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.o
-
-src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.i: src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.i
-.PHONY : src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.i
-
-# target to preprocess a source file
-src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.i
-.PHONY : src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.i
-
-src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.s: src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.s
-.PHONY : src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.s
-
-# target to generate assembly for a file
-src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.s
-.PHONY : src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp.s
 
 src/implementations/Equipment/Equip/Derived/boots.o: src/implementations/Equipment/Equip/Derived/boots.cpp.o
 .PHONY : src/implementations/Equipment/Equip/Derived/boots.o
@@ -1495,9 +1471,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/implementations/Equipment/Builder/equip_material_builder_main.o"
-	@echo "... src/implementations/Equipment/Builder/equip_material_builder_main.i"
-	@echo "... src/implementations/Equipment/Builder/equip_material_builder_main.s"
 	@echo "... src/implementations/Equipment/Equip/Base/equip.o"
 	@echo "... src/implementations/Equipment/Equip/Base/equip.i"
 	@echo "... src/implementations/Equipment/Equip/Base/equip.s"
@@ -1507,15 +1480,15 @@ help:
 	@echo "... src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.o"
 	@echo "... src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.i"
 	@echo "... src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.s"
+	@echo "... src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.o"
+	@echo "... src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.i"
+	@echo "... src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.s"
 	@echo "... src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.o"
 	@echo "... src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.i"
 	@echo "... src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.s"
 	@echo "... src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.o"
 	@echo "... src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.i"
 	@echo "... src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.s"
-	@echo "... src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.o"
-	@echo "... src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.i"
-	@echo "... src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.s"
 	@echo "... src/implementations/Equipment/Equip/Derived/boots.o"
 	@echo "... src/implementations/Equipment/Equip/Derived/boots.i"
 	@echo "... src/implementations/Equipment/Equip/Derived/boots.s"

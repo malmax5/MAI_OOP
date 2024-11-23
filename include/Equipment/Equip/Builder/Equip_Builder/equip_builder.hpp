@@ -10,7 +10,6 @@ public:
     void Reset() override;
     void SetEquip(std::shared_ptr<Equip> equip) override;
     void SetMaterial(std::shared_ptr<Material> material) override;
-    void SetName(std::string name) override;
     std::shared_ptr<Equip> GetResult();
 
 private:

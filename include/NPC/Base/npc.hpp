@@ -12,7 +12,7 @@ class NPC : public Position
 {
     friend class PeacefulNPCBuilder;
     friend class AgressiveNPCBuilder;
-    friend class AttackCommand;
+    //friend class AttackCommand;
 
 public:
     NPCId GetTypeId();
@@ -22,6 +22,8 @@ public:
     double GetSpeed();
     virtual double GetAttackDistance() = 0;
     virtual double GetAttackDamage() = 0;
+
+    virtual void GetDamage(double damage);
 
     virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor) = 0;
 
@@ -34,7 +36,6 @@ protected:
     void SetEquip(std::shared_ptr<MyEquip> equip);
     void SetSpeed(double speed);
 
-    virtual void GetDamage(double damage);
 
 private:
     NPCId typeId_;

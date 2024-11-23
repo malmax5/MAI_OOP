@@ -22,12 +22,11 @@ set(
     #!Equipment Start
     #hpp
     #equip
-    include/Equipment/Builder/equip_material_builder_main.hpp
     include/Equipment/Equip/Base/equip.hpp
     include/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.hpp
     include/Equipment/Equip/Builder/Equip_Builder/equip_builder.hpp
+    include/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.hpp
     include/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.hpp
-    include/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.hpp
     include/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.hpp
     include/Equipment/Equip/Derived/boots.hpp
     include/Equipment/Equip/Derived/chestplate.hpp
@@ -44,12 +43,11 @@ set(
 
     #cpp
     #equip
-    src/implementations/Equipment/Builder/equip_material_builder_main.cpp
     src/implementations/Equipment/Equip/Base/equip.cpp
     src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.cpp
     src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp
+    src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp
     src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.cpp
-    src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_main.cpp
     src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.cpp
     src/implementations/Equipment/Equip/Derived/boots.cpp
     src/implementations/Equipment/Equip/Derived/chestplate.cpp
