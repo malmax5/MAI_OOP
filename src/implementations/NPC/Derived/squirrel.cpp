@@ -9,3 +9,8 @@ void Squirrel::AcceptVisitor(std::shared_ptr<Visitor> visitor)
 {
     visitor->Visit(this);
 }
+
+void Squirrel::Reload()
+{
+    reloadedTime = Time::GetLastIterTime() + std::chrono::seconds(SquirrelAttackReloading);
+}

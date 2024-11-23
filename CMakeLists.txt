@@ -6,6 +6,7 @@ set(CMLIB_DESCRIPTION "ООП, лабороторная работа номер 
 
 project(test VERSION 0.1.0 LANGUAGES C CXX)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
+set(CMAKE_CXX_STANDARD 20)
 
 include_directories(includes)
 
@@ -85,6 +86,7 @@ set(
     include/NPC/Enums/hp_enum.hpp
     include/NPC/Enums/speed_enum.hpp
     include/NPC/Enums/type_id_enum.hpp
+    include/NPC/Enums/reloading.hpp
     include/NPC/FightLogic/Command/attack_command.hpp
     include/NPC/FightLogic/Command/command_interface.hpp
     include/NPC/FightLogic/Command/move_command.hpp

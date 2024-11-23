@@ -8,6 +8,7 @@ public:
     static void Start();
     static void Update();
     static double GetDeltaTime();
+    static std::chrono::system_clock::time_point GetLastIterTime();
 
 private:
     static std::chrono::system_clock::time_point lastIterTime_;

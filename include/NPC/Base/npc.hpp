@@ -2,6 +2,8 @@
 
 #include <memory>
 
+#include "../../Game/time.hpp"
+
 #include "../../Game/Visitor/visitor.hpp"
 
 #include "../Enums/type_id_enum.hpp"
@@ -20,6 +22,8 @@ public:
     double GetArmor();
     virtual double GetAttackDistance() = 0;
     virtual double GetAttackDamage() = 0;
+    virtual bool ReadyToAttack() = 0;
+    virtual void Reload() = 0;
 
     virtual void GetDamage(double damage);
 
@@ -32,7 +36,6 @@ protected:
     void SetHp(double hp);
     void SetBaseArmor(double armor);
     void SetEquip(std::shared_ptr<MyEquip> equip);
-
 
 private:
     NPCId typeId_;

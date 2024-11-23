@@ -177,6 +177,9 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Game/time.hpp \
+ /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
+ /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Game/Visitor/visitor.hpp \
  /usr/include/c++/10/iostream /usr/include/c++/10/istream \
  /usr/include/c++/10/bits/istream.tcc \
@@ -204,9 +207,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
  /usr/include/c++/10/tr1/poly_hermite.tcc \
  /usr/include/c++/10/tr1/poly_laguerre.tcc \
  /usr/include/c++/10/tr1/riemann_zeta.tcc \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Positionable/../Game/time.hpp \
- /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
- /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/my_equip.hpp \
  /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_vector.h \
  /usr/include/c++/10/bits/stl_bvector.h \
@@ -223,6 +223,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/agressive_npc_builder_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Base/peaceful_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Base/agressive_npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Base/../Enums/reloading.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Derived/knight.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Derived/pegasus.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Derived/squirrel.hpp \

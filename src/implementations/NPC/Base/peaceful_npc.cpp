@@ -14,3 +14,13 @@ void PeacefulNPC::AcceptVisitor(std::shared_ptr<Visitor> visitor)
 {
     return;
 }
+
+bool PeacefulNPC::ReadyToAttack()
+{
+    return 0;
+}
+
+void PeacefulNPC::Reload()
+{
+    return;
+}

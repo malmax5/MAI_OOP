@@ -192,6 +192,9 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/agressive_npc_builder_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/peaceful_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/../../Game/time.hpp \
+ /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
+ /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/../../Game/Visitor/visitor.hpp \
  /usr/include/c++/10/iostream /usr/include/c++/10/istream \
  /usr/include/c++/10/bits/istream.tcc \
@@ -219,10 +222,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: \
  /usr/include/c++/10/tr1/poly_hermite.tcc \
  /usr/include/c++/10/tr1/poly_laguerre.tcc \
  /usr/include/c++/10/tr1/riemann_zeta.tcc \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/../../Positionable/../Game/time.hpp \
- /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
- /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/agressive_npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/../Enums/reloading.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Derived/knight.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Derived/pegasus.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Derived/squirrel.hpp

@@ -49,14 +49,16 @@ void Game::Update()
             {
                 if (i == j)
                     continue;
-                if (InMaskAttack(npcInGame_[i]->GetTypeId(), npcInGame_[j]->GetTypeId()) && 
-                    AttackCommand::CanAttack(npcInGame_[i], npcInGame_[j]))
+                if (InMaskAttack(npcInGame_[i]->GetTypeId(), npcInGame_[j]->GetTypeId()))
                 {
+                    commandsAdd++;
+                    if (AttackCommand::CanAttack(npcInGame_[i], npcInGame_[j]))
                     {
-                        std::unique_lock<std::mutex> lock(tce::commandQueueMutex);
-                        tce::commandQueue.push(std::make_shared<AttackCommand>(npcInGame_[i], npcInGame_[j]));
-                        tce::commandQueueCV.notify_one();
-                        commandsAdd++;
+                        {
+                            std::unique_lock<std::mutex> lock(tce::commandQueueMutex);
+                            tce::commandQueue.push(std::make_shared<AttackCommand>(npcInGame_[i], npcInGame_[j]));
+                            tce::commandQueueCV.notify_one();
+                        }
                     }
                 }
             }
@@ -113,9 +115,6 @@ void Game::Update()
 
     End();
     Notify("End Game");
-    std::stringstream ss;
-    ss << commandsAdd;
-    Notify(ss.str());
 }
 
 void Game::End()

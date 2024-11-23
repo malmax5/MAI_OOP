@@ -19,3 +19,8 @@ double Time::GetDeltaTime()
 {
     return deltaTime_.count();
 }
+
+std::chrono::system_clock::time_point Time::GetLastIterTime()
+{
+    return lastIterTime_;
+}

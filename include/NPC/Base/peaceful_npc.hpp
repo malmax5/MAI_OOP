@@ -10,4 +10,6 @@ public:
 
     double GetAttackDistance() override;
     double GetAttackDamage() override;
+    bool ReadyToAttack() override;
+    void Reload() override;
 };

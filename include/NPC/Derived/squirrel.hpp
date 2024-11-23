@@ -6,4 +6,5 @@ class Squirrel : public AgressiveNPC
 public:
     Squirrel();
     void AcceptVisitor(std::shared_ptr<Visitor> visitor) final;
+    void Reload() final;
 };

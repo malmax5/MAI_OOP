@@ -69,6 +69,7 @@
         "list": "cpp",
         "unordered_set": "cpp",
         "any": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "coroutine": "cpp"
     }
 }

@@ -24,3 +24,13 @@ void AgressiveNPC::AcceptVisitor(std::shared_ptr<Visitor> visitor)
 {
     return;
 }
+
+bool AgressiveNPC::ReadyToAttack()
+{
+    return reloadedTime <= Time::GetLastIterTime();
+}
+
+void AgressiveNPC::Reload()
+{
+    
+}

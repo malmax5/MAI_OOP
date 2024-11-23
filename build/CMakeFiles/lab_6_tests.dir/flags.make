@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/cbf/MAI/OOP/Lab_6/includes -I/home/cbf/MAI/OOP/Lab_6/googletest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_6/gtest/googletest/include -isystem /home/cbf/MAI/OOP/Lab_6/gtest/googletest
 
-CXX_FLAGS =  -std=c++20
+CXX_FLAGS =  -std=c++20 -std=gnu++2a
 

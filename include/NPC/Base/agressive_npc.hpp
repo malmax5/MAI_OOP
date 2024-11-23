@@ -1,6 +1,7 @@
 #pragma once
 
 #include "npc.hpp"
+#include "../Enums/reloading.hpp"
 
 class AgressiveNPC : public NPC 
 {
@@ -12,12 +13,15 @@ public:
 
     double GetAttackDistance() override;
     double GetAttackDamage() override;
+    bool ReadyToAttack() override;
+    void Reload() override;
 
 protected:
     void SetAttackDamage(double attackDamage);
     void SetAttackDistance(double attackDistance);
 
-private:
+protected:
     double attackDamage_;
     double attackDistance_;
+    std::chrono::system_clock::time_point reloadedTime = std::chrono::system_clock::now();
 };
