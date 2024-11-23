@@ -12,7 +12,6 @@ class NPC : public Position
 {
     friend class PeacefulNPCBuilder;
     friend class AgressiveNPCBuilder;
-    //friend class AttackCommand;
 
 public:
     NPCId GetTypeId();

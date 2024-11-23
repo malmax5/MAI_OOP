@@ -215,6 +215,9 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
  /usr/include/c++/10/tr1/poly_hermite.tcc \
  /usr/include/c++/10/tr1/poly_laguerre.tcc \
  /usr/include/c++/10/tr1/riemann_zeta.tcc \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Positionable/../Game/time.hpp \
+ /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
+ /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
@@ -225,8 +228,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
  /usr/include/c++/10/queue /usr/include/c++/10/deque \
  /usr/include/c++/10/bits/stl_deque.h /usr/include/c++/10/bits/deque.tcc \
  /usr/include/c++/10/bits/stl_queue.h /usr/include/c++/10/thread \
- /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
- /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
  /usr/include/c++/10/stop_token /usr/include/c++/10/atomic \
  /usr/include/c++/10/mutex /usr/include/c++/10/bits/std_mutex.h \
  /usr/include/c++/10/bits/unique_lock.h \

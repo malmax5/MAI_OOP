@@ -45,6 +45,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o.d"
   "CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o"
   "CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o.d"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o"
+  "CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o.d"
   "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o"
   "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o.d"
   "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o"

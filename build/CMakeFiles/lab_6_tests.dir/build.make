@@ -601,10 +601,24 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/position_funcs.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.s
 
+CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
+CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/time.cpp
+CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/time.cpp
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/time.cpp > CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.i
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/time.cpp -o CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.s
+
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/game.cpp
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/game.cpp
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.i: cmake_force
@@ -618,7 +632,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.s: cmake_force
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/enemy_mask.cpp
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/enemy_mask.cpp
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.i: cmake_force
@@ -632,7 +646,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.s: cmake_forc
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Observer/observer.cpp
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Observer/observer.cpp
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.i: cmake_force
@@ -646,7 +660,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.s: cma
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/visitor.cpp
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/visitor.cpp
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.i: cmake_force
@@ -660,7 +674,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.s: cmake
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/get_info_visitor.cpp
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/get_info_visitor.cpp
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.i: cmake_force
@@ -674,7 +688,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: CMakeFiles/lab_6_tests.dir/flags.make
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/terminal.cpp
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: CMakeFiles/lab_6_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o -MF CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o.d -o CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o -c /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/terminal.cpp
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.i: cmake_force
@@ -725,6 +739,7 @@ lab_6_tests_OBJECTS = \
 "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o" \
+"CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o" \
 "CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o" \
@@ -773,6 +788,7 @@ lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Comma
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
+lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o
 lab_6_tests: CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o
@@ -784,7 +800,7 @@ lab_6_tests: lib/libgtest.a
 lab_6_tests: lib/libgtest_main.a
 lab_6_tests: lib/libgtest.a
 lab_6_tests: CMakeFiles/lab_6_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking CXX executable lab_6_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Linking CXX executable lab_6_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab_6_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -9,6 +9,8 @@
 #include <memory>
 #include <functional>
 
+#include "time.hpp"
+
 #include "enemy_mask.hpp"
 
 #include "../Positionable/position_funcs.hpp"

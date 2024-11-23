@@ -2,6 +2,8 @@
 
 #include <cmath>
 
+#include "../Game/time.hpp"
+
 class Position
 {
     friend class PegasusFactory;

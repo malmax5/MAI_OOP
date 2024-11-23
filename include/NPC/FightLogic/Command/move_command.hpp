@@ -1,9 +1,10 @@
 #pragma once
 
+#include <cmath>
+
 #include "command_interface.hpp"
 #include "../../Base/npc.hpp"
 
-#include <cmath>
 
 class MoveCommand : public ICommand
 {

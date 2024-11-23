@@ -218,6 +218,9 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
  /usr/include/c++/10/iostream \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../Enums/type_id_enum.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Positionable/positionable.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Positionable/../Game/time.hpp \
+ /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
+ /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \

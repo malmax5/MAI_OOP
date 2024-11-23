@@ -123,6 +123,7 @@ set(
 
     #!Game
     #hpp
+    include/Game/time.hpp
     include/Game/game.hpp
     include/Game/enemy_mask.hpp
     include/Game/Observer/observer.hpp
@@ -130,6 +131,7 @@ set(
     include/Game/Visitor/get_info_visitor.hpp
 
     #cpp
+    src/implementations/Game/time.cpp
     src/implementations/Game/game.cpp
     src/implementations/Game/enemy_mask.cpp
     src/implementations/Game/Observer/observer.cpp

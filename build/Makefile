@@ -801,6 +801,30 @@ src/implementations/Game/game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.s
 .PHONY : src/implementations/Game/game.cpp.s
 
+src/implementations/Game/time.o: src/implementations/Game/time.cpp.o
+.PHONY : src/implementations/Game/time.o
+
+# target to build an object file
+src/implementations/Game/time.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o
+.PHONY : src/implementations/Game/time.cpp.o
+
+src/implementations/Game/time.i: src/implementations/Game/time.cpp.i
+.PHONY : src/implementations/Game/time.i
+
+# target to preprocess a source file
+src/implementations/Game/time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.i
+.PHONY : src/implementations/Game/time.cpp.i
+
+src/implementations/Game/time.s: src/implementations/Game/time.cpp.s
+.PHONY : src/implementations/Game/time.s
+
+# target to generate assembly for a file
+src/implementations/Game/time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.s
+.PHONY : src/implementations/Game/time.cpp.s
+
 src/implementations/NPC/Base/agressive_npc.o: src/implementations/NPC/Base/agressive_npc.cpp.o
 .PHONY : src/implementations/NPC/Base/agressive_npc.o
 
@@ -1393,6 +1417,9 @@ help:
 	@echo "... src/implementations/Game/game.o"
 	@echo "... src/implementations/Game/game.i"
 	@echo "... src/implementations/Game/game.s"
+	@echo "... src/implementations/Game/time.o"
+	@echo "... src/implementations/Game/time.i"
+	@echo "... src/implementations/Game/time.s"
 	@echo "... src/implementations/NPC/Base/agressive_npc.o"
 	@echo "... src/implementations/NPC/Base/agressive_npc.i"
 	@echo "... src/implementations/NPC/Base/agressive_npc.s"

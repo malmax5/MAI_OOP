@@ -222,6 +222,7 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
  /usr/include/c++/10/bits/node_handle.h \
  /usr/include/c++/10/bits/unordered_map.h \
  /usr/include/c++/10/bits/erase_if.h \
+ /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/time.hpp \
  /home/cbf/MAI/OOP/Lab_6/include/Terminal/../Game/enemy_mask.hpp \
  /usr/include/c++/10/map /usr/include/c++/10/bits/stl_tree.h \
  /usr/include/c++/10/bits/stl_map.h \

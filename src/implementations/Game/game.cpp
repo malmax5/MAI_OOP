@@ -27,6 +27,7 @@ void Game::Start()
     tce::thr = std::thread([this]() { tce::CommandExecutionThread([this](const std::string& event) { Notify(event); }); });
     tce::isThreadRunning = true;
 
+    Time::Start();
     gameThread = std::thread(&Game::Update, this);
     isThreadRunning = true;
 
@@ -37,9 +38,11 @@ void Game::Start()
 void Game::Update()
 {
     //Game Logic
+    int commandsAdd = 0;
     while(!shouldStop_.load())
     {
-        int commandsAdd = 0;
+        commandsAdd = 0;
+        Time::Update();
         for (int i = 0; i < npcInGame_.size(); i++)
         {
             for (int j = 0; j < npcInGame_.size(); j++)
@@ -59,10 +62,8 @@ void Game::Update()
             }
         }
 
-        std::this_thread::sleep_for(std::chrono::seconds(1));
-
         while (!tce::commandQueue.empty()) {
-            std::this_thread::sleep_for(std::chrono::milliseconds(10));
+            std::this_thread::sleep_for(std::chrono::microseconds(10));
         }
 
         RemoveDeads();
@@ -100,10 +101,8 @@ void Game::Update()
             }
         }
 
-        std::this_thread::sleep_for(std::chrono::seconds(1));
-
         while (!tce::commandQueue.empty()) {
-            std::this_thread::sleep_for(std::chrono::milliseconds(10));
+            std::this_thread::sleep_for(std::chrono::microseconds(10));
         }
 
         if (!commandsAdd)
@@ -112,9 +111,11 @@ void Game::Update()
         }
     }
 
-        
     End();
     Notify("End Game");
+    std::stringstream ss;
+    ss << commandsAdd;
+    Notify(ss.str());
 }
 
 void Game::End()

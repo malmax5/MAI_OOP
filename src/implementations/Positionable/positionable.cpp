@@ -29,8 +29,8 @@ void Position::SetPosition(double xCord, double yCord)
 void Position::Move(double xDirection, double yDirection)
 {
     double kNorm =sqrt(pow(xDirection, 2) + pow(yDirection, 2));
-    double newX = xCord_ + (xDirection / kNorm) * speed_;
-    double newY = yCord_ + (yDirection / kNorm) * speed_;
+    double newX = xCord_ + (xDirection / kNorm) * speed_ * Time::GetDeltaTime();
+    double newY = yCord_ + (yDirection / kNorm) * speed_ * Time::GetDeltaTime();
     SetPosition(newX, newY);
 }
 

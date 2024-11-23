@@ -31,6 +31,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/visitor.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Game/enemy_mask.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Game/game.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/src/implementations/Game/time.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/agressive_npc.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/npc.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/peaceful_npc.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o.d"

@@ -94,4 +94,17 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o: 
  /usr/include/c++/10/tr1/modified_bessel_func.tcc \
  /usr/include/c++/10/tr1/poly_hermite.tcc \
  /usr/include/c++/10/tr1/poly_laguerre.tcc \
- /usr/include/c++/10/tr1/riemann_zeta.tcc
+ /usr/include/c++/10/tr1/riemann_zeta.tcc \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/../../../include/Positionable/../Game/time.hpp \
+ /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
+ /usr/include/c++/10/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/c++/10/ctime /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/c++/10/bits/parse_numbers.h
