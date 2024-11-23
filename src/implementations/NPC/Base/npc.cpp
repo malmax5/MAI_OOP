@@ -20,11 +20,6 @@ double NPC::GetArmor()
     return totalArmor_;
 }
 
-double NPC::GetSpeed()
-{
-    return speed_;
-}
-
 // double NPC::GetAttackDamage()
 // {
 //     return 0;
@@ -60,11 +55,6 @@ void NPC::SetEquip(std::shared_ptr<MyEquip> equip)
 {
     equip_ = equip;
     totalArmor_ += equip_->TotalArmor();
-}
-
-void NPC::SetSpeed(double speed)
-{
-    speed_ = speed;
 }
 
 void NPC::AcceptVisitor(std::shared_ptr<Visitor> visitor)

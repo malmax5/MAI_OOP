@@ -76,7 +76,8 @@ void Game::Update()
                 if (i == j)
                     continue;
                 if (InMaskAttack(npcInGame_[i]->GetTypeId(), npcInGame_[j]->GetTypeId()) &&
-                    !AttackCommand::CanAttack(npcInGame_[i], npcInGame_[j]))
+                    !AttackCommand::CanAttack(npcInGame_[i], npcInGame_[j]) &&
+                    MoveCommand::CanMove(npcInGame_[i], npcInGame_[j]))
                 {
                     double newDist = NPCPositionFuncs::DistanceBetNPC(npcInGame_[i], npcInGame_[j]);
                     if (newDist > dist)

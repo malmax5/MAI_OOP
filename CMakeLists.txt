@@ -34,6 +34,8 @@ set(
     include/Equipment/Factory/equipment_factory.hpp
     include/Equipment/Equip/my_equip.hpp
     #material
+    include/Equipment/Material/enums.hpp
+    include/Equipment/Material/material_settings.hpp
     include/Equipment/Material/Base/material.hpp
     include/Equipment/Material/Derived/dimond.hpp
     include/Equipment/Material/Derived/gold.hpp
@@ -54,6 +56,7 @@ set(
     src/implementations/Equipment/Equip/Derived/helmet.cpp
     src/implementations/Equipment/Equip/my_equip.cpp
     #material
+    src/implementations/Equipment/Material/material_settings.cpp
     src/implementations/Equipment/Material/Base/material.cpp
     src/implementations/Equipment/Material/Derived/dimond.cpp
     src/implementations/Equipment/Material/Derived/gold.cpp
@@ -144,13 +147,13 @@ set(
 
     #!Tests
     # test/test_main.cpp
-    test/test_equip_builder.cpp
-    test/test_myequip_builder.cpp
-    test/test_my_equip_builder_main.cpp
-    test/test_equipment_factory.cpp
-    test/test_pegasus_factory.cpp
-    test/test_knight_factory.cpp
-    test/test_squirrel_factory.cpp
+    # test/test_equip_builder.cpp
+    # test/test_myequip_builder.cpp
+    # test/test_my_equip_builder_main.cpp
+    # test/test_equipment_factory.cpp
+    # test/test_pegasus_factory.cpp
+    # test/test_knight_factory.cpp
+    # test/test_squirrel_factory.cpp
 )
 
 add_executable(

@@ -1,7 +1,5 @@
 #pragma once
 
-#include "myequip_builder.hpp"
-
 #include "../Equip_Builder/equip_builder.hpp"
 
 #include "../../../Material/material_settings.hpp"

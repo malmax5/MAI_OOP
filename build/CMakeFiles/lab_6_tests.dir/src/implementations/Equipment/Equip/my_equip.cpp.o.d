@@ -183,6 +183,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o: \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/../../../../include/Equipment/Equip/Base/../../Material/Base/material.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/../../../../include/Equipment/Equip/Base/../../Material/Base/../enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/../../../../include/Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/../../../../include/Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/../../../../include/Equipment/Equip/Derived/boots.hpp

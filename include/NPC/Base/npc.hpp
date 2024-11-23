@@ -19,7 +19,6 @@ public:
     unsigned int GetCurrentId();
     double GetHp();
     double GetArmor();
-    double GetSpeed();
     virtual double GetAttackDistance() = 0;
     virtual double GetAttackDamage() = 0;
 
@@ -34,7 +33,6 @@ protected:
     void SetHp(double hp);
     void SetBaseArmor(double armor);
     void SetEquip(std::shared_ptr<MyEquip> equip);
-    void SetSpeed(double speed);
 
 
 private:
@@ -43,6 +41,5 @@ private:
     double hp_;
     double armor_;
     double totalArmor_ = 0;
-    double speed_;
     std::shared_ptr<MyEquip> equip_;
 };

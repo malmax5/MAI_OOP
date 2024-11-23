@@ -213,6 +213,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
  /usr/include/c++/10/bits/vector.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/../../Material/Base/../enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/boots.hpp \

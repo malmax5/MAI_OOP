@@ -6,10 +6,13 @@ AttackCommand::AttackCommand(std::shared_ptr<NPC> attacker, std::shared_ptr<NPC>
 
 void AttackCommand::execute(std::function<void(const std::string&)> Notify)
 {
-    target_->GetDamage(attacker_->GetAttackDamage());
-    std::stringstream ss;
-    ss << attacker_->GetCurrentId() << " attacked a " << target_->GetCurrentId();
-    Notify(ss.str());
+    if (target_->GetHp() > 0)
+    {
+        target_->GetDamage(attacker_->GetAttackDamage());
+        std::stringstream ss;
+        ss << attacker_->GetCurrentId() << " attacked a " << target_->GetCurrentId();
+        Notify(ss.str());
+    }
 }
 
 bool AttackCommand::CanAttack(std::shared_ptr<NPC> attacker, std::shared_ptr<NPC> target)

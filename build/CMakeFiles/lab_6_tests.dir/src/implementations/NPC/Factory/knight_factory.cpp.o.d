@@ -210,6 +210,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
  /usr/include/c++/10/bits/vector.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/Base/../../Material/Base/../enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/Derived/boots.hpp \
@@ -226,12 +227,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
  /usr/include/c++/10/ctime \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/MyEquip_Builder/myequip_builder.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/MyEquip_Builder/myequip_builder_interface.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Builder/equip_material_builder_main.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Builder/../Equip/Builder/Equip_Builder/equip_builder.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Builder/../Equip/Builder/Equip_Builder/equip_builder_interface.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Builder/../Material/Derived/dimond.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Builder/../Material/Derived/iron.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Builder/../Material/Derived/gold.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Builder/../Material/Derived/decorative.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Builder/../Material/Derived/no_material.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/MyEquip_Builder/myequip_builder_main.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/Equip_Builder/equip_builder_main.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/Equip_Builder/../Equip_Builder/equip_builder.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/Equip_Builder/../Equip_Builder/equip_builder_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/Equip_Builder/../../../Material/material_settings.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/Equip_Builder/../../../Material/Derived/no_material.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/Equip_Builder/../../../Material/Derived/decorative.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/Equip_Builder/../../../Material/Derived/iron.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/Equip_Builder/../../../Material/Derived/gold.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Builder/Equip_Builder/../../../Material/Derived/dimond.hpp

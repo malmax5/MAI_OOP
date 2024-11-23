@@ -210,6 +210,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: \
  /usr/include/c++/10/bits/vector.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/../../Material/Base/../enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/boots.hpp

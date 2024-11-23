@@ -281,6 +281,7 @@ CMakeFiles/lab_6_tests.dir/test/test_equip_builder.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/test/../include/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/test/../include/Equipment/Equip/Builder/Equip_Builder/../../Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/test/../include/Equipment/Equip/Builder/Equip_Builder/../../Base/../../Material/Base/material.hpp \
+ /home/cbf/MAI/OOP/Lab_6/test/../include/Equipment/Equip/Builder/Equip_Builder/../../Base/../../Material/Base/../enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/test/../include/Equipment/Equip/Builder/Equip_Builder/../../my_equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/test/../include/Equipment/Equip/Builder/Equip_Builder/../../Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/test/../include/Equipment/Equip/Builder/Equip_Builder/../../Derived/chestplate.hpp \

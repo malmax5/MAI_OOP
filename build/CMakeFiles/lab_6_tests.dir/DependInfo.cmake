@@ -25,6 +25,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/gold.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/iron.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/no_material.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/material_settings.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/material_settings.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/material_settings.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Observer/observer.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/get_info_visitor.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/visitor.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o.d"
@@ -51,13 +52,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/position_funcs.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/positionable.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/terminal.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o.d"
-  "/home/cbf/MAI/OOP/Lab_6/test/test_equip_builder.cpp" "CMakeFiles/lab_6_tests.dir/test/test_equip_builder.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_equip_builder.cpp.o.d"
-  "/home/cbf/MAI/OOP/Lab_6/test/test_equipment_factory.cpp" "CMakeFiles/lab_6_tests.dir/test/test_equipment_factory.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_equipment_factory.cpp.o.d"
-  "/home/cbf/MAI/OOP/Lab_6/test/test_knight_factory.cpp" "CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.o.d"
-  "/home/cbf/MAI/OOP/Lab_6/test/test_my_equip_builder_main.cpp" "CMakeFiles/lab_6_tests.dir/test/test_my_equip_builder_main.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_my_equip_builder_main.cpp.o.d"
-  "/home/cbf/MAI/OOP/Lab_6/test/test_myequip_builder.cpp" "CMakeFiles/lab_6_tests.dir/test/test_myequip_builder.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_myequip_builder.cpp.o.d"
-  "/home/cbf/MAI/OOP/Lab_6/test/test_pegasus_factory.cpp" "CMakeFiles/lab_6_tests.dir/test/test_pegasus_factory.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_pegasus_factory.cpp.o.d"
-  "/home/cbf/MAI/OOP/Lab_6/test/test_squirrel_factory.cpp" "CMakeFiles/lab_6_tests.dir/test/test_squirrel_factory.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/test/test_squirrel_factory.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

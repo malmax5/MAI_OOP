@@ -657,6 +657,30 @@ src/implementations/Equipment/Material/Derived/no_material.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.s
 .PHONY : src/implementations/Equipment/Material/Derived/no_material.cpp.s
 
+src/implementations/Equipment/Material/material_settings.o: src/implementations/Equipment/Material/material_settings.cpp.o
+.PHONY : src/implementations/Equipment/Material/material_settings.o
+
+# target to build an object file
+src/implementations/Equipment/Material/material_settings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/material_settings.cpp.o
+.PHONY : src/implementations/Equipment/Material/material_settings.cpp.o
+
+src/implementations/Equipment/Material/material_settings.i: src/implementations/Equipment/Material/material_settings.cpp.i
+.PHONY : src/implementations/Equipment/Material/material_settings.i
+
+# target to preprocess a source file
+src/implementations/Equipment/Material/material_settings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/material_settings.cpp.i
+.PHONY : src/implementations/Equipment/Material/material_settings.cpp.i
+
+src/implementations/Equipment/Material/material_settings.s: src/implementations/Equipment/Material/material_settings.cpp.s
+.PHONY : src/implementations/Equipment/Material/material_settings.s
+
+# target to generate assembly for a file
+src/implementations/Equipment/Material/material_settings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/material_settings.cpp.s
+.PHONY : src/implementations/Equipment/Material/material_settings.cpp.s
+
 src/implementations/Game/Observer/observer.o: src/implementations/Game/Observer/observer.cpp.o
 .PHONY : src/implementations/Game/Observer/observer.o
 
@@ -1281,174 +1305,6 @@ src/implementations/Terminal/terminal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.s
 .PHONY : src/implementations/Terminal/terminal.cpp.s
 
-test/test_equip_builder.o: test/test_equip_builder.cpp.o
-.PHONY : test/test_equip_builder.o
-
-# target to build an object file
-test/test_equip_builder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_equip_builder.cpp.o
-.PHONY : test/test_equip_builder.cpp.o
-
-test/test_equip_builder.i: test/test_equip_builder.cpp.i
-.PHONY : test/test_equip_builder.i
-
-# target to preprocess a source file
-test/test_equip_builder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_equip_builder.cpp.i
-.PHONY : test/test_equip_builder.cpp.i
-
-test/test_equip_builder.s: test/test_equip_builder.cpp.s
-.PHONY : test/test_equip_builder.s
-
-# target to generate assembly for a file
-test/test_equip_builder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_equip_builder.cpp.s
-.PHONY : test/test_equip_builder.cpp.s
-
-test/test_equipment_factory.o: test/test_equipment_factory.cpp.o
-.PHONY : test/test_equipment_factory.o
-
-# target to build an object file
-test/test_equipment_factory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_equipment_factory.cpp.o
-.PHONY : test/test_equipment_factory.cpp.o
-
-test/test_equipment_factory.i: test/test_equipment_factory.cpp.i
-.PHONY : test/test_equipment_factory.i
-
-# target to preprocess a source file
-test/test_equipment_factory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_equipment_factory.cpp.i
-.PHONY : test/test_equipment_factory.cpp.i
-
-test/test_equipment_factory.s: test/test_equipment_factory.cpp.s
-.PHONY : test/test_equipment_factory.s
-
-# target to generate assembly for a file
-test/test_equipment_factory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_equipment_factory.cpp.s
-.PHONY : test/test_equipment_factory.cpp.s
-
-test/test_knight_factory.o: test/test_knight_factory.cpp.o
-.PHONY : test/test_knight_factory.o
-
-# target to build an object file
-test/test_knight_factory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.o
-.PHONY : test/test_knight_factory.cpp.o
-
-test/test_knight_factory.i: test/test_knight_factory.cpp.i
-.PHONY : test/test_knight_factory.i
-
-# target to preprocess a source file
-test/test_knight_factory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.i
-.PHONY : test/test_knight_factory.cpp.i
-
-test/test_knight_factory.s: test/test_knight_factory.cpp.s
-.PHONY : test/test_knight_factory.s
-
-# target to generate assembly for a file
-test/test_knight_factory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_knight_factory.cpp.s
-.PHONY : test/test_knight_factory.cpp.s
-
-test/test_my_equip_builder_main.o: test/test_my_equip_builder_main.cpp.o
-.PHONY : test/test_my_equip_builder_main.o
-
-# target to build an object file
-test/test_my_equip_builder_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_my_equip_builder_main.cpp.o
-.PHONY : test/test_my_equip_builder_main.cpp.o
-
-test/test_my_equip_builder_main.i: test/test_my_equip_builder_main.cpp.i
-.PHONY : test/test_my_equip_builder_main.i
-
-# target to preprocess a source file
-test/test_my_equip_builder_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_my_equip_builder_main.cpp.i
-.PHONY : test/test_my_equip_builder_main.cpp.i
-
-test/test_my_equip_builder_main.s: test/test_my_equip_builder_main.cpp.s
-.PHONY : test/test_my_equip_builder_main.s
-
-# target to generate assembly for a file
-test/test_my_equip_builder_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_my_equip_builder_main.cpp.s
-.PHONY : test/test_my_equip_builder_main.cpp.s
-
-test/test_myequip_builder.o: test/test_myequip_builder.cpp.o
-.PHONY : test/test_myequip_builder.o
-
-# target to build an object file
-test/test_myequip_builder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_myequip_builder.cpp.o
-.PHONY : test/test_myequip_builder.cpp.o
-
-test/test_myequip_builder.i: test/test_myequip_builder.cpp.i
-.PHONY : test/test_myequip_builder.i
-
-# target to preprocess a source file
-test/test_myequip_builder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_myequip_builder.cpp.i
-.PHONY : test/test_myequip_builder.cpp.i
-
-test/test_myequip_builder.s: test/test_myequip_builder.cpp.s
-.PHONY : test/test_myequip_builder.s
-
-# target to generate assembly for a file
-test/test_myequip_builder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_myequip_builder.cpp.s
-.PHONY : test/test_myequip_builder.cpp.s
-
-test/test_pegasus_factory.o: test/test_pegasus_factory.cpp.o
-.PHONY : test/test_pegasus_factory.o
-
-# target to build an object file
-test/test_pegasus_factory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_pegasus_factory.cpp.o
-.PHONY : test/test_pegasus_factory.cpp.o
-
-test/test_pegasus_factory.i: test/test_pegasus_factory.cpp.i
-.PHONY : test/test_pegasus_factory.i
-
-# target to preprocess a source file
-test/test_pegasus_factory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_pegasus_factory.cpp.i
-.PHONY : test/test_pegasus_factory.cpp.i
-
-test/test_pegasus_factory.s: test/test_pegasus_factory.cpp.s
-.PHONY : test/test_pegasus_factory.s
-
-# target to generate assembly for a file
-test/test_pegasus_factory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_pegasus_factory.cpp.s
-.PHONY : test/test_pegasus_factory.cpp.s
-
-test/test_squirrel_factory.o: test/test_squirrel_factory.cpp.o
-.PHONY : test/test_squirrel_factory.o
-
-# target to build an object file
-test/test_squirrel_factory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_squirrel_factory.cpp.o
-.PHONY : test/test_squirrel_factory.cpp.o
-
-test/test_squirrel_factory.i: test/test_squirrel_factory.cpp.i
-.PHONY : test/test_squirrel_factory.i
-
-# target to preprocess a source file
-test/test_squirrel_factory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_squirrel_factory.cpp.i
-.PHONY : test/test_squirrel_factory.cpp.i
-
-test/test_squirrel_factory.s: test/test_squirrel_factory.cpp.s
-.PHONY : test/test_squirrel_factory.s
-
-# target to generate assembly for a file
-test/test_squirrel_factory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/test/test_squirrel_factory.cpp.s
-.PHONY : test/test_squirrel_factory.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1519,6 +1375,9 @@ help:
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.o"
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.i"
 	@echo "... src/implementations/Equipment/Material/Derived/no_material.s"
+	@echo "... src/implementations/Equipment/Material/material_settings.o"
+	@echo "... src/implementations/Equipment/Material/material_settings.i"
+	@echo "... src/implementations/Equipment/Material/material_settings.s"
 	@echo "... src/implementations/Game/Observer/observer.o"
 	@echo "... src/implementations/Game/Observer/observer.i"
 	@echo "... src/implementations/Game/Observer/observer.s"
@@ -1597,27 +1456,6 @@ help:
 	@echo "... src/implementations/Terminal/terminal.o"
 	@echo "... src/implementations/Terminal/terminal.i"
 	@echo "... src/implementations/Terminal/terminal.s"
-	@echo "... test/test_equip_builder.o"
-	@echo "... test/test_equip_builder.i"
-	@echo "... test/test_equip_builder.s"
-	@echo "... test/test_equipment_factory.o"
-	@echo "... test/test_equipment_factory.i"
-	@echo "... test/test_equipment_factory.s"
-	@echo "... test/test_knight_factory.o"
-	@echo "... test/test_knight_factory.i"
-	@echo "... test/test_knight_factory.s"
-	@echo "... test/test_my_equip_builder_main.o"
-	@echo "... test/test_my_equip_builder_main.i"
-	@echo "... test/test_my_equip_builder_main.s"
-	@echo "... test/test_myequip_builder.o"
-	@echo "... test/test_myequip_builder.i"
-	@echo "... test/test_myequip_builder.s"
-	@echo "... test/test_pegasus_factory.o"
-	@echo "... test/test_pegasus_factory.i"
-	@echo "... test/test_pegasus_factory.s"
-	@echo "... test/test_squirrel_factory.o"
-	@echo "... test/test_squirrel_factory.i"
-	@echo "... test/test_squirrel_factory.s"
 .PHONY : help
 
 

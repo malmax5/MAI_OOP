@@ -26,10 +26,20 @@ void Position::SetPosition(double xCord, double yCord)
     yCord_ = yCord;
 }
 
-void Position::Move(double xDirection, double yDirection, double speed)
+void Position::Move(double xDirection, double yDirection)
 {
     double kNorm =sqrt(pow(xDirection, 2) + pow(yDirection, 2));
-    double newX = xCord_ + (xDirection / kNorm) * speed;
-    double newY = yCord_ + (yDirection / kNorm) * speed;
+    double newX = xCord_ + (xDirection / kNorm) * speed_;
+    double newY = yCord_ + (yDirection / kNorm) * speed_;
     SetPosition(newX, newY);
+}
+
+double Position::GetSpeed()
+{
+    return speed_;
+}
+
+void Position::SetSpeed(double speed)
+{
+    speed_ = speed;
 }

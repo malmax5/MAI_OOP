@@ -184,6 +184,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Base/../../Material/Base/../enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Derived/boots.hpp

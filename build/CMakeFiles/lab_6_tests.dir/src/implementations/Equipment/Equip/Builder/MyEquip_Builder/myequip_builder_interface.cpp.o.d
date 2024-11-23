@@ -181,6 +181,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../Base/../../Material/Base/material.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../Base/../../Material/Base/../enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../Derived/boots.hpp

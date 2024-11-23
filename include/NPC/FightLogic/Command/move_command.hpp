@@ -12,6 +12,9 @@ public:
     MoveCommand(std::shared_ptr<NPC> npc, std::shared_ptr<NPC> target);
     void execute(std::function<void(const std::string&)> Notify) final;
 
+public:
+    static bool CanMove(std::shared_ptr<NPC> npc1, std::shared_ptr<NPC> npc2);
+
 private:
     std::shared_ptr<NPC> npc_;
     double xDirection_;
