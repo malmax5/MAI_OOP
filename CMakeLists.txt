@@ -26,9 +26,13 @@ set(
     include/Equipment/Equip/Base/equip.hpp
     include/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.hpp
     include/Equipment/Equip/Builder/Equip_Builder/equip_builder.hpp
-    include/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.hpp
     include/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.hpp
     include/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.hpp
+    include/Equipment/Equip/Factory/boots_factory.hpp
+    include/Equipment/Equip/Factory/chestplate_factory.hpp
+    include/Equipment/Equip/Factory/equip_factory_interface.hpp
+    include/Equipment/Equip/Factory/equip_factory_register.hpp
+    include/Equipment/Equip/Factory/helmet_factory.hpp
     include/Equipment/Equip/Derived/boots.hpp
     include/Equipment/Equip/Derived/chestplate.hpp
     include/Equipment/Equip/Derived/helmet.hpp
@@ -49,9 +53,12 @@ set(
     src/implementations/Equipment/Equip/Base/equip.cpp
     src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.cpp
     src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp
-    src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp
     src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.cpp
     src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.cpp
+    src/implementations/Equipment/Equip/Factory/boots_factory.cpp
+    src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp
+    src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp
+    src/implementations/Equipment/Equip/Factory/helmet_factory.cpp
     src/implementations/Equipment/Equip/Derived/boots.cpp
     src/implementations/Equipment/Equip/Derived/chestplate.cpp
     src/implementations/Equipment/Equip/Derived/helmet.cpp
@@ -82,6 +89,7 @@ set(
     include/NPC/Factory/knight_factory.hpp
     include/NPC/Factory/pegasus_factory.hpp
     include/NPC/Factory/squirrel_factory.hpp
+    include/NPC/Factory/factory_register.hpp
     include/NPC/Enums/armor_enum.hpp
     include/NPC/Enums/hp_enum.hpp
     include/NPC/Enums/speed_enum.hpp
@@ -107,6 +115,7 @@ set(
     src/implementations/NPC/Factory/knight_factory.cpp
     src/implementations/NPC/Factory/pegasus_factory.cpp
     src/implementations/NPC/Factory/squirrel_factory.cpp
+    src/implementations/NPC/Factory/factory_register.cpp
     src/implementations/NPC/FightLogic/Command/attack_command.cpp
     src/implementations/NPC/FightLogic/Command/comand_interface.cpp
     src/implementations/NPC/FightLogic/Command/move_command.cpp

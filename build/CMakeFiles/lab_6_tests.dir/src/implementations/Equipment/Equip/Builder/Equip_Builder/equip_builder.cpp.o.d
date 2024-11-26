@@ -185,4 +185,5 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
  /usr/include/c++/10/bits/vector.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/../../../../../../include/Equipment/Equip/Builder/Equip_Builder/../../Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/../../../../../../include/Equipment/Equip/Builder/Equip_Builder/../../Derived/chestplate.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/../../../../../../include/Equipment/Equip/Builder/Equip_Builder/../../Derived/boots.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/../../../../../../include/Equipment/Equip/Builder/Equip_Builder/../../Derived/boots.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/../../../../../../include/Equipment/Equip/Builder/Equip_Builder/../../equip_type_id.hpp

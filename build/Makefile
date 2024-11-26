@@ -345,30 +345,6 @@ src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interfac
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.cpp.s
 .PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.cpp.s
 
-src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.o: src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.o
-.PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.o
-
-# target to build an object file
-src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.o
-.PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.o
-
-src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.i: src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.i
-.PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.i
-
-# target to preprocess a source file
-src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.i
-.PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.i
-
-src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.s: src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.s
-.PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.s
-
-# target to generate assembly for a file
-src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.s
-.PHONY : src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.cpp.s
-
 src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.o: src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.cpp.o
 .PHONY : src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.o
 
@@ -488,6 +464,102 @@ src/implementations/Equipment/Equip/Derived/helmet.s: src/implementations/Equipm
 src/implementations/Equipment/Equip/Derived/helmet.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/helmet.cpp.s
 .PHONY : src/implementations/Equipment/Equip/Derived/helmet.cpp.s
+
+src/implementations/Equipment/Equip/Factory/boots_factory.o: src/implementations/Equipment/Equip/Factory/boots_factory.cpp.o
+.PHONY : src/implementations/Equipment/Equip/Factory/boots_factory.o
+
+# target to build an object file
+src/implementations/Equipment/Equip/Factory/boots_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_factory.cpp.o
+.PHONY : src/implementations/Equipment/Equip/Factory/boots_factory.cpp.o
+
+src/implementations/Equipment/Equip/Factory/boots_factory.i: src/implementations/Equipment/Equip/Factory/boots_factory.cpp.i
+.PHONY : src/implementations/Equipment/Equip/Factory/boots_factory.i
+
+# target to preprocess a source file
+src/implementations/Equipment/Equip/Factory/boots_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_factory.cpp.i
+.PHONY : src/implementations/Equipment/Equip/Factory/boots_factory.cpp.i
+
+src/implementations/Equipment/Equip/Factory/boots_factory.s: src/implementations/Equipment/Equip/Factory/boots_factory.cpp.s
+.PHONY : src/implementations/Equipment/Equip/Factory/boots_factory.s
+
+# target to generate assembly for a file
+src/implementations/Equipment/Equip/Factory/boots_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_factory.cpp.s
+.PHONY : src/implementations/Equipment/Equip/Factory/boots_factory.cpp.s
+
+src/implementations/Equipment/Equip/Factory/chestplate_factory.o: src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp.o
+.PHONY : src/implementations/Equipment/Equip/Factory/chestplate_factory.o
+
+# target to build an object file
+src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp.o
+.PHONY : src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp.o
+
+src/implementations/Equipment/Equip/Factory/chestplate_factory.i: src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp.i
+.PHONY : src/implementations/Equipment/Equip/Factory/chestplate_factory.i
+
+# target to preprocess a source file
+src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp.i
+.PHONY : src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp.i
+
+src/implementations/Equipment/Equip/Factory/chestplate_factory.s: src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp.s
+.PHONY : src/implementations/Equipment/Equip/Factory/chestplate_factory.s
+
+# target to generate assembly for a file
+src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp.s
+.PHONY : src/implementations/Equipment/Equip/Factory/chestplate_factory.cpp.s
+
+src/implementations/Equipment/Equip/Factory/equip_factory_register.o: src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.o
+.PHONY : src/implementations/Equipment/Equip/Factory/equip_factory_register.o
+
+# target to build an object file
+src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.o
+.PHONY : src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.o
+
+src/implementations/Equipment/Equip/Factory/equip_factory_register.i: src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.i
+.PHONY : src/implementations/Equipment/Equip/Factory/equip_factory_register.i
+
+# target to preprocess a source file
+src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.i
+.PHONY : src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.i
+
+src/implementations/Equipment/Equip/Factory/equip_factory_register.s: src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.s
+.PHONY : src/implementations/Equipment/Equip/Factory/equip_factory_register.s
+
+# target to generate assembly for a file
+src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.s
+.PHONY : src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.s
+
+src/implementations/Equipment/Equip/Factory/helmet_factory.o: src/implementations/Equipment/Equip/Factory/helmet_factory.cpp.o
+.PHONY : src/implementations/Equipment/Equip/Factory/helmet_factory.o
+
+# target to build an object file
+src/implementations/Equipment/Equip/Factory/helmet_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_factory.cpp.o
+.PHONY : src/implementations/Equipment/Equip/Factory/helmet_factory.cpp.o
+
+src/implementations/Equipment/Equip/Factory/helmet_factory.i: src/implementations/Equipment/Equip/Factory/helmet_factory.cpp.i
+.PHONY : src/implementations/Equipment/Equip/Factory/helmet_factory.i
+
+# target to preprocess a source file
+src/implementations/Equipment/Equip/Factory/helmet_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_factory.cpp.i
+.PHONY : src/implementations/Equipment/Equip/Factory/helmet_factory.cpp.i
+
+src/implementations/Equipment/Equip/Factory/helmet_factory.s: src/implementations/Equipment/Equip/Factory/helmet_factory.cpp.s
+.PHONY : src/implementations/Equipment/Equip/Factory/helmet_factory.s
+
+# target to generate assembly for a file
+src/implementations/Equipment/Equip/Factory/helmet_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_factory.cpp.s
+.PHONY : src/implementations/Equipment/Equip/Factory/helmet_factory.cpp.s
 
 src/implementations/Equipment/Equip/my_equip.o: src/implementations/Equipment/Equip/my_equip.cpp.o
 .PHONY : src/implementations/Equipment/Equip/my_equip.o
@@ -1065,6 +1137,30 @@ src/implementations/NPC/Derived/squirrel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.s
 .PHONY : src/implementations/NPC/Derived/squirrel.cpp.s
 
+src/implementations/NPC/Factory/factory_register.o: src/implementations/NPC/Factory/factory_register.cpp.o
+.PHONY : src/implementations/NPC/Factory/factory_register.o
+
+# target to build an object file
+src/implementations/NPC/Factory/factory_register.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.o
+.PHONY : src/implementations/NPC/Factory/factory_register.cpp.o
+
+src/implementations/NPC/Factory/factory_register.i: src/implementations/NPC/Factory/factory_register.cpp.i
+.PHONY : src/implementations/NPC/Factory/factory_register.i
+
+# target to preprocess a source file
+src/implementations/NPC/Factory/factory_register.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.i
+.PHONY : src/implementations/NPC/Factory/factory_register.cpp.i
+
+src/implementations/NPC/Factory/factory_register.s: src/implementations/NPC/Factory/factory_register.cpp.s
+.PHONY : src/implementations/NPC/Factory/factory_register.s
+
+# target to generate assembly for a file
+src/implementations/NPC/Factory/factory_register.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.s
+.PHONY : src/implementations/NPC/Factory/factory_register.cpp.s
+
 src/implementations/NPC/Factory/knight_factory.o: src/implementations/NPC/Factory/knight_factory.cpp.o
 .PHONY : src/implementations/NPC/Factory/knight_factory.o
 
@@ -1360,9 +1456,6 @@ help:
 	@echo "... src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.o"
 	@echo "... src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.i"
 	@echo "... src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.s"
-	@echo "... src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.o"
-	@echo "... src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.i"
-	@echo "... src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_main.s"
 	@echo "... src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.o"
 	@echo "... src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.i"
 	@echo "... src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.s"
@@ -1378,6 +1471,18 @@ help:
 	@echo "... src/implementations/Equipment/Equip/Derived/helmet.o"
 	@echo "... src/implementations/Equipment/Equip/Derived/helmet.i"
 	@echo "... src/implementations/Equipment/Equip/Derived/helmet.s"
+	@echo "... src/implementations/Equipment/Equip/Factory/boots_factory.o"
+	@echo "... src/implementations/Equipment/Equip/Factory/boots_factory.i"
+	@echo "... src/implementations/Equipment/Equip/Factory/boots_factory.s"
+	@echo "... src/implementations/Equipment/Equip/Factory/chestplate_factory.o"
+	@echo "... src/implementations/Equipment/Equip/Factory/chestplate_factory.i"
+	@echo "... src/implementations/Equipment/Equip/Factory/chestplate_factory.s"
+	@echo "... src/implementations/Equipment/Equip/Factory/equip_factory_register.o"
+	@echo "... src/implementations/Equipment/Equip/Factory/equip_factory_register.i"
+	@echo "... src/implementations/Equipment/Equip/Factory/equip_factory_register.s"
+	@echo "... src/implementations/Equipment/Equip/Factory/helmet_factory.o"
+	@echo "... src/implementations/Equipment/Equip/Factory/helmet_factory.i"
+	@echo "... src/implementations/Equipment/Equip/Factory/helmet_factory.s"
 	@echo "... src/implementations/Equipment/Equip/my_equip.o"
 	@echo "... src/implementations/Equipment/Equip/my_equip.i"
 	@echo "... src/implementations/Equipment/Equip/my_equip.s"
@@ -1450,6 +1555,9 @@ help:
 	@echo "... src/implementations/NPC/Derived/squirrel.o"
 	@echo "... src/implementations/NPC/Derived/squirrel.i"
 	@echo "... src/implementations/NPC/Derived/squirrel.s"
+	@echo "... src/implementations/NPC/Factory/factory_register.o"
+	@echo "... src/implementations/NPC/Factory/factory_register.i"
+	@echo "... src/implementations/NPC/Factory/factory_register.s"
 	@echo "... src/implementations/NPC/Factory/knight_factory.o"
 	@echo "... src/implementations/NPC/Factory/knight_factory.i"
 	@echo "... src/implementations/NPC/Factory/knight_factory.s"

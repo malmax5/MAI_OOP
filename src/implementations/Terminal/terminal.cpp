@@ -3,9 +3,7 @@
 std::string Terminal::loggerFilePath = "log.txt";
 std::string Terminal::npcFilePath = "npc.txt";
 
-Terminal::Terminal() : knightFactory_(std::make_shared<KnightFactory>()),
-                       pegasusFactory_(std::make_shared<PegasusFactory>()),
-                       squirrelFactory_(std::make_shared<SquirrelFactory>()),
+Terminal::Terminal() : factories_(std::make_shared<FactoryRegister>()),
                        fileLogger(std::make_shared<FileLogger>(loggerFilePath)),
                        screenLogger(std::make_shared<ScreenLogger>()),
                        game_(nullptr)
@@ -169,7 +167,7 @@ void Terminal::IncludeKnight(double xCord, double yCord)
         return;
     }
 
-    game_->AddNPC(knightFactory_->CreateNPC(xCord, yCord));
+    game_->AddNPC(factories_->GetFactoryByNPCTypeId(KnightId)->CreateNPC(xCord, yCord));
     std::cout << "--Knight included--\n";
 }
 
@@ -186,7 +184,7 @@ void Terminal::IncludePegasus(double xCord, double yCord)
         return;
     }
 
-    game_->AddNPC(pegasusFactory_->CreateNPC(xCord, yCord));
+    game_->AddNPC(factories_->GetFactoryByNPCTypeId(PegasusId)->CreateNPC(xCord, yCord));
     std::cout << "--Pegasus included--\n";
 }
 
@@ -203,7 +201,7 @@ void Terminal::IncludeSquirrel(double xCord, double yCord)
         return;
     }
 
-    game_->AddNPC(squirrelFactory_->CreateNPC(xCord, yCord));
+    game_->AddNPC(factories_->GetFactoryByNPCTypeId(SquirrelId)->CreateNPC(xCord, yCord));
     std::cout << "--Squirrel included--\n";
 }
 

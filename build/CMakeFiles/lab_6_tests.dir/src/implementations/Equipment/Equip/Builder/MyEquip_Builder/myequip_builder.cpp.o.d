@@ -189,4 +189,5 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../my_equip.hpp \
  /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_vector.h \
  /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc
+ /usr/include/c++/10/bits/vector.tcc \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../equip_type_id.hpp

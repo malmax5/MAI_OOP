@@ -6,13 +6,7 @@
 #include "Derived/helmet.hpp"
 #include "Derived/chestplate.hpp"
 #include "Derived/boots.hpp"
-
-enum ArmorId
-{
-    HelmetId = 0,
-    ChestplateId = 1,
-    BootsId = 2
-};
+#include "equip_type_id.hpp"
 
 class MyEquip
 {

@@ -225,6 +225,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/equip_type_id.hpp \
  /usr/include/c++/10/queue /usr/include/c++/10/deque \
  /usr/include/c++/10/bits/stl_deque.h /usr/include/c++/10/bits/deque.tcc \
  /usr/include/c++/10/bits/stl_queue.h /usr/include/c++/10/thread \

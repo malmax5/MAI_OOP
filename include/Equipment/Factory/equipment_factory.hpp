@@ -4,7 +4,7 @@
 #include <ctime>
 
 #include "../Equip/Builder/MyEquip_Builder/myequip_builder.hpp"
-#include "../Equip/Builder/Equip_Builder/equip_builder_main.hpp"
+#include "../Equip/Factory/equip_factory_register.hpp"
 
 class EquipmentFactory
 {
@@ -27,18 +27,16 @@ public:
         WhatMaterial chestplateMaterial = static_cast<WhatMaterial>(rand2);
         WhatMaterial bootsMaterial = static_cast<WhatMaterial>(rand3);
 
-        std::shared_ptr<Equip> helmet;
-        std::shared_ptr<Equip> chestplate;
-        std::shared_ptr<Equip> boots;
-        std::shared_ptr<MyEquip> equip;
+        std::shared_ptr<Equip> helmet = std::make_shared<Equip>();
+        std::shared_ptr<Equip> chestplate = std::make_shared<Equip>();
+        std::shared_ptr<Equip> boots = std::make_shared<Equip>();
+
+        std::shared_ptr<EquipFactoryRegister> factories = std::make_shared<EquipFactoryRegister>();
 
         std::shared_ptr<MyEquipBuilder> myEquipBuilder = std::make_shared<MyEquipBuilder>();
-        std::shared_ptr<EquipBuilder> equipBuilder = std::make_shared<EquipBuilder>();
-        std::shared_ptr<MyEquipBuilderMain> myEquipBuilderMain = std::make_shared<MyEquipBuilderMain>();
-
-        helmet = myEquipBuilderMain->BuildHelmetByMaterial(helmetMaterial, equipBuilder);
-        chestplate = myEquipBuilderMain->BuildChestplateByMaterial(chestplateMaterial, equipBuilder);
-        boots = myEquipBuilderMain->BuildBootsByMaterial(bootsMaterial, equipBuilder);
+        helmet = factories->GetFactoryByEquipTypeId(HelmetId)->CreateEquip(helmetMaterial);
+        chestplate = factories->GetFactoryByEquipTypeId(ChestplateId)->CreateEquip(chestplateMaterial);
+        boots = factories->GetFactoryByEquipTypeId(BootsId)->CreateEquip(bootsMaterial);
 
         myEquipBuilder->Reset();
         myEquipBuilder->SetHelmet(helmet);

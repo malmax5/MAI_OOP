@@ -242,6 +242,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Positionable/../NPC/Base/../../Equipment/Equip/equip_type_id.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/Observer/observer.hpp \
  /usr/include/c++/10/fstream /usr/include/c++/10/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \

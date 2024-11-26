@@ -186,4 +186,5 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/../../../../include/Equipment/Equip/Base/../../Material/Base/../enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/../../../../include/Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/../../../../include/Equipment/Equip/Derived/chestplate.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/../../../../include/Equipment/Equip/Derived/boots.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/../../../../include/Equipment/Equip/Derived/boots.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/../../../../include/Equipment/Equip/equip_type_id.hpp

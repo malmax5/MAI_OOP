@@ -5,9 +5,7 @@
 
 #include "../Game/game.hpp"
 
-#include "../NPC/Factory/knight_factory.hpp"
-#include "../NPC/Factory/pegasus_factory.hpp"
-#include "../NPC/Factory/squirrel_factory.hpp"
+#include "../NPC/Factory/factory_register.hpp"
 
 class Terminal
 {
@@ -35,9 +33,7 @@ private:
     void TerminalUpdate();
 
     std::shared_ptr<Game> game_;
-    std::shared_ptr<KnightFactory> knightFactory_;
-    std::shared_ptr<PegasusFactory> pegasusFactory_;
-    std::shared_ptr<SquirrelFactory> squirrelFactory_;
+    std::shared_ptr<FactoryRegister> factories_;
 
     std::shared_ptr<FileLogger> fileLogger;
     std::shared_ptr<ScreenLogger> screenLogger;

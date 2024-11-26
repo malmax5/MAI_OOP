@@ -242,6 +242,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/equip_type_id.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/Observer/observer.hpp \
  /usr/include/c++/10/fstream /usr/include/c++/10/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
@@ -258,7 +259,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: \
  /usr/include/c++/10/condition_variable \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/FightLogic/Command/move_command.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/FightLogic/Command/attack_command.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../NPC/Factory/knight_factory.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../NPC/Factory/factory_register.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../NPC/Factory/npc_factory_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../NPC/Factory/knight_factory.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../NPC/Factory/pegasus_factory.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../NPC/Factory/squirrel_factory.hpp
