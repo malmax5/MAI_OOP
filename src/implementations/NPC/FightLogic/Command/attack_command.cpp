@@ -8,8 +8,7 @@ void AttackCommand::execute(std::function<void(const std::string&)> Notify)
 {
     if (target_->GetHp() > 0)
     {
-        target_->GetDamage(std::dynamic_pointer_cast<IAttackable>(attacker_)->GetAttackDamage());
-        std::dynamic_pointer_cast<IAttackable>(attacker_)->Reload();
+        std::dynamic_pointer_cast<IAttackable>(attacker_)->Attack(target_);
         std::stringstream ss;
         ss << attacker_->GetCurrentId() << " attacked a " << target_->GetCurrentId();
         Notify(ss.str());

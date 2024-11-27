@@ -2,6 +2,9 @@
 
 #include "npc_builder.hpp"
 #include "../../Equipment/Factory/equipment_factory.hpp"
+#include "../../Game/game_settings.hpp"
+
+using namespace GameSettings;
 
 class UsageNPCFactory
 {

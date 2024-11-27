@@ -1,7 +1,6 @@
 #pragma once
 
 #include "npc.hpp"
-#include "../Enums/reloading.hpp"
 #include "attackable_interface.hpp"
 
 class AgressiveNPC : public NPC, public IAttackable
@@ -10,6 +9,7 @@ class AgressiveNPC : public NPC, public IAttackable
 
 public:
     virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor) override = 0;
+    virtual void Attack(std::shared_ptr<NPC> target) override = 0;
 
     double GetAttackDistance() const override;
     double GetAttackDamage() const override;

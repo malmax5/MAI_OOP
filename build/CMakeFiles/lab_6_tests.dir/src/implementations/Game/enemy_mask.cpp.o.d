@@ -62,4 +62,4 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o: \
  /usr/include/c++/10/bits/erase_if.h /usr/include/c++/10/set \
  /usr/include/c++/10/bits/stl_set.h \
  /usr/include/c++/10/bits/stl_multiset.h \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../NPC/Enums/type_id_enum.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Game/game_settings.hpp

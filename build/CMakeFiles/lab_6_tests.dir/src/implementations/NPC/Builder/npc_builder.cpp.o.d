@@ -4,7 +4,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/npc_builder.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/peaceful_npc_builder_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/my_equip.hpp \
- /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_algobase.h \
+ /usr/include/c++/10/map /usr/include/c++/10/bits/stl_tree.h \
+ /usr/include/c++/10/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -40,26 +41,69 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: \
  /usr/include/c++/10/bits/nested_exception.h \
  /usr/include/c++/10/debug/debug.h \
  /usr/include/c++/10/bits/predefined_ops.h \
- /usr/include/c++/10/bits/stl_algo.h /usr/include/c++/10/cstdlib \
- /usr/include/stdlib.h \
+ /usr/include/c++/10/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
+ /usr/include/c++/10/ext/new_allocator.h \
+ /usr/include/c++/10/bits/memoryfwd.h \
+ /usr/include/c++/10/bits/stl_function.h \
+ /usr/include/c++/10/backward/binders.h \
+ /usr/include/c++/10/ext/alloc_traits.h \
+ /usr/include/c++/10/bits/alloc_traits.h \
+ /usr/include/c++/10/bits/stl_construct.h \
+ /usr/include/c++/10/ext/aligned_buffer.h \
+ /usr/include/c++/10/bits/node_handle.h /usr/include/c++/10/optional \
+ /usr/include/c++/10/utility /usr/include/c++/10/bits/stl_relops.h \
+ /usr/include/c++/10/initializer_list \
+ /usr/include/c++/10/bits/functional_hash.h \
+ /usr/include/c++/10/bits/enable_special_members.h \
+ /usr/include/c++/10/bits/stl_map.h /usr/include/c++/10/tuple \
+ /usr/include/c++/10/array /usr/include/c++/10/bits/range_access.h \
+ /usr/include/c++/10/bits/uses_allocator.h \
+ /usr/include/c++/10/bits/invoke.h \
+ /usr/include/c++/10/bits/stl_multimap.h \
+ /usr/include/c++/10/bits/erase_if.h \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Base/equip.hpp \
+ /usr/include/c++/10/string /usr/include/c++/10/bits/stringfwd.h \
+ /usr/include/c++/10/bits/char_traits.h \
+ /usr/include/c++/10/bits/postypes.h /usr/include/c++/10/cwchar \
+ /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/c++/10/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/c++/10/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
+ /usr/include/c++/10/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/10/iosfwd \
+ /usr/include/c++/10/cctype /usr/include/ctype.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/c++/10/bits/ostream_insert.h \
+ /usr/include/c++/10/bits/cxxabi_forced.h \
+ /usr/include/c++/10/bits/stl_algo.h /usr/include/c++/10/cstdlib \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
  /usr/include/x86_64-linux-gnu/sys/select.h \
@@ -77,46 +121,9 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/10/bits/std_abs.h \
  /usr/include/c++/10/bits/algorithmfwd.h \
- /usr/include/c++/10/initializer_list /usr/include/c++/10/bits/stl_heap.h \
+ /usr/include/c++/10/bits/stl_heap.h \
  /usr/include/c++/10/bits/stl_tempbuf.h \
- /usr/include/c++/10/bits/stl_construct.h \
  /usr/include/c++/10/bits/uniform_int_dist.h /usr/include/c++/10/limits \
- /usr/include/c++/10/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
- /usr/include/c++/10/ext/new_allocator.h \
- /usr/include/c++/10/bits/memoryfwd.h \
- /usr/include/c++/10/bits/stl_uninitialized.h \
- /usr/include/c++/10/ext/alloc_traits.h \
- /usr/include/c++/10/bits/alloc_traits.h \
- /usr/include/c++/10/bits/stl_vector.h \
- /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/functional_hash.h \
- /usr/include/c++/10/bits/range_access.h \
- /usr/include/c++/10/bits/vector.tcc \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Base/equip.hpp \
- /usr/include/c++/10/string /usr/include/c++/10/bits/stringfwd.h \
- /usr/include/c++/10/bits/char_traits.h \
- /usr/include/c++/10/bits/postypes.h /usr/include/c++/10/cwchar \
- /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/10/cstdint \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/c++/10/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
- /usr/include/c++/10/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/10/iosfwd \
- /usr/include/c++/10/cctype /usr/include/ctype.h \
- /usr/include/c++/10/bits/ostream_insert.h \
- /usr/include/c++/10/bits/cxxabi_forced.h \
- /usr/include/c++/10/bits/stl_function.h \
- /usr/include/c++/10/backward/binders.h \
  /usr/include/c++/10/bits/basic_string.h \
  /usr/include/c++/10/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h \
@@ -147,6 +154,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/10/bits/charconv.h \
  /usr/include/c++/10/bits/basic_string.tcc /usr/include/c++/10/memory \
+ /usr/include/c++/10/bits/stl_uninitialized.h \
  /usr/include/c++/10/bits/stl_raw_storage_iter.h \
  /usr/include/c++/10/bits/ranges_uninitialized.h \
  /usr/include/c++/10/bits/ranges_algobase.h /usr/include/c++/10/iterator \
@@ -159,11 +167,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
  /usr/include/c++/10/stdexcept /usr/include/c++/10/bits/streambuf.tcc \
  /usr/include/c++/10/ranges /usr/include/c++/10/bits/refwrap.h \
- /usr/include/c++/10/bits/invoke.h /usr/include/c++/10/optional \
- /usr/include/c++/10/utility /usr/include/c++/10/bits/stl_relops.h \
- /usr/include/c++/10/bits/enable_special_members.h \
- /usr/include/c++/10/tuple /usr/include/c++/10/array \
- /usr/include/c++/10/bits/uses_allocator.h \
  /usr/include/c++/10/ext/concurrence.h \
  /usr/include/c++/10/bits/unique_ptr.h /usr/include/c++/10/ostream \
  /usr/include/c++/10/ios /usr/include/c++/10/bits/basic_ios.h \
@@ -177,7 +180,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: \
  /usr/include/c++/10/bits/shared_ptr.h \
  /usr/include/c++/10/bits/shared_ptr_base.h \
  /usr/include/c++/10/bits/allocated_ptr.h \
- /usr/include/c++/10/ext/aligned_buffer.h \
  /usr/include/c++/10/bits/shared_ptr_atomic.h \
  /usr/include/c++/10/bits/atomic_base.h \
  /usr/include/c++/10/bits/atomic_lockfree_defines.h \
@@ -185,11 +187,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Base/../../Material/Base/../enums.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Base/../../Material/Base/../../../Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Derived/boots.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/equip_type_id.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/agressive_npc_builder_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/peaceful_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/npc.hpp \
@@ -199,7 +200,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/../../Game/Visitor/visitor.hpp \
  /usr/include/c++/10/iostream /usr/include/c++/10/istream \
  /usr/include/c++/10/bits/istream.tcc \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/../Enums/type_id_enum.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/../../Positionable/positionable.hpp \
  /usr/include/c++/10/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -224,7 +224,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: \
  /usr/include/c++/10/tr1/poly_laguerre.tcc \
  /usr/include/c++/10/tr1/riemann_zeta.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/agressive_npc.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/../Enums/reloading.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/attackable_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Derived/knight.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Derived/pegasus.hpp \

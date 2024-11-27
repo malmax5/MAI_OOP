@@ -177,4 +177,4 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
  /usr/include/c++/10/pstl/execution_defs.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/../../../../../../include/Equipment/Equip/Builder/Equip_Builder/../../Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/../../../../../../include/Equipment/Equip/Builder/Equip_Builder/../../Base/../../Material/Base/material.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/../../../../../../include/Equipment/Equip/Builder/Equip_Builder/../../Base/../../Material/Base/../enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/../../../../../../include/Equipment/Equip/Builder/Equip_Builder/../../Base/../../Material/Base/../../../Game/game_settings.hpp

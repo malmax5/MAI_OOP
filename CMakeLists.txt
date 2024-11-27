@@ -39,7 +39,6 @@ set(
     include/Equipment/Factory/equipment_factory.hpp
     include/Equipment/Equip/my_equip.hpp
     #material
-    include/Equipment/Material/enums.hpp
     include/Equipment/Material/material_settings.hpp
     include/Equipment/Material/Base/material.hpp
     include/Equipment/Material/Derived/dimond.hpp
@@ -91,11 +90,6 @@ set(
     include/NPC/Factory/pegasus_factory.hpp
     include/NPC/Factory/squirrel_factory.hpp
     include/NPC/Factory/factory_register.hpp
-    include/NPC/Enums/armor_enum.hpp
-    include/NPC/Enums/hp_enum.hpp
-    include/NPC/Enums/speed_enum.hpp
-    include/NPC/Enums/type_id_enum.hpp
-    include/NPC/Enums/reloading.hpp
     include/NPC/FightLogic/Command/attack_command.hpp
     include/NPC/FightLogic/Command/command_interface.hpp
     include/NPC/FightLogic/Command/move_command.hpp
@@ -135,6 +129,7 @@ set(
 
     #!Game
     #hpp
+    include/Game/game_settings.hpp
     include/Game/time.hpp
     include/Game/game.hpp
     include/Game/enemy_mask.hpp

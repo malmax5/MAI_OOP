@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <memory>
 #include <functional>
+#include <sstream>
 
 #include "time.hpp"
 

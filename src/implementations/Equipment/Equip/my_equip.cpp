@@ -1,23 +1,18 @@
 #include "../../../../include/Equipment/Equip/my_equip.hpp"
 
-MyEquip::MyEquip()
-{
-    armorSet.resize(3);
-}
-
 void MyEquip::SetHelmet(std::shared_ptr<Equip> helmet)
 {
-    armorSet[HelmetId] = helmet;
+    armorSet[EquipTypeId::HelmetId] = helmet;
 }
 
 void MyEquip::SetChestplate(std::shared_ptr<Equip> chestplate)
 {
-    armorSet[ChestplateId] = chestplate;
+    armorSet[EquipTypeId::ChestplateId] = chestplate;
 }
 
 void MyEquip::SetBoots(std::shared_ptr<Equip> boots)
 {
-    armorSet[BootsId] = boots;
+    armorSet[EquipTypeId::BootsId] = boots;
 }
 
 double MyEquip::TotalArmor()
@@ -25,7 +20,7 @@ double MyEquip::TotalArmor()
     double armor = 0;
     for (auto& elem : armorSet)
     {
-        armor += elem->GetArmor() * elem->GetMaterial()->GetArmorMultiple();
+        armor += elem.second->GetArmor() * elem.second->GetMaterial()->GetArmorMultiple();
     }
     return armor;
 }

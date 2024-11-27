@@ -1,6 +1,6 @@
 #include "../../../../../include/Equipment/Equip/Factory/chestplate_factory.hpp"
 
-std::shared_ptr<Equip> ChestplateFactory::CreateEquip(WhatMaterial id)
+std::shared_ptr<Equip> ChestplateFactory::CreateEquip(GameSettings::MaterialId id)
 {
     builder->Reset();
     builder->SetEquip(std::make_shared<Chestplate>());

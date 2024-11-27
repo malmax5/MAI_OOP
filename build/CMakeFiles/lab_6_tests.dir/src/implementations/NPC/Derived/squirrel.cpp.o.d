@@ -2,7 +2,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/squirrel.cpp \
  /usr/include/stdc-predef.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/squirrel.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Enums/type_id_enum.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/agressive_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/npc.hpp \
  /usr/include/c++/10/memory /usr/include/c++/10/bits/stl_algobase.h \
@@ -184,6 +183,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Game/Visitor/visitor.hpp \
  /usr/include/c++/10/iostream /usr/include/c++/10/istream \
  /usr/include/c++/10/bits/istream.tcc \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Positionable/positionable.hpp \
  /usr/include/c++/10/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -208,15 +208,14 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: \
  /usr/include/c++/10/tr1/poly_laguerre.tcc \
  /usr/include/c++/10/tr1/riemann_zeta.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/my_equip.hpp \
- /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_vector.h \
- /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc \
+ /usr/include/c++/10/map /usr/include/c++/10/bits/stl_tree.h \
+ /usr/include/c++/10/bits/node_handle.h \
+ /usr/include/c++/10/bits/stl_map.h \
+ /usr/include/c++/10/bits/stl_multimap.h \
+ /usr/include/c++/10/bits/erase_if.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/../../Material/Base/../enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/boots.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/equip_type_id.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../Enums/reloading.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/attackable_interface.hpp

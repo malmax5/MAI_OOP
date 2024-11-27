@@ -102,6 +102,8 @@ void Terminal::CreateNewGame()
     game_ = std::make_shared<Game>();
     game_->Attach(fileLogger);
 
+    game_->Notify("!New Session!");
+
     std::cout << "--Game created--\n";
 }
 
@@ -142,8 +144,6 @@ void Terminal::StopGame()
     }
     game_->isThreadRunning = false;
 
-    // game_->Detach(screenLogger);
-
     std::cout << "--Game stopped--\n";
 }
 
@@ -151,12 +151,11 @@ void Terminal::DeleteThisGame()
 {
     if (!game_)
     {
-        std::cout << "Need to create game\n";
+        std::cout << "Need to create game before deliting\n";
         return;
     }
 
     StopGame();
-
     game_->Detach(fileLogger);
     game_ = nullptr;
 
@@ -176,7 +175,7 @@ void Terminal::IncludeKnight(double xCord, double yCord)
         return;
     }
 
-    game_->AddNPC(factories_.GetFactoryByNPCTypeId(KnightId)->CreateNPC(xCord, yCord));
+    game_->AddNPC(factories_.GetFactoryByNPCTypeId(NPCId::KnightId)->CreateNPC(xCord, yCord));
     std::cout << "--Knight included--\n";
 }
 
@@ -193,7 +192,7 @@ void Terminal::IncludePegasus(double xCord, double yCord)
         return;
     }
 
-    game_->AddNPC(factories_.GetFactoryByNPCTypeId(PegasusId)->CreateNPC(xCord, yCord));
+    game_->AddNPC(factories_.GetFactoryByNPCTypeId(NPCId::PegasusId)->CreateNPC(xCord, yCord));
     std::cout << "--Pegasus included--\n";
 }
 
@@ -210,7 +209,7 @@ void Terminal::IncludeSquirrel(double xCord, double yCord)
         return;
     }
 
-    game_->AddNPC(factories_.GetFactoryByNPCTypeId(SquirrelId)->CreateNPC(xCord, yCord));
+    game_->AddNPC(factories_.GetFactoryByNPCTypeId(NPCId::SquirrelId)->CreateNPC(xCord, yCord));
     std::cout << "--Squirrel included--\n";
 }
 
@@ -242,7 +241,7 @@ void Terminal::LoadNPCToFile(std::string filePath)
 
     for (const auto& npc : game_->npcInGame_)
     {
-        file << npc->GetTypeId() << " " << npc->GetXCord() << " " << npc->GetYCord() << "\n";
+        file << (int)npc->GetTypeId() << " " << npc->GetXCord() << " " << npc->GetYCord() << "\n";
     }
 
     file.close();

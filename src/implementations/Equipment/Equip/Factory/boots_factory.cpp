@@ -1,6 +1,6 @@
 #include "../../../../../include/Equipment/Equip/Factory/boots_factory.hpp"
 
-std::shared_ptr<Equip> BootsFactory::CreateEquip(WhatMaterial id)
+std::shared_ptr<Equip> BootsFactory::CreateEquip(GameSettings::MaterialId id)
 {
     builder->Reset();
     builder->SetEquip(std::make_shared<Boots>());

@@ -57,11 +57,6 @@ void NPC::SetEquip(std::shared_ptr<MyEquip> equip)
     totalArmor_ += equip_->TotalArmor();
 }
 
-void NPC::AcceptVisitor(std::shared_ptr<Visitor> visitor)
-{
-
-}
-
 void NPC::GetDamage(double damage)
 {
     hp_ -= damage * (1 - (totalArmor_ / 240));

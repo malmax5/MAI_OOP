@@ -182,12 +182,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../Base/../../Material/Base/material.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../Base/../../Material/Base/../enums.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../Base/../../Material/Base/../../../Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../Derived/boots.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../my_equip.hpp \
- /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_vector.h \
- /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/../../../../../../include/Equipment/Equip/Builder/MyEquip_Builder/../../equip_type_id.hpp
+ /usr/include/c++/10/map /usr/include/c++/10/bits/stl_tree.h \
+ /usr/include/c++/10/bits/node_handle.h \
+ /usr/include/c++/10/bits/stl_map.h \
+ /usr/include/c++/10/bits/stl_multimap.h \
+ /usr/include/c++/10/bits/erase_if.h

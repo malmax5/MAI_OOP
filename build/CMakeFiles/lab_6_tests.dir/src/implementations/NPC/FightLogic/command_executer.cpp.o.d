@@ -194,7 +194,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
  /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Game/Visitor/visitor.hpp \
  /usr/include/c++/10/iostream \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../Enums/type_id_enum.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Positionable/positionable.hpp \
  /usr/include/c++/10/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -219,13 +219,14 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
  /usr/include/c++/10/tr1/poly_laguerre.tcc \
  /usr/include/c++/10/tr1/riemann_zeta.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
+ /usr/include/c++/10/map /usr/include/c++/10/bits/stl_tree.h \
+ /usr/include/c++/10/bits/stl_map.h \
+ /usr/include/c++/10/bits/stl_multimap.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Base/../../Material/Base/../enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/equip_type_id.hpp \
  /usr/include/c++/10/queue /usr/include/c++/10/deque \
  /usr/include/c++/10/bits/stl_deque.h /usr/include/c++/10/bits/deque.tcc \
  /usr/include/c++/10/bits/stl_queue.h /usr/include/c++/10/thread \

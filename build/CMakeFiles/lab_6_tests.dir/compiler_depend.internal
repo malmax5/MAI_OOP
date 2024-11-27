@@ -3,19 +3,17 @@
 
 CMakeFiles/lab_6_tests.dir/main.cpp.o
  /home/cbf/MAI/OOP/Lab_6/main.cpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/attack_command.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/command_executer.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
@@ -331,7 +329,7 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Base/equip.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /usr/include/alloca.h
@@ -553,13 +551,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/Equip_Builder/equip_builder.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.hpp
@@ -587,6 +584,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -604,6 +602,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/postypes.h
@@ -620,19 +619,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -641,7 +641,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/clocale
@@ -668,6 +667,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
  /usr/include/c++/10/iosfwd
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -685,7 +685,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -786,7 +785,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.hpp
@@ -1009,13 +1008,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.hpp
@@ -1043,6 +1041,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -1060,6 +1059,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/postypes.h
@@ -1076,19 +1076,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -1097,7 +1098,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/clocale
@@ -1124,6 +1124,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
  /usr/include/c++/10/iosfwd
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -1141,7 +1142,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -1242,7 +1242,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
@@ -1468,7 +1468,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/boots.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Derived/boots.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
@@ -1691,7 +1691,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/boots.cpp
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/chestplate.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Derived/chestplate.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
@@ -1914,7 +1914,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/chestplat
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/helmet.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Derived/helmet.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
@@ -2142,14 +2142,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/gold.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/iron.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/no_material.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/material_settings.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/Equip_Builder/equip_builder.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.hpp
@@ -2179,6 +2178,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -2196,6 +2196,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/postypes.h
@@ -2212,19 +2213,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -2233,7 +2235,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/clocale
@@ -2260,6 +2261,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
  /usr/include/c++/10/iosfwd
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -2277,7 +2279,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -2383,14 +2384,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/gold.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/iron.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/no_material.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/material_settings.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/Equip_Builder/equip_builder.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.hpp
@@ -2420,6 +2420,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -2437,6 +2438,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/postypes.h
@@ -2453,19 +2455,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -2474,7 +2477,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/clocale
@@ -2501,6 +2503,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
  /usr/include/c++/10/iosfwd
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -2518,7 +2521,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -2619,12 +2621,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/equip_factory_register.cpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/decorative.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/dimond.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/gold.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/iron.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/no_material.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/material_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
@@ -2634,7 +2636,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/Equip_Builder/equip_builder.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/boots_factory.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/chestplate_factory.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/equip_factory_interface.hpp
@@ -2699,7 +2700,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
@@ -2714,7 +2714,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
  /usr/include/c++/10/bits/stl_tempbuf.h
  /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -2723,7 +2722,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/clocale
@@ -2768,7 +2766,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -2874,14 +2871,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/gold.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/iron.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/no_material.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/material_settings.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/Equip_Builder/equip_builder.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.hpp
@@ -2911,6 +2907,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -2928,6 +2925,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/postypes.h
@@ -2944,19 +2942,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -2965,7 +2964,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/clocale
@@ -2992,6 +2990,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
  /usr/include/c++/10/iosfwd
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -3009,7 +3008,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -3110,13 +3108,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/my_equip.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -3142,6 +3139,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -3159,6 +3157,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/postypes.h
@@ -3175,19 +3174,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -3196,7 +3196,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/clocale
@@ -3223,6 +3222,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o
  /usr/include/c++/10/iosfwd
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -3240,7 +3240,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -3341,7 +3340,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Base/material.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -3562,7 +3561,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/decorative.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/decorative.hpp
  /usr/include/alloca.h
@@ -3784,7 +3783,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decora
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/dimond.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/dimond.hpp
  /usr/include/alloca.h
@@ -4006,7 +4005,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/gold.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/gold.hpp
  /usr/include/alloca.h
@@ -4228,7 +4227,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.c
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/iron.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/iron.hpp
  /usr/include/alloca.h
@@ -4450,7 +4449,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.c
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/no_material.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/no_material.hpp
  /usr/include/alloca.h
@@ -4672,13 +4671,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_mat
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/material_settings.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/material_settings.cpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/decorative.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/dimond.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/gold.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/iron.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/no_material.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/material_settings.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -5133,22 +5132,19 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/get_info_visitor.cpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/get_info_visitor.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/knight.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/pegasus.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/squirrel.hpp
@@ -5176,6 +5172,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -5194,6 +5191,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/parse_numbers.h
@@ -5212,19 +5210,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -5233,7 +5232,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -5265,6 +5263,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -5295,7 +5294,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -5629,7 +5627,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/visitor.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/enemy_mask.cpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/enemy_mask.hpp
  /usr/include/c++/10/array
  /usr/include/c++/10/backward/binders.h
@@ -5707,19 +5705,17 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/game.cpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/attack_command.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/command_executer.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
@@ -6084,19 +6080,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/agressive_npc.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
@@ -6124,6 +6117,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -6142,6 +6136,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/parse_numbers.h
@@ -6160,19 +6155,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -6181,7 +6177,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -6213,6 +6208,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -6243,7 +6239,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -6354,18 +6349,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/npc.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -6391,6 +6384,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -6409,6 +6403,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/parse_numbers.h
@@ -6427,19 +6422,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -6448,7 +6444,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -6480,6 +6475,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -6510,7 +6506,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -6621,18 +6616,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/peaceful_npc.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp
  /usr/include/alloca.h
@@ -6659,6 +6652,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -6677,6 +6671,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/parse_numbers.h
@@ -6695,19 +6690,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -6716,7 +6712,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -6748,6 +6743,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -6778,7 +6774,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -6889,13 +6884,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/agressive_npc_builder_interface.hpp
  /usr/include/alloca.h
@@ -6922,6 +6916,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -6939,6 +6934,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/postypes.h
@@ -6955,19 +6951,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -6976,7 +6973,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/clocale
@@ -7003,6 +6999,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
  /usr/include/c++/10/iosfwd
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -7020,7 +7017,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -7121,19 +7117,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
@@ -7168,6 +7161,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -7186,6 +7180,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/parse_numbers.h
@@ -7204,19 +7199,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -7225,7 +7221,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -7257,6 +7252,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -7287,7 +7283,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -7398,13 +7393,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder_main.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.hpp
@@ -7425,8 +7419,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
@@ -7438,11 +7430,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder_main.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/peaceful_npc_builder_interface.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/armor_enum.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/attack_damage_enum.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/attack_distance_enum.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/hp_enum.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/speed_enum.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -7505,7 +7492,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
@@ -7520,7 +7506,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
  /usr/include/c++/10/bits/stl_tempbuf.h
  /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -7529,7 +7514,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -7592,7 +7576,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -7703,13 +7686,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/peaceful_npc_builder_interface.hpp
  /usr/include/alloca.h
@@ -7736,6 +7718,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -7753,6 +7736,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/postypes.h
@@ -7769,19 +7753,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -7790,7 +7775,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/clocale
@@ -7817,6 +7801,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_
  /usr/include/c++/10/iosfwd
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -7834,7 +7819,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -7935,22 +7919,19 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/knight.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/knight.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -7976,6 +7957,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -7994,6 +7976,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/parse_numbers.h
@@ -8012,19 +7995,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -8033,7 +8017,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -8065,6 +8048,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -8095,7 +8079,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -8206,20 +8189,18 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/pegasus.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/pegasus.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -8245,6 +8226,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -8263,6 +8245,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/parse_numbers.h
@@ -8281,19 +8264,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -8302,7 +8286,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -8334,6 +8317,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -8364,7 +8348,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -8475,22 +8458,19 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/squirrel.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/squirrel.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -8516,6 +8496,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -8534,6 +8515,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/parse_numbers.h
@@ -8552,19 +8534,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -8573,7 +8556,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -8605,6 +8587,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -8635,7 +8618,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -8746,19 +8728,17 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/factory_register.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/factory_register.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/knight_factory.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/npc_factory_interface.hpp
@@ -8826,7 +8806,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
@@ -8841,7 +8820,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.
  /usr/include/c++/10/bits/stl_tempbuf.h
  /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -8850,7 +8828,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -8913,7 +8890,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -9040,7 +9016,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/equip_factory_register.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/helmet_factory.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Factory/equipment_factory.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp
@@ -9051,18 +9026,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder_main.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/peaceful_npc_builder_interface.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/knight_factory.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/npc_factory_interface.hpp
@@ -9128,7 +9101,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
@@ -9143,7 +9115,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o
  /usr/include/c++/10/bits/stl_tempbuf.h
  /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -9152,7 +9123,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -9215,7 +9185,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -9326,18 +9295,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/npc_factory_interface.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/npc_factory_interface.hpp
  /usr/include/alloca.h
@@ -9364,6 +9331,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -9382,6 +9350,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/parse_numbers.h
@@ -9400,19 +9369,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -9421,7 +9391,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -9453,6 +9422,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -9483,7 +9453,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -9610,7 +9579,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/equip_factory_register.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/helmet_factory.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Factory/equipment_factory.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp
@@ -9621,18 +9589,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder_main.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/peaceful_npc_builder_interface.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/npc_factory_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/pegasus_factory.hpp
@@ -9698,7 +9664,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
@@ -9713,7 +9678,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
  /usr/include/c++/10/bits/stl_tempbuf.h
  /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -9722,7 +9686,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -9785,7 +9748,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -9912,7 +9874,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/equip_factory_register.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/helmet_factory.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Factory/equipment_factory.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp
@@ -9923,18 +9884,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder_main.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/peaceful_npc_builder_interface.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/npc_factory_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/squirrel_factory.hpp
@@ -10000,7 +9959,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
@@ -10015,7 +9973,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
  /usr/include/c++/10/bits/stl_tempbuf.h
  /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -10024,7 +9981,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -10087,7 +10043,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -10198,18 +10153,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/attack_command.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/position_funcs.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
@@ -10288,10 +10241,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
  /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
@@ -10336,6 +10292,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -10479,18 +10436,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/comand_interface.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/position_funcs.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp
@@ -10567,10 +10522,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_int
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
  /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
@@ -10615,6 +10573,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_int
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -10758,18 +10717,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_int
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/move_command.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/position_funcs.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp
@@ -10847,10 +10804,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
  /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
@@ -10895,6 +10855,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -11038,18 +10999,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/command_executer.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/position_funcs.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp
@@ -11131,11 +11090,14 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_queue.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
  /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
@@ -11183,6 +11145,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/mutex
  /usr/include/c++/10/new
@@ -11330,18 +11293,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/position_funcs.cpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/position_funcs.hpp
  /usr/include/alloca.h
@@ -11368,6 +11329,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
  /usr/include/c++/10/bits/cxxabi_forced.h
  /usr/include/c++/10/bits/cxxabi_init_exception.h
  /usr/include/c++/10/bits/enable_special_members.h
+ /usr/include/c++/10/bits/erase_if.h
  /usr/include/c++/10/bits/exception.h
  /usr/include/c++/10/bits/exception_defines.h
  /usr/include/c++/10/bits/exception_ptr.h
@@ -11386,6 +11348,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
  /usr/include/c++/10/bits/memoryfwd.h
  /usr/include/c++/10/bits/move.h
  /usr/include/c++/10/bits/nested_exception.h
+ /usr/include/c++/10/bits/node_handle.h
  /usr/include/c++/10/bits/ostream.tcc
  /usr/include/c++/10/bits/ostream_insert.h
  /usr/include/c++/10/bits/parse_numbers.h
@@ -11404,19 +11367,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
  /usr/include/c++/10/bits/std_abs.h
  /usr/include/c++/10/bits/stl_algo.h
  /usr/include/c++/10/bits/stl_algobase.h
- /usr/include/c++/10/bits/stl_bvector.h
  /usr/include/c++/10/bits/stl_construct.h
  /usr/include/c++/10/bits/stl_function.h
  /usr/include/c++/10/bits/stl_heap.h
  /usr/include/c++/10/bits/stl_iterator.h
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h
  /usr/include/c++/10/bits/stl_iterator_base_types.h
+ /usr/include/c++/10/bits/stl_map.h
+ /usr/include/c++/10/bits/stl_multimap.h
  /usr/include/c++/10/bits/stl_pair.h
  /usr/include/c++/10/bits/stl_raw_storage_iter.h
  /usr/include/c++/10/bits/stl_relops.h
  /usr/include/c++/10/bits/stl_tempbuf.h
+ /usr/include/c++/10/bits/stl_tree.h
  /usr/include/c++/10/bits/stl_uninitialized.h
- /usr/include/c++/10/bits/stl_vector.h
  /usr/include/c++/10/bits/stream_iterator.h
  /usr/include/c++/10/bits/streambuf.tcc
  /usr/include/c++/10/bits/streambuf_iterator.h
@@ -11425,7 +11389,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
  /usr/include/c++/10/bits/uniform_int_dist.h
  /usr/include/c++/10/bits/unique_ptr.h
  /usr/include/c++/10/bits/uses_allocator.h
- /usr/include/c++/10/bits/vector.tcc
  /usr/include/c++/10/cctype
  /usr/include/c++/10/cerrno
  /usr/include/c++/10/chrono
@@ -11457,6 +11420,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
  /usr/include/c++/10/istream
  /usr/include/c++/10/iterator
  /usr/include/c++/10/limits
+ /usr/include/c++/10/map
  /usr/include/c++/10/memory
  /usr/include/c++/10/new
  /usr/include/c++/10/optional
@@ -11487,7 +11451,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
  /usr/include/c++/10/type_traits
  /usr/include/c++/10/typeinfo
  /usr/include/c++/10/utility
- /usr/include/c++/10/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -11723,19 +11686,17 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/terminal.cpp
- /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/attack_command.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/command_executer.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/enums.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp
- /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/equip_type_id.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp

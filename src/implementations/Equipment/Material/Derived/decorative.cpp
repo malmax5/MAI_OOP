@@ -2,6 +2,6 @@
 
 Decorative::Decorative()
 {
-    SetArmorMultiple(DecorativeMultiple);
+    SetArmorMultiple(ArmorMultiple::DecorativeMultiple);
     SetName("Decorative");
 }

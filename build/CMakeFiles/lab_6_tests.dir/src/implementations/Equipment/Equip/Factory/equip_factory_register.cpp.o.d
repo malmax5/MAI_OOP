@@ -180,17 +180,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../equip_type_id.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../../../Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/equip_factory_interface.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../../Material/enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Base/../../Material/Base/material.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/equip_builder.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/equip_builder_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/../../my_equip.hpp \
- /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_vector.h \
- /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/../../Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/../../Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/../../Derived/boots.hpp \

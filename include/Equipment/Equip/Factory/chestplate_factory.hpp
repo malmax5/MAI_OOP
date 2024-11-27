@@ -6,7 +6,7 @@
 
 class ChestplateFactory : public IEquipmentFactory {
 public:
-    std::shared_ptr<Equip> CreateEquip(WhatMaterial id) override;
+    std::shared_ptr<Equip> CreateEquip(GameSettings::MaterialId id) override;
 
 private:
     std::shared_ptr<EquipBuilder> builder = std::make_shared<EquipBuilder>();

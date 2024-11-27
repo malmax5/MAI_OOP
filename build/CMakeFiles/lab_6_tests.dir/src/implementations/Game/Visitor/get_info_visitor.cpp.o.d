@@ -181,12 +181,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/knight.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Enums/type_id_enum.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/agressive_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Game/time.hpp \
  /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
  /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Positionable/positionable.hpp \
  /usr/include/c++/10/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -211,17 +211,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
  /usr/include/c++/10/tr1/poly_laguerre.tcc \
  /usr/include/c++/10/tr1/riemann_zeta.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/my_equip.hpp \
- /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_vector.h \
- /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc \
+ /usr/include/c++/10/map /usr/include/c++/10/bits/stl_tree.h \
+ /usr/include/c++/10/bits/node_handle.h \
+ /usr/include/c++/10/bits/stl_map.h \
+ /usr/include/c++/10/bits/stl_multimap.h \
+ /usr/include/c++/10/bits/erase_if.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/../../Material/Base/../enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/boots.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/equip_type_id.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../Enums/reloading.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/attackable_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/pegasus.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/peaceful_npc.hpp \

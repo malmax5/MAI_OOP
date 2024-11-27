@@ -13,9 +13,9 @@ FactoryRegister::FactoryRegister()
 
 void FactoryRegister::RegisterAllFactories()
 {
-    factories[KnightId] = std::make_shared<KnightFactory>();
-    factories[PegasusId] = std::make_shared<PegasusFactory>();
-    factories[SquirrelId] = std::make_shared<SquirrelFactory>();
+    factories[NPCId::KnightId] = std::make_shared<KnightFactory>();
+    factories[NPCId::PegasusId] = std::make_shared<PegasusFactory>();
+    factories[NPCId::SquirrelId] = std::make_shared<SquirrelFactory>();
 }
 
 std::shared_ptr<INPCFactory> FactoryRegister::GetFactoryByNPCTypeId(NPCId id)

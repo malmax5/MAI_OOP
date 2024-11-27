@@ -1,5 +1,7 @@
 #pragma once
 
+#include "npc.hpp"
+
 class IAttackable
 {
 public:
@@ -7,6 +9,7 @@ public:
     virtual double GetAttackDamage() const = 0;
     virtual bool ReadyToAttack() const = 0;
     virtual void Reload() = 0;
+    virtual void Attack(std::shared_ptr<NPC> target) = 0;
 protected:
     virtual void SetAttackDamage(double attackDamage) = 0;
     virtual void SetAttackDistance(double attackDistance) = 0;

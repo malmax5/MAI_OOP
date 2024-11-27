@@ -3,12 +3,14 @@
 #include <map>
 #include <set>
 
-#include "../NPC/Enums/type_id_enum.hpp"
+#include "../Game/game_settings.hpp"
+
+using GameSettings::NPCId;
 
 static std::map<NPCId, std::set<NPCId>> EnemyMask{
-    {KnightId, {SquirrelId}},
-    {SquirrelId, {PegasusId}},
-    {PegasusId, {}},
+    {NPCId::KnightId, {NPCId::SquirrelId}},
+    {NPCId::SquirrelId, {NPCId::PegasusId}},
+    {NPCId::PegasusId, {}},
 };
 
 bool InMaskAttack(NPCId attacker, NPCId target);

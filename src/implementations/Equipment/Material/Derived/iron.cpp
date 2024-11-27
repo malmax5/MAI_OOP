@@ -2,6 +2,6 @@
 
 Iron::Iron()
 {
-    SetArmorMultiple(IronMultiple);
+    SetArmorMultiple(ArmorMultiple::IronMultiple);
     SetName("Iron");
 }

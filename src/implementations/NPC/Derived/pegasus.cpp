@@ -2,7 +2,7 @@
 
 Pegasus::Pegasus()
 {
-    SetTypeId(PegasusId);
+    SetTypeId(NPCId::PegasusId);
 }
 
 void Pegasus::AcceptVisitor(std::shared_ptr<Visitor> visitor)

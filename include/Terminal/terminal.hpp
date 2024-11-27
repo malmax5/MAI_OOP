@@ -7,6 +7,8 @@
 
 #include "../NPC/Factory/factory_register.hpp"
 
+using GameSettings::NPCId;
+
 class Terminal
 {
 public:

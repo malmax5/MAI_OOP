@@ -7,7 +7,7 @@
 void GetInfoVisitor::Visit(Knight* knight)
 {
     std::cout << "In Game Knight:\n" <<
-                 "   TypeId: " << knight->GetTypeId() << "\n" <<
+                 "   TypeId: " << (int)knight->GetTypeId() << "\n" <<
                  "   CurrentId: " << knight->GetCurrentId() << "\n" <<
                  "   Hp: " << knight->GetHp() << "\n" <<
                  "   Position X: " << knight->GetXCord() << "\n" <<
@@ -17,7 +17,7 @@ void GetInfoVisitor::Visit(Knight* knight)
 void GetInfoVisitor::Visit(Pegasus* pegasus)
 {
     std::cout << "In Game Pegasus:\n" <<
-                 "   TypeId: " << pegasus->GetTypeId() << "\n" <<
+                 "   TypeId: " << (int)pegasus->GetTypeId() << "\n" <<
                  "   CurrentId: " << pegasus->GetCurrentId() << "\n" <<
                  "   Hp: " << pegasus->GetHp() << "\n" <<
                  "   Position X: " << pegasus->GetXCord() << "\n" <<
@@ -27,7 +27,7 @@ void GetInfoVisitor::Visit(Pegasus* pegasus)
 void GetInfoVisitor::Visit(Squirrel* squirrel)
 {
     std::cout << "In Game Squirrel:\n" <<
-                 "   TypeId: " << squirrel->GetTypeId() << "\n" <<
+                 "   TypeId: " << (int)squirrel->GetTypeId() << "\n" <<
                  "   CurrentId: " << squirrel->GetCurrentId() << "\n" <<
                  "   Hp: " << squirrel->GetHp() << "\n" <<
                  "   Position X: " << squirrel->GetXCord() << "\n" <<

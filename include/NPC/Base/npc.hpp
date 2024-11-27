@@ -6,9 +6,12 @@
 
 #include "../../Game/Visitor/visitor.hpp"
 
-#include "../Enums/type_id_enum.hpp"
+#include "../../Game/game_settings.hpp"
+
 #include "../../Positionable/positionable.hpp"
 #include "../../Equipment/Equip/my_equip.hpp"
+
+using GameSettings::NPCId;
 
 class NPC : public Position
 {

@@ -1,25 +1,25 @@
 #include "../../../../include/Equipment/Material/material_settings.hpp"
 
-std::shared_ptr<Material> MaterialByMask(WhatMaterial materialId)
+std::shared_ptr<Material> MaterialByMask(MaterialId materialId)
 {
     std::shared_ptr<Material> material;
     
     switch (materialId)
     {
-    case NoMaterialMaterial:
+    case MaterialId::NoMaterialMaterial:
         material = std::make_shared<NoMaterial>();
         break;
-    case DecorativeMaterial:
+    case MaterialId::DecorativeMaterial:
         material = std::make_shared<Decorative>();
         break;
-    case IronMaterial:
+    case MaterialId::IronMaterial:
         material = std::make_shared<Iron>();
         break;
-    case GoldMaterial:
+    case MaterialId::GoldMaterial:
         material = std::make_shared<Gold>();
         break;
-    case DimondMaterial:
-        material = std::make_shared<Dimond>();
+    case MaterialId::DiamondMaterial:
+        material = std::make_shared<Diamond>();
         break;
     
     default:

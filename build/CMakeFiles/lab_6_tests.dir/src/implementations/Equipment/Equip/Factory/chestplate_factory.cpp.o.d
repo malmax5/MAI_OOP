@@ -176,19 +176,20 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../../Material/enums.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Base/equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Base/../../Material/Base/material.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Base/../../Material/Base/../../../Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/equip_builder.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/equip_builder_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/../../my_equip.hpp \
- /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_vector.h \
- /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc \
+ /usr/include/c++/10/map /usr/include/c++/10/bits/stl_tree.h \
+ /usr/include/c++/10/bits/node_handle.h \
+ /usr/include/c++/10/bits/stl_map.h \
+ /usr/include/c++/10/bits/stl_multimap.h \
+ /usr/include/c++/10/bits/erase_if.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/../../Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/../../Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/../../Derived/boots.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/../../equip_type_id.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../../Material/material_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../../Material/Derived/no_material.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../../Material/Derived/decorative.hpp \

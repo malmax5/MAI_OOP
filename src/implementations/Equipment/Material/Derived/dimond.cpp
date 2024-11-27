@@ -1,7 +1,7 @@
 #include "../../../../../include/Equipment/Material/Derived/dimond.hpp"
 
-Dimond::Dimond()
+Diamond::Diamond()
 {
-    SetArmorMultiple(DimondMultiple);
+    SetArmorMultiple(ArmorMultiple::DiamondMultiple);
     SetName("Dimond");
 }

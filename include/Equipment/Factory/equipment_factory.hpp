@@ -6,6 +6,11 @@
 #include "../Equip/Builder/MyEquip_Builder/myequip_builder.hpp"
 #include "../Equip/Factory/equip_factory_register.hpp"
 
+#include "../../Game/game_settings.hpp"
+
+using GameSettings::MaterialId;
+using GameSettings::EquipTypeId;
+
 class EquipmentFactory
 {
 public:
@@ -23,9 +28,9 @@ public:
         int rand2 = std::rand() % (end - start + 1) + start;
         int rand3 = std::rand() % (end - start + 1) + start;
         
-        WhatMaterial helmetMaterial = static_cast<WhatMaterial>(rand1);
-        WhatMaterial chestplateMaterial = static_cast<WhatMaterial>(rand2);
-        WhatMaterial bootsMaterial = static_cast<WhatMaterial>(rand3);
+        MaterialId helmetMaterial = static_cast<MaterialId>(rand1);
+        MaterialId chestplateMaterial = static_cast<MaterialId>(rand2);
+        MaterialId bootsMaterial = static_cast<MaterialId>(rand3);
 
         std::shared_ptr<Equip> helmet = std::make_shared<Equip>();
         std::shared_ptr<Equip> chestplate = std::make_shared<Equip>();
@@ -34,9 +39,9 @@ public:
         std::shared_ptr<MyEquipBuilder> myEquipBuilder = std::make_shared<MyEquipBuilder>();
 
         
-        helmet = EquipFactoryRegister::GetInstance().GetFactoryByEquipTypeId(HelmetId)->CreateEquip(helmetMaterial);
-        chestplate = EquipFactoryRegister::GetInstance().GetFactoryByEquipTypeId(ChestplateId)->CreateEquip(chestplateMaterial);
-        boots = EquipFactoryRegister::GetInstance().GetFactoryByEquipTypeId(BootsId)->CreateEquip(bootsMaterial);
+        helmet = EquipFactoryRegister::GetInstance().GetFactoryByEquipTypeId(EquipTypeId::HelmetId)->CreateEquip(helmetMaterial);
+        chestplate = EquipFactoryRegister::GetInstance().GetFactoryByEquipTypeId(EquipTypeId::ChestplateId)->CreateEquip(chestplateMaterial);
+        boots = EquipFactoryRegister::GetInstance().GetFactoryByEquipTypeId(EquipTypeId::BootsId)->CreateEquip(bootsMaterial);
 
         myEquipBuilder->Reset();
         myEquipBuilder->SetHelmet(helmet);

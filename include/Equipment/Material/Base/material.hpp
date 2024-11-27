@@ -3,7 +3,9 @@
 #include <string>
 #include <memory>
 
-#include "../enums.hpp"
+#include "../../../Game/game_settings.hpp"
+
+using GameSettings::ArmorMultiple;
 
 struct Material
 {

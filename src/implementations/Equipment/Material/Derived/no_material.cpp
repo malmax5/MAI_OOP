@@ -2,6 +2,6 @@
 
 NoMaterial::NoMaterial()
 {
-    SetArmorMultiple(NoMaterialMultiple);
+    SetArmorMultiple(ArmorMultiple::NoMaterialMultiple);
     SetName("No Material");
 }

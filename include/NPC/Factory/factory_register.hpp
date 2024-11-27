@@ -3,11 +3,14 @@
 #include <map>
 #include <memory>
 
-#include "../Enums/type_id_enum.hpp"
+#include "../../Game/game_settings.hpp"
+
 #include "npc_factory_interface.hpp"
 #include "knight_factory.hpp"
 #include "pegasus_factory.hpp"
 #include "squirrel_factory.hpp"
+
+using GameSettings::NPCId;
 
 class FactoryRegister
 {

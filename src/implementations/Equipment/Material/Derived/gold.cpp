@@ -2,6 +2,6 @@
 
 Gold::Gold()
 {
-    SetArmorMultiple(GoldMultiple);
+    SetArmorMultiple(ArmorMultiple::GoldMultiple);
     SetName("Gold");
 }

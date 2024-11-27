@@ -22,6 +22,14 @@ void Game::Start()
     {
         gameThread.join();
     }
+    Notify("----------------------------------\n");
+    Notify("NPC before start:");
+    std::stringstream buffer;
+    std::streambuf* coutbuf = std::cout.rdbuf();
+    std::cout.rdbuf(buffer.rdbuf());
+    PrintNPC();
+    std::cout.rdbuf(coutbuf);
+    Notify(buffer.str());
 
     tce::stopFlag.store(false);
     tce::thr = std::thread([this]() { tce::CommandExecutionThread([this](const std::string& event) { Notify(event); }); });
@@ -114,7 +122,15 @@ void Game::Update()
     }
 
     End();
-    Notify("End Game");
+    Notify("End Game\n");
+    Notify("NPC after end:");
+    std::stringstream buffer;
+    std::streambuf* coutbuf = std::cout.rdbuf();
+    std::cout.rdbuf(buffer.rdbuf());
+    PrintNPC();
+    std::cout.rdbuf(coutbuf);
+    Notify(buffer.str());
+    Notify("----------------------------------");
 }
 
 void Game::End()
@@ -126,7 +142,6 @@ void Game::End()
         tce::thr.join();
     }
     tce::isThreadRunning = false;
-    isThreadRunning = false;
 }
 
 void Game::AddNPC(std::shared_ptr<NPC> npc)

@@ -2,8 +2,8 @@
 
 #include "../Base/material.hpp"
 
-struct Dimond : virtual public Material
+struct Diamond : virtual public Material
 {
 public:
-    Dimond();
+    Diamond();
 };
