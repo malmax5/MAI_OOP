@@ -9,7 +9,7 @@ std::shared_ptr<NPC> KnightFactory::CreateNPC(double xCord, double yCord)
 
     builderMain->BuildNPCKnight(builder);
 
-    std::shared_ptr<AgressiveNPC> knight = builder->GetResult();
+    std::shared_ptr<NPC> knight = builder->GetResult();
 
     knight->SetPosition(xCord, yCord);
 

@@ -126,6 +126,7 @@ void Game::End()
         tce::thr.join();
     }
     tce::isThreadRunning = false;
+    isThreadRunning = false;
 }
 
 void Game::AddNPC(std::shared_ptr<NPC> npc)

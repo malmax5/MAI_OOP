@@ -20,17 +20,18 @@ public:
     unsigned int GetCurrentId();
     double GetHp();
     double GetArmor();
-    virtual double GetAttackDistance() = 0;
-    virtual double GetAttackDamage() = 0;
-    virtual bool ReadyToAttack() = 0;
-    virtual void Reload() = 0;
+
+    // virtual double GetAttackDistance() = 0;
+    // virtual double GetAttackDamage() = 0;
+    // virtual bool ReadyToAttack() = 0;
+    // virtual void Reload() = 0;
 
     virtual void GetDamage(double damage);
 
     virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor) = 0;
 
 protected:
-    void SetTypeId(NPCId typeId);
+    virtual void SetTypeId(NPCId typeId);
 
     void SetCurrentId(unsigned int currentId);
     void SetHp(double hp);

@@ -225,6 +225,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Base/peaceful_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Base/agressive_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Base/../Enums/reloading.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Base/attackable_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Derived/knight.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Derived/pegasus.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Derived/squirrel.hpp \

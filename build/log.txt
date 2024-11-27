@@ -4,24 +4,17 @@ Start Game
 0 attacked a 1
 0 attacked a 1
 0 attacked a 1
-0 attacked a 1
-0 attacked a 1
-0 attacked a 1
-0 attacked a 1
-0 attacked a 1
-NPC with id: 1 Killed
 End Game
 Start Game
-2 attacked a 3
-2 attacked a 3
-2 attacked a 3
-2 attacked a 3
-2 attacked a 3
-2 attacked a 3
-2 attacked a 3
-2 attacked a 3
-2 attacked a 3
-2 attacked a 3
-2 attacked a 3
-NPC with id: 3 Killed
+0 attacked a 1
+0 attacked a 1
+End Game
+Start Game
+End Game
+Start Game
+End Game
+Start Game
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
 End Game

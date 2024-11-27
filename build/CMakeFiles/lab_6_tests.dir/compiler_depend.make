@@ -3,6 +3,7 @@
 
 CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/attack_command.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp \
@@ -591,7 +592,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
-  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -663,8 +663,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
-  /usr/include/c++/10/iostream \
-  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -2663,7 +2661,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
-  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -2739,8 +2736,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
-  /usr/include/c++/10/iostream \
-  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/map \
@@ -2911,7 +2906,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
-  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -2983,8 +2977,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
-  /usr/include/c++/10/iostream \
-  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -5130,6 +5122,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp \
@@ -5689,6 +5682,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/enemy_mask.cpp.o: /home/cbf/
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/game.cpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/attack_command.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp \
@@ -6076,6 +6070,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: /ho
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -7108,6 +7103,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: /h
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/knight.hpp \
@@ -7399,6 +7395,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/knight.hpp \
@@ -7916,6 +7913,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: /home/c
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/knight.hpp \
@@ -8453,6 +8451,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: /home
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/squirrel.hpp \
@@ -9004,6 +9003,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Factory/equipment_factory.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/knight.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/pegasus.hpp \
@@ -9571,6 +9571,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Factory/equipment_factory.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/knight.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/pegasus.hpp \
@@ -9871,6 +9872,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Factory/equipment_factory.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/reloading.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/knight.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/pegasus.hpp \
@@ -10167,6 +10169,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/position_funcs.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/attack_command.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp \
   /usr/include/alloca.h \
@@ -11672,6 +11675,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o: 
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/terminal.cpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/attack_command.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp \
@@ -12185,6 +12189,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
 /usr/include/c++/10/bits/stl_vector.h:
 
 /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/npc.cpp:
@@ -12234,8 +12240,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 /usr/include/c++/10/bits/range_cmp.h:
 
 /usr/include/ctype.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -12379,9 +12383,49 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp:
 
+/home/cbf/MAI/OOP/Lab_6/src/implementations/Game/enemy_mask.cpp:
+
+/home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/knight_factory.hpp:
+
+/usr/include/c++/10/ext/alloc_traits.h:
+
+/usr/include/c++/10/bits/stl_tempbuf.h:
+
+/home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp:
+
+/usr/include/c++/10/debug/debug.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/c++/10/bits/stl_heap.h:
+
+/usr/include/c++/10/functional:
+
+/usr/include/c++/10/bits/invoke.h:
+
+/usr/include/c++/10/bits/stl_queue.h:
+
+/usr/include/sched.h:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/10/array:
+
 /usr/include/c++/10/bits/stl_uninitialized.h:
 
 /usr/include/c++/10/bits/unique_ptr.h:
+
+/usr/include/c++/10/bits/char_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/asm-generic/errno.h:
+
+/home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/10/condition_variable:
 
 /usr/include/c++/10/bits/locale_classes.tcc:
 
@@ -12419,53 +12463,9 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /usr/include/c++/10/string:
 
-/home/cbf/MAI/OOP/Lab_6/src/implementations/Game/enemy_mask.cpp:
-
-/home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/knight_factory.hpp:
-
-/usr/include/c++/10/ext/alloc_traits.h:
-
-/usr/include/c++/10/bits/stl_tempbuf.h:
-
-/home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp:
-
-/usr/include/c++/10/debug/debug.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/c++/10/bits/stl_heap.h:
-
-/usr/include/c++/10/functional:
-
-/usr/include/c++/10/bits/invoke.h:
-
-/usr/include/c++/10/bits/stl_queue.h:
-
-/usr/include/c++/10/bits/stringfwd.h:
-
-/usr/include/c++/10/bits/streambuf.tcc:
-
-/usr/include/c++/10/optional:
-
-/home/cbf/MAI/OOP/Lab_6/include/NPC/Enums/type_id_enum.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/sched.h:
-
-/usr/include/wctype.h:
-
-/usr/include/c++/10/array:
-
 /usr/include/c++/10/bits/allocator.h:
 
 /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp:
-
-/usr/include/c++/10/bits/char_traits.h:
 
 /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp:
 
@@ -12507,6 +12507,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /usr/include/c++/10/bits/ranges_uninitialized.h:
 
+/usr/include/c++/10/bits/exception.h:
+
+/usr/include/asm-generic/errno-base.h:
+
 /usr/include/c++/10/bits/cxxabi_forced.h:
 
 /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Derived/chestplate.cpp:
@@ -12529,11 +12533,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/get_info_visitor.hpp:
-
 /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.cpp:
 
 /usr/include/c++/10/bits/erase_if.h:
+
+/home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/get_info_visitor.hpp:
 
 /usr/include/c++/10/bits/basic_ios.tcc:
 
@@ -12542,12 +12546,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/squirrel_factory.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/10/bits/exception.h:
-
-/usr/include/c++/10/condition_variable:
 
 /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h:
 
@@ -12579,7 +12577,15 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
+/home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp:
+
 /usr/include/c++/10/bits/deque.tcc:
+
+/usr/include/c++/10/bits/stringfwd.h:
+
+/usr/include/c++/10/bits/streambuf.tcc:
+
+/usr/include/c++/10/optional:
 
 /usr/include/c++/10/bits/unique_lock.h:
 

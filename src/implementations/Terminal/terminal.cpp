@@ -3,7 +3,7 @@
 std::string Terminal::loggerFilePath = "log.txt";
 std::string Terminal::npcFilePath = "npc.txt";
 
-Terminal::Terminal() : factories_(std::make_shared<FactoryRegister>()),
+Terminal::Terminal() : factories_(FactoryRegister::GetInstance()),
                        fileLogger(std::make_shared<FileLogger>(loggerFilePath)),
                        screenLogger(std::make_shared<ScreenLogger>()),
                        game_(nullptr)
@@ -31,6 +31,14 @@ void Terminal::TerminalUpdate()
     {
         std::cout << "Comand: ";
         std::cin >> command;
+        
+        if (std::cin.fail())
+        {
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            command = 10;
+        }
+
         switch (command)
         {
         case 0:
@@ -132,6 +140,7 @@ void Terminal::StopGame()
     {
         game_->gameThread.join();
     }
+    game_->isThreadRunning = false;
 
     // game_->Detach(screenLogger);
 
@@ -163,11 +172,11 @@ void Terminal::IncludeKnight(double xCord, double yCord)
     }
     if (game_->isThreadRunning)
     {
-        std::cout << "Game in proccess< can't add a knight\n";
+        std::cout << "Game in proccess can't add a knight\n";
         return;
     }
 
-    game_->AddNPC(factories_->GetFactoryByNPCTypeId(KnightId)->CreateNPC(xCord, yCord));
+    game_->AddNPC(factories_.GetFactoryByNPCTypeId(KnightId)->CreateNPC(xCord, yCord));
     std::cout << "--Knight included--\n";
 }
 
@@ -180,11 +189,11 @@ void Terminal::IncludePegasus(double xCord, double yCord)
     }
     if (game_->isThreadRunning)
     {
-        std::cout << "Game in proccess< can't add a pegasus\n";
+        std::cout << "Game in proccess can't add a pegasus\n";
         return;
     }
 
-    game_->AddNPC(factories_->GetFactoryByNPCTypeId(PegasusId)->CreateNPC(xCord, yCord));
+    game_->AddNPC(factories_.GetFactoryByNPCTypeId(PegasusId)->CreateNPC(xCord, yCord));
     std::cout << "--Pegasus included--\n";
 }
 
@@ -197,11 +206,11 @@ void Terminal::IncludeSquirrel(double xCord, double yCord)
     }
     if (game_->isThreadRunning)
     {
-        std::cout << "Game in proccess< can't add a squirrel\n";
+        std::cout << "Game in proccess can't add a squirrel\n";
         return;
     }
 
-    game_->AddNPC(factories_->GetFactoryByNPCTypeId(SquirrelId)->CreateNPC(xCord, yCord));
+    game_->AddNPC(factories_.GetFactoryByNPCTypeId(SquirrelId)->CreateNPC(xCord, yCord));
     std::cout << "--Squirrel included--\n";
 }
 

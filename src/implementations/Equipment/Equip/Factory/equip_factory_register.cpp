@@ -1,5 +1,11 @@
 #include "../../../../../include/Equipment/Equip/Factory/equip_factory_register.hpp"
 
+EquipFactoryRegister& EquipFactoryRegister::GetInstance()
+{
+    static EquipFactoryRegister instance;
+    return instance;
+}
+
 EquipFactoryRegister::EquipFactoryRegister()
 {
     RegisterAllFactories();

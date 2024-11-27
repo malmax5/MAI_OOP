@@ -217,4 +217,5 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/../../Equipment/Equip/equip_type_id.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/../Enums/reloading.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/../Enums/reloading.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/attackable_interface.hpp

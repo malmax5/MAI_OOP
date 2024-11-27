@@ -8,8 +8,8 @@ void AttackCommand::execute(std::function<void(const std::string&)> Notify)
 {
     if (target_->GetHp() > 0)
     {
-        target_->GetDamage(attacker_->GetAttackDamage());
-        attacker_->Reload();
+        target_->GetDamage(std::dynamic_pointer_cast<IAttackable>(attacker_)->GetAttackDamage());
+        std::dynamic_pointer_cast<IAttackable>(attacker_)->Reload();
         std::stringstream ss;
         ss << attacker_->GetCurrentId() << " attacked a " << target_->GetCurrentId();
         Notify(ss.str());
@@ -18,6 +18,11 @@ void AttackCommand::execute(std::function<void(const std::string&)> Notify)
 
 bool AttackCommand::CanAttack(std::shared_ptr<NPC> attacker, std::shared_ptr<NPC> target)
 {
+    if(!std::dynamic_pointer_cast<IAttackable>(attacker))
+    {
+        return false;
+    }
+    
     double dist =  NPCPositionFuncs::DistanceBetNPC(attacker, target);
-    return attacker->ReadyToAttack() && target->GetHp() > 0 && (attacker->GetAttackDistance() - dist) >= 0;
+    return std::dynamic_pointer_cast<IAttackable>(attacker)->ReadyToAttack() && target->GetHp() > 0 && (std::dynamic_pointer_cast<IAttackable>(attacker)->GetAttackDistance() - dist) >= 0;
 }

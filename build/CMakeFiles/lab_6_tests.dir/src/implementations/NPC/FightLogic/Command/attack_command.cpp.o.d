@@ -228,4 +228,5 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/equip_type_id.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../../Positionable/../NPC/Base/../../Equipment/Equip/equip_type_id.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/../../../../../include/NPC/FightLogic/Command/../../Base/attackable_interface.hpp

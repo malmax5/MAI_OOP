@@ -2,23 +2,23 @@
 
 #include "npc.hpp"
 #include "../Enums/reloading.hpp"
+#include "attackable_interface.hpp"
 
-class AgressiveNPC : public NPC 
+class AgressiveNPC : public NPC, public IAttackable
 {
     friend class AgressiveNPCBuilder;
-    friend class VisitorAddTarget;
 
 public:
-    virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor);
+    virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor) override = 0;
 
-    double GetAttackDistance() override;
-    double GetAttackDamage() override;
-    bool ReadyToAttack() override;
+    double GetAttackDistance() const override;
+    double GetAttackDamage() const override;
+    bool ReadyToAttack() const override;
     void Reload() override;
 
 protected:
-    void SetAttackDamage(double attackDamage);
-    void SetAttackDistance(double attackDistance);
+    void SetAttackDamage(double attackDamage) override;
+    void SetAttackDistance(double attackDistance) override;
 
 protected:
     double attackDamage_;

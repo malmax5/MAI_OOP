@@ -33,7 +33,7 @@ private:
     void TerminalUpdate();
 
     std::shared_ptr<Game> game_;
-    std::shared_ptr<FactoryRegister> factories_;
+    FactoryRegister& factories_;
 
     std::shared_ptr<FileLogger> fileLogger;
     std::shared_ptr<ScreenLogger> screenLogger;

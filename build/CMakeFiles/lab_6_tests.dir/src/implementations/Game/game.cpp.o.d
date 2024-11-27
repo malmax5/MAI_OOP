@@ -258,4 +258,5 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: \
  /usr/include/c++/10/bits/unique_lock.h \
  /usr/include/c++/10/condition_variable \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../NPC/FightLogic/Command/move_command.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../NPC/FightLogic/Command/attack_command.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../NPC/FightLogic/Command/attack_command.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../NPC/FightLogic/Command/../../Base/attackable_interface.hpp

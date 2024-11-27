@@ -4,12 +4,11 @@
 
 class PeacefulNPC : public NPC 
 {
-    friend class PeacefulNPCBuilder;
 public:
-    virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor);
+    virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor) override = 0;
 
-    double GetAttackDistance() override;
-    double GetAttackDamage() override;
-    bool ReadyToAttack() override;
-    void Reload() override;
+    // double GetAttackDistance() override;
+    // double GetAttackDamage() override;
+    // bool ReadyToAttack() override;
+    // void Reload() override;
 };

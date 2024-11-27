@@ -1,5 +1,11 @@
 #include "../../../../include/NPC/Factory/factory_register.hpp"
 
+FactoryRegister& FactoryRegister::GetInstance()
+{
+    static FactoryRegister instance;
+    return instance;
+}
+
 FactoryRegister::FactoryRegister()
 {
     RegisterAllFactories();

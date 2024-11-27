@@ -13,12 +13,12 @@ protected:
 class PeacefulNPCBuilderMain : private UsageNPCFactory
 {
 public:
-    void BuildNPCPegasus(std::shared_ptr<PeacefulNPCBuilder> builder);
+    void BuildNPCPegasus(std::shared_ptr<PegasusBuilder> builder);
 };
 
 class AgressiveNPCBuilderMain : private UsageNPCFactory
 {
 public:
-    void BuildNPCKnight(std::shared_ptr<AgressiveNPCBuilder> builder);
-    void BuildNPCSquirrel(std::shared_ptr<AgressiveNPCBuilder> builder);
+    void BuildNPCKnight(std::shared_ptr<KnightBuilder> builder);
+    void BuildNPCSquirrel(std::shared_ptr<SquirrelBuilder> builder);
 };

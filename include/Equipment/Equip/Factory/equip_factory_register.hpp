@@ -12,10 +12,11 @@
 class EquipFactoryRegister
 {
 public:
-    EquipFactoryRegister();
+    static EquipFactoryRegister& GetInstance();
     std::shared_ptr<IEquipmentFactory> GetFactoryByEquipTypeId(EquipTypeId id);
 
 private:
+    EquipFactoryRegister();
     void RegisterAllFactories();
 
 private:

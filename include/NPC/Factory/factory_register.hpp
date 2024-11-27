@@ -12,10 +12,11 @@
 class FactoryRegister
 {
 public:
-    FactoryRegister();
+    static FactoryRegister& GetInstance();
     std::shared_ptr<INPCFactory> GetFactoryByNPCTypeId(NPCId id);
 
 private:
+    FactoryRegister();
     void RegisterAllFactories();
 
 private:

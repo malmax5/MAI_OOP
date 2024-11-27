@@ -2,11 +2,6 @@
 
 #include <iostream>
 
-void PeacefulNPCBuilder::Reset()
-{
-    npc_ = std::make_shared<PeacefulNPC>();
-}
-
 void PeacefulNPCBuilder::SetCurrentId(unsigned int currentId)
 {
     npc_->SetCurrentId(currentId);
@@ -37,12 +32,6 @@ std::shared_ptr<PeacefulNPC> PeacefulNPCBuilder::GetResult()
     return npc_;
 }
 
-
-void AgressiveNPCBuilder::Reset()
-{
-    npc_ = std::make_shared<AgressiveNPC>();
-}
-
 void AgressiveNPCBuilder::SetCurrentId(unsigned int currentId)
 {
     npc_->SetCurrentId(currentId);
@@ -70,12 +59,12 @@ void AgressiveNPCBuilder::SetSpeed(double speed)
 
 void AgressiveNPCBuilder::SetAttackDamage(double attackDamage)
 {
-    npc_->SetAttackDamage(attackDamage);
+    std::dynamic_pointer_cast<AgressiveNPC>(npc_)->SetAttackDamage(attackDamage);
 }
 
 void AgressiveNPCBuilder::SetAttackDistance(double attackDistance)
 {
-    npc_->SetAttackDistance(attackDistance);
+    std::dynamic_pointer_cast<AgressiveNPC>(npc_)->SetAttackDistance(attackDistance);
 }
 
 std::shared_ptr<AgressiveNPC> AgressiveNPCBuilder::GetResult()

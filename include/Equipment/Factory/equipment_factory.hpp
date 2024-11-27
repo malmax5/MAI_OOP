@@ -9,13 +9,13 @@
 class EquipmentFactory
 {
 public:
-    virtual std::shared_ptr<MyEquip> createEquip() const = 0;
+    virtual std::shared_ptr<MyEquip> CreateEquip() const = 0;
 };
 
 class StandartEquipmentFactoryRandom : public EquipmentFactory
 {
 public:
-    std::shared_ptr<MyEquip> createEquip() const override
+    std::shared_ptr<MyEquip> CreateEquip() const override
     {
         int start = 0;
         int end = 4;
@@ -31,12 +31,12 @@ public:
         std::shared_ptr<Equip> chestplate = std::make_shared<Equip>();
         std::shared_ptr<Equip> boots = std::make_shared<Equip>();
 
-        std::shared_ptr<EquipFactoryRegister> factories = std::make_shared<EquipFactoryRegister>();
-
         std::shared_ptr<MyEquipBuilder> myEquipBuilder = std::make_shared<MyEquipBuilder>();
-        helmet = factories->GetFactoryByEquipTypeId(HelmetId)->CreateEquip(helmetMaterial);
-        chestplate = factories->GetFactoryByEquipTypeId(ChestplateId)->CreateEquip(chestplateMaterial);
-        boots = factories->GetFactoryByEquipTypeId(BootsId)->CreateEquip(bootsMaterial);
+
+        
+        helmet = EquipFactoryRegister::GetInstance().GetFactoryByEquipTypeId(HelmetId)->CreateEquip(helmetMaterial);
+        chestplate = EquipFactoryRegister::GetInstance().GetFactoryByEquipTypeId(ChestplateId)->CreateEquip(chestplateMaterial);
+        boots = EquipFactoryRegister::GetInstance().GetFactoryByEquipTypeId(BootsId)->CreateEquip(bootsMaterial);
 
         myEquipBuilder->Reset();
         myEquipBuilder->SetHelmet(helmet);

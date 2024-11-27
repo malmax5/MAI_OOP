@@ -9,7 +9,7 @@ std::shared_ptr<NPC> SquirrelFactory::CreateNPC(double xCord, double yCord)
 
     builderMain->BuildNPCSquirrel(builder);
 
-    std::shared_ptr<AgressiveNPC> squirrel = builder->GetResult();
+    std::shared_ptr<NPC> squirrel = builder->GetResult();
 
     squirrel->SetPosition(xCord, yCord);
 

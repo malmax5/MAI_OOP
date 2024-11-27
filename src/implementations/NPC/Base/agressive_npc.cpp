@@ -10,22 +10,17 @@ void AgressiveNPC::SetAttackDistance(double attackDistnce)
     attackDistance_ = attackDistnce;
 }
 
-double AgressiveNPC::GetAttackDistance()
+double AgressiveNPC::GetAttackDistance() const
 {
     return attackDistance_;
 }
 
-double AgressiveNPC::GetAttackDamage()
+double AgressiveNPC::GetAttackDamage() const
 {
     return attackDamage_;
 }
 
-void AgressiveNPC::AcceptVisitor(std::shared_ptr<Visitor> visitor)
-{
-    return;
-}
-
-bool AgressiveNPC::ReadyToAttack()
+bool AgressiveNPC::ReadyToAttack() const
 {
     return reloadedTime <= Time::GetLastIterTime();
 }

@@ -222,6 +222,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/boots.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/equip_type_id.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../Enums/reloading.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/attackable_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/pegasus.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/peaceful_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/squirrel.hpp

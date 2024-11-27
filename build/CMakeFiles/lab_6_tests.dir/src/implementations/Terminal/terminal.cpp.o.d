@@ -259,6 +259,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: \
  /usr/include/c++/10/condition_variable \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/FightLogic/Command/move_command.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/FightLogic/Command/attack_command.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/FightLogic/Command/../../Base/attackable_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../NPC/Factory/factory_register.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../NPC/Factory/npc_factory_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../NPC/Factory/knight_factory.hpp \

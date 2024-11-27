@@ -9,7 +9,7 @@ std::shared_ptr<NPC> PegasusFactory::CreateNPC(double xCord, double yCord)
 
     builderMain->BuildNPCPegasus(builder);
 
-    std::shared_ptr<PeacefulNPC> pegasus = builder->GetResult();
+    std::shared_ptr<NPC> pegasus = builder->GetResult();
 
     pegasus->SetPosition(xCord, yCord);
 

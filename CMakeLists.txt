@@ -76,6 +76,7 @@ set(
     #!NPC Start
     #hpp
     include/NPC/Base/npc.hpp
+    include/NPC/Base/attackable_interface.hpp
     include/NPC/Base/agressive_npc.hpp
     include/NPC/Base/peaceful_npc.hpp
     include/NPC/Derived/knight.hpp

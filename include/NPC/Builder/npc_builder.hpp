@@ -11,7 +11,7 @@
 class PeacefulNPCBuilder : IPeacefulNPCBuilder
 {
 public:
-    virtual void Reset() override;
+    virtual void Reset() override = 0;
     void SetCurrentId(unsigned int currentId) override;
     void SetHp(double hp) override;
     void SetBaseArmor(double armor) override;
@@ -27,7 +27,7 @@ protected:
 class AgressiveNPCBuilder : IAgressiveNPCBuilder
 {
 public:
-    virtual void Reset() override;
+    virtual void Reset() override = 0;
     void SetCurrentId(unsigned int currentId) override;
     void SetHp(double hp) override;
     void SetBaseArmor(double armor) override;
@@ -44,15 +44,18 @@ protected:
 
 class PegasusBuilder : public PeacefulNPCBuilder
 {
+public:
     void Reset() final;
 };
 
 class KnightBuilder : public AgressiveNPCBuilder
 {
+public:
     void Reset() final;
 };
 
 class SquirrelBuilder : public AgressiveNPCBuilder
 {
+public:
     void Reset() final;
 };

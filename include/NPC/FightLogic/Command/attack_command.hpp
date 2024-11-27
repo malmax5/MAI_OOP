@@ -4,6 +4,7 @@
 #include <sstream>
 #include "command_interface.hpp"
 #include "../../Base/npc.hpp"
+#include "../../Base/attackable_interface.hpp"
 
 class AttackCommand : public ICommand
 {
