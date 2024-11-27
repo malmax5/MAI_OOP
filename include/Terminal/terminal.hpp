@@ -20,9 +20,7 @@ public:
     void StopGame();
     void DeleteThisGame();
 
-    void IncludePegasus(double xCord, double yCord);
-    void IncludeKnight(double xCord, double yCord);
-    void IncludeSquirrel(double xCord, double yCord);
+    void IncludeNPCByID(NPCId id, double xCord, double yCord);
 
     void LoadNPCToFile(std::string filePath);
     void ExportNPCFromFile(std::string filePath);

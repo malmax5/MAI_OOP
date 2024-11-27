@@ -1,0 +1,39 @@
+!New Session!
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 1
+   Hp: 50
+   Position X: 2
+   Position Y: 2
+
+Start Game
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+NPC with id: 1 Killed
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1.9999
+   Position Y: 1.9999
+
+----------------------------------
+!New Session!

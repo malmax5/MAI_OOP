@@ -58,21 +58,21 @@ void Terminal::TerminalUpdate()
             std::cin >> xCord;
             std::cout << "Y: ";
             std::cin >> yCord;
-            IncludeKnight(xCord, yCord);
+            IncludeNPCByID(NPCId::KnightId, xCord, yCord);
             break;
         case 5:
             std::cout << "X: ";
             std::cin >> xCord;
             std::cout << "Y: ";
             std::cin >> yCord;
-            IncludePegasus(xCord, yCord);
+            IncludeNPCByID(NPCId::PegasusId, xCord, yCord);
             break;
         case 6:
             std::cout << "X: ";
             std::cin >> xCord;
             std::cout << "Y: ";
             std::cin >> yCord;
-            IncludeSquirrel(xCord, yCord);
+            IncludeNPCByID(NPCId::SquirrelId, xCord, yCord);
             break;
         case 7:
             PrintObjects();
@@ -162,41 +162,7 @@ void Terminal::DeleteThisGame()
     std::cout << "--Game deleted--\n";
 }
 
-void Terminal::IncludeKnight(double xCord, double yCord)
-{
-    if (!game_)
-    {
-        std::cout << "Need to create game\n";
-        return;
-    }
-    if (game_->isThreadRunning)
-    {
-        std::cout << "Game in proccess can't add a knight\n";
-        return;
-    }
-
-    game_->AddNPC(factories_.GetFactoryByNPCTypeId(NPCId::KnightId)->CreateNPC(xCord, yCord));
-    std::cout << "--Knight included--\n";
-}
-
-void Terminal::IncludePegasus(double xCord, double yCord)
-{
-    if (!game_)
-    {
-        std::cout << "Need to create game\n";
-        return;
-    }
-    if (game_->isThreadRunning)
-    {
-        std::cout << "Game in proccess can't add a pegasus\n";
-        return;
-    }
-
-    game_->AddNPC(factories_.GetFactoryByNPCTypeId(NPCId::PegasusId)->CreateNPC(xCord, yCord));
-    std::cout << "--Pegasus included--\n";
-}
-
-void Terminal::IncludeSquirrel(double xCord, double yCord)
+void Terminal::IncludeNPCByID(NPCId id, double xCord, double yCord)
 {
     if (!game_)
     {
@@ -209,8 +175,8 @@ void Terminal::IncludeSquirrel(double xCord, double yCord)
         return;
     }
 
-    game_->AddNPC(factories_.GetFactoryByNPCTypeId(NPCId::SquirrelId)->CreateNPC(xCord, yCord));
-    std::cout << "--Squirrel included--\n";
+    game_->AddNPC(factories_.GetFactoryByNPCTypeId(id)->CreateNPC(xCord, yCord));
+    std::cout << "--NPC included--\n";
 }
 
 void Terminal::PrintObjects()
@@ -267,19 +233,13 @@ void Terminal::ExportNPCFromFile(std::string filePath)
     double xCord, yCord;
     while (file >> typeId >> xCord >> yCord)
     {
-        switch (typeId) {
-            case 0:
-                IncludeKnight(xCord, yCord);
-                break;
-            case 1:
-                IncludePegasus(xCord, yCord);
-                break;
-            case 2:
-                IncludeSquirrel(xCord, yCord);
-                break;
-            default:
-                std::cerr << "Error: Unknown NPC type ID " << typeId << "\n";
-                break;
+        try
+        {
+            IncludeNPCByID((NPCId)typeId, xCord, yCord);
+        }
+        catch(const std::exception& e)
+        {
+            std::cerr << "Error: Unknown NPC type ID " << typeId << "\n";
         }
     }
 
