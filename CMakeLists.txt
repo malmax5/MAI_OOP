@@ -8,6 +8,10 @@ project(test VERSION 0.1.0 LANGUAGES C CXX)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 set(CMAKE_CXX_STANDARD 20)
 
+set(CMAKE_PREFIX_PATH /home/cbf/Qt/6.8.0/gcc_64)
+
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
+
 include_directories(includes)
 
 add_subdirectory(
@@ -163,11 +167,39 @@ set(
     # test/test_pegasus_factory.cpp
     # test/test_knight_factory.cpp
     # test/test_squirrel_factory.cpp
+
+    graphic_interface/include/mainwindow.hpp
+    graphic_interface/include/gamefield.hpp
+    graphic_interface/include/infodialog.hpp
+    graphic_interface/include/filedialog.hpp
+    graphic_interface/include/coordinatedialog.hpp
+
+    graphic_interface/src/mainwindow.cpp
+    graphic_interface/src/gamefield.cpp
+    graphic_interface/src/infodialog.cpp
+    graphic_interface/src/filedialog.cpp
+    graphic_interface/src/coordinatedialog.cpp
+)
+
+qt6_wrap_cpp(MOC_SOURCES
+    graphic_interface/include/mainwindow.hpp
+    graphic_interface/include/gamefield.hpp
+    graphic_interface/include/infodialog.hpp
+    graphic_interface/include/filedialog.hpp
+    graphic_interface/include/coordinatedialog.hpp
 )
 
 add_executable(
     lab_6_tests
     ${TEST_SOURCES}
+    ${MOC_SOURCES}
+)
+
+target_link_libraries(
+    lab_6_tests
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Widgets
 )
 
 add_custom_target(run_valgrind
@@ -177,6 +209,7 @@ add_custom_target(run_valgrind
 
 target_include_directories(
     lab_6_tests PRIVATE
+    "${CMAKE_CURRENT_BINARY_DIR}"
     "${CMAKE_CURRENT_SOURCE_DIR}/googletest/googletest/include"
 )
 

@@ -564,3 +564,46 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/cbf/Qt/6.8.0/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/cbf/Qt/6.8.0/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/cbf/Qt/6.8.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "/home/cbf/Qt/6.8.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/home/cbf/Qt/6.8.0/gcc_64/lib/cmake/Qt6/Qt6Config.cmake:181 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles/CMakeScratch/TryCompile-5rLhNm"
+      binary: "/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles/CMakeScratch/TryCompile-5rLhNm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++20"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cbf/Qt/6.8.0/gcc_64/lib/cmake/Qt6;/home/cbf/Qt/6.8.0/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/cbf/Qt/6.8.0/gcc_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles/CMakeScratch/TryCompile-5rLhNm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ba83f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ba83f.dir/build.make CMakeFiles/cmTC_ba83f.dir/build
+        gmake[1]: Entering directory '/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles/CMakeScratch/TryCompile-5rLhNm'
+        Building CXX object CMakeFiles/cmTC_ba83f.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -std=c++20  -std=gnu++2a -o CMakeFiles/cmTC_ba83f.dir/src.cxx.o -c /home/cbf/MAI/OOP/Lab_6/build/CMakeFiles/CMakeScratch/TryCompile-5rLhNm/src.cxx
+        Linking CXX executable cmTC_ba83f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba83f.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++20  CMakeFiles/cmTC_ba83f.dir/src.cxx.o -o cmTC_ba83f 
+        gmake[1]: Leaving directory '/home/cbf/MAI/OOP/Lab_6/build/CMakeFiles/CMakeScratch/TryCompile-5rLhNm'
+        
+      exitCode: 0
+...

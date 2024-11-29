@@ -60,7 +60,7 @@ void Game::Update()
                 if (InMaskAttack(npcInGame_[i]->GetTypeId(), npcInGame_[j]->GetTypeId()))
                 {
                     commandsAdd++;
-                    if (AttackCommand::CanAttack(npcInGame_[i], npcInGame_[j]))
+                    if (AttackCommand::CanAttackNow(npcInGame_[i], npcInGame_[j]))
                     {
                         {
                             std::unique_lock<std::mutex> lock(tce::commandQueueMutex);
@@ -90,6 +90,7 @@ void Game::Update()
                     !AttackCommand::CanAttack(npcInGame_[i], npcInGame_[j]) &&
                     MoveCommand::CanMove(npcInGame_[i], npcInGame_[j]))
                 {
+                    std::cout << (!AttackCommand::CanAttack(npcInGame_[i], npcInGame_[j])) << "\n";
                     double newDist = NPCPositionFuncs::DistanceBetNPC(npcInGame_[i], npcInGame_[j]);
                     if (newDist > dist)
                     {

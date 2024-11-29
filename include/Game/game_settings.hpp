@@ -48,9 +48,9 @@ namespace GameSettings {
     {
         .hp = 100.0,
         .armor = 50.0,
-        .speed = 2.0,
+        .speed = 5.0,
         .attackDamage = 10.0,
-        .attackDistance = 2.0,
+        .attackDistance = 30.0,
         .attackReloading = 3
     };
 
@@ -58,9 +58,9 @@ namespace GameSettings {
     {
         .hp = 50.0,
         .armor = 30.0,
-        .speed = 3.0,
+        .speed = 7.0,
         .attackDamage = 5.0,
-        .attackDistance = 2.0,
+        .attackDistance = 30.0,
         .attackReloading = 2
     };
 

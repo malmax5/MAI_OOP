@@ -70,6 +70,8 @@
         "unordered_set": "cpp",
         "any": "cpp",
         "cinttypes": "cpp",
-        "coroutine": "cpp"
+        "coroutine": "cpp",
+        "future": "cpp",
+        "stdfloat": "cpp"
     }
 }

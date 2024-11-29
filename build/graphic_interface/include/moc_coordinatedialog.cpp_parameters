@@ -1,0 +1,4 @@
+-I/home/cbf/MAI/OOP/Lab_6/includes
+-o
+/home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/moc_coordinatedialog.cpp
+/home/cbf/MAI/OOP/Lab_6/graphic_interface/include/coordinatedialog.hpp

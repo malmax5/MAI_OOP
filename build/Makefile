@@ -249,6 +249,246 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+graphic_interface/include/moc_coordinatedialog.o: graphic_interface/include/moc_coordinatedialog.cpp.o
+.PHONY : graphic_interface/include/moc_coordinatedialog.o
+
+# target to build an object file
+graphic_interface/include/moc_coordinatedialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_coordinatedialog.cpp.o
+.PHONY : graphic_interface/include/moc_coordinatedialog.cpp.o
+
+graphic_interface/include/moc_coordinatedialog.i: graphic_interface/include/moc_coordinatedialog.cpp.i
+.PHONY : graphic_interface/include/moc_coordinatedialog.i
+
+# target to preprocess a source file
+graphic_interface/include/moc_coordinatedialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_coordinatedialog.cpp.i
+.PHONY : graphic_interface/include/moc_coordinatedialog.cpp.i
+
+graphic_interface/include/moc_coordinatedialog.s: graphic_interface/include/moc_coordinatedialog.cpp.s
+.PHONY : graphic_interface/include/moc_coordinatedialog.s
+
+# target to generate assembly for a file
+graphic_interface/include/moc_coordinatedialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_coordinatedialog.cpp.s
+.PHONY : graphic_interface/include/moc_coordinatedialog.cpp.s
+
+graphic_interface/include/moc_filedialog.o: graphic_interface/include/moc_filedialog.cpp.o
+.PHONY : graphic_interface/include/moc_filedialog.o
+
+# target to build an object file
+graphic_interface/include/moc_filedialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_filedialog.cpp.o
+.PHONY : graphic_interface/include/moc_filedialog.cpp.o
+
+graphic_interface/include/moc_filedialog.i: graphic_interface/include/moc_filedialog.cpp.i
+.PHONY : graphic_interface/include/moc_filedialog.i
+
+# target to preprocess a source file
+graphic_interface/include/moc_filedialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_filedialog.cpp.i
+.PHONY : graphic_interface/include/moc_filedialog.cpp.i
+
+graphic_interface/include/moc_filedialog.s: graphic_interface/include/moc_filedialog.cpp.s
+.PHONY : graphic_interface/include/moc_filedialog.s
+
+# target to generate assembly for a file
+graphic_interface/include/moc_filedialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_filedialog.cpp.s
+.PHONY : graphic_interface/include/moc_filedialog.cpp.s
+
+graphic_interface/include/moc_gamefield.o: graphic_interface/include/moc_gamefield.cpp.o
+.PHONY : graphic_interface/include/moc_gamefield.o
+
+# target to build an object file
+graphic_interface/include/moc_gamefield.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.o
+.PHONY : graphic_interface/include/moc_gamefield.cpp.o
+
+graphic_interface/include/moc_gamefield.i: graphic_interface/include/moc_gamefield.cpp.i
+.PHONY : graphic_interface/include/moc_gamefield.i
+
+# target to preprocess a source file
+graphic_interface/include/moc_gamefield.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.i
+.PHONY : graphic_interface/include/moc_gamefield.cpp.i
+
+graphic_interface/include/moc_gamefield.s: graphic_interface/include/moc_gamefield.cpp.s
+.PHONY : graphic_interface/include/moc_gamefield.s
+
+# target to generate assembly for a file
+graphic_interface/include/moc_gamefield.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.s
+.PHONY : graphic_interface/include/moc_gamefield.cpp.s
+
+graphic_interface/include/moc_infodialog.o: graphic_interface/include/moc_infodialog.cpp.o
+.PHONY : graphic_interface/include/moc_infodialog.o
+
+# target to build an object file
+graphic_interface/include/moc_infodialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_infodialog.cpp.o
+.PHONY : graphic_interface/include/moc_infodialog.cpp.o
+
+graphic_interface/include/moc_infodialog.i: graphic_interface/include/moc_infodialog.cpp.i
+.PHONY : graphic_interface/include/moc_infodialog.i
+
+# target to preprocess a source file
+graphic_interface/include/moc_infodialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_infodialog.cpp.i
+.PHONY : graphic_interface/include/moc_infodialog.cpp.i
+
+graphic_interface/include/moc_infodialog.s: graphic_interface/include/moc_infodialog.cpp.s
+.PHONY : graphic_interface/include/moc_infodialog.s
+
+# target to generate assembly for a file
+graphic_interface/include/moc_infodialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_infodialog.cpp.s
+.PHONY : graphic_interface/include/moc_infodialog.cpp.s
+
+graphic_interface/include/moc_mainwindow.o: graphic_interface/include/moc_mainwindow.cpp.o
+.PHONY : graphic_interface/include/moc_mainwindow.o
+
+# target to build an object file
+graphic_interface/include/moc_mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.o
+.PHONY : graphic_interface/include/moc_mainwindow.cpp.o
+
+graphic_interface/include/moc_mainwindow.i: graphic_interface/include/moc_mainwindow.cpp.i
+.PHONY : graphic_interface/include/moc_mainwindow.i
+
+# target to preprocess a source file
+graphic_interface/include/moc_mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.i
+.PHONY : graphic_interface/include/moc_mainwindow.cpp.i
+
+graphic_interface/include/moc_mainwindow.s: graphic_interface/include/moc_mainwindow.cpp.s
+.PHONY : graphic_interface/include/moc_mainwindow.s
+
+# target to generate assembly for a file
+graphic_interface/include/moc_mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.s
+.PHONY : graphic_interface/include/moc_mainwindow.cpp.s
+
+graphic_interface/src/coordinatedialog.o: graphic_interface/src/coordinatedialog.cpp.o
+.PHONY : graphic_interface/src/coordinatedialog.o
+
+# target to build an object file
+graphic_interface/src/coordinatedialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/coordinatedialog.cpp.o
+.PHONY : graphic_interface/src/coordinatedialog.cpp.o
+
+graphic_interface/src/coordinatedialog.i: graphic_interface/src/coordinatedialog.cpp.i
+.PHONY : graphic_interface/src/coordinatedialog.i
+
+# target to preprocess a source file
+graphic_interface/src/coordinatedialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/coordinatedialog.cpp.i
+.PHONY : graphic_interface/src/coordinatedialog.cpp.i
+
+graphic_interface/src/coordinatedialog.s: graphic_interface/src/coordinatedialog.cpp.s
+.PHONY : graphic_interface/src/coordinatedialog.s
+
+# target to generate assembly for a file
+graphic_interface/src/coordinatedialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/coordinatedialog.cpp.s
+.PHONY : graphic_interface/src/coordinatedialog.cpp.s
+
+graphic_interface/src/filedialog.o: graphic_interface/src/filedialog.cpp.o
+.PHONY : graphic_interface/src/filedialog.o
+
+# target to build an object file
+graphic_interface/src/filedialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/filedialog.cpp.o
+.PHONY : graphic_interface/src/filedialog.cpp.o
+
+graphic_interface/src/filedialog.i: graphic_interface/src/filedialog.cpp.i
+.PHONY : graphic_interface/src/filedialog.i
+
+# target to preprocess a source file
+graphic_interface/src/filedialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/filedialog.cpp.i
+.PHONY : graphic_interface/src/filedialog.cpp.i
+
+graphic_interface/src/filedialog.s: graphic_interface/src/filedialog.cpp.s
+.PHONY : graphic_interface/src/filedialog.s
+
+# target to generate assembly for a file
+graphic_interface/src/filedialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/filedialog.cpp.s
+.PHONY : graphic_interface/src/filedialog.cpp.s
+
+graphic_interface/src/gamefield.o: graphic_interface/src/gamefield.cpp.o
+.PHONY : graphic_interface/src/gamefield.o
+
+# target to build an object file
+graphic_interface/src/gamefield.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o
+.PHONY : graphic_interface/src/gamefield.cpp.o
+
+graphic_interface/src/gamefield.i: graphic_interface/src/gamefield.cpp.i
+.PHONY : graphic_interface/src/gamefield.i
+
+# target to preprocess a source file
+graphic_interface/src/gamefield.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.i
+.PHONY : graphic_interface/src/gamefield.cpp.i
+
+graphic_interface/src/gamefield.s: graphic_interface/src/gamefield.cpp.s
+.PHONY : graphic_interface/src/gamefield.s
+
+# target to generate assembly for a file
+graphic_interface/src/gamefield.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.s
+.PHONY : graphic_interface/src/gamefield.cpp.s
+
+graphic_interface/src/infodialog.o: graphic_interface/src/infodialog.cpp.o
+.PHONY : graphic_interface/src/infodialog.o
+
+# target to build an object file
+graphic_interface/src/infodialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/infodialog.cpp.o
+.PHONY : graphic_interface/src/infodialog.cpp.o
+
+graphic_interface/src/infodialog.i: graphic_interface/src/infodialog.cpp.i
+.PHONY : graphic_interface/src/infodialog.i
+
+# target to preprocess a source file
+graphic_interface/src/infodialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/infodialog.cpp.i
+.PHONY : graphic_interface/src/infodialog.cpp.i
+
+graphic_interface/src/infodialog.s: graphic_interface/src/infodialog.cpp.s
+.PHONY : graphic_interface/src/infodialog.s
+
+# target to generate assembly for a file
+graphic_interface/src/infodialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/infodialog.cpp.s
+.PHONY : graphic_interface/src/infodialog.cpp.s
+
+graphic_interface/src/mainwindow.o: graphic_interface/src/mainwindow.cpp.o
+.PHONY : graphic_interface/src/mainwindow.o
+
+# target to build an object file
+graphic_interface/src/mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.o
+.PHONY : graphic_interface/src/mainwindow.cpp.o
+
+graphic_interface/src/mainwindow.i: graphic_interface/src/mainwindow.cpp.i
+.PHONY : graphic_interface/src/mainwindow.i
+
+# target to preprocess a source file
+graphic_interface/src/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.i
+.PHONY : graphic_interface/src/mainwindow.cpp.i
+
+graphic_interface/src/mainwindow.s: graphic_interface/src/mainwindow.cpp.s
+.PHONY : graphic_interface/src/mainwindow.s
+
+# target to generate assembly for a file
+graphic_interface/src/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.s
+.PHONY : graphic_interface/src/mainwindow.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -1444,6 +1684,36 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... lab_6_tests"
+	@echo "... graphic_interface/include/moc_coordinatedialog.o"
+	@echo "... graphic_interface/include/moc_coordinatedialog.i"
+	@echo "... graphic_interface/include/moc_coordinatedialog.s"
+	@echo "... graphic_interface/include/moc_filedialog.o"
+	@echo "... graphic_interface/include/moc_filedialog.i"
+	@echo "... graphic_interface/include/moc_filedialog.s"
+	@echo "... graphic_interface/include/moc_gamefield.o"
+	@echo "... graphic_interface/include/moc_gamefield.i"
+	@echo "... graphic_interface/include/moc_gamefield.s"
+	@echo "... graphic_interface/include/moc_infodialog.o"
+	@echo "... graphic_interface/include/moc_infodialog.i"
+	@echo "... graphic_interface/include/moc_infodialog.s"
+	@echo "... graphic_interface/include/moc_mainwindow.o"
+	@echo "... graphic_interface/include/moc_mainwindow.i"
+	@echo "... graphic_interface/include/moc_mainwindow.s"
+	@echo "... graphic_interface/src/coordinatedialog.o"
+	@echo "... graphic_interface/src/coordinatedialog.i"
+	@echo "... graphic_interface/src/coordinatedialog.s"
+	@echo "... graphic_interface/src/filedialog.o"
+	@echo "... graphic_interface/src/filedialog.i"
+	@echo "... graphic_interface/src/filedialog.s"
+	@echo "... graphic_interface/src/gamefield.o"
+	@echo "... graphic_interface/src/gamefield.i"
+	@echo "... graphic_interface/src/gamefield.s"
+	@echo "... graphic_interface/src/infodialog.o"
+	@echo "... graphic_interface/src/infodialog.i"
+	@echo "... graphic_interface/src/infodialog.s"
+	@echo "... graphic_interface/src/mainwindow.o"
+	@echo "... graphic_interface/src/mainwindow.i"
+	@echo "... graphic_interface/src/mainwindow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

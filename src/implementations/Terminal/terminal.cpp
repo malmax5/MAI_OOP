@@ -9,7 +9,7 @@ Terminal::Terminal() : factories_(FactoryRegister::GetInstance()),
                        game_(nullptr)
 {
     std::srand(time(0));
-    TerminalUpdate();
+    // TerminalUpdate();
 }
 
 Terminal::~Terminal()
@@ -20,82 +20,82 @@ Terminal::~Terminal()
     }
 }
 
-void Terminal::TerminalUpdate()
-{
-    //User interaction
-    std::cout << "Print 10 to see a commands\n";
+// void Terminal::TerminalUpdate()
+// {
+//     //User interaction
+//     std::cout << "Print 10 to see a commands\n";
 
-    int command = -1;
-    double xCord, yCord;
-    while(true)
-    {
-        std::cout << "Comand: ";
-        std::cin >> command;
+//     int command = -1;
+//     double xCord, yCord;
+//     while(true)
+//     {
+//         std::cout << "Comand: ";
+//         std::cin >> command;
         
-        if (std::cin.fail())
-        {
-            std::cin.clear();
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            command = 10;
-        }
+//         if (std::cin.fail())
+//         {
+//             std::cin.clear();
+//             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+//             command = 10;
+//         }
 
-        switch (command)
-        {
-        case 0:
-            CreateNewGame();
-            break;
-        case 1:
-            StartGame();
-            break;
-        case 2:
-            StopGame();
-            break;
-        case 3:
-            DeleteThisGame();
-            break;
-        case 4:
-            std::cout << "X: ";
-            std::cin >> xCord;
-            std::cout << "Y: ";
-            std::cin >> yCord;
-            IncludeNPCByID(NPCId::KnightId, xCord, yCord);
-            break;
-        case 5:
-            std::cout << "X: ";
-            std::cin >> xCord;
-            std::cout << "Y: ";
-            std::cin >> yCord;
-            IncludeNPCByID(NPCId::PegasusId, xCord, yCord);
-            break;
-        case 6:
-            std::cout << "X: ";
-            std::cin >> xCord;
-            std::cout << "Y: ";
-            std::cin >> yCord;
-            IncludeNPCByID(NPCId::SquirrelId, xCord, yCord);
-            break;
-        case 7:
-            PrintObjects();
-            break;
-        case 8:
-            ExportNPCFromFile(npcFilePath);
-            break;
-        case 9:
-            LoadNPCToFile(npcFilePath);
-            break;
-        case 10:
-            Help();
-            break;
+//         switch (command)
+//         {
+//         case 0:
+//             CreateNewGame();
+//             break;
+//         case 1:
+//             StartGame();
+//             break;
+//         case 2:
+//             StopGame();
+//             break;
+//         case 3:
+//             DeleteThisGame();
+//             break;
+//         case 4:
+//             std::cout << "X: ";
+//             std::cin >> xCord;
+//             std::cout << "Y: ";
+//             std::cin >> yCord;
+//             IncludeNPCByID(NPCId::KnightId, xCord, yCord);
+//             break;
+//         case 5:
+//             std::cout << "X: ";
+//             std::cin >> xCord;
+//             std::cout << "Y: ";
+//             std::cin >> yCord;
+//             IncludeNPCByID(NPCId::PegasusId, xCord, yCord);
+//             break;
+//         case 6:
+//             std::cout << "X: ";
+//             std::cin >> xCord;
+//             std::cout << "Y: ";
+//             std::cin >> yCord;
+//             IncludeNPCByID(NPCId::SquirrelId, xCord, yCord);
+//             break;
+//         case 7:
+//             PrintObjects();
+//             break;
+//         case 8:
+//             ExportNPCFromFile(npcFilePath);
+//             break;
+//         case 9:
+//             LoadNPCToFile(npcFilePath);
+//             break;
+//         case 10:
+//             Help();
+//             break;
         
-        default:
-            break;
-        }
+//         default:
+//             break;
+//         }
 
-        if(command == 123)
-            break;
+//         if(command == 123)
+//             break;
         
-    }
-}
+//     }
+// }
 
 void Terminal::CreateNewGame()
 {
@@ -162,21 +162,25 @@ void Terminal::DeleteThisGame()
     std::cout << "--Game deleted--\n";
 }
 
-void Terminal::IncludeNPCByID(NPCId id, double xCord, double yCord)
+std::shared_ptr<NPC> Terminal::IncludeNPCByID(NPCId id, double xCord, double yCord)
 {
     if (!game_)
     {
         std::cout << "Need to create game\n";
-        return;
+        return nullptr;
     }
     if (game_->isThreadRunning)
     {
         std::cout << "Game in proccess can't add a squirrel\n";
-        return;
+        return nullptr;
     }
 
-    game_->AddNPC(factories_.GetFactoryByNPCTypeId(id)->CreateNPC(xCord, yCord));
+    std::shared_ptr<NPC> npcToAdd = factories_.GetFactoryByNPCTypeId(id)->CreateNPC(xCord, yCord);
+
+    game_->AddNPC(npcToAdd);
     std::cout << "--NPC included--\n";
+
+    return npcToAdd;
 }
 
 void Terminal::PrintObjects()

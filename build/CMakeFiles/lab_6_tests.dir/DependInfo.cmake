@@ -8,6 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/moc_coordinatedialog.cpp" "CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_coordinatedialog.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_coordinatedialog.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/moc_filedialog.cpp" "CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_filedialog.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_filedialog.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/moc_gamefield.cpp" "CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/moc_infodialog.cpp" "CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_infodialog.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_infodialog.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/moc_mainwindow.cpp" "CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/graphic_interface/src/coordinatedialog.cpp" "CMakeFiles/lab_6_tests.dir/graphic_interface/src/coordinatedialog.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/graphic_interface/src/coordinatedialog.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/graphic_interface/src/filedialog.cpp" "CMakeFiles/lab_6_tests.dir/graphic_interface/src/filedialog.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/graphic_interface/src/filedialog.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/graphic_interface/src/gamefield.cpp" "CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/graphic_interface/src/infodialog.cpp" "CMakeFiles/lab_6_tests.dir/graphic_interface/src/infodialog.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/graphic_interface/src/infodialog.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/graphic_interface/src/mainwindow.cpp" "CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/main.cpp" "CMakeFiles/lab_6_tests.dir/main.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/main.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Base/equip.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp.o.d"

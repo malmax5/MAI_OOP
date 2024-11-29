@@ -13,6 +13,7 @@ public:
     void execute(std::function<void(const std::string&)> Notify) final;
 
 public:
+    static bool CanAttackNow(std::shared_ptr<NPC> npc1, std::shared_ptr<NPC> npc2);
     static bool CanAttack(std::shared_ptr<NPC> npc1, std::shared_ptr<NPC> npc2);
 
 private:

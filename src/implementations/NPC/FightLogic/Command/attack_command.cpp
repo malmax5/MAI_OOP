@@ -15,7 +15,7 @@ void AttackCommand::execute(std::function<void(const std::string&)> Notify)
     }
 }
 
-bool AttackCommand::CanAttack(std::shared_ptr<NPC> attacker, std::shared_ptr<NPC> target)
+bool AttackCommand::CanAttackNow(std::shared_ptr<NPC> attacker, std::shared_ptr<NPC> target)
 {
     if(!std::dynamic_pointer_cast<IAttackable>(attacker))
     {
@@ -24,4 +24,15 @@ bool AttackCommand::CanAttack(std::shared_ptr<NPC> attacker, std::shared_ptr<NPC
     
     double dist =  NPCPositionFuncs::DistanceBetNPC(attacker, target);
     return std::dynamic_pointer_cast<IAttackable>(attacker)->ReadyToAttack() && target->GetHp() > 0 && (std::dynamic_pointer_cast<IAttackable>(attacker)->GetAttackDistance() - dist) >= 0;
+}
+
+bool AttackCommand::CanAttack(std::shared_ptr<NPC> attacker, std::shared_ptr<NPC> target)
+{
+    if(!std::dynamic_pointer_cast<IAttackable>(attacker))
+    {
+        return false;
+    }
+    
+    double dist =  NPCPositionFuncs::DistanceBetNPC(attacker, target);
+    return (std::dynamic_pointer_cast<IAttackable>(attacker)->GetAttackDistance() - dist) >= 0;
 }

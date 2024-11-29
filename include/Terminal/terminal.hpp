@@ -20,7 +20,7 @@ public:
     void StopGame();
     void DeleteThisGame();
 
-    void IncludeNPCByID(NPCId id, double xCord, double yCord);
+    std::shared_ptr<NPC> IncludeNPCByID(NPCId id, double xCord, double yCord);
 
     void LoadNPCToFile(std::string filePath);
     void ExportNPCFromFile(std::string filePath);
@@ -30,7 +30,7 @@ public:
     void Help();
 
 private:
-    void TerminalUpdate();
+    // void TerminalUpdate();
 
     std::shared_ptr<Game> game_;
     FactoryRegister& factories_;
