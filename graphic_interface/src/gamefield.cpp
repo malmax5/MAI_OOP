@@ -7,7 +7,7 @@ GameField::GameField(QWidget *parent)
 {
     colorMap_.insert(NPCId::KnightId, Qt::red);
     colorMap_.insert(NPCId::PegasusId, Qt::green);
-    colorMap_.insert(NPCId::SquirrelId, Qt::yellow);
+    colorMap_.insert(NPCId::SquirrelId, QColor(255, 165, 0));
 
     timer_ = new QTimer(this);
     connect(timer_, &QTimer::timeout, this, &GameField::UpdateNPCs);
