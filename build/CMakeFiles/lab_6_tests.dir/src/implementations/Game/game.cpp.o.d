@@ -242,7 +242,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: \
  /usr/include/c++/10/fstream /usr/include/c++/10/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
- /usr/include/c++/10/bits/fstream.tcc \
+ /usr/include/c++/10/bits/fstream.tcc /usr/include/c++/10/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/cxxabi_tweaks.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Positionable/../NPC/Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \

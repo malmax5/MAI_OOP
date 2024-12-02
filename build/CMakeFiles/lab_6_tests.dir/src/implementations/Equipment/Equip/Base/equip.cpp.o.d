@@ -184,6 +184,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o:
  /usr/include/c++/10/bits/istream.tcc /usr/include/c++/10/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
- /usr/include/c++/10/bits/fstream.tcc \
+ /usr/include/c++/10/bits/fstream.tcc /usr/include/c++/10/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/cxxabi_tweaks.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Base/../../../../../include/Equipment/Equip/Base/../../Material/Base/material.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Base/../../../../../include/Equipment/Equip/Base/../../Material/Base/../../../Game/game_settings.hpp

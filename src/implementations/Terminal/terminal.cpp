@@ -97,11 +97,12 @@ Terminal::~Terminal()
 //     }
 // }
 
-void Terminal::CreateNewGame()
+int Terminal::CreateNewGame()
 {
     if (game_)
     {
         std::cout << "Need to delete last game to start new game\n";
+        return 0;
     }
 
     game_ = std::make_shared<Game>();
@@ -110,15 +111,16 @@ void Terminal::CreateNewGame()
     game_->Notify("!New Session!");
 
     std::cout << "--Game created--\n";
+    return 1;
 }
 
-void Terminal::StartGame()
+int Terminal::StartGame()
 {
     //Preparing before start
     if (!game_)
     {
         std::cout << "Need to create game before start\n";
-        return;
+        return 0;
     }
 
     // game_->Attach(screenLogger);
@@ -126,20 +128,21 @@ void Terminal::StartGame()
     game_->Start();
 
     std::cout << "--Game started--\n";
+    return 1;
 }
 
-void Terminal::StopGame()
+int Terminal::StopGame()
 {
     //Preparing before stopping
     if (!game_)
     {
         std::cout << "Need to create game\n";
-        return;
+        return 0;
     }
     if (!game_->isThreadRunning)
     {
         std::cout << "Need to start game before stopping\n";
-        return;
+        return 0;
     }
 
     game_->shouldStop_.store(true);
@@ -150,14 +153,15 @@ void Terminal::StopGame()
     game_->isThreadRunning = false;
 
     std::cout << "--Game stopped--\n";
+    return 1;
 }
 
-void Terminal::DeleteThisGame()
+int Terminal::DeleteThisGame()
 {
     if (!game_)
     {
         std::cout << "Need to create game before deliting\n";
-        return;
+        return 0;
     }
 
     StopGame();
@@ -165,6 +169,7 @@ void Terminal::DeleteThisGame()
     game_ = nullptr;
 
     std::cout << "--Game deleted--\n";
+    return 1;
 }
 
 std::shared_ptr<NPC> Terminal::IncludeNPCByID(NPCId id, double xCord, double yCord)
@@ -190,7 +195,7 @@ std::shared_ptr<NPC> Terminal::IncludeNPCByID(NPCId id, double xCord, double yCo
     std::shared_ptr<NPC> npcToAdd = factories_.GetFactoryByNPCTypeId(id)->CreateNPC(xCord, yCord);
 
     game_->AddNPC(npcToAdd);
-    std::cout << "--NPC included--\n";
+    std::cout << "--" << npcToAdd->GetClassName() << " included--\n";
 
     return npcToAdd;
 }
@@ -206,19 +211,19 @@ void Terminal::PrintObjects()
     game_->PrintNPC();
 }
 
-void Terminal::LoadNPCToFile(std::string filePath)
+int Terminal::LoadNPCToFile(std::string filePath)
 {
     if (!game_)
     {
         std::cout << "Need to create game\n";
-        return;
+        return 0;
     }
 
     std::ofstream file(filePath, std::ofstream::out | std::ofstream::trunc);
     if (!file.is_open())
     {
         std::cerr << "Error: Unable to open file " << filePath << "\n";
-        return;
+        return 0;
     }
 
     for (const auto& npc : game_->npcInGame_)
@@ -228,21 +233,22 @@ void Terminal::LoadNPCToFile(std::string filePath)
 
     file.close();
     std::cout << "--Exported--\n";
+    return 1;
 }
 
-void Terminal::ExportNPCFromFile(std::string filePath)
+int Terminal::ExportNPCFromFile(std::string filePath)
 {
     if (!game_)
     {
         std::cout << "Need to create game\n";
-        return;
+        return 0;
     }
 
     std::ifstream file(filePath);
     if (!file.is_open())
     {
-        std::cerr << "Error: Unable to open file " << filePath << "\n";
-        return;
+        std::cout << "Error: Unable to open file " << filePath << "\n";
+        return 0;
     }
 
     int typeId;
@@ -255,12 +261,13 @@ void Terminal::ExportNPCFromFile(std::string filePath)
         }
         catch(const std::exception& e)
         {
-            std::cerr << "Error: Unknown NPC type ID " << typeId << "\n";
+            std::cout << "Error: Unknown NPC type ID " << typeId << "\n";
         }
     }
 
     file.close();
     std::cout << "--Loaded--\n";
+    return 1;
 }
 
 void Terminal::Help()

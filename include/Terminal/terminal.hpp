@@ -21,15 +21,15 @@ public:
     Terminal& operator= (Terminal& game) = delete;
     Terminal& operator= (Terminal&& game) noexcept = delete;
 
-    void CreateNewGame();
-    void StartGame();
-    void StopGame();
-    void DeleteThisGame();
+    int CreateNewGame();
+    int StartGame();
+    int StopGame();
+    int DeleteThisGame();
 
     std::shared_ptr<NPC> IncludeNPCByID(NPCId id, double xCord, double yCord);
 
-    void LoadNPCToFile(std::string filePath);
-    void ExportNPCFromFile(std::string filePath);
+    int LoadNPCToFile(std::string filePath);
+    int ExportNPCFromFile(std::string filePath);
 
     void PrintObjects();
 

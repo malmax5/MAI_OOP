@@ -22,6 +22,11 @@ void Squirrel::Attack(std::shared_ptr<NPC> target)
     Reload();
 }
 
+std::string Squirrel::GetClassName()
+{
+    return demangle(typeid(*this).name());
+}
+
 // void Squirrel::Reload()
 // {
 //     reloadedTime = Time::GetLastIterTime() + std::chrono::seconds(SquirrelStat.attackReloading);

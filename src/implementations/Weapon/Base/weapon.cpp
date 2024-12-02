@@ -20,6 +20,11 @@ WeaponId Weapon::GetWeaponId()
     return id_;
 }
 
+std::string Weapon::GetWeaponName()
+{
+    return name_;
+}
+
 void Weapon::SetAttackDamage(double attackDamage)
 {
     attackDamage_ = attackDamage;
@@ -38,4 +43,9 @@ void Weapon::SetReloadingTime(float reloadingTime)
 void Weapon::SetWeaponId(WeaponId id)
 {
     id_ = id;
+}
+
+void Weapon::SetWeaponName(std::string name)
+{
+    name_ = name;
 }

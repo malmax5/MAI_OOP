@@ -8,6 +8,7 @@ public:
     Squirrel();
     ~Squirrel();
     void AcceptVisitor(std::shared_ptr<Visitor> visitor) final;
+    std::string GetClassName() final;
 
     void Attack(std::shared_ptr<NPC> target) override;
     // void Reload() final;

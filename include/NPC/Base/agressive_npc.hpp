@@ -12,14 +12,16 @@ class AgressiveNPC : public NPC, public IAttackable
 
 public:
     virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor) override = 0;
+    virtual std::string GetClassName() override = 0;
     virtual void Attack(std::shared_ptr<NPC> target) override = 0;
 
+    std::string GetWeaponName();
+    WeaponId GetWeaponId();
     double GetAttackDistance() const override;
     double GetAttackDamage() const override;
     bool ReadyToAttack() const override;
     void Reload() override;
     void SwitchReadyToAttackInFalse() override;
-    GameSettings::WeaponId GetWeaponId();
 
 protected:
     void SetWeapon(std::shared_ptr<Weapon> weapon);

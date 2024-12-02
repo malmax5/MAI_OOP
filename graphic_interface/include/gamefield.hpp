@@ -2,6 +2,8 @@
 
 #include <QWidget>
 #include <QTimer>
+#include <QToolTip>
+#include <QLineF>
 #include "../../include/Game/game_settings.hpp"
 #include "../../include/NPC/Base/npc.hpp"
 #include "../../include/NPC/Base/agressive_npc.hpp"
@@ -21,6 +23,12 @@ public:
 
 protected:
     void paintEvent(QPaintEvent *event) override;
+    void mouseMoveEvent(QMouseEvent* event) override;
+
+    QPointF NpcToScreenCoords(double x, double y) const;
+    QPointF ScreenToNpcCoords(double screenX, double screenY) const;
+    std::shared_ptr<NPC> FindClosestNPC(const QPointF& mousePos, double threshold) const;
+    QString GetNPCName(NPCId id);
 
 public slots:
     void AddKnightPoint(std::shared_ptr<NPC> knight, double x, double y);

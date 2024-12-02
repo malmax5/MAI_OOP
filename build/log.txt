@@ -222,3 +222,8517 @@ End Game
 NPC after end:
 
 ----------------------------------
+!New Session!
+!New Session!
+!New Session!
+----------------------------------
+
+NPC before start:
+
+Start Game
+!New Session!
+----------------------------------
+
+NPC before start:
+
+Start Game
+End Game
+
+NPC after end:
+
+----------------------------------
+----------------------------------
+
+NPC before start:
+
+Start Game
+End Game
+
+NPC after end:
+
+----------------------------------
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+!New Session!
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 1
+   Hp: 50
+   Position X: 2
+   Position Y: 2
+In Game Knight:
+   TypeId: 0
+   CurrentId: 2
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 3
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 4
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 5
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 6
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 7
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 8
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 9
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 10
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 11
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 12
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 13
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 14
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 15
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 16
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 17
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 18
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 19
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 20
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 21
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 22
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 23
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 24
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 25
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 26
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 27
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 28
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 29
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 30
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 31
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 32
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 33
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 34
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 35
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 36
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 37
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 38
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 39
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 40
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 41
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 42
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 43
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 44
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 45
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 46
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 47
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 48
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 49
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 50
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 51
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 52
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 53
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 54
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 55
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 56
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 57
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 58
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 59
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 60
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 61
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 62
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 63
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 64
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 65
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 66
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 67
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 68
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 69
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 70
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 71
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 72
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 73
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 74
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 75
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 76
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 77
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 78
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 79
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 80
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 81
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 82
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 83
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 84
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 85
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 86
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 87
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 88
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 89
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 90
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 91
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 92
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 93
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 94
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 95
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 96
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 97
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 98
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 99
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 100
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 101
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 102
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 103
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 104
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 105
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 106
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 107
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 108
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 109
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 110
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 111
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 112
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 113
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 114
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 115
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 116
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 117
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 118
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 119
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 120
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 121
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 122
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 123
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 124
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 125
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 126
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 127
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 128
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 129
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 130
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 131
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 132
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 133
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 134
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 135
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 136
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 137
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 138
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 139
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 140
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 141
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 142
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 143
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 144
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 145
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 146
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 147
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 148
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 149
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 150
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 151
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 152
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 153
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 154
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 155
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 156
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 157
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 158
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 159
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 160
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 161
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 162
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 163
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 164
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 165
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 166
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 167
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 168
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 169
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 170
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 171
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 172
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 173
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 174
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 175
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 176
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 177
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 178
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 179
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 180
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 181
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 182
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 183
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 184
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 185
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 186
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 187
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 188
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 189
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 190
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 191
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 192
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 193
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 194
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 195
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 196
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 197
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 198
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 199
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 200
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 201
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 202
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 203
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 204
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 205
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 206
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 207
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 208
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 209
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 210
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 211
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 212
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 213
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 214
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 215
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 216
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 217
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 218
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 219
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 220
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 221
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 222
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 223
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 224
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 225
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 226
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 227
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 228
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 229
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 230
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 231
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 232
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 233
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 234
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 235
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 236
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 237
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 238
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 239
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 240
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 241
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 242
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 243
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 244
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 245
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 246
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 247
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 248
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 249
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 250
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 251
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 252
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 253
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 254
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 255
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 256
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 257
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 258
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 259
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 260
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 261
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 262
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 263
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 264
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 265
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 266
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 267
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 268
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 269
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 270
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 271
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 272
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 273
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 274
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 275
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 276
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 277
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 278
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 279
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 280
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 281
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 282
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 283
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 284
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 285
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 286
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 287
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 288
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 289
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 290
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 291
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 292
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 293
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 294
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 295
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 296
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 297
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 298
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 299
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 300
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 301
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 302
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 303
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 304
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 305
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 306
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 307
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 308
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 309
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 310
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 311
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 312
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 313
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 314
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 315
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 316
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 317
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 318
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 319
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 320
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 321
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 322
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 323
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 324
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 325
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 326
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 327
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 328
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 329
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 330
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 331
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 332
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 333
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 334
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 335
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 336
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 337
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 338
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 339
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 340
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 341
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 342
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 343
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 344
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 345
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 346
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 347
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 348
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 349
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 350
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 351
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 352
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 353
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 354
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 355
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 356
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 357
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 358
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 359
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 360
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 361
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 362
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 363
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 364
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 365
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 366
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 367
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 368
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 369
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 370
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 371
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 372
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 373
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 374
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 375
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 376
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 377
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 378
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 379
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 380
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 381
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 382
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 383
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 384
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 385
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 386
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 387
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 388
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 389
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 390
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 391
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 392
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 393
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 394
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 395
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 396
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 397
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 398
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 399
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 400
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 401
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 402
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 403
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 404
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 405
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 406
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 407
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 408
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 409
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 410
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 411
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 412
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 413
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 414
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 415
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 416
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 417
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 418
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 419
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 420
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 421
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 422
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 423
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 424
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 425
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 426
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 427
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 428
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 429
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 430
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 431
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 432
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 433
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 434
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 435
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 436
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 437
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 438
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 439
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 440
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 441
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 442
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 443
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 444
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 445
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 446
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 447
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 448
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 449
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 450
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 451
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 452
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 453
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 454
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 455
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 456
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 457
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 458
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 459
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 460
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 461
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 462
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 463
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 464
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 465
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 466
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 467
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 468
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 469
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 470
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 471
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 472
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 473
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 474
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 475
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 476
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 477
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 478
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 479
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 480
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 481
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 482
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 483
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 484
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 485
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 486
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 487
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 488
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 489
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 490
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 491
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 492
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 493
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 494
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 495
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 496
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 497
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 498
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 499
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 500
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 501
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 502
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 503
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 504
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 505
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 506
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 507
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 508
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 509
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 510
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 511
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 512
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 513
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 514
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 515
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 516
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 517
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 518
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 519
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 520
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 521
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 522
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 523
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 524
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 525
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 526
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 527
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 528
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 529
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 530
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 531
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 532
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 533
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 534
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 535
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 536
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 537
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 538
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 539
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 540
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 541
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 542
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 543
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 544
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 545
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 546
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 547
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 548
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 549
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 550
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 551
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 552
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 553
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 554
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 555
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 556
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 557
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 558
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 559
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 560
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 561
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 562
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 563
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 564
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 565
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 566
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 567
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 568
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 569
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 570
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 571
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 572
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 573
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 574
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 575
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 576
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 577
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 578
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 579
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 580
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 581
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 582
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 583
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 584
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 585
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 586
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 587
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 588
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 589
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 590
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 591
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 592
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 593
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 594
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 595
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 596
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 597
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 598
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 599
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 600
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 601
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 602
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 603
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 604
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 605
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 606
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 607
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 608
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 609
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 610
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 611
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 612
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 613
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 614
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 615
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 616
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 617
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 618
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 619
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 620
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 621
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 622
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 623
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 624
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 625
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 626
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 627
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 628
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 629
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 630
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 631
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 632
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 633
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 634
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 635
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 636
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 637
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 638
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 639
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 640
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 641
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 642
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 643
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 644
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 645
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 646
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 647
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 648
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 649
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 650
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 651
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 652
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 653
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 654
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 655
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 656
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 657
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 658
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 659
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 660
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 661
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 662
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 663
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 664
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 665
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 666
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 667
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 668
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 669
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 670
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 671
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+
+Start Game
+2 attacked a 1
+4 attacked a 1
+5 attacked a 1
+6 attacked a 1
+7 attacked a 1
+8 attacked a 1
+9 attacked a 1
+10 attacked a 1
+11 attacked a 1
+12 attacked a 1
+14 attacked a 1
+NPC with id: 1 Killed
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+In Game Knight:
+   TypeId: 0
+   CurrentId: 2
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 3
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 4
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 5
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 6
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 7
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 8
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 9
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 10
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 11
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 12
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 13
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 14
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 15
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 16
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 17
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 18
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 19
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 20
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 21
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 22
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 23
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 24
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 25
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 26
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 27
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 28
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 29
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 30
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 31
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 32
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 33
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 34
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 35
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 36
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 37
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 38
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 39
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 40
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 41
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 42
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 43
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 44
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 45
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 46
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 47
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 48
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 49
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 50
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 51
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 52
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 53
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 54
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 55
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 56
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 57
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 58
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 59
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 60
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 61
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 62
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 63
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 64
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 65
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 66
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 67
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 68
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 69
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 70
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 71
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 72
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 73
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 74
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 75
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 76
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 77
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 78
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 79
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 80
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 81
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 82
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 83
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 84
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 85
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 86
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 87
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 88
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 89
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 90
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 91
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 92
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 93
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 94
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 95
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 96
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 97
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 98
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 99
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 100
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 101
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 102
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 103
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 104
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 105
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 106
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 107
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 108
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 109
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 110
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 111
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 112
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 113
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 114
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 115
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 116
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 117
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 118
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 119
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 120
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 121
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 122
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 123
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 124
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 125
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 126
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 127
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 128
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 129
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 130
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 131
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 132
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 133
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 134
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 135
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 136
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 137
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 138
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 139
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 140
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 141
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 142
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 143
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 144
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 145
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 146
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 147
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 148
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 149
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 150
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 151
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 152
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 153
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 154
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 155
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 156
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 157
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 158
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 159
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 160
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 161
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 162
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 163
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 164
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 165
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 166
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 167
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 168
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 169
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 170
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 171
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 172
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 173
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 174
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 175
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 176
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 177
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 178
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 179
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 180
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 181
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 182
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 183
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 184
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 185
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 186
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 187
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 188
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 189
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 190
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 191
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 192
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 193
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 194
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 195
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 196
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 197
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 198
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 199
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 200
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 201
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 202
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 203
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 204
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 205
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 206
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 207
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 208
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 209
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 210
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 211
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 212
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 213
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 214
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 215
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 216
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 217
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 218
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 219
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 220
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 221
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 222
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 223
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 224
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 225
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 226
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 227
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 228
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 229
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 230
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 231
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 232
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 233
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 234
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 235
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 236
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 237
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 238
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 239
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 240
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 241
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 242
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 243
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 244
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 245
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 246
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 247
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 248
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 249
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 250
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 251
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 252
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 253
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 254
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 255
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 256
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 257
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 258
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 259
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 260
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 261
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 262
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 263
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 264
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 265
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 266
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 267
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 268
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 269
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 270
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 271
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 272
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 273
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 274
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 275
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 276
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 277
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 278
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 279
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 280
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 281
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 282
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 283
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 284
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 285
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 286
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 287
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 288
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 289
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 290
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 291
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 292
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 293
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 294
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 295
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 296
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 297
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 298
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 299
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 300
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 301
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 302
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 303
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 304
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 305
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 306
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 307
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 308
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 309
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 310
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 311
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 312
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 313
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 314
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 315
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 316
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 317
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 318
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 319
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 320
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 321
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 322
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 323
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 324
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 325
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 326
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 327
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 328
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 329
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 330
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 331
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 332
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 333
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 334
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 335
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 336
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 337
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 338
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 339
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 340
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 341
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 342
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 343
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 344
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 345
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 346
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 347
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 348
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 349
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 350
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 351
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 352
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 353
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 354
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 355
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 356
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 357
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 358
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 359
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 360
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 361
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 362
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 363
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 364
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 365
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 366
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 367
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 368
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 369
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 370
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 371
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 372
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 373
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 374
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 375
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 376
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 377
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 378
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 379
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 380
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 381
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 382
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 383
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 384
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 385
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 386
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 387
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 388
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 389
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 390
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 391
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 392
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 393
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 394
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 395
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 396
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 397
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 398
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 399
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 400
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 401
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 402
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 403
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 404
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 405
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 406
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 407
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 408
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 409
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 410
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 411
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 412
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 413
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 414
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 415
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 416
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 417
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 418
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 419
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 420
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 421
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 422
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 423
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 424
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 425
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 426
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 427
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 428
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 429
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 430
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 431
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 432
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 433
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 434
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 435
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 436
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 437
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 438
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 439
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 440
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 441
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 442
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 443
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 444
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 445
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 446
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 447
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 448
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 449
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 450
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 451
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 452
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 453
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 454
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 455
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 456
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 457
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 458
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 459
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 460
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 461
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 462
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 463
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 464
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 465
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 466
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 467
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 468
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 469
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 470
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 471
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 472
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 473
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 474
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 475
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 476
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 477
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 478
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 479
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 480
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 481
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 482
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 483
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 484
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 485
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 486
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 487
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 488
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 489
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 490
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 491
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 492
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 493
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 494
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 495
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 496
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 497
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 498
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 499
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 500
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 501
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 502
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 503
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 504
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 505
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 506
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 507
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 508
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 509
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 510
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 511
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 512
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 513
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 514
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 515
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 516
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 517
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 518
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 519
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 520
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 521
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 522
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 523
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 524
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 525
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 526
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 527
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 528
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 529
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 530
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 531
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 532
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 533
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 534
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 535
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 536
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 537
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 538
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 539
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 540
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 541
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 542
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 543
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 544
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 545
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 546
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 547
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 548
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 549
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 550
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 551
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 552
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 553
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 554
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 555
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 556
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 557
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 558
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 559
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 560
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 561
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 562
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 563
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 564
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 565
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 566
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 567
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 568
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 569
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 570
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 571
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 572
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 573
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 574
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 575
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 576
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 577
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 578
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 579
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 580
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 581
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 582
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 583
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 584
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 585
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 586
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 587
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 588
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 589
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 590
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 591
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 592
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 593
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 594
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 595
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 596
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 597
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 598
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 599
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 600
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 601
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 602
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 603
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 604
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 605
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 606
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 607
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 608
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 609
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 610
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 611
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 612
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 613
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 614
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 615
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 616
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 617
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 618
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 619
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 620
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 621
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 622
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 623
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 624
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 625
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 626
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 627
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 628
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 629
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 630
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 631
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 632
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 633
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 634
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 635
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 636
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 637
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 638
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 639
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 640
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 641
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 642
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 643
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 644
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 645
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 646
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 647
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 648
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 649
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 650
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 651
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 652
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 653
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 654
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 655
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 656
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 657
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 658
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 659
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 660
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 661
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 662
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 663
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 664
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 665
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 666
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 667
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 668
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 669
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 670
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 671
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 1
+   Hp: 50
+   Position X: 100
+   Position Y: 100
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 25.5201
+   Position Y: 25.5101
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 1
+   Hp: 50
+   Position X: 100
+   Position Y: 100
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 1
+   Hp: 50
+   Position X: 100
+   Position Y: 100
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 74.8252
+   Position Y: 74.8058
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 1
+   Hp: 50
+   Position X: 100
+   Position Y: 100
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 1
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 1
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 1
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+In Game Knight:
+   TypeId: 0
+   CurrentId: 2
+   Hp: 100
+   Position X: 10
+   Position Y: 10
+In Game Knight:
+   TypeId: 0
+   CurrentId: 3
+   Hp: 100
+   Position X: 20
+   Position Y: 20
+In Game Knight:
+   TypeId: 0
+   CurrentId: 4
+   Hp: 100
+   Position X: 30
+   Position Y: 30
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 1
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+In Game Knight:
+   TypeId: 0
+   CurrentId: 2
+   Hp: 100
+   Position X: 10
+   Position Y: 10
+In Game Knight:
+   TypeId: 0
+   CurrentId: 3
+   Hp: 100
+   Position X: 20
+   Position Y: 20
+In Game Knight:
+   TypeId: 0
+   CurrentId: 4
+   Hp: 100
+   Position X: 30
+   Position Y: 30
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Pegasus:
+   TypeId: 1
+   CurrentId: 0
+   Hp: 20
+   Position X: 0
+   Position Y: 0
+
+Start Game
+End Game
+
+NPC after end:
+In Game Pegasus:
+   TypeId: 1
+   CurrentId: 0
+   Hp: 20
+   Position X: 0
+   Position Y: 0
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Pegasus:
+   TypeId: 1
+   CurrentId: 0
+   Hp: 20
+   Position X: 0
+   Position Y: 0
+
+Start Game
+End Game
+
+NPC after end:
+In Game Pegasus:
+   TypeId: 1
+   CurrentId: 0
+   Hp: 20
+   Position X: 0
+   Position Y: 0
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+!New Session!

@@ -450,6 +450,10 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QTimer \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qtimer.h \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qbasictimer.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QToolTip \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qtooltip.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QLineF \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qline.h \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/NPC/Base/npc.hpp \
  /usr/include/c++/10/coroutine /usr/include/c++/10/thread \
@@ -464,7 +468,8 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
  /usr/include/c++/10/fstream \
  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
- /usr/include/c++/10/bits/fstream.tcc \
+ /usr/include/c++/10/bits/fstream.tcc /usr/include/c++/10/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/cxxabi_tweaks.h \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/NPC/Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \

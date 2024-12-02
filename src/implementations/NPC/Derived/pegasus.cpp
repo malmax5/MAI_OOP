@@ -15,3 +15,8 @@ void Pegasus::AcceptVisitor(std::shared_ptr<Visitor> visitor)
 {
     visitor->Visit(this);
 }
+
+std::string Pegasus::GetClassName()
+{
+    return demangle(typeid(*this).name());
+}

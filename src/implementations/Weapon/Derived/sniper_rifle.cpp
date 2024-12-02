@@ -3,6 +3,7 @@
 SniperRifle::SniperRifle()
 {
     LogCreate();
+    SetWeaponName(demangle(typeid(*this).name()));
     SetWeaponId(WeaponId::SniperRifleId);
     SetAttackDamage(SniperRifleStat.attackDamege);
     SetAttackDistance(SniperRifleStat.attackDistance);

@@ -36,6 +36,7 @@ public:
     virtual void GetDamage(double damage);
 
     virtual void AcceptVisitor(std::shared_ptr<Visitor> visitor) = 0;
+    virtual std::string GetClassName() = 0;
 
 protected:
     virtual void SetTypeId(NPCId typeId);

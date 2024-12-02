@@ -3,6 +3,7 @@
 AutomaticRifle::AutomaticRifle()
 {
     LogCreate();
+    SetWeaponName(demangle(typeid(*this).name()));
     SetWeaponId(WeaponId::AutomaticRifleId);
     SetAttackDamage(AutomaticRifleStat.attackDamege);
     SetAttackDistance(AutomaticRifleStat.attackDistance);

@@ -164,4 +164,28 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/pistol.cpp.o: \
  /usr/include/c++/10/bits/istream.tcc /usr/include/c++/10/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
- /usr/include/c++/10/bits/fstream.tcc
+ /usr/include/c++/10/bits/fstream.tcc /usr/include/c++/10/memory \
+ /usr/include/c++/10/bits/stl_uninitialized.h \
+ /usr/include/c++/10/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/10/bits/ranges_uninitialized.h \
+ /usr/include/c++/10/bits/ranges_algobase.h /usr/include/c++/10/iterator \
+ /usr/include/c++/10/bits/stream_iterator.h /usr/include/c++/10/ranges \
+ /usr/include/c++/10/bits/refwrap.h /usr/include/c++/10/bits/invoke.h \
+ /usr/include/c++/10/optional /usr/include/c++/10/utility \
+ /usr/include/c++/10/bits/stl_relops.h \
+ /usr/include/c++/10/bits/enable_special_members.h \
+ /usr/include/c++/10/tuple /usr/include/c++/10/array \
+ /usr/include/c++/10/bits/uses_allocator.h \
+ /usr/include/c++/10/ext/concurrence.h \
+ /usr/include/c++/10/bits/unique_ptr.h \
+ /usr/include/c++/10/bits/shared_ptr.h \
+ /usr/include/c++/10/bits/shared_ptr_base.h \
+ /usr/include/c++/10/bits/allocated_ptr.h \
+ /usr/include/c++/10/ext/aligned_buffer.h \
+ /usr/include/c++/10/bits/shared_ptr_atomic.h \
+ /usr/include/c++/10/bits/atomic_base.h \
+ /usr/include/c++/10/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
+ /usr/include/c++/10/pstl/glue_memory_defs.h \
+ /usr/include/c++/10/pstl/execution_defs.h /usr/include/c++/10/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/cxxabi_tweaks.h

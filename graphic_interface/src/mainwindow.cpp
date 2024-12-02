@@ -119,7 +119,15 @@ MainWindow::MainWindow(QWidget *parent)
 
 void MainWindow::OnCreateGame()
 {
-    terminal_->CreateNewGame();
+    if(terminal_->CreateNewGame())
+    {
+        QMessageBox::information(this, "Information", "New game created successfully.");
+    }
+    else
+    {
+        QMessageBox::information(this, "Information", "New game doesn't created.");
+    }
+
     createGameBtn_->setEnabled(false);
     startGameBtn_->setEnabled(true);
     includeKnightBtn_->setEnabled(true);
@@ -136,7 +144,11 @@ MainWindow::~MainWindow()
 
 void MainWindow::OnStartGame()
 {
-    terminal_->StartGame();
+    if(!terminal_->StartGame())
+    {
+        QMessageBox::information(this, "Information", "Can't start the game.");
+    }
+
     stackedWidget_->setCurrentIndex(1);
     createGameBtn_->setEnabled(false);
     deleteGameBtn_->setEnabled(false);
@@ -145,7 +157,11 @@ void MainWindow::OnStartGame()
 
 void MainWindow::OnStopGame()
 {
-    terminal_->StopGame();
+    if(!terminal_->StopGame())
+    {
+        QMessageBox::information(this, "Information", "Can't stop the game.");
+    }
+
     stackedWidget_->setCurrentIndex(0);
     createGameBtn_->setEnabled(true);
     deleteGameBtn_->setEnabled(true);
@@ -154,7 +170,15 @@ void MainWindow::OnStopGame()
 
 void MainWindow::OnDeleteGame()
 {
-    terminal_->DeleteThisGame();
+    if(terminal_->DeleteThisGame())
+    {
+        QMessageBox::information(this, "Information", "Game deleted successfully.");
+    }
+    else
+    {
+        QMessageBox::information(this, "Information", "Game doesn't deleted.");
+    }
+
     gameField_->ClearNPC();
     createGameBtn_->setEnabled(true);
     startGameBtn_->setEnabled(false);
@@ -173,7 +197,13 @@ void MainWindow::OnIncludeKnight()
         double y = dialog.GetY();
         std::shared_ptr<NPC> knight = terminal_->IncludeNPCByID(NPCId::KnightId, x, y);
         if (knight)
+        {
             emit KnightAdded(knight, x, y);
+        }
+        else
+        {
+            QMessageBox::warning(this, "Warning", "Failed to add Knight.");
+        }
     }
 }
 
@@ -186,7 +216,13 @@ void MainWindow::OnIncludePegasus()
         double y = dialog.GetY();
         std::shared_ptr<NPC> pegasus = terminal_->IncludeNPCByID(NPCId::PegasusId, x, y);
         if (pegasus)
+        {
             emit PegasusAdded(pegasus, x, y);
+        }
+        else
+        {
+            QMessageBox::warning(this, "Warning", "Failed to add Pegasus.");
+        }
     }
 }
 
@@ -199,18 +235,27 @@ void MainWindow::OnIncludeSquirrel()
         double y = dialog.GetY();
         std::shared_ptr<NPC> squirrel = terminal_->IncludeNPCByID(NPCId::SquirrelId, x, y);
         if (squirrel)
+        {
             emit SquirrelAdded(squirrel, x, y);
+        }
+        else
+        {
+            QMessageBox::warning(this, "Warning", "Failed to add Squirrel.");
+        }
     }
 }
 
 void MainWindow::OnLoadNPCToFile()
 {
-    QString filePath = QFileDialog::getOpenFileName(this, "Load NPCs from file");
+    QString filePath = QFileDialog::getOpenFileName(this, "Export NPCs to file");
     if (!filePath.isEmpty()) 
     {
         try 
         {
-            terminal_->LoadNPCToFile(filePath.toStdString());
+            if(!terminal_->LoadNPCToFile(filePath.toStdString()))
+            {
+                QMessageBox::warning(this, "Warning", "Can't to export npc in this file.");
+            }
         }
         catch (const std::exception& e)
         {
@@ -221,7 +266,7 @@ void MainWindow::OnLoadNPCToFile()
 
 void MainWindow::OnExportNPCFromFile()
 {
-    QString filePath = QFileDialog::getSaveFileName(this, "Export NPCs to file");
+    QString filePath = QFileDialog::getSaveFileName(this, "Load NPCs from file");
     if (!filePath.isEmpty())
     {
         QFile file(filePath);
@@ -231,6 +276,8 @@ void MainWindow::OnExportNPCFromFile()
             return;
         }
 
+        QString errorMsg;
+        int lineNumber = 1;
         QTextStream in(&file);
         while (!in.atEnd())
         {
@@ -243,6 +290,7 @@ void MainWindow::OnExportNPCFromFile()
                 double y = parts[2].toDouble();
 
                 std::shared_ptr<NPC> npc = terminal_->IncludeNPCByID(id, x, y);
+
                 if (npc)
                 {
                     switch (id)
@@ -260,10 +308,27 @@ void MainWindow::OnExportNPCFromFile()
                         break;
                     }
                 }
+                else
+                {
+                    errorMsg += "Failed to include NPC on line " + QString::number(lineNumber) + ".\n";
+                }
             }
+            else
+            {
+                errorMsg += "Invalid format on line " + QString::number(lineNumber) + ".\n";
+            }
+            lineNumber++;
         }
-
         file.close();
+
+        if (!errorMsg.isEmpty())
+        {
+            QMessageBox::warning(this, "Warnings", errorMsg);
+        }
+    }
+    else
+    {
+        QMessageBox::warning(this, "Warning", "Empty file.");
     }
 }
 

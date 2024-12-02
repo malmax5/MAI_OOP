@@ -3,6 +3,7 @@
 MachineGun::MachineGun()
 {
     LogCreate();
+    SetWeaponName(demangle(typeid(*this).name()));
     SetWeaponId(WeaponId::MachineGunId);
     SetAttackDamage(MachineGunStat.attackDamege);
     SetAttackDistance(MachineGunStat.attackDistance);

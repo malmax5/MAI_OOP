@@ -22,6 +22,11 @@ void Knight::Attack(std::shared_ptr<NPC> target)
     Reload();
 }
 
+std::string Knight::GetClassName()
+{
+    return demangle(typeid(*this).name());
+}
+
 // void Knight::Reload()
 // {
 //     reloadedTime = Time::GetLastIterTime() + std::chrono::seconds(KnightStat.attackReloading);

@@ -30,7 +30,12 @@ void AgressiveNPC::SwitchReadyToAttackInFalse()
     readyToAttack_ = false;
 }
 
-GameSettings::WeaponId AgressiveNPC::GetWeaponId()
+std::string AgressiveNPC::GetWeaponName()
+{
+    return weapon_->GetWeaponName();
+}
+
+WeaponId AgressiveNPC::GetWeaponId()
 {
     return weapon_->GetWeaponId();
 }

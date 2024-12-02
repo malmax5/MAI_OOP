@@ -182,7 +182,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o: \
  /usr/include/c++/10/bits/istream.tcc /usr/include/c++/10/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
- /usr/include/c++/10/bits/fstream.tcc \
+ /usr/include/c++/10/bits/fstream.tcc /usr/include/c++/10/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/cxxabi_tweaks.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/../../../include/Weapon/Derived/automatic_rifle.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/../../../include/Weapon/Derived/katana.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/../../../include/Weapon/Derived/knife.hpp \
