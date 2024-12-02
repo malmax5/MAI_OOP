@@ -944,6 +944,9 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.o: graphi
   /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/gamefield.hpp \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QTimer \
@@ -1401,7 +1404,9 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.o: graphi
   /usr/lib/gcc/x86_64-linux-gnu/10/include/syslimits.h
 
 CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_infodialog.cpp.o: graphic_interface/include/moc_infodialog.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/infodialog.hpp \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QMap \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20functional.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20iterator.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20memory.h \
@@ -1525,6 +1530,8 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_infodialog.cpp.o: graph
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qversiontagging.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qxptype_traits.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qyieldcpu.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QColor \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QPainter \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qaction.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qbitmap.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qbrush.h \
@@ -1537,7 +1544,9 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_infodialog.cpp.o: graph
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qimage.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qkeysequence.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpainter.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpalette.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpen.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpicture.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpixelformat.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpixmap.h \
@@ -1546,6 +1555,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_infodialog.cpp.o: graph
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qrgb.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qrgba64.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtextdocument.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtextoption.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtgui-config.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtguiexports.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtguiglobal.h \
@@ -1554,6 +1564,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_infodialog.cpp.o: graph
   /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QDialog \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QLabel \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QVBoxLayout \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QWidget \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qboxlayout.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qdialog.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qframe.h \
@@ -1870,8 +1881,10 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.o: graph
   /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
-  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/attack_command.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp \
@@ -1890,6 +1903,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.o: graph
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/gamefield.hpp \
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/infodialog.hpp \
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/mainwindow.hpp \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QMap \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QTimer \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20functional.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20iterator.h \
@@ -2025,6 +2039,8 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.o: graph
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qversiontagging.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qxptype_traits.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qyieldcpu.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QColor \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QPainter \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qaction.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qbitmap.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qbrush.h \
@@ -2037,7 +2053,9 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.o: graph
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qimage.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qkeysequence.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpainter.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpalette.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpen.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpicture.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpixelformat.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpixmap.h \
@@ -2046,6 +2064,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.o: graph
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qrgb.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qrgba64.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtextdocument.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtextoption.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtgui-config.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtguiexports.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtguiglobal.h \
@@ -3393,6 +3412,9 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o: /home/cbf/MAI/
   /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/gamefield.hpp \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QList \
@@ -3881,7 +3903,9 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o: /home/cbf/MAI/
   /usr/lib/gcc/x86_64-linux-gnu/10/include/syslimits.h
 
 CMakeFiles/lab_6_tests.dir/graphic_interface/src/infodialog.cpp.o: /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/infodialog.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/infodialog.hpp \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QMap \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20functional.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20iterator.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20memory.h \
@@ -4004,6 +4028,8 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/infodialog.cpp.o: /home/cbf/MAI
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qversiontagging.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qxptype_traits.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qyieldcpu.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QColor \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QPainter \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qaction.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qbitmap.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qbrush.h \
@@ -4016,7 +4042,9 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/infodialog.cpp.o: /home/cbf/MAI
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qimage.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qkeysequence.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpainter.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpalette.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpen.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpicture.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpixelformat.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpixmap.h \
@@ -4025,6 +4053,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/infodialog.cpp.o: /home/cbf/MAI
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qrgb.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qrgba64.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtextdocument.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtextoption.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtgui-config.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtguiexports.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtguiglobal.h \
@@ -4033,6 +4062,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/infodialog.cpp.o: /home/cbf/MAI
   /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QDialog \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QLabel \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QVBoxLayout \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QWidget \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qboxlayout.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qdialog.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qframe.h \
@@ -4349,8 +4379,10 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.o: /home/cbf/MAI
   /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
-  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/attack_command.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp \
@@ -4371,6 +4403,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.o: /home/cbf/MAI
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/gamefield.hpp \
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/infodialog.hpp \
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/mainwindow.hpp \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QMap \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QTimer \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20functional.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20iterator.h \
@@ -4505,6 +4538,8 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.o: /home/cbf/MAI
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qversiontagging.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qxptype_traits.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qyieldcpu.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QColor \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QPainter \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qaction.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qbitmap.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qbrush.h \
@@ -4517,6 +4552,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.o: /home/cbf/MAI
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qimage.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qkeysequence.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpainter.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpalette.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpen.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpicture.h \
@@ -4918,8 +4954,10 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
-  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/attack_command.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp \
@@ -4938,6 +4976,7 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/gamefield.hpp \
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/infodialog.hpp \
   /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/mainwindow.hpp \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QMap \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QTimer \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20functional.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20iterator.h \
@@ -5079,6 +5118,8 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qversiontagging.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qxptype_traits.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qyieldcpu.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QColor \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QPainter \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qaction.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qbitmap.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qbrush.h \
@@ -5094,7 +5135,9 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qinputmethod.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qkeysequence.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpainter.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpalette.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpen.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpicture.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpixelformat.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpixmap.h \
@@ -5103,6 +5146,7 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qrgb.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qrgba64.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtextdocument.h \
+  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtextoption.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtgui-config.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtguiexports.h \
   /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtguiglobal.h \
@@ -19138,10 +19182,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o: /ho
 
 /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp:
 
-/home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp:
-
-/home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp:
-
 /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Observer/observer.cpp:
 
 /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/knight.cpp:
@@ -19210,10 +19250,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o: /ho
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QResizeEvent:
 
-/home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp:
-
-/home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QPainter:
-
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qelapsedtimer.h:
 
 /home/cbf/MAI/OOP/Lab_6/include/NPC/Derived/squirrel.hpp:
@@ -19277,6 +19313,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o: /ho
 /usr/include/c++/10/bits/sstream.tcc:
 
 /usr/include/c++/10/bits/locale_facets_nonio.tcc:
+
+/usr/include/c++/10/bits/locale_conv.h:
+
+/usr/include/c++/10/bits/fs_ops.h:
+
+/usr/include/c++/10/bits/fs_fwd.h:
 
 /usr/include/c++/10/bits/stl_multimap.h:
 
@@ -19351,6 +19393,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o: /ho
 /usr/include/wctype.h:
 
 /usr/include/assert.h:
+
+/usr/include/c++/10/bits/fs_dir.h:
+
+/usr/include/c++/10/tr1/exp_integral.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
@@ -19538,6 +19584,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o: /ho
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q23utility.h:
 
+/home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp:
+
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qlogging.h:
 
 /usr/include/c++/10/bits/ios_base.h:
@@ -19565,6 +19613,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o: /ho
 /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h:
 
 /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp:
+
+/usr/include/c++/10/bits/locale_facets_nonio.h:
+
+/usr/include/c++/10/bits/ostream_insert.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qchar.h:
 
@@ -19748,6 +19800,8 @@ graphic_interface/include/moc_coordinatedialog.cpp:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qsize.h:
 
+/home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QColor:
+
 /usr/include/c++/10/locale:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qarraydataops.h:
@@ -19844,10 +19898,6 @@ graphic_interface/include/moc_infodialog.cpp:
 
 /usr/include/c++/10/bits/exception_ptr.h:
 
-/usr/include/c++/10/tr1/exp_integral.tcc:
-
-/usr/include/c++/10/bits/fs_dir.h:
-
 /usr/include/c++/10/backward/auto_ptr.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qshareddata_impl.h:
@@ -19939,12 +19989,6 @@ graphic_interface/include/moc_infodialog.cpp:
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qtypes.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qfile.h:
-
-/home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpainter.h:
-
-/home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qtversion.h:
-
-/usr/include/c++/10/bits/locale_classes.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qfiledialog.h:
 
@@ -20182,8 +20226,6 @@ graphic_interface/include/moc_gamefield.cpp:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/c++/10/bits/fs_fwd.h:
-
 /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/peaceful_npc.cpp:
 
 /usr/include/c++/10/bits/uniform_int_dist.h:
@@ -20346,15 +20388,13 @@ graphic_interface/include/moc_gamefield.cpp:
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h:
 
-/home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/attack_command.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h:
-
 /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QDialog:
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h:
+
+/home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp:
+
+/home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QPainter:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
@@ -20365,6 +20405,10 @@ graphic_interface/include/moc_gamefield.cpp:
 /usr/lib/gcc/x86_64-linux-gnu/10/include/limits.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/10/include/stdbool.h:
+
+/usr/include/c++/10/bits/fs_path.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h:
 
 graphic_interface/include/moc_filedialog.cpp:
 
@@ -20379,6 +20423,8 @@ graphic_interface/include/moc_filedialog.cpp:
 /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qdialogbuttonbox.h:
+
+/home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp:
 
 /home/cbf/MAI/OOP/Lab_6/include/Game/Observer/observer.hpp:
 
@@ -20420,6 +20466,20 @@ graphic_interface/include/moc_filedialog.cpp:
 
 /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/infodialog.hpp:
 
+/home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/attack_command.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h:
+
+/home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QMap:
+
+/home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qtversion.h:
+
+/usr/include/c++/10/bits/locale_classes.h:
+
+/home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpainter.h:
+
 /usr/include/c++/10/cctype:
 
 graphic_interface/include/moc_mainwindow.cpp:
@@ -20459,15 +20519,3 @@ graphic_interface/include/moc_mainwindow.cpp:
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qtabwidget.h:
-
-/usr/include/c++/10/bits/fs_ops.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h:
-
-/usr/include/c++/10/bits/fs_path.h:
-
-/usr/include/c++/10/bits/locale_conv.h:
-
-/usr/include/c++/10/bits/ostream_insert.h:
-
-/usr/include/c++/10/bits/locale_facets_nonio.h:

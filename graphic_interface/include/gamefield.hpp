@@ -4,8 +4,10 @@
 #include <QTimer>
 #include "../../include/Game/game_settings.hpp"
 #include "../../include/NPC/Base/npc.hpp"
+#include "../../include/NPC/Base/agressive_npc.hpp"
 
 using GameSettings::NPCId;
+using GameSettings::WeaponId;
 
 class GameField : public QWidget
 {
@@ -29,5 +31,6 @@ public slots:
 private:
     QList<std::shared_ptr<NPC>> npcs_;
     QMap<NPCId, QColor> colorMap_;
+    QMap<WeaponId, QColor> weaponColorMap_;
     QTimer *timer_;
 };

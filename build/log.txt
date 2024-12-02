@@ -52,3 +52,638 @@ In Game Knight:
    Position Y: 6.46468
 
 ----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 1
+   Hp: 50
+   Position X: 6
+   Position Y: 6
+
+Start Game
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 1
+   Hp: 50
+   Position X: 30
+   Position Y: 30
+
+Start Game
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+NPC with id: 1 Killed
+0 attacked a 1
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 26.4646
+   Position Y: 26.4646
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 1
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 1
+   Hp: 50
+   Position X: 2
+   Position Y: 2
+
+Start Game
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1.29308
+   Position Y: 1.29308
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 1
+   Hp: 42.0833
+   Position X: 2
+   Position Y: 2
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Pegasus:
+   TypeId: 1
+   CurrentId: 0
+   Hp: 20
+   Position X: 0
+   Position Y: 0
+
+Start Game
+End Game
+
+NPC after end:
+In Game Pegasus:
+   TypeId: 1
+   CurrentId: 0
+   Hp: 20
+   Position X: 0
+   Position Y: 0
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 1
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 2
+   Hp: 100
+   Position X: 10
+   Position Y: 10
+In Game Knight:
+   TypeId: 0
+   CurrentId: 3
+   Hp: 100
+   Position X: 20
+   Position Y: 20
+In Game Knight:
+   TypeId: 0
+   CurrentId: 4
+   Hp: 100
+   Position X: 30
+   Position Y: 30
+In Game Knight:
+   TypeId: 0
+   CurrentId: 5
+   Hp: 100
+   Position X: 40
+   Position Y: 40
+In Game Knight:
+   TypeId: 0
+   CurrentId: 6
+   Hp: 100
+   Position X: -10
+   Position Y: -10
+In Game Knight:
+   TypeId: 0
+   CurrentId: 7
+   Hp: 100
+   Position X: -20
+   Position Y: -20
+In Game Knight:
+   TypeId: 0
+   CurrentId: 8
+   Hp: 100
+   Position X: -30
+   Position Y: -30
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 1
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Knight:
+   TypeId: 0
+   CurrentId: 2
+   Hp: 100
+   Position X: 10
+   Position Y: 10
+In Game Knight:
+   TypeId: 0
+   CurrentId: 3
+   Hp: 100
+   Position X: 20
+   Position Y: 20
+In Game Knight:
+   TypeId: 0
+   CurrentId: 4
+   Hp: 100
+   Position X: 30
+   Position Y: 30
+In Game Knight:
+   TypeId: 0
+   CurrentId: 5
+   Hp: 100
+   Position X: 40
+   Position Y: 40
+In Game Knight:
+   TypeId: 0
+   CurrentId: 6
+   Hp: 100
+   Position X: -10
+   Position Y: -10
+In Game Knight:
+   TypeId: 0
+   CurrentId: 7
+   Hp: 100
+   Position X: -20
+   Position Y: -20
+In Game Knight:
+   TypeId: 0
+   CurrentId: 8
+   Hp: 100
+   Position X: -30
+   Position Y: -30
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 1
+   Hp: 50
+   Position X: 30
+   Position Y: 30
+In Game Pegasus:
+   TypeId: 1
+   CurrentId: 2
+   Hp: 20
+   Position X: 100
+   Position Y: 30
+
+Start Game
+1 attacked a 2
+1 attacked a 2
+1 attacked a 2
+NPC with id: 2 Killed
+1 attacked a 2
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+0 attacked a 1
+NPC with id: 1 Killed
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 98.0185
+   Position Y: 29.8096
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+Start Game
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 0
+   Hp: 100
+   Position X: 1
+   Position Y: 1
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 1
+   Hp: 100
+   Position X: 10
+   Position Y: 10
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 2
+   Hp: 50
+   Position X: -30
+   Position Y: -30
+In Game Pegasus:
+   TypeId: 1
+   CurrentId: 3
+   Hp: 20
+   Position X: 0
+   Position Y: 0
+
+Start Game
+1 attacked a 2
+2 attacked a 3
+2 attacked a 3
+2 attacked a 3
+2 attacked a 3
+2 attacked a 3
+2 attacked a 3
+2 attacked a 3
+2 attacked a 3
+2 attacked a 3
+2 attacked a 3
+2 attacked a 3
+2 attacked a 3
+2 attacked a 3
+NPC with id: 3 Killed
+2 attacked a 3
+1 attacked a 2
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 1
+   Hp: 100
+   Position X: -0.77691
+   Position Y: -0.77691
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 2
+   Hp: 31.6667
+   Position X: -3.53547
+   Position Y: -3.53547
+
+----------------------------------
+!New Session!
+----------------------------------
+
+NPC before start:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 4
+   Hp: 100
+   Position X: 0
+   Position Y: 0
+In Game Squirrel:
+   TypeId: 2
+   CurrentId: 5
+   Hp: 50
+   Position X: 30
+   Position Y: 30
+
+Start Game
+4 attacked a 5
+4 attacked a 5
+4 attacked a 5
+4 attacked a 5
+4 attacked a 5
+4 attacked a 5
+4 attacked a 5
+4 attacked a 5
+4 attacked a 5
+4 attacked a 5
+4 attacked a 5
+4 attacked a 5
+NPC with id: 5 Killed
+End Game
+
+NPC after end:
+In Game Knight:
+   TypeId: 0
+   CurrentId: 4
+   Hp: 100
+   Position X: 26.4646
+   Position Y: 26.4646
+
+----------------------------------

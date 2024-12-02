@@ -454,11 +454,22 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
+ /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/NPC/Base/agressive_npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/NPC/Base/attackable_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/NPC/Base/../../Weapon/Base/weapon.hpp \
  /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/infodialog.hpp \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QLabel \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qlabel.h \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpicture.h \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtextdocument.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QColor \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qcolor.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QMap \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qmap.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QPainter \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpainter.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtextoption.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpen.h \
  /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/Terminal/terminal.hpp \
  /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/Terminal/../Game/game.hpp \
  /usr/include/c++/10/thread /usr/include/c++/10/stop_token \
@@ -485,7 +496,6 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.o: \
  /usr/include/c++/10/condition_variable \
  /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/Terminal/../Game/../NPC/FightLogic/Command/move_command.hpp \
  /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/Terminal/../Game/../NPC/FightLogic/Command/attack_command.hpp \
- /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/Terminal/../Game/../NPC/FightLogic/Command/../../Base/attackable_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/Terminal/../NPC/Factory/factory_register.hpp \
  /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/Terminal/../NPC/Factory/npc_factory_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/build/graphic_interface/include/../../../graphic_interface/include/../../include/Terminal/../NPC/Factory/knight_factory.hpp \

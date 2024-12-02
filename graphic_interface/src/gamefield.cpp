@@ -9,6 +9,13 @@ GameField::GameField(QWidget *parent)
     colorMap_.insert(NPCId::PegasusId, Qt::green);
     colorMap_.insert(NPCId::SquirrelId, QColor(255, 165, 0));
 
+    weaponColorMap_.insert(WeaponId::AutomaticRifleId, Qt::darkGray);
+    weaponColorMap_.insert(WeaponId::KatanaId, Qt::darkYellow);
+    weaponColorMap_.insert(WeaponId::KnifeId, Qt::darkCyan);
+    weaponColorMap_.insert(WeaponId::MachineGunId, Qt::darkMagenta);
+    weaponColorMap_.insert(WeaponId::PistolId, Qt::darkBlue);
+    weaponColorMap_.insert(WeaponId::SniperRifleId, Qt::darkGreen);
+
     timer_ = new QTimer(this);
     connect(timer_, &QTimer::timeout, this, &GameField::UpdateNPCs);
     timer_->start(10);
@@ -36,7 +43,14 @@ void GameField::paintEvent(QPaintEvent *event)
         painter.setPen(Qt::NoPen);
         int screenX = width / 2 + npc->GetXCord();
         int screenY = height / 2 - npc->GetYCord();
-        painter.drawEllipse(screenX - 5, screenY - 5, 10, 10);
+        painter.drawEllipse(screenX - 5, screenY - 5, 20, 20);
+
+        if (std::dynamic_pointer_cast<AgressiveNPC>(npc))
+        {
+            QColor weaponColor = weaponColorMap_.value(std::dynamic_pointer_cast<AgressiveNPC>(npc)->GetWeaponId(), Qt::black);
+            painter.setBrush(weaponColor);
+            painter.drawRect(screenX, screenY, 10, 10);
+        }
     }
 }
 

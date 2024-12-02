@@ -11,6 +11,8 @@
 #include "../../Positionable/positionable.hpp"
 #include "../../Equipment/Equip/my_equip.hpp"
 
+#include "../../CRTP/creating_logger.hpp"
+
 using GameSettings::NPCId;
 
 class NPC : public Position

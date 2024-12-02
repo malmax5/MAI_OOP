@@ -8,15 +8,19 @@ using namespace GameSettings;
 class Weapon
 {
 public:
-    virtual double GetAttackDamage();
-    virtual double GetAttackDistance();
-    virtual double GetReloadingTime();
+    double GetAttackDamage();
+    double GetAttackDistance();
+    double GetReloadingTime();
+    WeaponId GetWeaponId();
 protected:
-    virtual void SetAttackDamage(double attackDamage);
-    virtual void SetAttackDistance(double attackDistance);
-    virtual void SetReloadingTime(double reloadingTime);
+    void SetAttackDamage(double attackDamage);
+    void SetAttackDistance(double attackDistance);
+    void SetReloadingTime(double reloadingTime);
+    void SetWeaponId(WeaponId id);
 private:
     double attackDamage_;
     double attackDistance_;
     double reloadingTime_;
+
+    WeaponId id_;
 };

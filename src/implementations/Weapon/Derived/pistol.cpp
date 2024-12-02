@@ -3,6 +3,7 @@
 Pistol::Pistol()
 {
     LogCreate();
+    SetWeaponId(WeaponId::PistolId);
     SetAttackDamage(PistolStat.attackDamege);
     SetAttackDistance(PistolStat.attackDistance);
     SetReloadingTime(PistolStat.reloadingTime);

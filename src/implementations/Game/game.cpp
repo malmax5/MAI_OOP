@@ -108,7 +108,6 @@ void Game::Update()
                     !AttackCommand::CanAttack(npcInGame_[i], npcInGame_[j]) &&
                     MoveCommand::CanMove(npcInGame_[i], npcInGame_[j]))
                 {
-                    std::cout << (!AttackCommand::CanAttack(npcInGame_[i], npcInGame_[j])) << "\n";
                     double newDist = NPCPositionFuncs::DistanceBetNPC(npcInGame_[i], npcInGame_[j]);
                     if (newDist > dist)
                     {

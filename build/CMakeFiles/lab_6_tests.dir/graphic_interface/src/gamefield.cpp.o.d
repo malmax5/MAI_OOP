@@ -408,6 +408,9 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
+ /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/NPC/Base/agressive_npc.hpp \
+ /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/NPC/Base/attackable_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/NPC/Base/../../Weapon/Base/weapon.hpp \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QPainter \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpainter.h \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtextoption.h \

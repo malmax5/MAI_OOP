@@ -24,3 +24,8 @@ void AgressiveNPC::Reload()
 {
     reloadedTime = std::chrono::time_point_cast<std::chrono::system_clock::duration>(Time::GetLastIterTime() + std::chrono::duration<double>(weapon_->GetReloadingTime()));
 }
+
+GameSettings::WeaponId AgressiveNPC::GetWeaponId()
+{
+    return weapon_->GetWeaponId();
+}

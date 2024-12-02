@@ -2,10 +2,11 @@
 
 using GameSettings::SquirrelStat;
 
-class Squirrel : public AgressiveNPC
+class Squirrel : public AgressiveNPC, public CreateLog<Squirrel>
 {
 public:
     Squirrel();
+    ~Squirrel();
     void AcceptVisitor(std::shared_ptr<Visitor> visitor) final;
 
     void Attack(std::shared_ptr<NPC> target) override;

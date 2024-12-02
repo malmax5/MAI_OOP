@@ -2,7 +2,13 @@
 
 Pegasus::Pegasus()
 {
+    LogCreate();
     SetTypeId(NPCId::PegasusId);
+}
+
+Pegasus::~Pegasus()
+{
+    
 }
 
 void Pegasus::AcceptVisitor(std::shared_ptr<Visitor> visitor)

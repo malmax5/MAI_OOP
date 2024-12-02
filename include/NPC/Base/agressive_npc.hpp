@@ -18,7 +18,9 @@ public:
     double GetAttackDamage() const override;
     bool ReadyToAttack() const override;
     void Reload() override;
+    GameSettings::WeaponId GetWeaponId();
 
+protected:
     void SetWeapon(std::shared_ptr<Weapon> weapon);
 
 protected:

@@ -400,4 +400,15 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/infodialog.cpp.o: \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qlayout.h \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qlayoutitem.h \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qboxlayout.h \
- /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qgridlayout.h
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qgridlayout.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QColor \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qcolor.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QMap \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qmap.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/QPainter \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpainter.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qtextoption.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpen.h \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QWidget \
+ /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qwidget.h \
+ /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/Game/game_settings.hpp

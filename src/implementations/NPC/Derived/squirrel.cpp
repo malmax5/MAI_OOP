@@ -2,7 +2,13 @@
 
 Squirrel::Squirrel()
 {
+    LogCreate();
     SetTypeId(NPCId::SquirrelId);
+}
+
+Squirrel::~Squirrel()
+{
+
 }
 
 void Squirrel::AcceptVisitor(std::shared_ptr<Visitor> visitor)

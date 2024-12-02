@@ -3,6 +3,7 @@
 AutomaticRifle::AutomaticRifle()
 {
     LogCreate();
+    SetWeaponId(WeaponId::AutomaticRifleId);
     SetAttackDamage(AutomaticRifleStat.attackDamege);
     SetAttackDistance(AutomaticRifleStat.attackDistance);
     SetReloadingTime(AutomaticRifleStat.reloadingTime);

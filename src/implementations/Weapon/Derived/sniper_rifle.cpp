@@ -3,6 +3,7 @@
 SniperRifle::SniperRifle()
 {
     LogCreate();
+    SetWeaponId(WeaponId::SniperRifleId);
     SetAttackDamage(SniperRifleStat.attackDamege);
     SetAttackDistance(SniperRifleStat.attackDistance);
     SetReloadingTime(SniperRifleStat.reloadingTime);

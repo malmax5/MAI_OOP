@@ -2,7 +2,13 @@
 
 Knight::Knight()
 {
+    LogCreate();
     SetTypeId(NPCId::KnightId);
+}
+
+Knight::~Knight()
+{
+    
 }
 
 void Knight::AcceptVisitor(std::shared_ptr<Visitor> visitor)

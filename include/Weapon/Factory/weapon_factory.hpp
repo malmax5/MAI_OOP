@@ -22,7 +22,7 @@ public:
     std::shared_ptr<Weapon> CreateWeapon() const override
     {
         int start = 0;
-        int end = 6;
+        int end = 5;
         int rand = std::rand() % (end - start + 1) + start;
         
         WeaponId weaponId = static_cast<WeaponId>(rand);
