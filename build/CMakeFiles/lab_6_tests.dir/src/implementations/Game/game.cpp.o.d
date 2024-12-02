@@ -232,6 +232,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Positionable/position_funcs.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Positionable/../NPC/Base/npc.hpp \
+ /usr/include/c++/10/coroutine \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Positionable/../NPC/Base/../../Game/Visitor/visitor.hpp \
  /usr/include/c++/10/iostream \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/../../../include/Game/../Positionable/../NPC/Base/../../Positionable/positionable.hpp \

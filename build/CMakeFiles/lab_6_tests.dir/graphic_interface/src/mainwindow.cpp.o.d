@@ -439,6 +439,8 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.o: \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qbasictimer.h \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/NPC/Base/npc.hpp \
+ /usr/include/c++/10/coroutine /usr/include/c++/10/thread \
+ /usr/include/c++/10/stop_token \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/NPC/Base/../../Game/time.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/NPC/Base/../../Game/Visitor/visitor.hpp \
  /usr/include/c++/10/iostream \
@@ -472,7 +474,6 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.o: \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qpen.h \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/Terminal/terminal.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/Terminal/../Game/game.hpp \
- /usr/include/c++/10/thread /usr/include/c++/10/stop_token \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \

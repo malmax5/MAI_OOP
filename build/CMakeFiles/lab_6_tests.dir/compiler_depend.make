@@ -1212,6 +1212,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.o: graphi
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstddef \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
@@ -1257,10 +1258,12 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.o: graphi
   /usr/include/c++/10/span \
   /usr/include/c++/10/stdexcept \
   /usr/include/c++/10/stdlib.h \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -2227,6 +2230,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.o: graph
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
   /usr/include/c++/10/condition_variable \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstddef \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
@@ -3711,6 +3715,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o: /home/cbf/MAI/
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstddef \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
@@ -3756,10 +3761,12 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o: /home/cbf/MAI/
   /usr/include/c++/10/span \
   /usr/include/c++/10/stdexcept \
   /usr/include/c++/10/stdlib.h \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -4730,6 +4737,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.o: /home/cbf/MAI
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
   /usr/include/c++/10/condition_variable \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstddef \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
@@ -5311,6 +5319,7 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
   /usr/include/c++/10/condition_variable \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstddef \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
@@ -10488,6 +10497,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -10577,6 +10587,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -10613,10 +10624,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -11177,6 +11190,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: /home/cbf/MAI/OO
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
   /usr/include/c++/10/condition_variable \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -11436,6 +11450,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: /ho
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -11525,6 +11540,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: /ho
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -11561,10 +11577,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: /ho
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -11708,6 +11726,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o: /home/cbf/MAI
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -11797,6 +11816,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o: /home/cbf/MAI
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -11833,10 +11853,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o: /home/cbf/MAI
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -11981,6 +12003,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o: /hom
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -12070,6 +12093,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o: /hom
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -12106,10 +12130,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o: /hom
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -12504,6 +12530,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: /h
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -12593,6 +12620,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: /h
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -12629,10 +12657,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: /h
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -12811,6 +12841,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -12900,6 +12931,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -12936,10 +12968,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -13327,6 +13361,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: /home/c
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -13416,6 +13451,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: /home/c
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -13452,10 +13488,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: /home/c
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -13601,6 +13639,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: /home/
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -13690,6 +13729,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: /home/
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -13726,10 +13766,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: /home/
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -13877,6 +13919,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: /home
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -13966,6 +14009,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: /home
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -14002,10 +14046,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: /home
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -14154,6 +14200,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -14243,6 +14290,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -14279,10 +14327,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -14463,6 +14513,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -14552,6 +14603,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -14588,10 +14640,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -14736,6 +14790,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -14825,6 +14880,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -14861,10 +14917,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -15045,6 +15103,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -15134,6 +15193,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -15170,10 +15230,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -15354,6 +15416,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -15443,6 +15506,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -15479,10 +15543,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -15630,6 +15696,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -15727,6 +15794,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -15765,10 +15833,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/sstream \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -15916,6 +15986,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_int
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -16013,6 +16084,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_int
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -16051,10 +16123,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_int
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/sstream \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -16203,6 +16277,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -16300,6 +16375,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -16338,10 +16414,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/sstream \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -16594,6 +16672,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
   /usr/include/c++/10/condition_variable \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -16787,6 +16866,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/10/array \
+  /usr/include/c++/10/atomic \
   /usr/include/c++/10/backward/auto_ptr.h \
   /usr/include/c++/10/backward/binders.h \
   /usr/include/c++/10/bit \
@@ -16876,6 +16956,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
   /usr/include/c++/10/cmath \
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -16912,10 +16993,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
   /usr/include/c++/10/ranges \
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/stop_token \
   /usr/include/c++/10/streambuf \
   /usr/include/c++/10/string \
   /usr/include/c++/10/string_view \
   /usr/include/c++/10/system_error \
+  /usr/include/c++/10/thread \
   /usr/include/c++/10/tr1/bessel_function.tcc \
   /usr/include/c++/10/tr1/beta_function.tcc \
   /usr/include/c++/10/tr1/ell_integral.tcc \
@@ -17307,6 +17390,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
   /usr/include/c++/10/compare \
   /usr/include/c++/10/concepts \
   /usr/include/c++/10/condition_variable \
+  /usr/include/c++/10/coroutine \
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdio \
   /usr/include/c++/10/cstdlib \
@@ -19230,8 +19314,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o: /ho
 
 /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/infodialog.cpp:
 
-/home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qvectornd.h:
-
 /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qscreen_platform.h:
 
 /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/pistol.hpp:
@@ -19282,12 +19364,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o: /ho
 
 /usr/include/unistd.h:
 
-/usr/include/c++/10/thread:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/c++/10/stop_token:
-
 /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QApplication:
 
 /usr/include/c++/10/queue:
@@ -19319,6 +19395,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o: /ho
 /usr/include/c++/10/bits/fs_ops.h:
 
 /usr/include/c++/10/bits/fs_fwd.h:
+
+/usr/include/c++/10/bits/deque.tcc:
+
+/home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qstackedwidget.h:
 
 /usr/include/c++/10/bits/stl_multimap.h:
 
@@ -19714,6 +19794,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o: /ho
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h:
 
+/usr/include/c++/10/thread:
+
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qcompilerdetection.h:
 
 /usr/include/c++/10/ext/aligned_buffer.h:
@@ -19837,8 +19919,6 @@ graphic_interface/include/moc_coordinatedialog.cpp:
 /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qwindowdefs.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qbindingstorage.h:
-
-/home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qstackedwidget.h:
 
 /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/time.cpp:
 
@@ -20358,8 +20438,6 @@ graphic_interface/include/moc_gamefield.cpp:
 
 /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp:
 
-/usr/include/c++/10/bits/deque.tcc:
-
 /usr/include/c++/10/bits/stl_construct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
@@ -20369,6 +20447,12 @@ graphic_interface/include/moc_gamefield.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qtabwidget.h:
+
+/usr/include/c++/10/tr1/beta_function.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
@@ -20444,6 +20528,10 @@ graphic_interface/include/moc_filedialog.cpp:
 
 /usr/include/c++/10/bits/istream.tcc:
 
+/home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qvectornd.h:
+
+/usr/include/c++/10/coroutine:
+
 /usr/include/c++/10/fstream:
 
 /usr/include/c++/10/bits/stl_queue.h:
@@ -20461,6 +20549,16 @@ graphic_interface/include/moc_filedialog.cpp:
 /usr/include/c++/10/bits/string_view.tcc:
 
 /usr/include/c++/10/istream:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/c++/10/stop_token:
+
+/home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/command_executer.cpp:
+
+/home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qgridlayout.h:
+
+/home/cbf/MAI/OOP/Lab_6/include/Game/game.hpp:
 
 /usr/include/c++/10/bits/algorithmfwd.h:
 
@@ -20488,12 +20586,6 @@ graphic_interface/include/moc_mainwindow.cpp:
 
 /home/cbf/MAI/OOP/Lab_6/include/Game/enemy_mask.hpp:
 
-/home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/command_executer.cpp:
-
-/home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qgridlayout.h:
-
-/home/cbf/MAI/OOP/Lab_6/include/Game/game.hpp:
-
 /home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/factory_register.hpp:
 
 /home/cbf/MAI/OOP/Lab_6/include/NPC/Factory/knight_factory.hpp:
@@ -20513,9 +20605,3 @@ graphic_interface/include/moc_mainwindow.cpp:
 /usr/include/c++/10/pstl/glue_memory_defs.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qmessagebox.h:
-
-/usr/include/c++/10/tr1/beta_function.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qtabwidget.h:

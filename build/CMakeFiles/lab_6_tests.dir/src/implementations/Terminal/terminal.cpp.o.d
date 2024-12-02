@@ -233,6 +233,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/position_funcs.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/npc.hpp \
+ /usr/include/c++/10/coroutine \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Game/Visitor/visitor.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Positionable/positionable.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/my_equip.hpp \

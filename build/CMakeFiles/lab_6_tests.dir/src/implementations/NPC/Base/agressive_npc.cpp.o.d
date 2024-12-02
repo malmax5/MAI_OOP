@@ -176,9 +176,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/npc.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/../../Game/time.hpp \
+ /usr/include/c++/10/coroutine /usr/include/c++/10/thread \
  /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
  /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
+ /usr/include/c++/10/stop_token /usr/include/c++/10/atomic \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/../../Game/time.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/../../../../include/NPC/Base/../../Game/Visitor/visitor.hpp \
  /usr/include/c++/10/iostream /usr/include/c++/10/istream \
  /usr/include/c++/10/bits/istream.tcc \

@@ -10,4 +10,5 @@ public:
     virtual bool ReadyToAttack() const = 0;
     virtual void Reload() = 0;
     virtual void Attack(std::shared_ptr<NPC> target) = 0;
+    virtual void SwitchReadyToAttackInFalse() = 0;
 };

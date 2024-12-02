@@ -10,7 +10,7 @@ double Weapon::GetAttackDistance()
     return attackDistance_;
 }
 
-double Weapon::GetReloadingTime()
+float Weapon::GetReloadingTime()
 {
     return reloadingTime_;
 }
@@ -30,7 +30,7 @@ void Weapon::SetAttackDistance(double attackDistance)
     attackDistance_ = attackDistance;
 }
 
-void Weapon::SetReloadingTime(double reloadingTime)
+void Weapon::SetReloadingTime(float reloadingTime)
 {
     reloadingTime_ = reloadingTime;
 }

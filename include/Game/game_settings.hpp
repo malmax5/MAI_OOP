@@ -35,6 +35,14 @@ namespace GameSettings {
         SniperRifleId = 5
     };
 
+    struct GameFieldSettings
+    {
+        static constexpr double xMax = 100;
+        static constexpr double xMin = -100;
+        static constexpr double yMax = 100;
+        static constexpr double yMin = -100;
+    };
+
     struct ArmorMultiple
     {
         static constexpr double NoMaterialMultiple = 0.0;

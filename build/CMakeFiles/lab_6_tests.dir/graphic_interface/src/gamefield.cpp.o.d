@@ -392,6 +392,8 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o: \
  /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qbasictimer.h \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/NPC/Base/npc.hpp \
+ /usr/include/c++/10/coroutine /usr/include/c++/10/thread \
+ /usr/include/c++/10/stop_token \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/NPC/Base/../../Game/time.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/../include/../../include/NPC/Base/../../Game/Visitor/visitor.hpp \
  /usr/include/c++/10/iostream /usr/include/c++/10/istream \

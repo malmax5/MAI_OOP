@@ -99,6 +99,11 @@ Terminal::~Terminal()
 
 void Terminal::CreateNewGame()
 {
+    if (game_)
+    {
+        std::cout << "Need to delete last game to start new game\n";
+    }
+
     game_ = std::make_shared<Game>();
     game_->Attach(fileLogger);
 
@@ -172,6 +177,13 @@ std::shared_ptr<NPC> Terminal::IncludeNPCByID(NPCId id, double xCord, double yCo
     if (game_->isThreadRunning)
     {
         std::cout << "Game in proccess can't add a squirrel\n";
+        return nullptr;
+    }
+
+    if (xCord > GameSettings::GameFieldSettings::xMax || xCord < GameSettings::GameFieldSettings::xMin ||
+        yCord > GameSettings::GameFieldSettings::yMax || yCord < GameSettings::GameFieldSettings::yMin)
+    {
+        std::cout << "Can't add this npc, because of game field size\n";
         return nullptr;
     }
 

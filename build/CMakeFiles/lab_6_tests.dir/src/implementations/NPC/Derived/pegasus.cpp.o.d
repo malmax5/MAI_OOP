@@ -176,10 +176,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: \
  /usr/include/c++/10/bits/atomic_lockfree_defines.h \
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
- /usr/include/c++/10/pstl/execution_defs.h \
+ /usr/include/c++/10/pstl/execution_defs.h /usr/include/c++/10/coroutine \
+ /usr/include/c++/10/thread /usr/include/c++/10/chrono \
+ /usr/include/c++/10/ratio /usr/include/c++/10/ctime \
+ /usr/include/c++/10/bits/parse_numbers.h /usr/include/c++/10/stop_token \
+ /usr/include/c++/10/atomic \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Game/time.hpp \
- /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
- /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Game/Visitor/visitor.hpp \
  /usr/include/c++/10/iostream /usr/include/c++/10/istream \
  /usr/include/c++/10/bits/istream.tcc \

@@ -261,11 +261,13 @@ if (MSVC)
 
     target_compile_options(
         lab_6_tests PRIVATE
+        -fcoroutines
         # /W4
     )
 else ()
     target_compile_options(
         lab_6_tests PRIVATE
+        -fcoroutines
         # -Wall
         # -Wextra
         # -Wcast-align

@@ -1,6 +1,8 @@
 #pragma once
 
 #include <memory>
+#include <coroutine>
+#include <thread>
 
 #include "../../Game/time.hpp"
 

@@ -10,17 +10,17 @@ class Weapon
 public:
     double GetAttackDamage();
     double GetAttackDistance();
-    double GetReloadingTime();
+    float GetReloadingTime();
     WeaponId GetWeaponId();
 protected:
     void SetAttackDamage(double attackDamage);
     void SetAttackDistance(double attackDistance);
-    void SetReloadingTime(double reloadingTime);
+    void SetReloadingTime(float reloadingTime);
     void SetWeaponId(WeaponId id);
 private:
     double attackDamage_;
     double attackDistance_;
-    double reloadingTime_;
+    float reloadingTime_;
 
     WeaponId id_;
 };

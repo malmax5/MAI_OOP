@@ -13,12 +13,20 @@
 
 namespace tce 
 {
-    extern std::thread thr;
-    extern std::queue<std::shared_ptr<ICommand>> commandQueue;
-    extern std::mutex commandQueueMutex;
-    extern std::condition_variable commandQueueCV;
-    extern std::atomic<bool> stopFlag;
-    extern bool isThreadRunning;
+    extern std::thread attackThr;
+    extern std::queue<std::shared_ptr<ICommand>> attackCommandQueue;
+    extern std::mutex attackCommandQueueMutex;
+    extern std::condition_variable attackCommandQueueCV;
+    extern bool isAttackThreadRunning;
 
-    void CommandExecutionThread(std::function<void(const std::string&)> Notify);
+    extern std::thread moveThr;
+    extern std::queue<std::shared_ptr<ICommand>> moveCommandQueue;
+    extern std::mutex moveCommandQueueMutex;
+    extern std::condition_variable moveCommandQueueCV;
+    extern bool isMoveThreadRunning;
+
+    extern std::atomic<bool> stopFlag;
+
+    void attackCommandExecutionThread(std::function<void(const std::string&)> Notify);
+    void moveCommandExecutionThread(std::function<void(const std::string&)> Notify);
 }

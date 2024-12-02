@@ -6,7 +6,7 @@ AttackCommand::AttackCommand(std::shared_ptr<NPC> attacker, std::shared_ptr<NPC>
 
 void AttackCommand::execute(std::function<void(const std::string&)> Notify)
 {
-    if (target_->GetHp() > 0)
+    if (target_->GetHp() > 0 && std::dynamic_pointer_cast<IAttackable>(attacker_)->ReadyToAttack())
     {
         std::dynamic_pointer_cast<IAttackable>(attacker_)->Attack(target_);
         std::stringstream ss;

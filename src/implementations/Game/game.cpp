@@ -9,12 +9,20 @@ Game::Game() : getInfoVisitor(std::make_shared<GetInfoVisitor>()),
 Game::~Game()
 {
     tce::stopFlag.store(true);
-    tce::commandQueueCV.notify_one();
-    if (tce::thr.joinable())
+
+    tce::attackCommandQueueCV.notify_one();
+    if (tce::attackThr.joinable())
     {
-        tce::thr.join();
+        tce::attackThr.join();
     }
-    tce::isThreadRunning = false;
+    tce::isAttackThreadRunning = false;
+
+    tce::moveCommandQueueCV.notify_one();
+    if (tce::moveThr.joinable())
+    {
+        tce::moveThr.join();
+    }
+    tce::isMoveThreadRunning = false;
 
     shouldStop_.store(true);
     if (gameThread.joinable())
@@ -26,13 +34,23 @@ Game::~Game()
 
 void Game::Start()
 {
-    if (tce::isThreadRunning)
+    if (tce::isAttackThreadRunning || tce::isMoveThreadRunning)
     {
-        shouldStop_.store(true);
-        if (gameThread.joinable())
+        tce::stopFlag.store(true);
+
+        tce::attackCommandQueueCV.notify_one();
+        if (tce::attackThr.joinable())
         {
-            gameThread.join();
+            tce::attackThr.join();
         }
+        tce::isAttackThreadRunning = false;
+
+        tce::moveCommandQueueCV.notify_one();
+        if (tce::moveThr.joinable())
+        {
+            tce::moveThr.join();
+        }
+        tce::isMoveThreadRunning = false;
     }
 
     //Preparing environment to game
@@ -50,8 +68,10 @@ void Game::Start()
     Notify(buffer.str());
 
     tce::stopFlag.store(false);
-    tce::thr = std::thread([this]() { tce::CommandExecutionThread([this](const std::string& event) { Notify(event); }); });
-    tce::isThreadRunning = true;
+    tce::attackThr = std::thread([this]() { tce::attackCommandExecutionThread([this](const std::string& event) { Notify(event); }); });
+    tce::isAttackThreadRunning = true;
+    tce::moveThr = std::thread([this]() { tce::moveCommandExecutionThread([this](const std::string& event) { Notify(event); }); });
+    tce::isMoveThreadRunning = true;
 
     Time::Start();
     gameThread = std::thread(&Game::Update, this);
@@ -81,18 +101,18 @@ void Game::Update()
                     if (AttackCommand::CanAttackNow(npcInGame_[i], npcInGame_[j]))
                     {
                         {
-                            std::unique_lock<std::mutex> lock(tce::commandQueueMutex);
-                            tce::commandQueue.push(std::make_shared<AttackCommand>(npcInGame_[i], npcInGame_[j]));
-                            tce::commandQueueCV.notify_one();
+                            std::unique_lock<std::mutex> lock(tce::attackCommandQueueMutex);
+                            tce::attackCommandQueue.push(std::make_shared<AttackCommand>(npcInGame_[i], npcInGame_[j]));
+                            tce::attackCommandQueueCV.notify_one();
                         }
                     }
                 }
             }
         }
 
-        while (!tce::commandQueue.empty()) {
-            std::this_thread::sleep_for(std::chrono::microseconds(10));
-        }
+        // while (!tce::commandQueue.empty()) {
+        //     std::this_thread::sleep_for(std::chrono::microseconds(10));
+        // }
 
         RemoveDeads();
 
@@ -122,16 +142,16 @@ void Game::Update()
             }
             if (dist != -1)
             {
-                std::unique_lock<std::mutex> lock(tce::commandQueueMutex);
-                tce::commandQueue.push(std::make_shared<MoveCommand>(npcInGame_[i], target));
-                tce::commandQueueCV.notify_one();
+                std::unique_lock<std::mutex> lock(tce::moveCommandQueueMutex);
+                tce::moveCommandQueue.push(std::make_shared<MoveCommand>(npcInGame_[i], target));
+                tce::moveCommandQueueCV.notify_one();
                 commandsAdd++;
             }
         }
 
-        while (!tce::commandQueue.empty()) {
-            std::this_thread::sleep_for(std::chrono::microseconds(10));
-        }
+        // while (!tce::commandQueue.empty()) {
+        //     std::this_thread::sleep_for(std::chrono::microseconds(10));
+        // }
 
         if (!commandsAdd)
         {
@@ -155,11 +175,20 @@ void Game::End()
 {
     //Destroy environment
     tce::stopFlag.store(true);
-    tce::commandQueueCV.notify_one();
-    if (tce::thr.joinable()) {
-        tce::thr.join();
+    
+    tce::attackCommandQueueCV.notify_one();
+    if (tce::attackThr.joinable())
+    {
+        tce::attackThr.join();
     }
-    tce::isThreadRunning = false;
+    tce::isAttackThreadRunning = false;
+
+    tce::moveCommandQueueCV.notify_one();
+    if (tce::moveThr.joinable())
+    {
+        tce::moveThr.join();
+    }
+    tce::isMoveThreadRunning = false;
 }
 
 void Game::AddNPC(std::shared_ptr<NPC> npc)

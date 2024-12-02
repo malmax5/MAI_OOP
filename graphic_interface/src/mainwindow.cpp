@@ -120,6 +120,7 @@ MainWindow::MainWindow(QWidget *parent)
 void MainWindow::OnCreateGame()
 {
     terminal_->CreateNewGame();
+    createGameBtn_->setEnabled(false);
     startGameBtn_->setEnabled(true);
     includeKnightBtn_->setEnabled(true);
     includePegasusBtn_->setEnabled(true);
@@ -171,7 +172,8 @@ void MainWindow::OnIncludeKnight()
         double x = dialog.GetX();
         double y = dialog.GetY();
         std::shared_ptr<NPC> knight = terminal_->IncludeNPCByID(NPCId::KnightId, x, y);
-        emit KnightAdded(knight, x, y);
+        if (knight)
+            emit KnightAdded(knight, x, y);
     }
 }
 
@@ -183,7 +185,8 @@ void MainWindow::OnIncludePegasus()
         double x = dialog.GetX();
         double y = dialog.GetY();
         std::shared_ptr<NPC> pegasus = terminal_->IncludeNPCByID(NPCId::PegasusId, x, y);
-        emit PegasusAdded(pegasus, x, y);
+        if (pegasus)
+            emit PegasusAdded(pegasus, x, y);
     }
 }
 
@@ -195,7 +198,8 @@ void MainWindow::OnIncludeSquirrel()
         double x = dialog.GetX();
         double y = dialog.GetY();
         std::shared_ptr<NPC> squirrel = terminal_->IncludeNPCByID(NPCId::SquirrelId, x, y);
-        emit SquirrelAdded(squirrel, x, y);
+        if (squirrel)
+            emit SquirrelAdded(squirrel, x, y);
     }
 }
 

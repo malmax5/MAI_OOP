@@ -18,6 +18,7 @@ public:
     double GetAttackDamage() const override;
     bool ReadyToAttack() const override;
     void Reload() override;
+    void SwitchReadyToAttackInFalse() override;
     GameSettings::WeaponId GetWeaponId();
 
 protected:
@@ -28,4 +29,33 @@ protected:
     double attackDamage_;
     double attackDistance_;
     std::chrono::system_clock::time_point reloadedTime = std::chrono::system_clock::now();
+    bool readyToAttack_ = true;
+
+    struct ReloadingAwaitable {
+        float reloadingTime;
+        bool await_ready() const noexcept { return false; }
+        void await_suspend(std::coroutine_handle<> h) const {
+            std::thread([this, h]() {
+                std::this_thread::sleep_for(std::chrono::seconds(static_cast<int>(reloadingTime)));
+                h.resume();
+            }).detach();
+        }
+        void await_resume() const noexcept {}
+    };
+
+    struct ReloadingCoroutine {
+        struct promise_type {
+            ReloadingCoroutine get_return_object() { return {}; }
+            std::suspend_never initial_suspend() { return {}; }
+            std::suspend_never final_suspend() noexcept { return {}; }
+            void return_void() {}
+            void unhandled_exception() {}
+        };
+    };
+
+    ReloadingCoroutine ReloadingCoroutine() {
+        readyToAttack_ = false;
+        co_await ReloadingAwaitable{weapon_->GetReloadingTime()};
+        readyToAttack_ = true;
+    }
 };
