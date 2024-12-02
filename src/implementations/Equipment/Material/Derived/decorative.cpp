@@ -2,6 +2,9 @@
 
 Decorative::Decorative()
 {
+    LogCreate();
     SetArmorMultiple(ArmorMultiple::DecorativeMultiple);
-    SetName("Decorative");
 }
+
+Decorative::~Decorative()
+{}

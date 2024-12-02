@@ -934,6 +934,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_filedialog.cpp.o: graph
 
 CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.o: graphic_interface/include/moc_gamefield.cpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -1121,6 +1122,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.o: graphi
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -1130,6 +1132,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.o: graphi
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -1225,6 +1228,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.o: graphi
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/functional \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
@@ -1372,8 +1376,10 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_gamefield.cpp.o: graphi
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -1854,6 +1860,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_infodialog.cpp.o: graph
 
 CMakeFiles/lab_6_tests.dir/graphic_interface/include/moc_mainwindow.cpp.o: graphic_interface/include/moc_mainwindow.cpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -3376,6 +3383,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/filedialog.cpp.o: /home/cbf/MAI
 
 CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o: /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/gamefield.cpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -3594,6 +3602,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o: /home/cbf/MAI/
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -3603,6 +3612,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o: /home/cbf/MAI/
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -3698,6 +3708,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o: /home/cbf/MAI/
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/functional \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
@@ -3845,8 +3856,10 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/gamefield.cpp.o: /home/cbf/MAI/
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -4326,6 +4339,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/infodialog.cpp.o: /home/cbf/MAI
 
 CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.o: /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/mainwindow.cpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -4894,6 +4908,7 @@ CMakeFiles/lab_6_tests.dir/graphic_interface/src/mainwindow.cpp.o: /home/cbf/MAI
 
 CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -5465,6 +5480,7 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
   /usr/lib/gcc/x86_64-linux-gnu/10/include/syslimits.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Base/equip.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -5487,6 +5503,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o:
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -5495,11 +5512,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o:
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -5565,9 +5584,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o:
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -5666,8 +5687,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o:
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -5686,6 +5709,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Base/equip.cpp.o:
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -5714,6 +5738,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -5723,11 +5748,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -5797,9 +5824,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/map \
@@ -5899,8 +5928,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -5919,6 +5950,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/Equip_Builder/equip_builder_interface.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -5942,6 +5974,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -5950,11 +5983,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -6020,9 +6055,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -6121,8 +6158,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -6141,6 +6180,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/Equip_Bui
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -6169,6 +6209,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -6178,11 +6219,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -6252,9 +6295,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/map \
@@ -6354,8 +6399,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -6374,6 +6421,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Builder/MyEquip_Builder/myequip_builder_interface.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -6400,6 +6448,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -6408,11 +6457,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -6478,9 +6529,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -6579,8 +6632,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -6599,6 +6654,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Builder/MyEquip_B
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/boots.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Derived/boots.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -6622,6 +6678,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/boots.cpp
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -6630,11 +6687,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/boots.cpp
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -6700,9 +6759,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/boots.cpp
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -6801,8 +6862,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/boots.cpp
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -6821,6 +6884,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/boots.cpp
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/chestplate.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Derived/chestplate.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -6844,6 +6908,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/chestplat
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -6852,11 +6917,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/chestplat
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -6922,9 +6989,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/chestplat
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -7023,8 +7092,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/chestplat
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -7043,6 +7114,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/chestplat
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/helmet.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Derived/helmet.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -7066,6 +7138,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/helmet.cp
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -7074,11 +7147,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/helmet.cp
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -7144,9 +7219,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/helmet.cp
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -7245,8 +7322,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Derived/helmet.cp
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -7271,6 +7350,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/iron.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/no_material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/material_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -7301,6 +7381,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -7310,11 +7391,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -7384,9 +7467,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/map \
@@ -7486,8 +7571,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -7512,6 +7599,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/iron.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/no_material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/material_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -7542,6 +7630,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -7551,11 +7640,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -7625,9 +7716,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/map \
@@ -7727,8 +7820,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/chestplat
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -7754,6 +7849,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/iron.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/no_material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/material_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -7786,6 +7882,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -7795,11 +7892,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -7869,9 +7968,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/map \
@@ -7971,8 +8072,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/equip_fac
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -7997,6 +8100,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/iron.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/no_material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/material_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -8027,6 +8131,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -8036,11 +8141,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -8110,9 +8217,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/map \
@@ -8212,8 +8321,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -8232,6 +8343,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/helmet_fa
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/my_equip.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -8258,6 +8370,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o: /
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -8267,11 +8380,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o: /
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -8341,9 +8456,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o: /
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/map \
@@ -8443,8 +8560,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o: /
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -8463,6 +8582,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/my_equip.cpp.o: /
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Base/material.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /usr/include/alloca.h \
@@ -8484,6 +8604,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -8492,11 +8613,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -8562,9 +8685,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -8663,8 +8788,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -8683,6 +8810,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Base/material.
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decorative.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/decorative.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/decorative.hpp \
@@ -8705,6 +8833,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decora
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -8713,11 +8842,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decora
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -8783,9 +8914,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decora
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -8884,8 +9017,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decora
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -8904,6 +9039,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/decora
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/dimond.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/dimond.hpp \
@@ -8926,6 +9062,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -8934,11 +9071,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -9004,9 +9143,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -9105,8 +9246,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -9125,6 +9268,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/dimond
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/gold.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/gold.hpp \
@@ -9147,6 +9291,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.c
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -9155,11 +9300,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.c
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -9225,9 +9372,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.c
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -9326,8 +9475,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.c
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -9346,6 +9497,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.c
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/iron.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/iron.hpp \
@@ -9368,6 +9520,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.c
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -9376,11 +9529,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.c
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -9446,9 +9601,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.c
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -9547,8 +9704,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.c
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -9567,6 +9726,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/iron.c
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_material.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/no_material.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/no_material.hpp \
@@ -9589,6 +9749,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_mat
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -9597,11 +9758,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_mat
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -9667,9 +9830,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_mat
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -9768,8 +9933,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_mat
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -9789,6 +9956,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/no_mat
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/material_settings.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/material_settings.cpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/decorative.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/dimond.hpp \
@@ -9815,6 +9983,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/material_setti
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -9823,11 +9992,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/material_setti
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -9893,9 +10064,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/material_setti
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/memory \
@@ -9994,8 +10167,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/material_setti
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -10247,6 +10422,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Observer/observer.cpp.o: /ho
 CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/get_info_visitor.cpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/get_info_visitor.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -10256,6 +10432,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
@@ -10282,6 +10459,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -10291,6 +10469,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -10371,6 +10550,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -10498,8 +10678,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -10823,6 +11005,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/game.cpp.o: /home/cbf/MAI/OO
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/command_executer.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -11190,6 +11373,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/time.cpp.o: /home/cbf/MAI/OO
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/agressive_npc.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -11200,6 +11384,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: /ho
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
@@ -11222,6 +11407,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: /ho
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -11231,6 +11417,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: /ho
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -11311,6 +11498,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: /ho
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -11438,8 +11626,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: /ho
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -11458,6 +11648,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/agressive_npc.cpp.o: /ho
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/npc.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -11488,6 +11679,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o: /home/cbf/MAI
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -11497,6 +11689,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o: /home/cbf/MAI
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -11577,6 +11770,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o: /home/cbf/MAI
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -11704,8 +11898,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o: /home/cbf/MAI
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -11724,6 +11920,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/npc.cpp.o: /home/cbf/MAI
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Base/peaceful_npc.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -11755,6 +11952,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o: /hom
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -11764,6 +11962,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o: /hom
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -11844,6 +12043,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o: /hom
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -11971,8 +12171,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o: /hom
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -11991,6 +12193,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Base/peaceful_npc.cpp.o: /hom
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/agressive_npc_builder_interface.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -11998,6 +12201,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/agressive_npc_builder_interface.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -12018,6 +12222,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -12027,11 +12232,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -12101,9 +12308,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/map \
@@ -12203,8 +12412,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -12223,6 +12434,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/agressive_npc_builder
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -12230,6 +12442,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: /h
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/helmet.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/my_equip.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
@@ -12262,6 +12475,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: /h
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -12271,6 +12485,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: /h
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -12351,6 +12566,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: /h
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -12478,8 +12694,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: /h
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -12498,6 +12716,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder.cpp.o: /h
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/npc_builder_main.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -12521,6 +12740,15 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/equip_factory_register.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/helmet_factory.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Factory/equipment_factory.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/automatic_rifle.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/katana.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/knife.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/machine_gun.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/pistol.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/sniper_rifle.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/weapon_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Factory/weapon_factory.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/Visitor/visitor.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
@@ -12554,6 +12782,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -12563,6 +12792,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -12643,6 +12873,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -12770,8 +13001,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -12790,6 +13023,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/peaceful_npc_builder_interface.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
@@ -12817,6 +13051,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -12826,11 +13061,13 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
@@ -12900,9 +13137,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/map \
@@ -13002,8 +13241,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -13022,6 +13263,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/peaceful_npc_builder_
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/knight.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -13032,6 +13274,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: /home/c
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
@@ -13055,6 +13298,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: /home/c
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -13064,6 +13308,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: /home/c
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -13144,6 +13389,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: /home/c
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -13271,8 +13517,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: /home/c
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -13291,6 +13539,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: /home/c
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/pegasus.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -13323,6 +13572,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: /home/
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -13332,6 +13582,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: /home/
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -13412,6 +13663,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: /home/
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -13539,8 +13791,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: /home/
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -13559,6 +13813,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/pegasus.cpp.o: /home/
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/squirrel.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -13569,6 +13824,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: /home
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/time.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp \
@@ -13592,6 +13848,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: /home
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -13601,6 +13858,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: /home
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -13681,6 +13939,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: /home
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -13808,8 +14067,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: /home
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -13829,6 +14090,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/squirrel.cpp.o: /home
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/factory_register.cpp \
   /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -13863,6 +14125,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -13872,6 +14135,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -13952,6 +14216,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -14079,8 +14344,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/factory_register.cpp.
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -14115,6 +14382,15 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/equip_factory_register.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/helmet_factory.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Factory/equipment_factory.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/automatic_rifle.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/katana.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/knife.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/machine_gun.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/pistol.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/sniper_rifle.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/weapon_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Factory/weapon_factory.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp \
@@ -14125,6 +14401,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder_main.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/peaceful_npc_builder_interface.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -14157,6 +14434,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -14166,6 +14444,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -14246,6 +14525,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -14373,8 +14653,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -14393,6 +14675,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/knight_factory.cpp.o:
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/npc_factory_interface.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -14424,6 +14707,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -14433,6 +14717,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -14513,6 +14798,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -14640,8 +14926,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/npc_factory_interface
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -14676,6 +14964,15 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/equip_factory_register.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/helmet_factory.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Factory/equipment_factory.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/automatic_rifle.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/katana.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/knife.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/machine_gun.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/pistol.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/sniper_rifle.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/weapon_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Factory/weapon_factory.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp \
@@ -14686,6 +14983,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder_main.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/peaceful_npc_builder_interface.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -14718,6 +15016,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -14727,6 +15026,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -14807,6 +15107,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -14934,8 +15235,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/pegasus_factory.cpp.o
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -14970,6 +15273,15 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/equip_factory_register.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Factory/helmet_factory.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Factory/equipment_factory.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/automatic_rifle.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/katana.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/knife.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/machine_gun.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/pistol.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/sniper_rifle.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/weapon_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Factory/weapon_factory.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/peaceful_npc.hpp \
@@ -14980,6 +15292,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/npc_builder_main.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/Builder/peaceful_npc_builder_interface.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -15012,6 +15325,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -15021,6 +15335,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -15101,6 +15416,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -15228,8 +15544,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -15248,6 +15566,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_command.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/attack_command.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -15282,6 +15601,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -15291,6 +15611,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -15379,6 +15700,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/functional \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
@@ -15510,8 +15832,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -15530,6 +15854,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/attack_com
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_interface.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/comand_interface.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -15562,6 +15887,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_int
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -15571,6 +15897,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_int
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -15659,6 +15986,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_int
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/functional \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
@@ -15790,8 +16118,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_int
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -15810,6 +16140,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/comand_int
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_command.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/Command/move_command.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -15843,6 +16174,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -15852,6 +16184,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -15940,6 +16273,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/functional \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
@@ -16071,8 +16405,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -16091,6 +16427,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/FightLogic/command_executer.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -16125,6 +16462,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -16135,6 +16473,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -16229,6 +16568,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/functional \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
@@ -16364,8 +16704,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -16384,6 +16726,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/command_executer.c
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
 CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/position_funcs.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -16415,6 +16758,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/char_traits.h \
   /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
   /usr/include/c++/10/bits/concept_check.h \
   /usr/include/c++/10/bits/cpp_type_traits.h \
   /usr/include/c++/10/bits/cxxabi_forced.h \
@@ -16424,6 +16768,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
   /usr/include/c++/10/bits/exception.h \
   /usr/include/c++/10/bits/exception_defines.h \
   /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   /usr/include/c++/10/bits/functexcept.h \
   /usr/include/c++/10/bits/functional_hash.h \
   /usr/include/c++/10/bits/hash_bytes.h \
@@ -16504,6 +16849,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
   /usr/include/c++/10/ext/numeric_traits.h \
   /usr/include/c++/10/ext/string_conversions.h \
   /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
   /usr/include/c++/10/initializer_list \
   /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
@@ -16631,8 +16977,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
@@ -16781,6 +17129,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/command_executer.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Base/material.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Base/equip.hpp \
   /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/boots.hpp \
@@ -17099,6 +17448,1639 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
 
+CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Base/weapon.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Base/weapon.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/10/backward/binders.h \
+  /usr/include/c++/10/bits/algorithmfwd.h \
+  /usr/include/c++/10/bits/alloc_traits.h \
+  /usr/include/c++/10/bits/allocator.h \
+  /usr/include/c++/10/bits/basic_ios.h \
+  /usr/include/c++/10/bits/basic_ios.tcc \
+  /usr/include/c++/10/bits/basic_string.h \
+  /usr/include/c++/10/bits/basic_string.tcc \
+  /usr/include/c++/10/bits/char_traits.h \
+  /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
+  /usr/include/c++/10/bits/concept_check.h \
+  /usr/include/c++/10/bits/cpp_type_traits.h \
+  /usr/include/c++/10/bits/cxxabi_forced.h \
+  /usr/include/c++/10/bits/cxxabi_init_exception.h \
+  /usr/include/c++/10/bits/exception.h \
+  /usr/include/c++/10/bits/exception_defines.h \
+  /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
+  /usr/include/c++/10/bits/functexcept.h \
+  /usr/include/c++/10/bits/functional_hash.h \
+  /usr/include/c++/10/bits/hash_bytes.h \
+  /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
+  /usr/include/c++/10/bits/iterator_concepts.h \
+  /usr/include/c++/10/bits/locale_classes.h \
+  /usr/include/c++/10/bits/locale_classes.tcc \
+  /usr/include/c++/10/bits/locale_facets.h \
+  /usr/include/c++/10/bits/locale_facets.tcc \
+  /usr/include/c++/10/bits/localefwd.h \
+  /usr/include/c++/10/bits/memoryfwd.h \
+  /usr/include/c++/10/bits/move.h \
+  /usr/include/c++/10/bits/nested_exception.h \
+  /usr/include/c++/10/bits/ostream.tcc \
+  /usr/include/c++/10/bits/ostream_insert.h \
+  /usr/include/c++/10/bits/postypes.h \
+  /usr/include/c++/10/bits/predefined_ops.h \
+  /usr/include/c++/10/bits/ptr_traits.h \
+  /usr/include/c++/10/bits/range_access.h \
+  /usr/include/c++/10/bits/range_cmp.h \
+  /usr/include/c++/10/bits/std_abs.h \
+  /usr/include/c++/10/bits/stl_algo.h \
+  /usr/include/c++/10/bits/stl_algobase.h \
+  /usr/include/c++/10/bits/stl_construct.h \
+  /usr/include/c++/10/bits/stl_function.h \
+  /usr/include/c++/10/bits/stl_heap.h \
+  /usr/include/c++/10/bits/stl_iterator.h \
+  /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/10/bits/stl_iterator_base_types.h \
+  /usr/include/c++/10/bits/stl_pair.h \
+  /usr/include/c++/10/bits/stl_tempbuf.h \
+  /usr/include/c++/10/bits/streambuf.tcc \
+  /usr/include/c++/10/bits/streambuf_iterator.h \
+  /usr/include/c++/10/bits/string_view.tcc \
+  /usr/include/c++/10/bits/stringfwd.h \
+  /usr/include/c++/10/bits/uniform_int_dist.h \
+  /usr/include/c++/10/cctype \
+  /usr/include/c++/10/cerrno \
+  /usr/include/c++/10/clocale \
+  /usr/include/c++/10/compare \
+  /usr/include/c++/10/concepts \
+  /usr/include/c++/10/cstdint \
+  /usr/include/c++/10/cstdio \
+  /usr/include/c++/10/cstdlib \
+  /usr/include/c++/10/cwchar \
+  /usr/include/c++/10/cwctype \
+  /usr/include/c++/10/debug/assertions.h \
+  /usr/include/c++/10/debug/debug.h \
+  /usr/include/c++/10/exception \
+  /usr/include/c++/10/ext/alloc_traits.h \
+  /usr/include/c++/10/ext/atomicity.h \
+  /usr/include/c++/10/ext/new_allocator.h \
+  /usr/include/c++/10/ext/numeric_traits.h \
+  /usr/include/c++/10/ext/string_conversions.h \
+  /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
+  /usr/include/c++/10/initializer_list \
+  /usr/include/c++/10/ios \
+  /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
+  /usr/include/c++/10/limits \
+  /usr/include/c++/10/new \
+  /usr/include/c++/10/ostream \
+  /usr/include/c++/10/pstl/pstl_config.h \
+  /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/streambuf \
+  /usr/include/c++/10/string \
+  /usr/include/c++/10/string_view \
+  /usr/include/c++/10/system_error \
+  /usr/include/c++/10/type_traits \
+  /usr/include/c++/10/typeinfo \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/automatic_rifle.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/automatic_rifle.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/automatic_rifle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/10/backward/binders.h \
+  /usr/include/c++/10/bits/algorithmfwd.h \
+  /usr/include/c++/10/bits/alloc_traits.h \
+  /usr/include/c++/10/bits/allocator.h \
+  /usr/include/c++/10/bits/basic_ios.h \
+  /usr/include/c++/10/bits/basic_ios.tcc \
+  /usr/include/c++/10/bits/basic_string.h \
+  /usr/include/c++/10/bits/basic_string.tcc \
+  /usr/include/c++/10/bits/char_traits.h \
+  /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
+  /usr/include/c++/10/bits/concept_check.h \
+  /usr/include/c++/10/bits/cpp_type_traits.h \
+  /usr/include/c++/10/bits/cxxabi_forced.h \
+  /usr/include/c++/10/bits/cxxabi_init_exception.h \
+  /usr/include/c++/10/bits/exception.h \
+  /usr/include/c++/10/bits/exception_defines.h \
+  /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
+  /usr/include/c++/10/bits/functexcept.h \
+  /usr/include/c++/10/bits/functional_hash.h \
+  /usr/include/c++/10/bits/hash_bytes.h \
+  /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
+  /usr/include/c++/10/bits/iterator_concepts.h \
+  /usr/include/c++/10/bits/locale_classes.h \
+  /usr/include/c++/10/bits/locale_classes.tcc \
+  /usr/include/c++/10/bits/locale_facets.h \
+  /usr/include/c++/10/bits/locale_facets.tcc \
+  /usr/include/c++/10/bits/localefwd.h \
+  /usr/include/c++/10/bits/memoryfwd.h \
+  /usr/include/c++/10/bits/move.h \
+  /usr/include/c++/10/bits/nested_exception.h \
+  /usr/include/c++/10/bits/ostream.tcc \
+  /usr/include/c++/10/bits/ostream_insert.h \
+  /usr/include/c++/10/bits/postypes.h \
+  /usr/include/c++/10/bits/predefined_ops.h \
+  /usr/include/c++/10/bits/ptr_traits.h \
+  /usr/include/c++/10/bits/range_access.h \
+  /usr/include/c++/10/bits/range_cmp.h \
+  /usr/include/c++/10/bits/std_abs.h \
+  /usr/include/c++/10/bits/stl_algo.h \
+  /usr/include/c++/10/bits/stl_algobase.h \
+  /usr/include/c++/10/bits/stl_construct.h \
+  /usr/include/c++/10/bits/stl_function.h \
+  /usr/include/c++/10/bits/stl_heap.h \
+  /usr/include/c++/10/bits/stl_iterator.h \
+  /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/10/bits/stl_iterator_base_types.h \
+  /usr/include/c++/10/bits/stl_pair.h \
+  /usr/include/c++/10/bits/stl_tempbuf.h \
+  /usr/include/c++/10/bits/streambuf.tcc \
+  /usr/include/c++/10/bits/streambuf_iterator.h \
+  /usr/include/c++/10/bits/string_view.tcc \
+  /usr/include/c++/10/bits/stringfwd.h \
+  /usr/include/c++/10/bits/uniform_int_dist.h \
+  /usr/include/c++/10/cctype \
+  /usr/include/c++/10/cerrno \
+  /usr/include/c++/10/clocale \
+  /usr/include/c++/10/compare \
+  /usr/include/c++/10/concepts \
+  /usr/include/c++/10/cstdint \
+  /usr/include/c++/10/cstdio \
+  /usr/include/c++/10/cstdlib \
+  /usr/include/c++/10/cwchar \
+  /usr/include/c++/10/cwctype \
+  /usr/include/c++/10/debug/assertions.h \
+  /usr/include/c++/10/debug/debug.h \
+  /usr/include/c++/10/exception \
+  /usr/include/c++/10/ext/alloc_traits.h \
+  /usr/include/c++/10/ext/atomicity.h \
+  /usr/include/c++/10/ext/new_allocator.h \
+  /usr/include/c++/10/ext/numeric_traits.h \
+  /usr/include/c++/10/ext/string_conversions.h \
+  /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
+  /usr/include/c++/10/initializer_list \
+  /usr/include/c++/10/ios \
+  /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
+  /usr/include/c++/10/limits \
+  /usr/include/c++/10/new \
+  /usr/include/c++/10/ostream \
+  /usr/include/c++/10/pstl/pstl_config.h \
+  /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/streambuf \
+  /usr/include/c++/10/string \
+  /usr/include/c++/10/string_view \
+  /usr/include/c++/10/system_error \
+  /usr/include/c++/10/type_traits \
+  /usr/include/c++/10/typeinfo \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/katana.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/katana.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/katana.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/10/backward/binders.h \
+  /usr/include/c++/10/bits/algorithmfwd.h \
+  /usr/include/c++/10/bits/alloc_traits.h \
+  /usr/include/c++/10/bits/allocator.h \
+  /usr/include/c++/10/bits/basic_ios.h \
+  /usr/include/c++/10/bits/basic_ios.tcc \
+  /usr/include/c++/10/bits/basic_string.h \
+  /usr/include/c++/10/bits/basic_string.tcc \
+  /usr/include/c++/10/bits/char_traits.h \
+  /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
+  /usr/include/c++/10/bits/concept_check.h \
+  /usr/include/c++/10/bits/cpp_type_traits.h \
+  /usr/include/c++/10/bits/cxxabi_forced.h \
+  /usr/include/c++/10/bits/cxxabi_init_exception.h \
+  /usr/include/c++/10/bits/exception.h \
+  /usr/include/c++/10/bits/exception_defines.h \
+  /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
+  /usr/include/c++/10/bits/functexcept.h \
+  /usr/include/c++/10/bits/functional_hash.h \
+  /usr/include/c++/10/bits/hash_bytes.h \
+  /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
+  /usr/include/c++/10/bits/iterator_concepts.h \
+  /usr/include/c++/10/bits/locale_classes.h \
+  /usr/include/c++/10/bits/locale_classes.tcc \
+  /usr/include/c++/10/bits/locale_facets.h \
+  /usr/include/c++/10/bits/locale_facets.tcc \
+  /usr/include/c++/10/bits/localefwd.h \
+  /usr/include/c++/10/bits/memoryfwd.h \
+  /usr/include/c++/10/bits/move.h \
+  /usr/include/c++/10/bits/nested_exception.h \
+  /usr/include/c++/10/bits/ostream.tcc \
+  /usr/include/c++/10/bits/ostream_insert.h \
+  /usr/include/c++/10/bits/postypes.h \
+  /usr/include/c++/10/bits/predefined_ops.h \
+  /usr/include/c++/10/bits/ptr_traits.h \
+  /usr/include/c++/10/bits/range_access.h \
+  /usr/include/c++/10/bits/range_cmp.h \
+  /usr/include/c++/10/bits/std_abs.h \
+  /usr/include/c++/10/bits/stl_algo.h \
+  /usr/include/c++/10/bits/stl_algobase.h \
+  /usr/include/c++/10/bits/stl_construct.h \
+  /usr/include/c++/10/bits/stl_function.h \
+  /usr/include/c++/10/bits/stl_heap.h \
+  /usr/include/c++/10/bits/stl_iterator.h \
+  /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/10/bits/stl_iterator_base_types.h \
+  /usr/include/c++/10/bits/stl_pair.h \
+  /usr/include/c++/10/bits/stl_tempbuf.h \
+  /usr/include/c++/10/bits/streambuf.tcc \
+  /usr/include/c++/10/bits/streambuf_iterator.h \
+  /usr/include/c++/10/bits/string_view.tcc \
+  /usr/include/c++/10/bits/stringfwd.h \
+  /usr/include/c++/10/bits/uniform_int_dist.h \
+  /usr/include/c++/10/cctype \
+  /usr/include/c++/10/cerrno \
+  /usr/include/c++/10/clocale \
+  /usr/include/c++/10/compare \
+  /usr/include/c++/10/concepts \
+  /usr/include/c++/10/cstdint \
+  /usr/include/c++/10/cstdio \
+  /usr/include/c++/10/cstdlib \
+  /usr/include/c++/10/cwchar \
+  /usr/include/c++/10/cwctype \
+  /usr/include/c++/10/debug/assertions.h \
+  /usr/include/c++/10/debug/debug.h \
+  /usr/include/c++/10/exception \
+  /usr/include/c++/10/ext/alloc_traits.h \
+  /usr/include/c++/10/ext/atomicity.h \
+  /usr/include/c++/10/ext/new_allocator.h \
+  /usr/include/c++/10/ext/numeric_traits.h \
+  /usr/include/c++/10/ext/string_conversions.h \
+  /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
+  /usr/include/c++/10/initializer_list \
+  /usr/include/c++/10/ios \
+  /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
+  /usr/include/c++/10/limits \
+  /usr/include/c++/10/new \
+  /usr/include/c++/10/ostream \
+  /usr/include/c++/10/pstl/pstl_config.h \
+  /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/streambuf \
+  /usr/include/c++/10/string \
+  /usr/include/c++/10/string_view \
+  /usr/include/c++/10/system_error \
+  /usr/include/c++/10/type_traits \
+  /usr/include/c++/10/typeinfo \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/knife.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/knife.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/knife.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/10/backward/binders.h \
+  /usr/include/c++/10/bits/algorithmfwd.h \
+  /usr/include/c++/10/bits/alloc_traits.h \
+  /usr/include/c++/10/bits/allocator.h \
+  /usr/include/c++/10/bits/basic_ios.h \
+  /usr/include/c++/10/bits/basic_ios.tcc \
+  /usr/include/c++/10/bits/basic_string.h \
+  /usr/include/c++/10/bits/basic_string.tcc \
+  /usr/include/c++/10/bits/char_traits.h \
+  /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
+  /usr/include/c++/10/bits/concept_check.h \
+  /usr/include/c++/10/bits/cpp_type_traits.h \
+  /usr/include/c++/10/bits/cxxabi_forced.h \
+  /usr/include/c++/10/bits/cxxabi_init_exception.h \
+  /usr/include/c++/10/bits/exception.h \
+  /usr/include/c++/10/bits/exception_defines.h \
+  /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
+  /usr/include/c++/10/bits/functexcept.h \
+  /usr/include/c++/10/bits/functional_hash.h \
+  /usr/include/c++/10/bits/hash_bytes.h \
+  /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
+  /usr/include/c++/10/bits/iterator_concepts.h \
+  /usr/include/c++/10/bits/locale_classes.h \
+  /usr/include/c++/10/bits/locale_classes.tcc \
+  /usr/include/c++/10/bits/locale_facets.h \
+  /usr/include/c++/10/bits/locale_facets.tcc \
+  /usr/include/c++/10/bits/localefwd.h \
+  /usr/include/c++/10/bits/memoryfwd.h \
+  /usr/include/c++/10/bits/move.h \
+  /usr/include/c++/10/bits/nested_exception.h \
+  /usr/include/c++/10/bits/ostream.tcc \
+  /usr/include/c++/10/bits/ostream_insert.h \
+  /usr/include/c++/10/bits/postypes.h \
+  /usr/include/c++/10/bits/predefined_ops.h \
+  /usr/include/c++/10/bits/ptr_traits.h \
+  /usr/include/c++/10/bits/range_access.h \
+  /usr/include/c++/10/bits/range_cmp.h \
+  /usr/include/c++/10/bits/std_abs.h \
+  /usr/include/c++/10/bits/stl_algo.h \
+  /usr/include/c++/10/bits/stl_algobase.h \
+  /usr/include/c++/10/bits/stl_construct.h \
+  /usr/include/c++/10/bits/stl_function.h \
+  /usr/include/c++/10/bits/stl_heap.h \
+  /usr/include/c++/10/bits/stl_iterator.h \
+  /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/10/bits/stl_iterator_base_types.h \
+  /usr/include/c++/10/bits/stl_pair.h \
+  /usr/include/c++/10/bits/stl_tempbuf.h \
+  /usr/include/c++/10/bits/streambuf.tcc \
+  /usr/include/c++/10/bits/streambuf_iterator.h \
+  /usr/include/c++/10/bits/string_view.tcc \
+  /usr/include/c++/10/bits/stringfwd.h \
+  /usr/include/c++/10/bits/uniform_int_dist.h \
+  /usr/include/c++/10/cctype \
+  /usr/include/c++/10/cerrno \
+  /usr/include/c++/10/clocale \
+  /usr/include/c++/10/compare \
+  /usr/include/c++/10/concepts \
+  /usr/include/c++/10/cstdint \
+  /usr/include/c++/10/cstdio \
+  /usr/include/c++/10/cstdlib \
+  /usr/include/c++/10/cwchar \
+  /usr/include/c++/10/cwctype \
+  /usr/include/c++/10/debug/assertions.h \
+  /usr/include/c++/10/debug/debug.h \
+  /usr/include/c++/10/exception \
+  /usr/include/c++/10/ext/alloc_traits.h \
+  /usr/include/c++/10/ext/atomicity.h \
+  /usr/include/c++/10/ext/new_allocator.h \
+  /usr/include/c++/10/ext/numeric_traits.h \
+  /usr/include/c++/10/ext/string_conversions.h \
+  /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
+  /usr/include/c++/10/initializer_list \
+  /usr/include/c++/10/ios \
+  /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
+  /usr/include/c++/10/limits \
+  /usr/include/c++/10/new \
+  /usr/include/c++/10/ostream \
+  /usr/include/c++/10/pstl/pstl_config.h \
+  /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/streambuf \
+  /usr/include/c++/10/string \
+  /usr/include/c++/10/string_view \
+  /usr/include/c++/10/system_error \
+  /usr/include/c++/10/type_traits \
+  /usr/include/c++/10/typeinfo \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/machine_gun.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/machine_gun.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/machine_gun.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/10/backward/binders.h \
+  /usr/include/c++/10/bits/algorithmfwd.h \
+  /usr/include/c++/10/bits/alloc_traits.h \
+  /usr/include/c++/10/bits/allocator.h \
+  /usr/include/c++/10/bits/basic_ios.h \
+  /usr/include/c++/10/bits/basic_ios.tcc \
+  /usr/include/c++/10/bits/basic_string.h \
+  /usr/include/c++/10/bits/basic_string.tcc \
+  /usr/include/c++/10/bits/char_traits.h \
+  /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
+  /usr/include/c++/10/bits/concept_check.h \
+  /usr/include/c++/10/bits/cpp_type_traits.h \
+  /usr/include/c++/10/bits/cxxabi_forced.h \
+  /usr/include/c++/10/bits/cxxabi_init_exception.h \
+  /usr/include/c++/10/bits/exception.h \
+  /usr/include/c++/10/bits/exception_defines.h \
+  /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
+  /usr/include/c++/10/bits/functexcept.h \
+  /usr/include/c++/10/bits/functional_hash.h \
+  /usr/include/c++/10/bits/hash_bytes.h \
+  /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
+  /usr/include/c++/10/bits/iterator_concepts.h \
+  /usr/include/c++/10/bits/locale_classes.h \
+  /usr/include/c++/10/bits/locale_classes.tcc \
+  /usr/include/c++/10/bits/locale_facets.h \
+  /usr/include/c++/10/bits/locale_facets.tcc \
+  /usr/include/c++/10/bits/localefwd.h \
+  /usr/include/c++/10/bits/memoryfwd.h \
+  /usr/include/c++/10/bits/move.h \
+  /usr/include/c++/10/bits/nested_exception.h \
+  /usr/include/c++/10/bits/ostream.tcc \
+  /usr/include/c++/10/bits/ostream_insert.h \
+  /usr/include/c++/10/bits/postypes.h \
+  /usr/include/c++/10/bits/predefined_ops.h \
+  /usr/include/c++/10/bits/ptr_traits.h \
+  /usr/include/c++/10/bits/range_access.h \
+  /usr/include/c++/10/bits/range_cmp.h \
+  /usr/include/c++/10/bits/std_abs.h \
+  /usr/include/c++/10/bits/stl_algo.h \
+  /usr/include/c++/10/bits/stl_algobase.h \
+  /usr/include/c++/10/bits/stl_construct.h \
+  /usr/include/c++/10/bits/stl_function.h \
+  /usr/include/c++/10/bits/stl_heap.h \
+  /usr/include/c++/10/bits/stl_iterator.h \
+  /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/10/bits/stl_iterator_base_types.h \
+  /usr/include/c++/10/bits/stl_pair.h \
+  /usr/include/c++/10/bits/stl_tempbuf.h \
+  /usr/include/c++/10/bits/streambuf.tcc \
+  /usr/include/c++/10/bits/streambuf_iterator.h \
+  /usr/include/c++/10/bits/string_view.tcc \
+  /usr/include/c++/10/bits/stringfwd.h \
+  /usr/include/c++/10/bits/uniform_int_dist.h \
+  /usr/include/c++/10/cctype \
+  /usr/include/c++/10/cerrno \
+  /usr/include/c++/10/clocale \
+  /usr/include/c++/10/compare \
+  /usr/include/c++/10/concepts \
+  /usr/include/c++/10/cstdint \
+  /usr/include/c++/10/cstdio \
+  /usr/include/c++/10/cstdlib \
+  /usr/include/c++/10/cwchar \
+  /usr/include/c++/10/cwctype \
+  /usr/include/c++/10/debug/assertions.h \
+  /usr/include/c++/10/debug/debug.h \
+  /usr/include/c++/10/exception \
+  /usr/include/c++/10/ext/alloc_traits.h \
+  /usr/include/c++/10/ext/atomicity.h \
+  /usr/include/c++/10/ext/new_allocator.h \
+  /usr/include/c++/10/ext/numeric_traits.h \
+  /usr/include/c++/10/ext/string_conversions.h \
+  /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
+  /usr/include/c++/10/initializer_list \
+  /usr/include/c++/10/ios \
+  /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
+  /usr/include/c++/10/limits \
+  /usr/include/c++/10/new \
+  /usr/include/c++/10/ostream \
+  /usr/include/c++/10/pstl/pstl_config.h \
+  /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/streambuf \
+  /usr/include/c++/10/string \
+  /usr/include/c++/10/string_view \
+  /usr/include/c++/10/system_error \
+  /usr/include/c++/10/type_traits \
+  /usr/include/c++/10/typeinfo \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/pistol.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/pistol.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/pistol.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/10/backward/binders.h \
+  /usr/include/c++/10/bits/algorithmfwd.h \
+  /usr/include/c++/10/bits/alloc_traits.h \
+  /usr/include/c++/10/bits/allocator.h \
+  /usr/include/c++/10/bits/basic_ios.h \
+  /usr/include/c++/10/bits/basic_ios.tcc \
+  /usr/include/c++/10/bits/basic_string.h \
+  /usr/include/c++/10/bits/basic_string.tcc \
+  /usr/include/c++/10/bits/char_traits.h \
+  /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
+  /usr/include/c++/10/bits/concept_check.h \
+  /usr/include/c++/10/bits/cpp_type_traits.h \
+  /usr/include/c++/10/bits/cxxabi_forced.h \
+  /usr/include/c++/10/bits/cxxabi_init_exception.h \
+  /usr/include/c++/10/bits/exception.h \
+  /usr/include/c++/10/bits/exception_defines.h \
+  /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
+  /usr/include/c++/10/bits/functexcept.h \
+  /usr/include/c++/10/bits/functional_hash.h \
+  /usr/include/c++/10/bits/hash_bytes.h \
+  /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
+  /usr/include/c++/10/bits/iterator_concepts.h \
+  /usr/include/c++/10/bits/locale_classes.h \
+  /usr/include/c++/10/bits/locale_classes.tcc \
+  /usr/include/c++/10/bits/locale_facets.h \
+  /usr/include/c++/10/bits/locale_facets.tcc \
+  /usr/include/c++/10/bits/localefwd.h \
+  /usr/include/c++/10/bits/memoryfwd.h \
+  /usr/include/c++/10/bits/move.h \
+  /usr/include/c++/10/bits/nested_exception.h \
+  /usr/include/c++/10/bits/ostream.tcc \
+  /usr/include/c++/10/bits/ostream_insert.h \
+  /usr/include/c++/10/bits/postypes.h \
+  /usr/include/c++/10/bits/predefined_ops.h \
+  /usr/include/c++/10/bits/ptr_traits.h \
+  /usr/include/c++/10/bits/range_access.h \
+  /usr/include/c++/10/bits/range_cmp.h \
+  /usr/include/c++/10/bits/std_abs.h \
+  /usr/include/c++/10/bits/stl_algo.h \
+  /usr/include/c++/10/bits/stl_algobase.h \
+  /usr/include/c++/10/bits/stl_construct.h \
+  /usr/include/c++/10/bits/stl_function.h \
+  /usr/include/c++/10/bits/stl_heap.h \
+  /usr/include/c++/10/bits/stl_iterator.h \
+  /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/10/bits/stl_iterator_base_types.h \
+  /usr/include/c++/10/bits/stl_pair.h \
+  /usr/include/c++/10/bits/stl_tempbuf.h \
+  /usr/include/c++/10/bits/streambuf.tcc \
+  /usr/include/c++/10/bits/streambuf_iterator.h \
+  /usr/include/c++/10/bits/string_view.tcc \
+  /usr/include/c++/10/bits/stringfwd.h \
+  /usr/include/c++/10/bits/uniform_int_dist.h \
+  /usr/include/c++/10/cctype \
+  /usr/include/c++/10/cerrno \
+  /usr/include/c++/10/clocale \
+  /usr/include/c++/10/compare \
+  /usr/include/c++/10/concepts \
+  /usr/include/c++/10/cstdint \
+  /usr/include/c++/10/cstdio \
+  /usr/include/c++/10/cstdlib \
+  /usr/include/c++/10/cwchar \
+  /usr/include/c++/10/cwctype \
+  /usr/include/c++/10/debug/assertions.h \
+  /usr/include/c++/10/debug/debug.h \
+  /usr/include/c++/10/exception \
+  /usr/include/c++/10/ext/alloc_traits.h \
+  /usr/include/c++/10/ext/atomicity.h \
+  /usr/include/c++/10/ext/new_allocator.h \
+  /usr/include/c++/10/ext/numeric_traits.h \
+  /usr/include/c++/10/ext/string_conversions.h \
+  /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
+  /usr/include/c++/10/initializer_list \
+  /usr/include/c++/10/ios \
+  /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
+  /usr/include/c++/10/limits \
+  /usr/include/c++/10/new \
+  /usr/include/c++/10/ostream \
+  /usr/include/c++/10/pstl/pstl_config.h \
+  /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/streambuf \
+  /usr/include/c++/10/string \
+  /usr/include/c++/10/string_view \
+  /usr/include/c++/10/system_error \
+  /usr/include/c++/10/type_traits \
+  /usr/include/c++/10/typeinfo \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/sniper_rifle.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/sniper_rifle.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/sniper_rifle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/10/backward/binders.h \
+  /usr/include/c++/10/bits/algorithmfwd.h \
+  /usr/include/c++/10/bits/alloc_traits.h \
+  /usr/include/c++/10/bits/allocator.h \
+  /usr/include/c++/10/bits/basic_ios.h \
+  /usr/include/c++/10/bits/basic_ios.tcc \
+  /usr/include/c++/10/bits/basic_string.h \
+  /usr/include/c++/10/bits/basic_string.tcc \
+  /usr/include/c++/10/bits/char_traits.h \
+  /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
+  /usr/include/c++/10/bits/concept_check.h \
+  /usr/include/c++/10/bits/cpp_type_traits.h \
+  /usr/include/c++/10/bits/cxxabi_forced.h \
+  /usr/include/c++/10/bits/cxxabi_init_exception.h \
+  /usr/include/c++/10/bits/exception.h \
+  /usr/include/c++/10/bits/exception_defines.h \
+  /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
+  /usr/include/c++/10/bits/functexcept.h \
+  /usr/include/c++/10/bits/functional_hash.h \
+  /usr/include/c++/10/bits/hash_bytes.h \
+  /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
+  /usr/include/c++/10/bits/iterator_concepts.h \
+  /usr/include/c++/10/bits/locale_classes.h \
+  /usr/include/c++/10/bits/locale_classes.tcc \
+  /usr/include/c++/10/bits/locale_facets.h \
+  /usr/include/c++/10/bits/locale_facets.tcc \
+  /usr/include/c++/10/bits/localefwd.h \
+  /usr/include/c++/10/bits/memoryfwd.h \
+  /usr/include/c++/10/bits/move.h \
+  /usr/include/c++/10/bits/nested_exception.h \
+  /usr/include/c++/10/bits/ostream.tcc \
+  /usr/include/c++/10/bits/ostream_insert.h \
+  /usr/include/c++/10/bits/postypes.h \
+  /usr/include/c++/10/bits/predefined_ops.h \
+  /usr/include/c++/10/bits/ptr_traits.h \
+  /usr/include/c++/10/bits/range_access.h \
+  /usr/include/c++/10/bits/range_cmp.h \
+  /usr/include/c++/10/bits/std_abs.h \
+  /usr/include/c++/10/bits/stl_algo.h \
+  /usr/include/c++/10/bits/stl_algobase.h \
+  /usr/include/c++/10/bits/stl_construct.h \
+  /usr/include/c++/10/bits/stl_function.h \
+  /usr/include/c++/10/bits/stl_heap.h \
+  /usr/include/c++/10/bits/stl_iterator.h \
+  /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/10/bits/stl_iterator_base_types.h \
+  /usr/include/c++/10/bits/stl_pair.h \
+  /usr/include/c++/10/bits/stl_tempbuf.h \
+  /usr/include/c++/10/bits/streambuf.tcc \
+  /usr/include/c++/10/bits/streambuf_iterator.h \
+  /usr/include/c++/10/bits/string_view.tcc \
+  /usr/include/c++/10/bits/stringfwd.h \
+  /usr/include/c++/10/bits/uniform_int_dist.h \
+  /usr/include/c++/10/cctype \
+  /usr/include/c++/10/cerrno \
+  /usr/include/c++/10/clocale \
+  /usr/include/c++/10/compare \
+  /usr/include/c++/10/concepts \
+  /usr/include/c++/10/cstdint \
+  /usr/include/c++/10/cstdio \
+  /usr/include/c++/10/cstdlib \
+  /usr/include/c++/10/cwchar \
+  /usr/include/c++/10/cwctype \
+  /usr/include/c++/10/debug/assertions.h \
+  /usr/include/c++/10/debug/debug.h \
+  /usr/include/c++/10/exception \
+  /usr/include/c++/10/ext/alloc_traits.h \
+  /usr/include/c++/10/ext/atomicity.h \
+  /usr/include/c++/10/ext/new_allocator.h \
+  /usr/include/c++/10/ext/numeric_traits.h \
+  /usr/include/c++/10/ext/string_conversions.h \
+  /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
+  /usr/include/c++/10/initializer_list \
+  /usr/include/c++/10/ios \
+  /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
+  /usr/include/c++/10/limits \
+  /usr/include/c++/10/new \
+  /usr/include/c++/10/ostream \
+  /usr/include/c++/10/pstl/pstl_config.h \
+  /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/streambuf \
+  /usr/include/c++/10/string \
+  /usr/include/c++/10/string_view \
+  /usr/include/c++/10/system_error \
+  /usr/include/c++/10/type_traits \
+  /usr/include/c++/10/typeinfo \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
+
+CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o: /home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/weapon_settings.cpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Game/game_settings.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/automatic_rifle.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/katana.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/knife.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/machine_gun.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/pistol.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/sniper_rifle.hpp \
+  /home/cbf/MAI/OOP/Lab_6/include/Weapon/weapon_settings.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/10/array \
+  /usr/include/c++/10/backward/auto_ptr.h \
+  /usr/include/c++/10/backward/binders.h \
+  /usr/include/c++/10/bit \
+  /usr/include/c++/10/bits/algorithmfwd.h \
+  /usr/include/c++/10/bits/alloc_traits.h \
+  /usr/include/c++/10/bits/allocated_ptr.h \
+  /usr/include/c++/10/bits/allocator.h \
+  /usr/include/c++/10/bits/atomic_base.h \
+  /usr/include/c++/10/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/10/bits/basic_ios.h \
+  /usr/include/c++/10/bits/basic_ios.tcc \
+  /usr/include/c++/10/bits/basic_string.h \
+  /usr/include/c++/10/bits/basic_string.tcc \
+  /usr/include/c++/10/bits/char_traits.h \
+  /usr/include/c++/10/bits/charconv.h \
+  /usr/include/c++/10/bits/codecvt.h \
+  /usr/include/c++/10/bits/concept_check.h \
+  /usr/include/c++/10/bits/cpp_type_traits.h \
+  /usr/include/c++/10/bits/cxxabi_forced.h \
+  /usr/include/c++/10/bits/cxxabi_init_exception.h \
+  /usr/include/c++/10/bits/enable_special_members.h \
+  /usr/include/c++/10/bits/exception.h \
+  /usr/include/c++/10/bits/exception_defines.h \
+  /usr/include/c++/10/bits/exception_ptr.h \
+  /usr/include/c++/10/bits/fstream.tcc \
+  /usr/include/c++/10/bits/functexcept.h \
+  /usr/include/c++/10/bits/functional_hash.h \
+  /usr/include/c++/10/bits/hash_bytes.h \
+  /usr/include/c++/10/bits/invoke.h \
+  /usr/include/c++/10/bits/ios_base.h \
+  /usr/include/c++/10/bits/istream.tcc \
+  /usr/include/c++/10/bits/iterator_concepts.h \
+  /usr/include/c++/10/bits/locale_classes.h \
+  /usr/include/c++/10/bits/locale_classes.tcc \
+  /usr/include/c++/10/bits/locale_facets.h \
+  /usr/include/c++/10/bits/locale_facets.tcc \
+  /usr/include/c++/10/bits/localefwd.h \
+  /usr/include/c++/10/bits/memoryfwd.h \
+  /usr/include/c++/10/bits/move.h \
+  /usr/include/c++/10/bits/nested_exception.h \
+  /usr/include/c++/10/bits/ostream.tcc \
+  /usr/include/c++/10/bits/ostream_insert.h \
+  /usr/include/c++/10/bits/postypes.h \
+  /usr/include/c++/10/bits/predefined_ops.h \
+  /usr/include/c++/10/bits/ptr_traits.h \
+  /usr/include/c++/10/bits/range_access.h \
+  /usr/include/c++/10/bits/range_cmp.h \
+  /usr/include/c++/10/bits/ranges_algobase.h \
+  /usr/include/c++/10/bits/ranges_uninitialized.h \
+  /usr/include/c++/10/bits/refwrap.h \
+  /usr/include/c++/10/bits/shared_ptr.h \
+  /usr/include/c++/10/bits/shared_ptr_atomic.h \
+  /usr/include/c++/10/bits/shared_ptr_base.h \
+  /usr/include/c++/10/bits/std_abs.h \
+  /usr/include/c++/10/bits/stl_algo.h \
+  /usr/include/c++/10/bits/stl_algobase.h \
+  /usr/include/c++/10/bits/stl_construct.h \
+  /usr/include/c++/10/bits/stl_function.h \
+  /usr/include/c++/10/bits/stl_heap.h \
+  /usr/include/c++/10/bits/stl_iterator.h \
+  /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/10/bits/stl_iterator_base_types.h \
+  /usr/include/c++/10/bits/stl_pair.h \
+  /usr/include/c++/10/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/10/bits/stl_relops.h \
+  /usr/include/c++/10/bits/stl_tempbuf.h \
+  /usr/include/c++/10/bits/stl_uninitialized.h \
+  /usr/include/c++/10/bits/stream_iterator.h \
+  /usr/include/c++/10/bits/streambuf.tcc \
+  /usr/include/c++/10/bits/streambuf_iterator.h \
+  /usr/include/c++/10/bits/string_view.tcc \
+  /usr/include/c++/10/bits/stringfwd.h \
+  /usr/include/c++/10/bits/uniform_int_dist.h \
+  /usr/include/c++/10/bits/unique_ptr.h \
+  /usr/include/c++/10/bits/uses_allocator.h \
+  /usr/include/c++/10/cctype \
+  /usr/include/c++/10/cerrno \
+  /usr/include/c++/10/clocale \
+  /usr/include/c++/10/compare \
+  /usr/include/c++/10/concepts \
+  /usr/include/c++/10/cstdint \
+  /usr/include/c++/10/cstdio \
+  /usr/include/c++/10/cstdlib \
+  /usr/include/c++/10/cwchar \
+  /usr/include/c++/10/cwctype \
+  /usr/include/c++/10/debug/assertions.h \
+  /usr/include/c++/10/debug/debug.h \
+  /usr/include/c++/10/exception \
+  /usr/include/c++/10/ext/aligned_buffer.h \
+  /usr/include/c++/10/ext/alloc_traits.h \
+  /usr/include/c++/10/ext/atomicity.h \
+  /usr/include/c++/10/ext/concurrence.h \
+  /usr/include/c++/10/ext/new_allocator.h \
+  /usr/include/c++/10/ext/numeric_traits.h \
+  /usr/include/c++/10/ext/string_conversions.h \
+  /usr/include/c++/10/ext/type_traits.h \
+  /usr/include/c++/10/fstream \
+  /usr/include/c++/10/initializer_list \
+  /usr/include/c++/10/ios \
+  /usr/include/c++/10/iosfwd \
+  /usr/include/c++/10/istream \
+  /usr/include/c++/10/iterator \
+  /usr/include/c++/10/limits \
+  /usr/include/c++/10/memory \
+  /usr/include/c++/10/new \
+  /usr/include/c++/10/optional \
+  /usr/include/c++/10/ostream \
+  /usr/include/c++/10/pstl/execution_defs.h \
+  /usr/include/c++/10/pstl/glue_memory_defs.h \
+  /usr/include/c++/10/pstl/pstl_config.h \
+  /usr/include/c++/10/ranges \
+  /usr/include/c++/10/stdexcept \
+  /usr/include/c++/10/streambuf \
+  /usr/include/c++/10/string \
+  /usr/include/c++/10/string_view \
+  /usr/include/c++/10/system_error \
+  /usr/include/c++/10/tuple \
+  /usr/include/c++/10/type_traits \
+  /usr/include/c++/10/typeinfo \
+  /usr/include/c++/10/utility \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h
+
+
+/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/sniper_rifle.cpp:
+
+/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/pistol.cpp:
+
+/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/knife.cpp:
 
 /home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/position_funcs.cpp:
 
@@ -17110,11 +19092,21 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/knight_factory.cpp:
 
+/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/weapon_settings.cpp:
+
 /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/factory_register.cpp:
 
 /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/squirrel.cpp:
 
 /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/pegasus.cpp:
+
+/home/cbf/MAI/OOP/Lab_6/include/Weapon/weapon_settings.hpp:
+
+/home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/sniper_rifle.hpp:
+
+/home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/katana.hpp:
+
+/home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/automatic_rifle.hpp:
 
 /home/cbf/MAI/OOP/Lab_6/include/Equipment/Factory/equipment_factory.hpp:
 
@@ -17148,6 +19140,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/agressive_npc.hpp:
 
+/home/cbf/MAI/OOP/Lab_6/include/Weapon/Base/weapon.hpp:
+
 /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Observer/observer.cpp:
 
 /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/knight.cpp:
@@ -17174,6 +19168,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/iron.hpp:
 
+/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/katana.cpp:
+
 /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/dimond.hpp:
 
 /home/cbf/MAI/OOP/Lab_6/include/Equipment/Material/Derived/decorative.hpp:
@@ -17197,6 +19193,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qvectornd.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qscreen_platform.h:
+
+/home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/pistol.hpp:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qscreen.h:
 
@@ -17222,6 +19220,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qcoreapplication_platform.h:
 
+/home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/knife.hpp:
+
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QSizeF:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/QRect:
@@ -17230,9 +19230,9 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /home/cbf/MAI/OOP/Lab_6/graphic_interface/src/coordinatedialog.cpp:
 
-/usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h:
-
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/home/cbf/MAI/OOP/Lab_6/include/Weapon/Derived/machine_gun.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
@@ -17258,8 +19258,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /usr/include/c++/10/iomanip:
 
-/usr/include/c++/10/fstream:
-
 /usr/include/c++/10/filesystem:
 
 /usr/include/c++/10/deque:
@@ -17272,6 +19270,14 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /usr/include/c++/10/bits/stl_deque.h:
 
+/usr/include/c++/10/bits/std_mutex.h:
+
+/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Derived/boots.cpp:
+
+/usr/include/c++/10/bits/sstream.tcc:
+
+/usr/include/c++/10/bits/locale_facets_nonio.tcc:
+
 /usr/include/c++/10/bits/stl_multimap.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qfiledevice.h:
@@ -17283,10 +19289,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 /usr/include/c++/10/cwctype:
 
 /usr/include/c++/10/bits/stl_algobase.h:
-
-/usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h:
-
-/usr/include/c++/10/bits/std_function.h:
 
 /home/cbf/MAI/OOP/Lab_6/include/Equipment/Equip/Derived/chestplate.hpp:
 
@@ -17554,6 +19556,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qiodevicebase.h:
 
+/usr/include/c++/10/bits/quoted_string.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qpoint.h:
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h:
@@ -17577,6 +19583,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: /home/cb
 /usr/include/c++/10/bits/charconv.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qcalendar.h:
+
+/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Base/weapon.cpp:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/q20iterator.h:
 
@@ -17728,9 +19736,15 @@ graphic_interface/include/moc_coordinatedialog.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
+/home/cbf/MAI/OOP/Lab_6/include/Weapon/Factory/weapon_factory.hpp:
+
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qendian.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qstringconverter_base.h:
+
+/usr/include/c++/10/bits/std_function.h:
+
+/usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qsize.h:
 
@@ -17902,6 +19916,8 @@ graphic_interface/include/moc_infodialog.cpp:
 
 /usr/include/c++/10/bits/ptr_traits.h:
 
+/home/cbf/MAI/OOP/Lab_6/include/CRTP/creating_logger.hpp:
+
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qtenvironmentvariables.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qstringliteral.h:
@@ -18000,6 +20016,8 @@ graphic_interface/include/moc_gamefield.cpp:
 
 /usr/include/c++/10/concepts:
 
+/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/machine_gun.cpp:
+
 /usr/include/c++/10/cstdio:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qrefcount.h:
@@ -18009,6 +20027,8 @@ graphic_interface/include/moc_gamefield.cpp:
 /home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qfont.h:
 
 /usr/include/c++/10/cstring:
+
+/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/automatic_rifle.cpp:
 
 /usr/include/c++/10/cwchar:
 
@@ -18061,8 +20081,6 @@ graphic_interface/include/moc_gamefield.cpp:
 /usr/include/c++/10/pstl/glue_algorithm_defs.h:
 
 /usr/include/c++/10/pstl/glue_numeric_defs.h:
-
-/usr/include/c++/10/bits/locale_facets_nonio.tcc:
 
 /usr/include/c++/10/pstl/pstl_config.h:
 
@@ -18246,8 +20264,6 @@ graphic_interface/include/moc_gamefield.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/c++/10/bits/std_mutex.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/math.h:
@@ -18269,6 +20285,8 @@ graphic_interface/include/moc_gamefield.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h:
 
 /usr/include/c++/10/list:
 
@@ -18374,15 +20392,25 @@ graphic_interface/include/moc_filedialog.cpp:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qtimer.h:
 
+/usr/include/c++/10/bits/codecvt.h:
+
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/c++/10/bits/istream.tcc:
 
+/usr/include/c++/10/fstream:
+
+/usr/include/c++/10/bits/stl_queue.h:
+
+/home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qkeysequence.h:
+
+/home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qrect.h:
+
+/usr/include/c++/10/ostream:
+
+/home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qmainwindow.h:
+
 /usr/include/c++/10/iostream:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/c++/10/bits/quoted_string.h:
 
 /usr/include/c++/10/bits/string_view.tcc:
 
@@ -18422,16 +20450,6 @@ graphic_interface/include/moc_mainwindow.cpp:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/QMainWindow:
 
-/usr/include/c++/10/bits/stl_queue.h:
-
-/home/cbf/Qt/6.8.0/gcc_64/include/QtGui/qkeysequence.h:
-
-/home/cbf/Qt/6.8.0/gcc_64/include/QtCore/qrect.h:
-
-/usr/include/c++/10/ostream:
-
-/home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qmainwindow.h:
-
 /usr/include/c++/10/pstl/glue_memory_defs.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qmessagebox.h:
@@ -18441,8 +20459,6 @@ graphic_interface/include/moc_mainwindow.cpp:
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /home/cbf/Qt/6.8.0/gcc_64/include/QtWidgets/qtabwidget.h:
-
-/usr/include/c++/10/bits/codecvt.h:
 
 /usr/include/c++/10/bits/fs_ops.h:
 
@@ -18455,7 +20471,3 @@ graphic_interface/include/moc_mainwindow.cpp:
 /usr/include/c++/10/bits/ostream_insert.h:
 
 /usr/include/c++/10/bits/locale_facets_nonio.h:
-
-/home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Derived/boots.cpp:
-
-/usr/include/c++/10/bits/sstream.tcc:

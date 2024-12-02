@@ -2,6 +2,7 @@
 
 unsigned int UsageNPCFactory::npcCount = 0;
 std::shared_ptr<StandartEquipmentFactoryRandom> UsageNPCFactory::equipFactory = std::make_shared<StandartEquipmentFactoryRandom>();
+std::shared_ptr<StandartWeaponFactoryRandom> UsageNPCFactory::weaponFactory = std::make_shared<StandartWeaponFactoryRandom>();
 
 void AgressiveNPCBuilderMain::BuildNPCKnight(std::shared_ptr<KnightBuilder> builder)
 {
@@ -10,9 +11,8 @@ void AgressiveNPCBuilderMain::BuildNPCKnight(std::shared_ptr<KnightBuilder> buil
     builder->SetHp(KnightStat.hp);
     builder->SetBaseArmor(KnightStat.armor);
     builder->SetEquip(UsageNPCFactory::equipFactory->CreateEquip());
+    builder->SetWeapon(UsageNPCFactory::weaponFactory->CreateWeapon());
     builder->SetSpeed(KnightStat.speed);
-    builder->SetAttackDamage(KnightStat.attackDamage);
-    builder->SetAttackDistance(KnightStat.attackDistance);
 }
 
 void PeacefulNPCBuilderMain::BuildNPCPegasus(std::shared_ptr<PegasusBuilder> builder)
@@ -32,7 +32,6 @@ void AgressiveNPCBuilderMain::BuildNPCSquirrel(std::shared_ptr<SquirrelBuilder> 
     builder->SetHp(SquirrelStat.hp);
     builder->SetBaseArmor(SquirrelStat.armor);
     builder->SetEquip(UsageNPCFactory::equipFactory->CreateEquip());
+    builder->SetWeapon(UsageNPCFactory::weaponFactory->CreateWeapon());
     builder->SetSpeed(SquirrelStat.speed);
-    builder->SetAttackDamage(SquirrelStat.attackDamage);
-    builder->SetAttackDistance(SquirrelStat.attackDistance);
 }

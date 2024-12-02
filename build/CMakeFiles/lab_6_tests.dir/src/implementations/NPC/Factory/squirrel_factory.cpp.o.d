@@ -214,6 +214,11 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
  /usr/include/c++/10/bits/stl_multimap.h \
  /usr/include/c++/10/bits/erase_if.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/Base/equip.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/Base/../../../CRTP/creating_logger.hpp \
+ /usr/include/c++/10/fstream /usr/include/c++/10/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+ /usr/include/c++/10/bits/fstream.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Factory/../Base/../../Equipment/Equip/Derived/chestplate.hpp \
@@ -222,6 +227,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/npc_builder.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/peaceful_npc_builder_interface.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/agressive_npc_builder_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Weapon/Base/weapon.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Base/peaceful_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Base/agressive_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../Base/attackable_interface.hpp \
@@ -243,4 +249,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Factory/squirrel_factory.cpp.
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Factory/../../Material/Derived/dimond.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Factory/helmet_factory.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Factory/chestplate_factory.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Factory/boots_factory.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Factory/boots_factory.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Weapon/Factory/weapon_factory.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Weapon/Factory/../weapon_settings.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Weapon/Factory/../Derived/automatic_rifle.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Weapon/Factory/../Derived/katana.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Weapon/Factory/../Derived/knife.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Weapon/Factory/../Derived/machine_gun.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Weapon/Factory/../Derived/pistol.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Factory/../../../../include/NPC/Builder/../../Weapon/Factory/../Derived/sniper_rifle.hpp

@@ -1665,6 +1665,198 @@ src/implementations/Terminal/terminal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.s
 .PHONY : src/implementations/Terminal/terminal.cpp.s
 
+src/implementations/Weapon/Base/weapon.o: src/implementations/Weapon/Base/weapon.cpp.o
+.PHONY : src/implementations/Weapon/Base/weapon.o
+
+# target to build an object file
+src/implementations/Weapon/Base/weapon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Base/weapon.cpp.o
+.PHONY : src/implementations/Weapon/Base/weapon.cpp.o
+
+src/implementations/Weapon/Base/weapon.i: src/implementations/Weapon/Base/weapon.cpp.i
+.PHONY : src/implementations/Weapon/Base/weapon.i
+
+# target to preprocess a source file
+src/implementations/Weapon/Base/weapon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Base/weapon.cpp.i
+.PHONY : src/implementations/Weapon/Base/weapon.cpp.i
+
+src/implementations/Weapon/Base/weapon.s: src/implementations/Weapon/Base/weapon.cpp.s
+.PHONY : src/implementations/Weapon/Base/weapon.s
+
+# target to generate assembly for a file
+src/implementations/Weapon/Base/weapon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Base/weapon.cpp.s
+.PHONY : src/implementations/Weapon/Base/weapon.cpp.s
+
+src/implementations/Weapon/Derived/automatic_rifle.o: src/implementations/Weapon/Derived/automatic_rifle.cpp.o
+.PHONY : src/implementations/Weapon/Derived/automatic_rifle.o
+
+# target to build an object file
+src/implementations/Weapon/Derived/automatic_rifle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/automatic_rifle.cpp.o
+.PHONY : src/implementations/Weapon/Derived/automatic_rifle.cpp.o
+
+src/implementations/Weapon/Derived/automatic_rifle.i: src/implementations/Weapon/Derived/automatic_rifle.cpp.i
+.PHONY : src/implementations/Weapon/Derived/automatic_rifle.i
+
+# target to preprocess a source file
+src/implementations/Weapon/Derived/automatic_rifle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/automatic_rifle.cpp.i
+.PHONY : src/implementations/Weapon/Derived/automatic_rifle.cpp.i
+
+src/implementations/Weapon/Derived/automatic_rifle.s: src/implementations/Weapon/Derived/automatic_rifle.cpp.s
+.PHONY : src/implementations/Weapon/Derived/automatic_rifle.s
+
+# target to generate assembly for a file
+src/implementations/Weapon/Derived/automatic_rifle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/automatic_rifle.cpp.s
+.PHONY : src/implementations/Weapon/Derived/automatic_rifle.cpp.s
+
+src/implementations/Weapon/Derived/katana.o: src/implementations/Weapon/Derived/katana.cpp.o
+.PHONY : src/implementations/Weapon/Derived/katana.o
+
+# target to build an object file
+src/implementations/Weapon/Derived/katana.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/katana.cpp.o
+.PHONY : src/implementations/Weapon/Derived/katana.cpp.o
+
+src/implementations/Weapon/Derived/katana.i: src/implementations/Weapon/Derived/katana.cpp.i
+.PHONY : src/implementations/Weapon/Derived/katana.i
+
+# target to preprocess a source file
+src/implementations/Weapon/Derived/katana.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/katana.cpp.i
+.PHONY : src/implementations/Weapon/Derived/katana.cpp.i
+
+src/implementations/Weapon/Derived/katana.s: src/implementations/Weapon/Derived/katana.cpp.s
+.PHONY : src/implementations/Weapon/Derived/katana.s
+
+# target to generate assembly for a file
+src/implementations/Weapon/Derived/katana.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/katana.cpp.s
+.PHONY : src/implementations/Weapon/Derived/katana.cpp.s
+
+src/implementations/Weapon/Derived/knife.o: src/implementations/Weapon/Derived/knife.cpp.o
+.PHONY : src/implementations/Weapon/Derived/knife.o
+
+# target to build an object file
+src/implementations/Weapon/Derived/knife.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/knife.cpp.o
+.PHONY : src/implementations/Weapon/Derived/knife.cpp.o
+
+src/implementations/Weapon/Derived/knife.i: src/implementations/Weapon/Derived/knife.cpp.i
+.PHONY : src/implementations/Weapon/Derived/knife.i
+
+# target to preprocess a source file
+src/implementations/Weapon/Derived/knife.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/knife.cpp.i
+.PHONY : src/implementations/Weapon/Derived/knife.cpp.i
+
+src/implementations/Weapon/Derived/knife.s: src/implementations/Weapon/Derived/knife.cpp.s
+.PHONY : src/implementations/Weapon/Derived/knife.s
+
+# target to generate assembly for a file
+src/implementations/Weapon/Derived/knife.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/knife.cpp.s
+.PHONY : src/implementations/Weapon/Derived/knife.cpp.s
+
+src/implementations/Weapon/Derived/machine_gun.o: src/implementations/Weapon/Derived/machine_gun.cpp.o
+.PHONY : src/implementations/Weapon/Derived/machine_gun.o
+
+# target to build an object file
+src/implementations/Weapon/Derived/machine_gun.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/machine_gun.cpp.o
+.PHONY : src/implementations/Weapon/Derived/machine_gun.cpp.o
+
+src/implementations/Weapon/Derived/machine_gun.i: src/implementations/Weapon/Derived/machine_gun.cpp.i
+.PHONY : src/implementations/Weapon/Derived/machine_gun.i
+
+# target to preprocess a source file
+src/implementations/Weapon/Derived/machine_gun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/machine_gun.cpp.i
+.PHONY : src/implementations/Weapon/Derived/machine_gun.cpp.i
+
+src/implementations/Weapon/Derived/machine_gun.s: src/implementations/Weapon/Derived/machine_gun.cpp.s
+.PHONY : src/implementations/Weapon/Derived/machine_gun.s
+
+# target to generate assembly for a file
+src/implementations/Weapon/Derived/machine_gun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/machine_gun.cpp.s
+.PHONY : src/implementations/Weapon/Derived/machine_gun.cpp.s
+
+src/implementations/Weapon/Derived/pistol.o: src/implementations/Weapon/Derived/pistol.cpp.o
+.PHONY : src/implementations/Weapon/Derived/pistol.o
+
+# target to build an object file
+src/implementations/Weapon/Derived/pistol.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/pistol.cpp.o
+.PHONY : src/implementations/Weapon/Derived/pistol.cpp.o
+
+src/implementations/Weapon/Derived/pistol.i: src/implementations/Weapon/Derived/pistol.cpp.i
+.PHONY : src/implementations/Weapon/Derived/pistol.i
+
+# target to preprocess a source file
+src/implementations/Weapon/Derived/pistol.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/pistol.cpp.i
+.PHONY : src/implementations/Weapon/Derived/pistol.cpp.i
+
+src/implementations/Weapon/Derived/pistol.s: src/implementations/Weapon/Derived/pistol.cpp.s
+.PHONY : src/implementations/Weapon/Derived/pistol.s
+
+# target to generate assembly for a file
+src/implementations/Weapon/Derived/pistol.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/pistol.cpp.s
+.PHONY : src/implementations/Weapon/Derived/pistol.cpp.s
+
+src/implementations/Weapon/Derived/sniper_rifle.o: src/implementations/Weapon/Derived/sniper_rifle.cpp.o
+.PHONY : src/implementations/Weapon/Derived/sniper_rifle.o
+
+# target to build an object file
+src/implementations/Weapon/Derived/sniper_rifle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/sniper_rifle.cpp.o
+.PHONY : src/implementations/Weapon/Derived/sniper_rifle.cpp.o
+
+src/implementations/Weapon/Derived/sniper_rifle.i: src/implementations/Weapon/Derived/sniper_rifle.cpp.i
+.PHONY : src/implementations/Weapon/Derived/sniper_rifle.i
+
+# target to preprocess a source file
+src/implementations/Weapon/Derived/sniper_rifle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/sniper_rifle.cpp.i
+.PHONY : src/implementations/Weapon/Derived/sniper_rifle.cpp.i
+
+src/implementations/Weapon/Derived/sniper_rifle.s: src/implementations/Weapon/Derived/sniper_rifle.cpp.s
+.PHONY : src/implementations/Weapon/Derived/sniper_rifle.s
+
+# target to generate assembly for a file
+src/implementations/Weapon/Derived/sniper_rifle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/sniper_rifle.cpp.s
+.PHONY : src/implementations/Weapon/Derived/sniper_rifle.cpp.s
+
+src/implementations/Weapon/weapon_settings.o: src/implementations/Weapon/weapon_settings.cpp.o
+.PHONY : src/implementations/Weapon/weapon_settings.o
+
+# target to build an object file
+src/implementations/Weapon/weapon_settings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o
+.PHONY : src/implementations/Weapon/weapon_settings.cpp.o
+
+src/implementations/Weapon/weapon_settings.i: src/implementations/Weapon/weapon_settings.cpp.i
+.PHONY : src/implementations/Weapon/weapon_settings.i
+
+# target to preprocess a source file
+src/implementations/Weapon/weapon_settings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.i
+.PHONY : src/implementations/Weapon/weapon_settings.cpp.i
+
+src/implementations/Weapon/weapon_settings.s: src/implementations/Weapon/weapon_settings.cpp.s
+.PHONY : src/implementations/Weapon/weapon_settings.s
+
+# target to generate assembly for a file
+src/implementations/Weapon/weapon_settings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_6_tests.dir/build.make CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.s
+.PHONY : src/implementations/Weapon/weapon_settings.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1861,6 +2053,30 @@ help:
 	@echo "... src/implementations/Terminal/terminal.o"
 	@echo "... src/implementations/Terminal/terminal.i"
 	@echo "... src/implementations/Terminal/terminal.s"
+	@echo "... src/implementations/Weapon/Base/weapon.o"
+	@echo "... src/implementations/Weapon/Base/weapon.i"
+	@echo "... src/implementations/Weapon/Base/weapon.s"
+	@echo "... src/implementations/Weapon/Derived/automatic_rifle.o"
+	@echo "... src/implementations/Weapon/Derived/automatic_rifle.i"
+	@echo "... src/implementations/Weapon/Derived/automatic_rifle.s"
+	@echo "... src/implementations/Weapon/Derived/katana.o"
+	@echo "... src/implementations/Weapon/Derived/katana.i"
+	@echo "... src/implementations/Weapon/Derived/katana.s"
+	@echo "... src/implementations/Weapon/Derived/knife.o"
+	@echo "... src/implementations/Weapon/Derived/knife.i"
+	@echo "... src/implementations/Weapon/Derived/knife.s"
+	@echo "... src/implementations/Weapon/Derived/machine_gun.o"
+	@echo "... src/implementations/Weapon/Derived/machine_gun.i"
+	@echo "... src/implementations/Weapon/Derived/machine_gun.s"
+	@echo "... src/implementations/Weapon/Derived/pistol.o"
+	@echo "... src/implementations/Weapon/Derived/pistol.i"
+	@echo "... src/implementations/Weapon/Derived/pistol.s"
+	@echo "... src/implementations/Weapon/Derived/sniper_rifle.o"
+	@echo "... src/implementations/Weapon/Derived/sniper_rifle.i"
+	@echo "... src/implementations/Weapon/Derived/sniper_rifle.s"
+	@echo "... src/implementations/Weapon/weapon_settings.o"
+	@echo "... src/implementations/Weapon/weapon_settings.i"
+	@echo "... src/implementations/Weapon/weapon_settings.s"
 .PHONY : help
 
 

@@ -217,11 +217,17 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Game/Visitor/get_info_visitor.cpp
  /usr/include/c++/10/bits/stl_multimap.h \
  /usr/include/c++/10/bits/erase_if.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/equip.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/../../../CRTP/creating_logger.hpp \
+ /usr/include/c++/10/fstream /usr/include/c++/10/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+ /usr/include/c++/10/bits/fstream.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/boots.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/attackable_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/../../Weapon/Base/weapon.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/pegasus.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/../Base/peaceful_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Game/Visitor/../../../../include/NPC/Derived/squirrel.hpp

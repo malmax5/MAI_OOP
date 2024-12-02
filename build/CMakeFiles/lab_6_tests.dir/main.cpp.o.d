@@ -458,6 +458,11 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/NPC/Base/../../Positionable/positionable.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/NPC/Base/../../Equipment/Equip/my_equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/NPC/Base/../../Equipment/Equip/Base/equip.hpp \
+ /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/NPC/Base/../../Equipment/Equip/Base/../../../CRTP/creating_logger.hpp \
+ /usr/include/c++/10/fstream \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+ /usr/include/c++/10/bits/fstream.tcc \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/NPC/Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
@@ -482,10 +487,6 @@ CMakeFiles/lab_6_tests.dir/main.cpp.o: /home/cbf/MAI/OOP/Lab_6/main.cpp \
  /usr/include/c++/10/bits/stl_multiset.h \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/Terminal/../Game/../Positionable/position_funcs.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/Terminal/../Game/Observer/observer.hpp \
- /usr/include/c++/10/fstream \
- /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
- /usr/include/c++/10/bits/fstream.tcc \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/Terminal/../Game/Visitor/get_info_visitor.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/Terminal/../Game/../NPC/FightLogic/command_executer.hpp \
  /home/cbf/MAI/OOP/Lab_6/graphic_interface/include/../../include/Terminal/../Game/../NPC/FightLogic/Command/command_interface.hpp \

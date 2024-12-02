@@ -33,8 +33,7 @@ public:
     void SetBaseArmor(double armor) override;
     void SetEquip(std::shared_ptr<MyEquip> equip) override;
     void SetSpeed(double speed) override;
-    void SetAttackDamage(double attackDamage) override;
-    void SetAttackDistance(double attackDistance) override;
+    void SetWeapon(std::shared_ptr<Weapon> weapon) override;
 
     std::shared_ptr<AgressiveNPC> GetResult();
 

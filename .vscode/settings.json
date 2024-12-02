@@ -72,6 +72,7 @@
         "cinttypes": "cpp",
         "coroutine": "cpp",
         "future": "cpp",
-        "stdfloat": "cpp"
+        "stdfloat": "cpp",
+        "makefile": "cpp"
     }
 }

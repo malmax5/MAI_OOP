@@ -24,6 +24,33 @@ set(
     #main
     main.cpp
 
+    #!CRTP
+    #hpp
+    include/CRTP/creating_logger.hpp
+    #!CRTP Stop
+
+    #!Weapon
+    #hpp
+    include/Weapon/Base/weapon.hpp
+    include/Weapon/Derived/automatic_rifle.hpp
+    include/Weapon/Derived/katana.hpp
+    include/Weapon/Derived/knife.hpp
+    include/Weapon/Derived/machine_gun.hpp
+    include/Weapon/Derived/pistol.hpp
+    include/Weapon/Derived/sniper_rifle.hpp
+    include/Weapon/Factory/weapon_factory.hpp
+    include/Weapon/weapon_settings.hpp
+
+    #cpp
+    src/implementations/Weapon/Base/weapon.cpp
+    src/implementations/Weapon/Derived/automatic_rifle.cpp
+    src/implementations/Weapon/Derived/katana.cpp
+    src/implementations/Weapon/Derived/knife.cpp
+    src/implementations/Weapon/Derived/machine_gun.cpp
+    src/implementations/Weapon/Derived/pistol.cpp
+    src/implementations/Weapon/Derived/sniper_rifle.cpp
+    src/implementations/Weapon/weapon_settings.cpp
+
     #!Equipment Start
     #hpp
     #equip

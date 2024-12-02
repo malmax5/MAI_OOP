@@ -2,6 +2,9 @@
 
 Iron::Iron()
 {
+    LogCreate();
     SetArmorMultiple(ArmorMultiple::IronMultiple);
-    SetName("Iron");
 }
+
+Iron::~Iron()
+{}

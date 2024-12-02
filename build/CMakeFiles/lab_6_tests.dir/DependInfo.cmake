@@ -67,6 +67,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/position_funcs.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/position_funcs.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Positionable/positionable.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Positionable/positionable.cpp.o.d"
   "/home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/terminal.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Base/weapon.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Base/weapon.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Base/weapon.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/automatic_rifle.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/automatic_rifle.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/automatic_rifle.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/katana.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/katana.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/katana.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/knife.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/knife.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/knife.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/machine_gun.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/machine_gun.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/machine_gun.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/pistol.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/pistol.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/pistol.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/Derived/sniper_rifle.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/sniper_rifle.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/Derived/sniper_rifle.cpp.o.d"
+  "/home/cbf/MAI/OOP/Lab_6/src/implementations/Weapon/weapon_settings.cpp" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o" "gcc" "CMakeFiles/lab_6_tests.dir/src/implementations/Weapon/weapon_settings.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

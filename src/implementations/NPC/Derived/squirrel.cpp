@@ -16,7 +16,7 @@ void Squirrel::Attack(std::shared_ptr<NPC> target)
     Reload();
 }
 
-void Squirrel::Reload()
-{
-    reloadedTime = Time::GetLastIterTime() + std::chrono::seconds(SquirrelStat.attackReloading);
-}
+// void Squirrel::Reload()
+// {
+//     reloadedTime = Time::GetLastIterTime() + std::chrono::seconds(SquirrelStat.attackReloading);
+// }

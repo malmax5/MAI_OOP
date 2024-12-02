@@ -1,0 +1,14 @@
+6Helmet
+10Decorative
+10Chestplate
+4Gold
+5Boots
+4Gold
+14AutomaticRifle
+6Helmet
+4Iron
+10Chestplate
+10NoMaterial
+5Boots
+7Diamond
+14AutomaticRifle

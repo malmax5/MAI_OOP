@@ -57,14 +57,9 @@ void AgressiveNPCBuilder::SetSpeed(double speed)
     npc_->SetSpeed(speed);
 }
 
-void AgressiveNPCBuilder::SetAttackDamage(double attackDamage)
+void AgressiveNPCBuilder::SetWeapon(std::shared_ptr<Weapon> weapon)
 {
-    std::dynamic_pointer_cast<AgressiveNPC>(npc_)->SetAttackDamage(attackDamage);
-}
-
-void AgressiveNPCBuilder::SetAttackDistance(double attackDistance)
-{
-    std::dynamic_pointer_cast<AgressiveNPC>(npc_)->SetAttackDistance(attackDistance);
+    std::dynamic_pointer_cast<AgressiveNPC>(npc_)->SetWeapon(weapon);
 }
 
 std::shared_ptr<AgressiveNPC> AgressiveNPCBuilder::GetResult()

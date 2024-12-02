@@ -15,6 +15,12 @@ public:
     Terminal();
     ~Terminal();
 
+    Terminal(Terminal& game) = delete;
+    Terminal(Terminal&& game) noexcept = delete;
+
+    Terminal& operator= (Terminal& game) = delete;
+    Terminal& operator= (Terminal&& game) noexcept = delete;
+
     void CreateNewGame();
     void StartGame();
     void StopGame();

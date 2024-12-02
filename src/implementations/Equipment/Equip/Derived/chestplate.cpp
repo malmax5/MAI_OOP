@@ -2,5 +2,9 @@
 
 Chestplate::Chestplate()
 {
-    SetArmor(20);
+    LogCreate();
+    SetArmor(EquipArmor::ChestplateArmor);
 }
+
+Chestplate::~Chestplate()
+{}

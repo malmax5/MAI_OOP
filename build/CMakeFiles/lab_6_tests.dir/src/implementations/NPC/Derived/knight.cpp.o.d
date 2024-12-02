@@ -3,7 +3,6 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: \
  /usr/include/stdc-predef.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/knight.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/agressive_npc.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/npc.hpp \
  /usr/include/c++/10/memory /usr/include/c++/10/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
@@ -177,6 +176,7 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: \
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Game/time.hpp \
  /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
  /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
@@ -214,8 +214,14 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Derived/knight.cpp.o: \
  /usr/include/c++/10/bits/stl_multimap.h \
  /usr/include/c++/10/bits/erase_if.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/equip.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/../../../CRTP/creating_logger.hpp \
+ /usr/include/c++/10/fstream /usr/include/c++/10/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+ /usr/include/c++/10/bits/fstream.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Equipment/Equip/Derived/boots.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/attackable_interface.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/attackable_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Derived/../../../../include/NPC/Derived/../Base/../../Weapon/Base/weapon.hpp

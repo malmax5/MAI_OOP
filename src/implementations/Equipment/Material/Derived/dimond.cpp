@@ -2,6 +2,9 @@
 
 Diamond::Diamond()
 {
+    LogCreate();
     SetArmorMultiple(ArmorMultiple::DiamondMultiple);
-    SetName("Dimond");
 }
+
+Diamond::~Diamond()
+{}

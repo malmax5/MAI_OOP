@@ -177,6 +177,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/material_setti
  /usr/include/c++/10/pstl/execution_defs.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/../../../../include/Equipment/Material/../../Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/../../../../include/Equipment/Material/Base/material.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/../../../../include/Equipment/Material/Base/../../../CRTP/creating_logger.hpp \
+ /usr/include/c++/10/fstream /usr/include/c++/10/istream \
+ /usr/include/c++/10/bits/istream.tcc /usr/include/c++/10/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+ /usr/include/c++/10/bits/fstream.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/../../../../include/Equipment/Material/Derived/no_material.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/../../../../include/Equipment/Material/Derived/decorative.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/../../../../include/Equipment/Material/Derived/iron.hpp \

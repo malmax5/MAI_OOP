@@ -187,20 +187,26 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Base/../../../CRTP/creating_logger.hpp \
+ /usr/include/c++/10/fstream /usr/include/c++/10/istream \
+ /usr/include/c++/10/bits/istream.tcc /usr/include/c++/10/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+ /usr/include/c++/10/bits/fstream.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Base/../../Material/Base/../../../Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Equip/Derived/boots.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/agressive_npc_builder_interface.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Weapon/Base/weapon.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/peaceful_npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/npc.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/../../Game/time.hpp \
  /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
  /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/../../Game/Visitor/visitor.hpp \
- /usr/include/c++/10/iostream /usr/include/c++/10/istream \
- /usr/include/c++/10/bits/istream.tcc \
+ /usr/include/c++/10/iostream \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../Base/../../Positionable/positionable.hpp \
  /usr/include/c++/10/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -244,4 +250,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/Builder/npc_builder_main.cpp.
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Factory/../../Material/Derived/dimond.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Factory/helmet_factory.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Factory/chestplate_factory.hpp \
- /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Factory/boots_factory.hpp
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Equipment/Factory/../Equip/Factory/boots_factory.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Weapon/Factory/weapon_factory.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Weapon/Factory/../weapon_settings.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Weapon/Factory/../Derived/automatic_rifle.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Weapon/Factory/../Derived/katana.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Weapon/Factory/../Derived/knife.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Weapon/Factory/../Derived/machine_gun.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Weapon/Factory/../Derived/pistol.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/NPC/Builder/../../../../include/NPC/Builder/../../Weapon/Factory/../Derived/sniper_rifle.hpp

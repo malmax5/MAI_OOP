@@ -25,14 +25,14 @@ namespace GameSettings {
         DiamondMaterial = 4
     };
 
-    struct NPCStats
+    enum class WeaponId
     {
-        double hp;
-        double armor;
-        double speed;
-        double attackDamage;
-        double attackDistance;
-        int attackReloading;
+        AutomaticRifleId = 0,
+        KatanaId = 1,
+        KnifeId = 2,
+        MachineGunId = 3,
+        PistolId = 4,
+        SniperRifleId = 5
     };
 
     struct ArmorMultiple
@@ -44,14 +44,77 @@ namespace GameSettings {
         static constexpr double DiamondMultiple = 4.0;
     };
 
+    struct EquipArmor
+    {
+        static constexpr double HelmetArmor = 10.0;
+        static constexpr double ChestplateArmor = 20.0;
+        static constexpr double BootsArmor = 5.0;
+    };
+
+    struct WeaponStats
+    {
+        double attackDamege;
+        double attackDistance;
+        double reloadingTime;
+    };
+
+    inline const WeaponStats AutomaticRifleStat = 
+    {
+        .attackDamege = 3,
+        .attackDistance = 5,
+        .reloadingTime = 0.3
+    };
+
+    inline const WeaponStats KatanaStat = 
+    {
+        .attackDamege = 7,
+        .attackDistance = 1,
+        .reloadingTime = 1.2
+    };
+
+    inline const WeaponStats KnifeStat = 
+    {
+        .attackDamege = 5,
+        .attackDistance = 1,
+        .reloadingTime = 1
+    };
+
+    inline const WeaponStats MachineGunStat = 
+    {
+        .attackDamege = 5,
+        .attackDistance = 5,
+        .reloadingTime = 0.5
+    };
+
+    inline const WeaponStats PistolStat = 
+    {
+        .attackDamege = 10,
+        .attackDistance = 5,
+        .reloadingTime = 2
+    };
+
+    inline const WeaponStats SniperRifleStat = 
+    {
+        .attackDamege = 20,
+        .attackDistance = 20,
+        .reloadingTime = 10
+    };
+
+    struct NPCStats
+    {
+        double hp;
+        double armor;
+        double speed;
+        double attackDamage;
+        double attackDistance;
+        int attackReloading;
+    };
+
     inline const NPCStats KnightStat =
     {
         .hp = 100.0,
         .armor = 50.0,
         .speed = 5.0,
-        .attackDamage = 10.0,
-        .attackDistance = 30.0,
-        .attackReloading = 3
     };
 
     inline const NPCStats SquirrelStat =
@@ -59,9 +122,6 @@ namespace GameSettings {
         .hp = 50.0,
         .armor = 30.0,
         .speed = 7.0,
-        .attackDamage = 5.0,
-        .attackDistance = 30.0,
-        .attackReloading = 2
     };
 
     inline const NPCStats PegasusStat =

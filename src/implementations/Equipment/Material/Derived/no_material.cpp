@@ -2,6 +2,9 @@
 
 NoMaterial::NoMaterial()
 {
+    LogCreate();
     SetArmorMultiple(ArmorMultiple::NoMaterialMultiple);
-    SetName("No Material");
 }
+
+NoMaterial::~NoMaterial()
+{}

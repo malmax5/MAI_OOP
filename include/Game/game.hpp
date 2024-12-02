@@ -33,6 +33,12 @@ class Game
     friend class BattleVisitor;
 public:
     Game();
+    ~Game();
+    Game(Game& game) = delete;
+    Game(Game&& game) noexcept = delete;
+
+    Game& operator= (Game& game) = delete;
+    Game& operator= (Game&& game) noexcept = delete;
 
 private:
     void Start();

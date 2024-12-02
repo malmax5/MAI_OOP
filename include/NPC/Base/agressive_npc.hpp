@@ -1,7 +1,10 @@
 #pragma once
 
+#include <memory>
+
 #include "npc.hpp"
 #include "attackable_interface.hpp"
+#include "../../Weapon/Base/weapon.hpp"
 
 class AgressiveNPC : public NPC, public IAttackable
 {
@@ -16,11 +19,10 @@ public:
     bool ReadyToAttack() const override;
     void Reload() override;
 
-protected:
-    void SetAttackDamage(double attackDamage) override;
-    void SetAttackDistance(double attackDistance) override;
+    void SetWeapon(std::shared_ptr<Weapon> weapon);
 
 protected:
+    std::shared_ptr<Weapon> weapon_;
     double attackDamage_;
     double attackDistance_;
     std::chrono::system_clock::time_point reloadedTime = std::chrono::system_clock::now();

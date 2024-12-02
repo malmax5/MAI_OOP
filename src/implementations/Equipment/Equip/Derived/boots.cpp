@@ -2,5 +2,9 @@
 
 Boots::Boots()
 {
-    SetArmor(5);
+    LogCreate();
+    SetArmor(EquipArmor::BootsArmor);
 }
+
+Boots::~Boots()
+{}

@@ -6,6 +6,24 @@ Game::Game() : getInfoVisitor(std::make_shared<GetInfoVisitor>()),
     shouldStop_.store(false);
 }
 
+Game::~Game()
+{
+    tce::stopFlag.store(true);
+    tce::commandQueueCV.notify_one();
+    if (tce::thr.joinable())
+    {
+        tce::thr.join();
+    }
+    tce::isThreadRunning = false;
+
+    shouldStop_.store(true);
+    if (gameThread.joinable())
+    {
+        gameThread.join();
+    }
+    isThreadRunning = false;
+}
+
 void Game::Start()
 {
     if (tce::isThreadRunning)

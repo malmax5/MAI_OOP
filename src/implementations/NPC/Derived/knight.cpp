@@ -16,7 +16,7 @@ void Knight::Attack(std::shared_ptr<NPC> target)
     Reload();
 }
 
-void Knight::Reload()
-{
-    reloadedTime = Time::GetLastIterTime() + std::chrono::seconds(KnightStat.attackReloading);
-}
+// void Knight::Reload()
+// {
+//     reloadedTime = Time::GetLastIterTime() + std::chrono::seconds(KnightStat.attackReloading);
+// }

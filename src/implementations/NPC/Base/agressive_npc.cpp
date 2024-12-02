@@ -1,23 +1,18 @@
 #include "../../../../include/NPC/Base/agressive_npc.hpp"
 
-void AgressiveNPC::SetAttackDamage(double attackDamage)
+void AgressiveNPC::SetWeapon(std::shared_ptr<Weapon> weapon)
 {
-    attackDamage_ = attackDamage;
-}
-
-void AgressiveNPC::SetAttackDistance(double attackDistnce)
-{
-    attackDistance_ = attackDistnce;
+    weapon_ = weapon;
 }
 
 double AgressiveNPC::GetAttackDistance() const
 {
-    return attackDistance_;
+    return weapon_->GetAttackDistance();
 }
 
 double AgressiveNPC::GetAttackDamage() const
 {
-    return attackDamage_;
+    return weapon_->GetAttackDamage();
 }
 
 bool AgressiveNPC::ReadyToAttack() const
@@ -27,5 +22,5 @@ bool AgressiveNPC::ReadyToAttack() const
 
 void AgressiveNPC::Reload()
 {
-    
+    reloadedTime = std::chrono::time_point_cast<std::chrono::system_clock::duration>(Time::GetLastIterTime() + std::chrono::duration<double>(weapon_->GetReloadingTime()));
 }

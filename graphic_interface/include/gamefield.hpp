@@ -7,14 +7,6 @@
 
 using GameSettings::NPCId;
 
-// struct NPCC
-// {
-//     NPCC(double x, double y, NPCId id) : x(x), y(y), id(id) {}
-//     double x;
-//     double y;
-//     NPCId id;
-// };
-
 class GameField : public QWidget
 {
     Q_OBJECT

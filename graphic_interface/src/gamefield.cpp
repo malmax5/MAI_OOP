@@ -11,11 +11,13 @@ GameField::GameField(QWidget *parent)
 
     timer_ = new QTimer(this);
     connect(timer_, &QTimer::timeout, this, &GameField::UpdateNPCs);
-    timer_->start(100);
+    timer_->start(10);
 }
 
 GameField::~GameField()
-{}
+{
+    ClearNPC();
+}
 
 void GameField::paintEvent(QPaintEvent *event)
 {

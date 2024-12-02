@@ -180,4 +180,10 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Material/Derived/gold.c
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/../../../../../include/Equipment/Material/Derived/../Base/../../../CRTP/creating_logger.hpp \
+ /usr/include/c++/10/fstream /usr/include/c++/10/istream \
+ /usr/include/c++/10/bits/istream.tcc /usr/include/c++/10/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+ /usr/include/c++/10/bits/fstream.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Material/Derived/../../../../../include/Equipment/Material/Derived/../Base/../../../Game/game_settings.hpp

@@ -2,6 +2,9 @@
 
 Gold::Gold()
 {
+    LogCreate();
     SetArmorMultiple(ArmorMultiple::GoldMultiple);
-    SetName("Gold");
 }
+
+Gold::~Gold()
+{}

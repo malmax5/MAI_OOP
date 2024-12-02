@@ -14,27 +14,64 @@ MainWindow::MainWindow(QWidget *parent)
     leftPanel_ = new QWidget;
     leftLayout_ = new QVBoxLayout(leftPanel_);
 
-    createGameBtn_ = new QPushButton("CreateGame");
-    startGameBtn_ = new QPushButton("StartGame");
-    deleteGameBtn_ = new QPushButton("DeleteGame");
-    includeKnightBtn_ = new QPushButton("IncludeKnight");
-    includePegasusBtn_ = new QPushButton("IncludePegasus");
-    includeSquirrelBtn_ = new QPushButton("IncludeSquirrel");
-    loadNPCToFileBtn_ = new QPushButton("LoadNPCToFile");
-    exportNPCFromFileBtn_ = new QPushButton("ExportNPCFromFile");
-    exitBtn_ = new QPushButton("Exit");
+    createGameBtn_ = new QPushButton("Create game");
+    startGameBtn_ = new QPushButton("Start game");
+    deleteGameBtn_ = new QPushButton("Delete game");
+    includeKnightBtn_ = new QPushButton("Include knight");
+    includePegasusBtn_ = new QPushButton("Include pegasus");
+    includeSquirrelBtn_ = new QPushButton("Include squirrel");
+    loadNPCToFileBtn_ = new QPushButton("Export NPC to file");
+    exportNPCFromFileBtn_ = new QPushButton("Load NPC from file");
     infoBtn_ = new QPushButton("Info");
+    exitBtn_ = new QPushButton("Exit");
 
-    leftLayout_->addWidget(createGameBtn_);
-    leftLayout_->addWidget(startGameBtn_);
-    leftLayout_->addWidget(deleteGameBtn_);
-    leftLayout_->addWidget(includeKnightBtn_);
-    leftLayout_->addWidget(includePegasusBtn_);
-    leftLayout_->addWidget(includeSquirrelBtn_);
-    leftLayout_->addWidget(loadNPCToFileBtn_);
-    leftLayout_->addWidget(exportNPCFromFileBtn_);
-    leftLayout_->addWidget(exitBtn_);
-    leftLayout_->addWidget(infoBtn_);
+    int maxButtonHeight = 100;
+    int maxButtonWidth = 500;
+    QSize buttonSize(maxButtonWidth, maxButtonHeight);
+    createGameBtn_->setMaximumSize(buttonSize);
+    startGameBtn_->setMaximumSize(buttonSize);
+    deleteGameBtn_->setMaximumSize(buttonSize);
+    includeKnightBtn_->setMaximumSize(buttonSize);
+    includePegasusBtn_->setMaximumSize(buttonSize);
+    includeSquirrelBtn_->setMaximumSize(buttonSize);
+    loadNPCToFileBtn_->setMaximumSize(buttonSize);
+    exportNPCFromFileBtn_->setMaximumSize(buttonSize);
+    infoBtn_->setMaximumSize(buttonSize);
+    exitBtn_->setMaximumSize(buttonSize);
+
+    QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+    sizePolicy.setHorizontalStretch(0);
+    sizePolicy.setVerticalStretch(0);
+    sizePolicy.setHeightForWidth(createGameBtn_->sizePolicy().hasHeightForWidth());
+    createGameBtn_->setSizePolicy(sizePolicy);
+    startGameBtn_->setSizePolicy(sizePolicy);
+    deleteGameBtn_->setSizePolicy(sizePolicy);
+    includeKnightBtn_->setSizePolicy(sizePolicy);
+    includePegasusBtn_->setSizePolicy(sizePolicy);
+    includeSquirrelBtn_->setSizePolicy(sizePolicy);
+    loadNPCToFileBtn_->setSizePolicy(sizePolicy);
+    exportNPCFromFileBtn_->setSizePolicy(sizePolicy);
+    infoBtn_->setSizePolicy(sizePolicy);
+    exitBtn_->setSizePolicy(sizePolicy);
+
+    QVBoxLayout *buttonLayout = new QVBoxLayout;
+    buttonLayout->addWidget(createGameBtn_);
+    buttonLayout->addWidget(startGameBtn_);
+    buttonLayout->addWidget(deleteGameBtn_);
+    buttonLayout->addWidget(includeKnightBtn_);
+    buttonLayout->addWidget(includePegasusBtn_);
+    buttonLayout->addWidget(includeSquirrelBtn_);
+    buttonLayout->addWidget(loadNPCToFileBtn_);
+    buttonLayout->addWidget(exportNPCFromFileBtn_);
+    buttonLayout->addWidget(infoBtn_);
+    buttonLayout->addWidget(exitBtn_);
+
+    QHBoxLayout *centerLayout = new QHBoxLayout;
+    centerLayout->addStretch();
+    centerLayout->addLayout(buttonLayout);
+    centerLayout->addStretch();
+
+    leftLayout_->addLayout(centerLayout);
 
     gameField_ = new GameField(this);
 
@@ -92,6 +129,7 @@ void MainWindow::OnCreateGame()
 
 MainWindow::~MainWindow()
 {
+    terminal_->DeleteThisGame();
     delete terminal_;
 }
 

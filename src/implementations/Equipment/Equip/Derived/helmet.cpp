@@ -2,5 +2,9 @@
 
 Helmet::Helmet()
 {
-    SetArmor(10);
+    LogCreate();
+    SetArmor(EquipArmor::HelmetArmor);
 }
+
+Helmet::~Helmet()
+{}

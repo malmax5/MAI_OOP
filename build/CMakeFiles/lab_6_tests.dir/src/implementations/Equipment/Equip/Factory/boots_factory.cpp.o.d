@@ -177,6 +177,12 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Equipment/Equip/Factory/boots_fac
  /usr/include/c++/10/pstl/glue_memory_defs.h \
  /usr/include/c++/10/pstl/execution_defs.h \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Base/equip.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Base/../../../CRTP/creating_logger.hpp \
+ /usr/include/c++/10/fstream /usr/include/c++/10/istream \
+ /usr/include/c++/10/bits/istream.tcc /usr/include/c++/10/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+ /usr/include/c++/10/bits/fstream.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Base/../../Material/Base/material.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Base/../../Material/Base/../../../Game/game_settings.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Equipment/Equip/Factory/../../../../../include/Equipment/Equip/Factory/../Builder/Equip_Builder/equip_builder.hpp \

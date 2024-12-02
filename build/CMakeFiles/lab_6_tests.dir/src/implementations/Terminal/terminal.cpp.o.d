@@ -237,15 +237,16 @@ CMakeFiles/lab_6_tests.dir/src/implementations/Terminal/terminal.cpp.o: \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Positionable/positionable.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/my_equip.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Base/equip.hpp \
+ /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Base/../../../CRTP/creating_logger.hpp \
+ /usr/include/c++/10/fstream /usr/include/c++/10/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+ /usr/include/c++/10/bits/fstream.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Base/../../Material/Base/material.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/helmet.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/chestplate.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../Positionable/../NPC/Base/../../Equipment/Equip/Derived/boots.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/Observer/observer.hpp \
- /usr/include/c++/10/fstream /usr/include/c++/10/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
- /usr/include/c++/10/bits/fstream.tcc \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/Visitor/get_info_visitor.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/FightLogic/command_executer.hpp \
  /home/cbf/MAI/OOP/Lab_6/src/implementations/Terminal/../../../include/Terminal/../Game/../NPC/FightLogic/Command/command_interface.hpp \

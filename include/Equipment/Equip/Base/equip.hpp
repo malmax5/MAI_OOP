@@ -3,14 +3,12 @@
 #include<string>
 #include <memory>
 
-#include "../../Material/Base/material.hpp"
+#include "../../../CRTP/creating_logger.hpp"
 
-enum EquipArmor
-{
-    HelmetArmor = 10,
-    ChestplateArmor = 20,
-    BootsArmor = 5
-};
+#include "../../Material/Base/material.hpp"
+#include "../../../Game/game_settings.hpp"
+
+using GameSettings::EquipArmor;
 
 struct Equip
 {
