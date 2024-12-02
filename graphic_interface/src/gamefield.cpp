@@ -33,8 +33,17 @@ void GameField::paintEvent(QPaintEvent *event)
 
     int width = this->width();
     int height = this->height();
-    painter.drawLine(0, height / 2, width, height / 2);
-    painter.drawLine(width / 2, 0, width / 2, height);
+
+    int centerX = this->width() / 2;
+    int centerY = this->height() / 2;
+
+    painter.drawLine(0, centerY, width, centerY);
+    painter.drawLine(centerX, 0, centerX, height);
+
+    painter.drawLine(centerX + GameFieldSettings::xMin, centerY + GameFieldSettings::yMax, centerX + GameFieldSettings::xMax, centerY + GameFieldSettings::yMax);
+    painter.drawLine(centerX + GameFieldSettings::xMin, centerY + GameFieldSettings::yMin, centerX + GameFieldSettings::xMax, centerY + GameFieldSettings::yMin);
+    painter.drawLine(centerX + GameFieldSettings::xMin, centerY + GameFieldSettings::yMax, centerX + GameFieldSettings::xMin, centerY + GameFieldSettings::yMin);
+    painter.drawLine(centerX + GameFieldSettings::xMax, centerY + GameFieldSettings::yMax, centerX + GameFieldSettings::xMax, centerY + GameFieldSettings::yMin);
 
     for (const auto& npc : npcs_)
     {
@@ -43,13 +52,13 @@ void GameField::paintEvent(QPaintEvent *event)
         painter.setPen(Qt::NoPen);
         int screenX = width / 2 + npc->GetXCord();
         int screenY = height / 2 - npc->GetYCord();
-        painter.drawEllipse(screenX - 5, screenY - 5, 20, 20);
+        painter.drawEllipse(screenX - 10, screenY - 10, 20, 20);
 
         if (std::dynamic_pointer_cast<AgressiveNPC>(npc))
         {
             QColor weaponColor = weaponColorMap_.value(std::dynamic_pointer_cast<AgressiveNPC>(npc)->GetWeaponId(), Qt::black);
             painter.setBrush(weaponColor);
-            painter.drawRect(screenX, screenY, 10, 10);
+            painter.drawRect(screenX - 5, screenY - 5, 10, 10);
         }
     }
 }

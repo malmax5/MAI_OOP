@@ -37,10 +37,10 @@ namespace GameSettings {
 
     struct GameFieldSettings
     {
-        static constexpr double xMax = 100;
-        static constexpr double xMin = -100;
-        static constexpr double yMax = 100;
-        static constexpr double yMin = -100;
+        static constexpr double xMax = 700;
+        static constexpr double xMin = -700;
+        static constexpr double yMax = 350;
+        static constexpr double yMin = -350;
     };
 
     struct ArmorMultiple
@@ -69,42 +69,42 @@ namespace GameSettings {
     inline const WeaponStats AutomaticRifleStat = 
     {
         .attackDamege = 3,
-        .attackDistance = 5,
+        .attackDistance = 10,
         .reloadingTime = 0.3
     };
 
     inline const WeaponStats KatanaStat = 
     {
         .attackDamege = 7,
-        .attackDistance = 1,
+        .attackDistance = 2,
         .reloadingTime = 1.2
     };
 
     inline const WeaponStats KnifeStat = 
     {
         .attackDamege = 5,
-        .attackDistance = 1,
+        .attackDistance = 2,
         .reloadingTime = 1
     };
 
     inline const WeaponStats MachineGunStat = 
     {
         .attackDamege = 5,
-        .attackDistance = 5,
+        .attackDistance = 10,
         .reloadingTime = 0.5
     };
 
     inline const WeaponStats PistolStat = 
     {
         .attackDamege = 10,
-        .attackDistance = 5,
+        .attackDistance = 10,
         .reloadingTime = 2
     };
 
     inline const WeaponStats SniperRifleStat = 
     {
         .attackDamege = 20,
-        .attackDistance = 20,
+        .attackDistance = 30,
         .reloadingTime = 10
     };
 
@@ -129,7 +129,7 @@ namespace GameSettings {
     {
         .hp = 50.0,
         .armor = 30.0,
-        .speed = 7.0,
+        .speed = 15.0,
     };
 
     inline const NPCStats PegasusStat =

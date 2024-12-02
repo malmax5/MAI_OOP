@@ -41,6 +41,7 @@ private slots:
     void OnIncludeSquirrel();
     void OnLoadNPCToFile();
     void OnExportNPCFromFile();
+    void OnRandom();
     void OnExit();
     void OnInfo();
 
@@ -56,6 +57,7 @@ private:
     QPushButton* includeSquirrelBtn_;
     QPushButton* loadNPCToFileBtn_;
     QPushButton* exportNPCFromFileBtn_;
+    QPushButton* randomBtn_;
     QPushButton* exitBtn_;
     QPushButton* infoBtn_;
     QStackedWidget* stackedWidget_;

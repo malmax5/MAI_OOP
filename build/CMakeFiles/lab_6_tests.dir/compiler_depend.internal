@@ -16429,6 +16429,8 @@ CMakeFiles/lab_6_tests.dir/src/implementations/NPC/FightLogic/Command/move_comma
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/positionable.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/npc.hpp
  /home/cbf/MAI/OOP/Lab_6/include/Positionable/position_funcs.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/NPC/Base/attackable_interface.hpp
+ /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/attack_command.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/command_interface.hpp
  /home/cbf/MAI/OOP/Lab_6/include/NPC/FightLogic/Command/move_command.hpp
  /usr/include/alloca.h

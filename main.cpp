@@ -1,12 +1,3 @@
-// #include "include/Terminal/terminal.hpp"
-
-// #include <iostream>
-
-// int main()
-// {
-//     Terminal terminal;
-// }
-
 #include <QApplication>
 #include "graphic_interface/include/mainwindow.hpp"
 

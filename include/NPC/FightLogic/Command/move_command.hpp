@@ -9,7 +9,7 @@
 class MoveCommand : public ICommand
 {
 public:
-    MoveCommand(std::shared_ptr<NPC> npc, double xDirection, double yDirection);
+    // MoveCommand(std::shared_ptr<NPC> npc, double xDirection, double yDirection);
     MoveCommand(std::shared_ptr<NPC> npc, std::shared_ptr<NPC> target);
     void execute(std::function<void(const std::string&)> Notify) final;
 
@@ -18,6 +18,5 @@ public:
 
 private:
     std::shared_ptr<NPC> npc_;
-    double xDirection_;
-    double yDirection_;
+    std::shared_ptr<NPC> target_;
 };

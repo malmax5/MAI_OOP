@@ -55,6 +55,7 @@ constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::string
     "OnIncludeSquirrel",
     "OnLoadNPCToFile",
     "OnExportNPCFromFile",
+    "OnRandom",
     "OnExit",
     "OnInfo"
 );
@@ -69,7 +70,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-      14,   14, // methods
+      15,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -77,22 +78,23 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    3,   98,    2, 0x06,    1 /* Public */,
-       7,    3,  105,    2, 0x06,    5 /* Public */,
-       9,    3,  112,    2, 0x06,    9 /* Public */,
+       1,    3,  104,    2, 0x06,    1 /* Public */,
+       7,    3,  111,    2, 0x06,    5 /* Public */,
+       9,    3,  118,    2, 0x06,    9 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-      11,    0,  119,    2, 0x08,   13 /* Private */,
-      12,    0,  120,    2, 0x08,   14 /* Private */,
-      13,    0,  121,    2, 0x08,   15 /* Private */,
-      14,    0,  122,    2, 0x08,   16 /* Private */,
-      15,    0,  123,    2, 0x08,   17 /* Private */,
-      16,    0,  124,    2, 0x08,   18 /* Private */,
-      17,    0,  125,    2, 0x08,   19 /* Private */,
-      18,    0,  126,    2, 0x08,   20 /* Private */,
-      19,    0,  127,    2, 0x08,   21 /* Private */,
-      20,    0,  128,    2, 0x08,   22 /* Private */,
-      21,    0,  129,    2, 0x08,   23 /* Private */,
+      11,    0,  125,    2, 0x08,   13 /* Private */,
+      12,    0,  126,    2, 0x08,   14 /* Private */,
+      13,    0,  127,    2, 0x08,   15 /* Private */,
+      14,    0,  128,    2, 0x08,   16 /* Private */,
+      15,    0,  129,    2, 0x08,   17 /* Private */,
+      16,    0,  130,    2, 0x08,   18 /* Private */,
+      17,    0,  131,    2, 0x08,   19 /* Private */,
+      18,    0,  132,    2, 0x08,   20 /* Private */,
+      19,    0,  133,    2, 0x08,   21 /* Private */,
+      20,    0,  134,    2, 0x08,   22 /* Private */,
+      21,    0,  135,    2, 0x08,   23 /* Private */,
+      22,    0,  136,    2, 0x08,   24 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Int, QMetaType::Int,    4,    5,    6,
@@ -100,6 +102,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
     QMetaType::Void, 0x80000000 | 3, QMetaType::Int, QMetaType::Int,   10,    5,    6,
 
  // slots: parameters
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -157,6 +160,8 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'OnExportNPCFromFile'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'OnRandom'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'OnExit'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'OnInfo'
@@ -183,8 +188,9 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 9: _t->OnIncludeSquirrel(); break;
         case 10: _t->OnLoadNPCToFile(); break;
         case 11: _t->OnExportNPCFromFile(); break;
-        case 12: _t->OnExit(); break;
-        case 13: _t->OnInfo(); break;
+        case 12: _t->OnRandom(); break;
+        case 13: _t->OnExit(); break;
+        case 14: _t->OnInfo(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -232,13 +238,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 14)
+        if (_id < 15)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 14;
+        _id -= 15;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 14)
+        if (_id < 15)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 14;
+        _id -= 15;
     }
     return _id;
 }

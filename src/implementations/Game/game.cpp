@@ -110,7 +110,7 @@ void Game::Update()
             }
         }
 
-        // while (!tce::commandQueue.empty()) {
+        // while (!tce::attackCommandQueue.empty()) {
         //     std::this_thread::sleep_for(std::chrono::microseconds(10));
         // }
 
@@ -119,7 +119,7 @@ void Game::Update()
         for (int i = 0; i < npcInGame_.size(); i++)
         {
             std::shared_ptr<NPC> target;
-            double dist = -1;
+            double dist = std::numeric_limits<double>::max();
             for (int j = 0; j < npcInGame_.size(); j++)
             {
                 if (i == j)
@@ -129,18 +129,20 @@ void Game::Update()
                     MoveCommand::CanMove(npcInGame_[i], npcInGame_[j]))
                 {
                     double newDist = NPCPositionFuncs::DistanceBetNPC(npcInGame_[i], npcInGame_[j]);
-                    if (newDist > dist)
+                    if (newDist < dist)
                     {
                         target = npcInGame_[j];
                         dist = newDist;
                     }
                 }
-                else if (InMaskAttack(npcInGame_[i]->GetTypeId(), npcInGame_[j]->GetTypeId()))
+                else if (InMaskAttack(npcInGame_[i]->GetTypeId(), npcInGame_[j]->GetTypeId()) && 
+                         AttackCommand::CanAttack(npcInGame_[i], npcInGame_[j]))
                 {
+                    target = nullptr;
                     break;
                 }
             }
-            if (dist != -1)
+            if (target)
             {
                 std::unique_lock<std::mutex> lock(tce::moveCommandQueueMutex);
                 tce::moveCommandQueue.push(std::make_shared<MoveCommand>(npcInGame_[i], target));
@@ -149,7 +151,7 @@ void Game::Update()
             }
         }
 
-        // while (!tce::commandQueue.empty()) {
+        // while (!tce::moveCommandQueue.empty()) {
         //     std::this_thread::sleep_for(std::chrono::microseconds(10));
         // }
 

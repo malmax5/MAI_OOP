@@ -22,6 +22,7 @@ MainWindow::MainWindow(QWidget *parent)
     includeSquirrelBtn_ = new QPushButton("Include squirrel");
     loadNPCToFileBtn_ = new QPushButton("Export NPC to file");
     exportNPCFromFileBtn_ = new QPushButton("Load NPC from file");
+    randomBtn_ = new QPushButton("Random filling");
     infoBtn_ = new QPushButton("Info");
     exitBtn_ = new QPushButton("Exit");
 
@@ -36,6 +37,7 @@ MainWindow::MainWindow(QWidget *parent)
     includeSquirrelBtn_->setMaximumSize(buttonSize);
     loadNPCToFileBtn_->setMaximumSize(buttonSize);
     exportNPCFromFileBtn_->setMaximumSize(buttonSize);
+    randomBtn_->setMaximumSize(buttonSize);
     infoBtn_->setMaximumSize(buttonSize);
     exitBtn_->setMaximumSize(buttonSize);
 
@@ -51,6 +53,7 @@ MainWindow::MainWindow(QWidget *parent)
     includeSquirrelBtn_->setSizePolicy(sizePolicy);
     loadNPCToFileBtn_->setSizePolicy(sizePolicy);
     exportNPCFromFileBtn_->setSizePolicy(sizePolicy);
+    randomBtn_->setSizePolicy(sizePolicy);
     infoBtn_->setSizePolicy(sizePolicy);
     exitBtn_->setSizePolicy(sizePolicy);
 
@@ -63,6 +66,7 @@ MainWindow::MainWindow(QWidget *parent)
     buttonLayout->addWidget(includeSquirrelBtn_);
     buttonLayout->addWidget(loadNPCToFileBtn_);
     buttonLayout->addWidget(exportNPCFromFileBtn_);
+    buttonLayout->addWidget(randomBtn_);
     buttonLayout->addWidget(infoBtn_);
     buttonLayout->addWidget(exitBtn_);
 
@@ -102,6 +106,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(includeSquirrelBtn_, &QPushButton::clicked, this, &MainWindow::OnIncludeSquirrel);
     connect(loadNPCToFileBtn_, &QPushButton::clicked, this, &MainWindow::OnLoadNPCToFile);
     connect(exportNPCFromFileBtn_, &QPushButton::clicked, this, &MainWindow::OnExportNPCFromFile);
+    connect(randomBtn_, &QPushButton::clicked, this, &MainWindow::OnRandom);
     connect(exitBtn_, &QPushButton::clicked, this, &MainWindow::OnExit);
     connect(infoBtn_, &QPushButton::clicked, this, &MainWindow::OnInfo);
 
@@ -109,11 +114,17 @@ MainWindow::MainWindow(QWidget *parent)
     connect(this, &MainWindow::PegasusAdded, gameField_, &GameField::AddPegasusPoint);
     connect(this, &MainWindow::SquirrelAdded, gameField_, &GameField::AddSquirrelPoint);
 
+    createGameBtn_->setEnabled(true);
     startGameBtn_->setEnabled(false);
+    deleteGameBtn_->setEnabled(false);
     includeKnightBtn_->setEnabled(false);
     includePegasusBtn_->setEnabled(false);
     includeSquirrelBtn_->setEnabled(false);
+    exportNPCFromFileBtn_->setEnabled(false);
     loadNPCToFileBtn_->setEnabled(false);
+    randomBtn_->setEnabled(false);
+    infoBtn_->setEnabled(true);
+    exitBtn_->setEnabled(true);
     stopGameBtn_->setEnabled(false);
 }
 
@@ -130,10 +141,16 @@ void MainWindow::OnCreateGame()
 
     createGameBtn_->setEnabled(false);
     startGameBtn_->setEnabled(true);
+    deleteGameBtn_->setEnabled(true);
     includeKnightBtn_->setEnabled(true);
     includePegasusBtn_->setEnabled(true);
     includeSquirrelBtn_->setEnabled(true);
+    exportNPCFromFileBtn_->setEnabled(true);
     loadNPCToFileBtn_->setEnabled(true);
+    randomBtn_->setEnabled(true);
+    infoBtn_->setEnabled(true);
+    exitBtn_->setEnabled(true);
+    stopGameBtn_->setEnabled(false);
 }
 
 MainWindow::~MainWindow()
@@ -151,7 +168,16 @@ void MainWindow::OnStartGame()
 
     stackedWidget_->setCurrentIndex(1);
     createGameBtn_->setEnabled(false);
+    startGameBtn_->setEnabled(false);
     deleteGameBtn_->setEnabled(false);
+    includeKnightBtn_->setEnabled(false);
+    includePegasusBtn_->setEnabled(false);
+    includeSquirrelBtn_->setEnabled(false);
+    exportNPCFromFileBtn_->setEnabled(false);
+    loadNPCToFileBtn_->setEnabled(false);
+    randomBtn_->setEnabled(false);
+    infoBtn_->setEnabled(false);
+    exitBtn_->setEnabled(false);
     stopGameBtn_->setEnabled(true);
 }
 
@@ -163,8 +189,17 @@ void MainWindow::OnStopGame()
     }
 
     stackedWidget_->setCurrentIndex(0);
-    createGameBtn_->setEnabled(true);
+    createGameBtn_->setEnabled(false);
+    startGameBtn_->setEnabled(true);
     deleteGameBtn_->setEnabled(true);
+    includeKnightBtn_->setEnabled(true);
+    includePegasusBtn_->setEnabled(true);
+    includeSquirrelBtn_->setEnabled(true);
+    exportNPCFromFileBtn_->setEnabled(true);
+    loadNPCToFileBtn_->setEnabled(true);
+    randomBtn_->setEnabled(true);
+    infoBtn_->setEnabled(true);
+    exitBtn_->setEnabled(true);
     stopGameBtn_->setEnabled(false);
 }
 
@@ -182,10 +217,16 @@ void MainWindow::OnDeleteGame()
     gameField_->ClearNPC();
     createGameBtn_->setEnabled(true);
     startGameBtn_->setEnabled(false);
+    deleteGameBtn_->setEnabled(false);
     includeKnightBtn_->setEnabled(false);
     includePegasusBtn_->setEnabled(false);
     includeSquirrelBtn_->setEnabled(false);
+    exportNPCFromFileBtn_->setEnabled(false);
     loadNPCToFileBtn_->setEnabled(false);
+    randomBtn_->setEnabled(false);
+    infoBtn_->setEnabled(true);
+    exitBtn_->setEnabled(true);
+    stopGameBtn_->setEnabled(false);
 }
 
 void MainWindow::OnIncludeKnight()
@@ -330,6 +371,37 @@ void MainWindow::OnExportNPCFromFile()
     {
         QMessageBox::warning(this, "Warning", "Empty file.");
     }
+}
+
+void MainWindow::OnRandom()
+{
+    for (int i = 0; i < 10; i++)
+    {
+        NPCId randNPC = static_cast<NPCId>(std::rand() % (2 - 0 + 1) + 0);
+        double xCord = static_cast<double>(std::rand() % (int)(GameFieldSettings::xMax - GameFieldSettings::xMin + 1) + (int)GameFieldSettings::xMin);
+        double yCord = static_cast<double>(std::rand() % (int)(GameFieldSettings::yMax - GameFieldSettings::yMin + 1) + (int)GameFieldSettings::yMin);
+
+        std::shared_ptr<NPC> npcToAdd = terminal_->IncludeNPCByID(randNPC, xCord, yCord);
+        if (npcToAdd)
+        {
+            switch (randNPC)
+            {
+            case NPCId::KnightId:
+                emit KnightAdded(npcToAdd, xCord, yCord);
+                break;
+            case NPCId::PegasusId:
+                emit PegasusAdded(npcToAdd, xCord, yCord);
+                break;
+            case NPCId::SquirrelId:
+                emit SquirrelAdded(npcToAdd, xCord, yCord);
+                break;
+
+            default:
+                break;
+            }
+        }
+    }
+
 }
 
 void MainWindow::OnExit()
